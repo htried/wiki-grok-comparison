@@ -87,6 +87,7 @@ See `example_usage.py` for complete working examples that demonstrate all functi
 - `wikipedia_dataset.py` - Functions for downloading and parsing Wikipedia data
 - `embeddings.py` - Functions for creating and comparing embeddings
 - `example_usage.py` - Example usage demonstrating all features
+- `example_notebook.ipynb` - Jupyter notebook with interactive examples
 
 ## Notes
 
