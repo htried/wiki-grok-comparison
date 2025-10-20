@@ -2,11 +2,12 @@
 Functions for embedding text and comparing embeddings.
 """
 
-from sentence_transformers import SentenceTransformer
-from typing import List, Tuple, Union
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+from typing import Any, Dict, List, Tuple, Union
 
+import numpy as np
+from datasets import Dataset
+from sentence_transformers import SentenceTransformer
+from sklearn.metrics.pairwise import cosine_similarity
 
 # Default model for embeddings
 DEFAULT_MODEL = "all-MiniLM-L6-v2"
@@ -55,13 +56,13 @@ def embed_text(text: Union[str, List[str]], model: SentenceTransformer = None) -
     return embeddings
 
 
-def embed_page_content(title: str, lead_content: str, model: SentenceTransformer = None) -> np.ndarray:
+def embed_page_content(title: str, abstract: str, model: SentenceTransformer = None) -> np.ndarray:
     """
-    Create an embedding for a Wikipedia page by combining title and lead content.
+    Create an embedding for a Wikipedia page by combining title and abstract.
     
     Args:
         title: Page title
-        lead_content: Lead section content
+        abstract: Page abstract/summary
         model: Pre-loaded SentenceTransformer model (will load default if None)
     
     Returns:
@@ -71,8 +72,8 @@ def embed_page_content(title: str, lead_content: str, model: SentenceTransformer
         >>> model = load_embedding_model()
         >>> embedding = embed_page_content("Python", "Python is a programming language...", model)
     """
-    # Combine title and lead content with a separator
-    combined_text = f"{title}. {lead_content}"
+    # Combine title and abstract with a separator
+    combined_text = f"{title}. {abstract}"
     return embed_text(combined_text, model)
 
 
@@ -159,4 +160,122 @@ def find_most_similar(query_embedding: np.ndarray,
     
     # Return as list of (index, score) tuples
     results = [(int(idx), float(similarities[idx])) for idx in top_indices]
+    return results
+
+
+def embed_page_from_dict(page: Dict, model: SentenceTransformer = None, 
+                        content_type: str = "abstract") -> np.ndarray:
+    """
+    Create an embedding for a Wikipedia page from a page dictionary.
+    
+    Args:
+        page: Wikipedia page dictionary from the dataset
+        model: Pre-loaded SentenceTransformer model (will load default if None)
+        content_type: Type of content to embed ("abstract", "sections", "comprehensive")
+    
+    Returns:
+        Numpy array embedding for the specified content
+    
+    Example:
+        >>> model = load_embedding_model()
+        >>> embedding = embed_page_from_dict(page, model, "comprehensive")
+    """
+    if model is None:
+        model = load_embedding_model()
+    
+    title = page.get("name", "")
+    
+    if content_type == "abstract":
+        abstract = page.get("abstract", "")
+        return embed_page_content(title, abstract, model)
+    
+    elif content_type == "sections":
+        # Import here to avoid circular imports
+        from wikipedia_dataset import extract_all_sections_text
+        sections_text = extract_all_sections_text(page)
+        combined_text = f"{title}. {sections_text}"
+        return embed_text(combined_text, model)
+    
+    elif content_type == "comprehensive":
+        # Import here to avoid circular imports
+        from wikipedia_dataset import get_comprehensive_content
+        full_content = get_comprehensive_content(page)
+        combined_text = f"{title}. {full_content}"
+        return embed_text(combined_text, model)
+    
+    else:
+        raise ValueError("content_type must be 'abstract', 'sections', or 'comprehensive'")
+
+
+def embed_dataset_pages(dataset: Dataset, model: SentenceTransformer = None, 
+                       content_type: str = "abstract", num_pages: int = None) -> np.ndarray:
+    """
+    Create embeddings for multiple pages in a dataset.
+    
+    Args:
+        dataset: Hugging Face Dataset object
+        model: Pre-loaded SentenceTransformer model (will load default if None)
+        content_type: Type of content to embed ("abstract", "sections", "comprehensive")
+        num_pages: Number of pages to embed (default: all pages)
+    
+    Returns:
+        2D numpy array of embeddings (shape: [num_pages, embedding_dim])
+    
+    Example:
+        >>> model = load_embedding_model()
+        >>> embeddings = embed_dataset_pages(dataset, model, "comprehensive", 100)
+    """
+    if model is None:
+        model = load_embedding_model()
+    
+    if num_pages is None:
+        num_pages = len(dataset)
+    
+    embeddings = []
+    for i in range(min(num_pages, len(dataset))):
+        embedding = embed_page_from_dict(dataset[i], model, content_type)
+        embeddings.append(embedding)
+    
+    return np.vstack(embeddings)
+
+
+def find_similar_pages(query_text: str, dataset: Dataset, model: SentenceTransformer = None,
+                      content_type: str = "abstract", top_k: int = 5) -> List[Tuple[int, str, float]]:
+    """
+    Find the most similar pages in a dataset to a query text.
+    
+    Args:
+        query_text: Text to search for
+        dataset: Hugging Face Dataset object
+        model: Pre-loaded SentenceTransformer model (will load default if None)
+        content_type: Type of content to compare ("abstract", "sections", "comprehensive")
+        top_k: Number of top similar pages to return
+    
+    Returns:
+        List of tuples (index, title, similarity_score) sorted by similarity (highest first)
+    
+    Example:
+        >>> model = load_embedding_model()
+        >>> results = find_similar_pages("Python programming", dataset, model, "comprehensive")
+        >>> for idx, title, score in results:
+        ...     print(f"{title}: {score:.4f}")
+    """
+    if model is None:
+        model = load_embedding_model()
+    
+    # Create query embedding
+    query_embedding = embed_text(query_text, model)
+    
+    # Create embeddings for all pages
+    page_embeddings = embed_dataset_pages(dataset, model, content_type)
+    
+    # Find most similar
+    similar_indices = find_most_similar(query_embedding, page_embeddings, top_k)
+    
+    # Add page titles to results
+    results = []
+    for idx, score in similar_indices:
+        title = dataset[idx].get("name", f"Page {idx}")
+        results.append((idx, title, score))
+    
     return results
