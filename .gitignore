@@ -1,7 +1,16 @@
+discovered_titles/*
+scraped_data/*
+wikipedia_data/*
+retry/*
+discovery_checkpoint.json
+discovery_stats.json
+*.ndjson
 *.pkl
 .env
 *.faiss
 data/
+*.tar.gz
+scraping_checkpoint.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
