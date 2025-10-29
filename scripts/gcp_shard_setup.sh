@@ -158,7 +158,8 @@ if [ ! -z "\$METADATA_HF_API_TOKEN" ]; then
 fi
 
 # Authenticate with GCP (using default service account)
-export GOOGLE_APPLICATION_CREDENTIALS=""
+# Unset GOOGLE_APPLICATION_CREDENTIALS to use default service account credentials
+unset GOOGLE_APPLICATION_CREDENTIALS
 
 # Make sure we're in the repo directory and activate venv
 cd \$REPO_DIR || { echo "Failed to cd to repo directory"; exit 1; }

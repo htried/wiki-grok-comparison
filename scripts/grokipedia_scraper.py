@@ -374,8 +374,19 @@ def upload_to_gcs(bucket_name, blob_name, content, project_id=None):
         
         logger.info(f"Attempting to upload to GCS: bucket={bucket_name}, blob={blob_name}, content_length={len(content) if content else 0}")
         
-        client = storage.Client(project=project_id)
-        bucket = client.bucket(bucket_name)
+        # Use default service account credentials (should be available on GCE instances)
+        # If project_id is not provided, try to get it from environment
+        try:
+            if project_id is None:
+                import os
+                project_id = os.getenv('GOOGLE_CLOUD_PROJECT') or os.getenv('GCP_PROJECT')
+            
+            client = storage.Client(project=project_id)
+            bucket = client.bucket(bucket_name)
+        except Exception as auth_error:
+            logger.error(f"Failed to initialize GCS client: {auth_error}")
+            logger.error("Make sure the instance has the 'Storage Object Admin' role or sufficient permissions")
+            raise
         
         # Check if bucket exists
         if not bucket.exists():
