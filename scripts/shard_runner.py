@@ -83,7 +83,7 @@ async def main():
     success_count = await scraper.scraping_phase(
         shard_urls,
         config,
-        start_index=0,  # Always start from 0 for the shard URLs slice
+        start_index=args.start_idx,  # Use absolute start index for blob naming
         shard_id=args.shard_id
     )
     
