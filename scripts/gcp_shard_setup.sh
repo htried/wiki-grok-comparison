@@ -38,11 +38,16 @@ fi
 # Create startup script
 STARTUP_SCRIPT=$(cat <<EOF
 #!/bin/bash
-set -e
+# Don't use set -e because we handle errors explicitly with || operators
+# set -e
 
 # Install dependencies
 apt-get update
 apt-get install -y python3-pip git python3-venv
+
+# Set HOME early (needed for git config)
+export HOME=\${HOME:-/root}
+mkdir -p \$HOME
 
 # Get GitHub credentials from metadata
 METADATA_GH_USERNAME=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/GH_USERNAME" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
@@ -54,7 +59,7 @@ if [ -d "wiki-grok-comparison" ]; then
     echo "Repository already exists, pulling latest changes..."
     cd wiki-grok-comparison
     if [ ! -z "\$METADATA_GH_USERNAME" ] && [ ! -z "\$METADATA_GH_PAT" ]; then
-        git config --global url."https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/".insteadOf "https://github.com/"
+        git config --global url."https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/".insteadOf "https://github.com/" || echo "Warning: Git config failed"
     fi
     git pull || { echo "Git pull failed, trying fresh clone..."; cd ..; rm -rf wiki-grok-comparison; }
 fi
@@ -84,11 +89,15 @@ echo "Verifying repository contents..."
 ls -la
 echo "Current git branch:"
 git branch -a || echo "Git branch command failed"
+
+# Set HOME if not set (needed for git config)
+export HOME=\${HOME:-/home}
+
 echo "Pulling latest changes..."
 if [ ! -z "\$METADATA_GH_USERNAME" ] && [ ! -z "\$METADATA_GH_PAT" ]; then
-    git config --global url."https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/".insteadOf "https://github.com/"
+    git config --global url."https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/".insteadOf "https://github.com/" || echo "Warning: Git config failed"
 fi
-git pull || echo "Warning: Git pull failed, but continuing..."
+git pull || echo "Warning: Git pull failed, but continuing with existing code..."
 cd ..
 
 # Store the absolute path to the repo - try expected location first, then search
@@ -143,6 +152,10 @@ echo "Current directory: \$(pwd)"
 if [ ! -d "\$REPO_DIR/scripts" ]; then
     echo "WARNING: scripts directory not found, trying to pull latest changes..."
     cd \$REPO_DIR
+    export HOME=\${HOME:-/root}
+    if [ ! -z "\$METADATA_GH_USERNAME" ] && [ ! -z "\$METADATA_GH_PAT" ]; then
+        git config --global url."https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/".insteadOf "https://github.com/" || echo "Warning: Git config failed"
+    fi
     git pull || echo "Git pull failed"
     
     # Check again after pull
@@ -152,7 +165,7 @@ if [ ! -d "\$REPO_DIR/scripts" ]; then
         ls -la \$REPO_DIR
         echo ""
         echo "Git status:"
-        git status
+        git status || echo "Git status failed"
         echo ""
         echo "Git log (last 5 commits):"
         git log --oneline -5 || echo "Git log failed"
