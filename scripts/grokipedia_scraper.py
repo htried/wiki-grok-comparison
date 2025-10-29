@@ -434,13 +434,15 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
         failed_pages = []
         batch_count = 0
         last_save_index = 0
+        items_processed_count = 0  # Track total items processed for blob naming
         
         # Create progress bar
         desc = f"Scraping (Shard {shard_id})" if shard_id is not None else "Scraping"
-        pbar = tqdm(total=len(urls), desc=desc, initial=start_index)
+        # Note: start_index is for blob naming, not loop indexing (urls is already a slice)
+        pbar = tqdm(total=len(urls), desc=desc, initial=0)
         
-        # Process in batches
-        for i in range(start_index, len(urls), config['max_concurrent']):
+        # Process in batches - always start from 0 since urls is already the shard slice
+        for i in range(0, len(urls), config['max_concurrent']):
             batch = urls[i:i + config['max_concurrent']]
             
             # Create tasks for concurrent requests
@@ -468,6 +470,7 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
                 
                 if result['success']:
                     success_count += 1
+                    items_processed_count += 1
                     scraped_data.append({
                         'title': result['data']['title'],
                         'url': result['data']['url'],
@@ -502,8 +505,11 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
                 save_reason = "progress"
             
             if should_save and scraped_data:
-                batch_start = start_index + (batch_count * batch_size)
-                batch_end = batch_start + len(scraped_data)
+                # Calculate absolute indices for blob naming
+                # scraped_data contains items that were successfully scraped from start_index onwards
+                # Since items_processed_count tracks total successful items, we can calculate ranges
+                batch_start = start_index + (items_processed_count - len(scraped_data))
+                batch_end = start_index + items_processed_count - 1
                 
                 # Prepare JSONL content
                 jsonl_content = '\n'.join(json.dumps(item) for item in scraped_data)
@@ -591,8 +597,9 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
         
         # Save any remaining results
         if scraped_data:
-            batch_start = start_index + (batch_count * batch_size)
-            batch_end = batch_start + len(scraped_data)
+            # Calculate absolute indices for final batch
+            batch_start = start_index + (items_processed_count - len(scraped_data))
+            batch_end = start_index + items_processed_count - 1
             
             jsonl_content = '\n'.join(json.dumps(item) for item in scraped_data)
             
