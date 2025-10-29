@@ -48,15 +48,48 @@ apt-get install -y python3-pip git python3-venv
 METADATA_GH_USERNAME=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/GH_USERNAME" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
 METADATA_GH_PAT=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/GH_PAT" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
 
-# Clone repository with authentication
+# Clone repository with authentication (or pull if exists)
 cd /home
-if [ ! -z "\$METADATA_GH_USERNAME" ] && [ ! -z "\$METADATA_GH_PAT" ]; then
-    echo "Cloning private repository with credentials..."
-    git clone https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/${REPO_ORG}/${REPO_NAME}.git wiki-grok-comparison
-else
-    echo "Warning: GitHub credentials not found, trying public clone (will fail if repo is private)..."
-    git clone https://github.com/${REPO_ORG}/${REPO_NAME}.git wiki-grok-comparison
+if [ -d "wiki-grok-comparison" ]; then
+    echo "Repository already exists, pulling latest changes..."
+    cd wiki-grok-comparison
+    if [ ! -z "\$METADATA_GH_USERNAME" ] && [ ! -z "\$METADATA_GH_PAT" ]; then
+        git config --global url."https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/".insteadOf "https://github.com/"
+    fi
+    git pull || { echo "Git pull failed, trying fresh clone..."; cd ..; rm -rf wiki-grok-comparison; }
 fi
+
+if [ ! -d "wiki-grok-comparison" ]; then
+    if [ ! -z "\$METADATA_GH_USERNAME" ] && [ ! -z "\$METADATA_GH_PAT" ]; then
+        echo "Cloning private repository with credentials..."
+        git clone https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/${REPO_ORG}/${REPO_NAME}.git wiki-grok-comparison
+        if [ \$? -ne 0 ]; then
+            echo "ERROR: Git clone failed!"
+            exit 1
+        fi
+    else
+        echo "Warning: GitHub credentials not found, trying public clone (will fail if repo is private)..."
+        git clone https://github.com/${REPO_ORG}/${REPO_NAME}.git wiki-grok-comparison
+        if [ \$? -ne 0 ]; then
+            echo "ERROR: Git clone failed!"
+            exit 1
+        fi
+    fi
+    echo "Repository cloned successfully"
+fi
+
+# Ensure we have the latest code
+cd wiki-grok-comparison
+echo "Verifying repository contents..."
+ls -la
+echo "Current git branch:"
+git branch -a || echo "Git branch command failed"
+echo "Pulling latest changes..."
+if [ ! -z "\$METADATA_GH_USERNAME" ] && [ ! -z "\$METADATA_GH_PAT" ]; then
+    git config --global url."https://\${METADATA_GH_USERNAME}:\${METADATA_GH_PAT}@github.com/".insteadOf "https://github.com/"
+fi
+git pull || echo "Warning: Git pull failed, but continuing..."
+cd ..
 
 # Store the absolute path to the repo - try expected location first, then search
 if [ -d "/home/wiki-grok-comparison" ]; then
@@ -106,12 +139,25 @@ export GOOGLE_APPLICATION_CREDENTIALS=""
 cd \$REPO_DIR || { echo "Failed to cd to repo directory"; exit 1; }
 echo "Current directory: \$(pwd)"
 
-# Verify scripts directory exists
+# Verify scripts directory exists - if not, try pulling again
 if [ ! -d "\$REPO_DIR/scripts" ]; then
-    echo "ERROR: scripts directory not found in \$REPO_DIR!"
-    echo "Available directories and files in \$REPO_DIR:"
-    ls -la \$REPO_DIR
-    exit 1
+    echo "WARNING: scripts directory not found, trying to pull latest changes..."
+    cd \$REPO_DIR
+    git pull || echo "Git pull failed"
+    
+    # Check again after pull
+    if [ ! -d "\$REPO_DIR/scripts" ]; then
+        echo "ERROR: scripts directory still not found in \$REPO_DIR!"
+        echo "Available directories and files in \$REPO_DIR:"
+        ls -la \$REPO_DIR
+        echo ""
+        echo "Git status:"
+        git status
+        echo ""
+        echo "Git log (last 5 commits):"
+        git log --oneline -5 || echo "Git log failed"
+        exit 1
+    fi
 fi
 
 # Activate virtual environment
@@ -157,12 +203,12 @@ if [ -f ".env" ]; then
       --metadata-from-file startup-script=<(echo "$STARTUP_SCRIPT")
 else
     echo "Creating VM without credentials (set them manually or use .env file)..."
-    gcloud compute instances create ${INSTANCE_NAME} \
-      --zone=${ZONE} \
-      --machine-type=${MACHINE_TYPE} \
-      --boot-disk-size=${DISK_SIZE} \
-      --boot-disk-type=pd-standard \
-      --tags=grokipedia-scraper \
+gcloud compute instances create ${INSTANCE_NAME} \
+  --zone=${ZONE} \
+  --machine-type=${MACHINE_TYPE} \
+  --boot-disk-size=${DISK_SIZE} \
+  --boot-disk-type=pd-standard \
+  --tags=grokipedia-scraper \
       --scopes=https://www.googleapis.com/auth/cloud-platform \
       --metadata-from-file startup-script=<(echo "$STARTUP_SCRIPT")
 fi
