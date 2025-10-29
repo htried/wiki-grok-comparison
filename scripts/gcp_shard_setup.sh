@@ -31,6 +31,22 @@ echo "URL range: $START_IDX to $END_IDX"
 if [ -f ".env" ]; then
     echo "Reading credentials from .env file..."
     source .env
+    # Debug: verify variables are loaded (hide sensitive values)
+    if [ ! -z "$BRIGHTDATA_USERNAME" ]; then
+        echo "  ✓ BRIGHTDATA_USERNAME loaded"
+    fi
+    if [ ! -z "$BRIGHTDATA_PASSWORD" ]; then
+        echo "  ✓ BRIGHTDATA_PASSWORD loaded"
+    fi
+    if [ ! -z "$HF_API_TOKEN" ]; then
+        echo "  ✓ HF_API_TOKEN loaded"
+    fi
+    if [ ! -z "$GH_USERNAME" ]; then
+        echo "  ✓ GH_USERNAME loaded"
+    fi
+    if [ ! -z "$GH_PAT" ]; then
+        echo "  ✓ GH_PAT loaded"
+    fi
 else
     echo "Warning: .env file not found. Make sure to set BRIGHTDATA_USERNAME, BRIGHTDATA_PASSWORD, HF_API_TOKEN, GH_USERNAME, and GH_PAT as instance metadata or environment variables."
 fi
@@ -197,13 +213,36 @@ EOF
 if [ -f ".env" ]; then
     echo "Passing credentials as instance metadata..."
     
-    # Build metadata string
-    METADATA_STRING="BRIGHTDATA_USERNAME=${BRIGHTDATA_USERNAME},BRIGHTDATA_PASSWORD=${BRIGHTDATA_PASSWORD},HF_API_TOKEN=${HF_API_TOKEN}"
+    # Build metadata string (check each variable exists)
+    METADATA_STRING=""
+    if [ ! -z "$BRIGHTDATA_USERNAME" ]; then
+        METADATA_STRING="BRIGHTDATA_USERNAME=${BRIGHTDATA_USERNAME}"
+    fi
+    if [ ! -z "$BRIGHTDATA_PASSWORD" ]; then
+        if [ ! -z "$METADATA_STRING" ]; then
+            METADATA_STRING="${METADATA_STRING},BRIGHTDATA_PASSWORD=${BRIGHTDATA_PASSWORD}"
+        else
+            METADATA_STRING="BRIGHTDATA_PASSWORD=${BRIGHTDATA_PASSWORD}"
+        fi
+    fi
+    if [ ! -z "$HF_API_TOKEN" ]; then
+        if [ ! -z "$METADATA_STRING" ]; then
+            METADATA_STRING="${METADATA_STRING},HF_API_TOKEN=${HF_API_TOKEN}"
+        else
+            METADATA_STRING="HF_API_TOKEN=${HF_API_TOKEN}"
+        fi
+    fi
     
     # Add GitHub credentials if they exist
     if [ ! -z "$GH_USERNAME" ] && [ ! -z "$GH_PAT" ]; then
-        METADATA_STRING="${METADATA_STRING},GH_USERNAME=${GH_USERNAME},GH_PAT=${GH_PAT}"
+        if [ ! -z "$METADATA_STRING" ]; then
+            METADATA_STRING="${METADATA_STRING},GH_USERNAME=${GH_USERNAME},GH_PAT=${GH_PAT}"
+        else
+            METADATA_STRING="GH_USERNAME=${GH_USERNAME},GH_PAT=${GH_PAT}"
+        fi
     fi
+    
+    echo "  Metadata keys: $(echo "$METADATA_STRING" | grep -o '[^,=]*=' | tr -d '=' | tr '\n' ' ')"
     
     gcloud compute instances create ${INSTANCE_NAME} \
       --zone=${ZONE} \
