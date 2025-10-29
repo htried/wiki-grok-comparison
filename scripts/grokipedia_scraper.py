@@ -339,16 +339,74 @@ async def scrape_page(session, limiter, url, config, skip_on_error=True):
         return {'success': False, 'error': str(e), 'title': title, 'url': url}
 
 
-def upload_to_gcs(bucket_name, blob_name, content, project_id=None):
-    """Upload content to Google Cloud Storage"""
+def list_gcs_blobs(bucket_name, prefix=None, max_results=10, project_id=None):
+    """List existing blobs in a GCS bucket for debugging"""
     try:
         client = storage.Client(project=project_id)
         bucket = client.bucket(bucket_name)
+        
+        if not bucket.exists():
+            logger.error(f"Bucket {bucket_name} does not exist")
+            return []
+        
+        blobs = list(bucket.list_blobs(prefix=prefix, max_results=max_results))
+        return [blob.name for blob in blobs]
+    except Exception as e:
+        logger.error(f"Failed to list blobs: {e}")
+        return []
+
+
+def upload_to_gcs(bucket_name, blob_name, content, project_id=None):
+    """Upload content to Google Cloud Storage"""
+    try:
+        # Validate inputs
+        if not bucket_name:
+            logger.error("Bucket name is empty or None")
+            return False
+        if not blob_name:
+            logger.error("Blob name is empty or None")
+            return False
+        if content is None:
+            logger.error("Content is None")
+            return False
+        if isinstance(content, str) and len(content) == 0:
+            logger.warning("Content is empty string, but uploading anyway")
+        
+        logger.info(f"Attempting to upload to GCS: bucket={bucket_name}, blob={blob_name}, content_length={len(content) if content else 0}")
+        
+        client = storage.Client(project=project_id)
+        bucket = client.bucket(bucket_name)
+        
+        # Check if bucket exists
+        if not bucket.exists():
+            logger.error(f"Bucket {bucket_name} does not exist")
+            # Try to list what buckets are available (for debugging)
+            try:
+                buckets = list(client.list_buckets())
+                logger.error(f"Available buckets: {[b.name for b in buckets]}")
+            except:
+                pass
+            return False
+        
+        # For debugging: list a few existing blobs with similar prefix
+        blob_prefix = '/'.join(blob_name.split('/')[:-1]) if '/' in blob_name else ''
+        if blob_prefix:
+            existing_blobs = list_gcs_blobs(bucket_name, prefix=blob_prefix, max_results=5, project_id=project_id)
+            if existing_blobs:
+                logger.info(f"Found {len(existing_blobs)} existing blobs with prefix '{blob_prefix}': {existing_blobs[:3]}...")
+            else:
+                logger.info(f"No existing blobs found with prefix '{blob_prefix}' (this might be the first upload)")
+        
         blob = bucket.blob(blob_name)
         blob.upload_from_string(content, content_type='application/jsonl')
+        logger.info(f"✓ Successfully uploaded {blob_name} to {bucket_name} ({len(content)} bytes)")
         return True
     except Exception as e:
         logger.error(f"Failed to upload to GCS: {e}")
+        logger.error(f"  Bucket: {bucket_name}, Blob: '{blob_name}', Content length: {len(content) if content else 0}")
+        logger.error(f"  Blob name type: {type(blob_name)}, Blob name repr: {repr(blob_name)}")
+        import traceback
+        logger.error(traceback.format_exc())
         return False
 
 
@@ -452,12 +510,16 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
                 
                 # Upload to GCS or save locally
                 if gcs_bucket:
-                    blob_name = f'scraped_data/batch_{batch_start}_{batch_end}.jsonl'
+                    # Construct blob name - match existing pattern if possible
                     if shard_id is not None:
                         blob_name = f'shard_{shard_id}/batch_{batch_start}_{batch_end}.jsonl'
+                    else:
+                        blob_name = f'scraped_data/batch_{batch_start}_{batch_end}.jsonl'
+                    
+                    logger.info(f"Preparing to upload batch: blob_name='{blob_name}', batch_start={batch_start}, batch_end={batch_end}, items={len(scraped_data)}")
                     
                     if upload_to_gcs(gcs_bucket, blob_name, jsonl_content, gcs_project):
-                        logger.info(f"Uploaded batch to GCS: {blob_name} ({len(scraped_data)} items)")
+                        logger.info(f"✓ Uploaded batch to GCS: {blob_name} ({len(scraped_data)} items)")
                     else:
                         # Fallback to local save if GCS fails
                         output_dir = Path(config.get('output_dir', 'scraped_data'))
@@ -535,12 +597,24 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
             jsonl_content = '\n'.join(json.dumps(item) for item in scraped_data)
             
             if gcs_bucket:
-                blob_name = f'scraped_data/batch_{batch_start}_{batch_end}.jsonl'
                 if shard_id is not None:
                     blob_name = f'shard_{shard_id}/batch_{batch_start}_{batch_end}.jsonl'
+                else:
+                    blob_name = f'scraped_data/batch_{batch_start}_{batch_end}.jsonl'
                 
                 if upload_to_gcs(gcs_bucket, blob_name, jsonl_content, gcs_project):
                     logger.info(f"Uploaded final batch to GCS: {blob_name} ({len(scraped_data)} items)")
+                else:
+                    # Fallback to local save
+                    output_dir = Path(config.get('output_dir', 'scraped_data'))
+                    if shard_id is not None:
+                        output_dir = output_dir / f'shard_{shard_id}'
+                    output_dir.mkdir(parents=True, exist_ok=True)
+                    
+                    batch_file = output_dir / f'batch_{batch_start}_{batch_end}.jsonl'
+                    with open(batch_file, 'w') as f:
+                        f.write(jsonl_content)
+                    logger.warning(f"Failed to upload final batch to GCS, saved locally: {batch_file} ({len(scraped_data)} items)")
             else:
                 output_dir = Path(config.get('output_dir', 'scraped_data'))
                 if shard_id is not None:
@@ -558,8 +632,14 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
             
             if gcs_bucket:
                 failed_blob = f'failed_pages/failed_shard_{shard_id}_final.jsonl' if shard_id is not None else 'failed_pages/failed_final.jsonl'
-                upload_to_gcs(gcs_bucket, failed_blob, failed_content, gcs_project)
-                logger.info(f"Uploaded {len(failed_pages)} failed pages to GCS")
+                if upload_to_gcs(gcs_bucket, failed_blob, failed_content, gcs_project):
+                    logger.info(f"Uploaded {len(failed_pages)} failed pages to GCS")
+                else:
+                    logger.warning(f"Failed to upload failed pages to GCS, saving locally")
+                    failed_file = Path(f'scraping_failed_shard_{shard_id}.jsonl' if shard_id is not None else 'scraping_failed.jsonl')
+                    with open(failed_file, 'w') as f:
+                        f.write(failed_content)
+                    logger.info(f"Saved {len(failed_pages)} failed pages locally")
             else:
                 failed_file = Path(f'scraping_failed_shard_{shard_id}.jsonl' if shard_id is not None else 'scraping_failed.jsonl')
                 with open(failed_file, 'w') as f:
