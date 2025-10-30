@@ -1,7 +1,7 @@
 #!/bin/bash
 # GCP Shard Setup Script
 # This script sets up a shard of the grokipedia scraper on a GCP VM
-# Usage: ./gcp_shard_setup.sh <SHARD_ID> <START_IDX> <END_IDX>
+# Usage: ./gcp_shard_setup.sh <SHARD_ID> <START_IDX> <END_IDX> [URLS_FILE(gs://... or path)]
 # Example: ./gcp_shard_setup.sh 0 0 100000
 
 set -e
@@ -10,9 +10,10 @@ set -e
 SHARD_ID=${1:-0}
 START_IDX=${2:-0}
 END_IDX=${3:-100000}
+URLS_FILE_ARG=${4:-}
 
 if [ -z "$1" ] || [ -z "$2" ] || [ -z "$3" ]; then
-    echo "Usage: $0 <SHARD_ID> <START_IDX> <END_IDX>"
+    echo "Usage: $0 <SHARD_ID> <START_IDX> <END_IDX> [URLS_FILE(gs://... or path)]"
     echo "Example: $0 0 0 100000"
     exit 1
 fi
@@ -26,6 +27,7 @@ REPO_NAME="wiki-grok-comparison"
 
 echo "Setting up shard $SHARD_ID"
 echo "URL range: $START_IDX to $END_IDX"
+[ -n "$URLS_FILE_ARG" ] && echo "URLs file provided: $URLS_FILE_ARG"
 
 # Check if .env file exists locally and read credentials
 if [ -f ".env" ]; then
@@ -68,6 +70,8 @@ mkdir -p \$HOME
 # Get GitHub credentials from metadata
 METADATA_GH_USERNAME=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/GH_USERNAME" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
 METADATA_GH_PAT=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/GH_PAT" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
+# Optional URLs file from metadata
+METADATA_URLS_FILE=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/URLS_FILE" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
 
 # Clone repository with authentication (or pull if exists)
 cd /home
@@ -203,7 +207,46 @@ echo "Python path: \$(which python3)"
 cd \$REPO_DIR/scripts || { echo "Failed to cd to scripts directory"; exit 1; }
 echo "Changed to scripts directory: \$(pwd)"
 echo "Running shard_runner.py..."
-python3 \$REPO_DIR/scripts/shard_runner.py --shard_id ${SHARD_ID} --start_idx ${START_IDX} --end_idx ${END_IDX} 2>&1 | tee /var/log/grokipedia-scraper.log
+
+# Prepare optional URLs file (download from GCS if provided)
+EXTRA_URLS_FLAG=""
+# Check if URLS_FILE metadata exists and is valid (not empty, not HTML error page)
+if [ ! -z "\$METADATA_URLS_FILE" ] && ! echo "\$METADATA_URLS_FILE" | grep -q '<!DOCTYPE\|<html\|Error 404'; then
+    echo "URLs file metadata detected: \$METADATA_URLS_FILE"
+    if echo "\$METADATA_URLS_FILE" | grep -q '^gs://'; then
+        echo "Downloading URLs file from GCS via python helper..."
+        URLS_GS="\$METADATA_URLS_FILE" \$REPO_DIR/venv/bin/python3 - <<'PY'
+import os
+from google.cloud import storage
+
+src = os.environ.get('URLS_GS')
+dst = '/home/wiki-grok-comparison/urls.txt'
+if not src or not src.startswith('gs://'):
+    raise SystemExit(f'Invalid GCS path: {src!r}')
+_, path = src.split('gs://', 1)
+bucket_name, blob_name = path.split('/', 1)
+client = storage.Client()
+bucket = client.bucket(bucket_name)
+blob = bucket.blob(blob_name)
+blob.download_to_filename(dst)
+print(f'Downloaded {src} to {dst}')
+PY
+        if [ -f "/home/wiki-grok-comparison/urls.txt" ]; then
+            EXTRA_URLS_FLAG="--urls_file /home/wiki-grok-comparison/urls.txt"
+        else
+            echo "Warning: Failed to download URLs file from GCS, continuing without it"
+        fi
+    else
+        # Check if local file exists
+        if [ -f "\$METADATA_URLS_FILE" ]; then
+            EXTRA_URLS_FLAG="--urls_file \$METADATA_URLS_FILE"
+        else
+            echo "Warning: URLs file not found at \$METADATA_URLS_FILE, continuing without it"
+        fi
+    fi
+fi
+
+python3 \$REPO_DIR/scripts/shard_runner.py --shard_id ${SHARD_ID} --start_idx ${START_IDX} --end_idx ${END_IDX} \$EXTRA_URLS_FLAG 2>&1 | tee /var/log/grokipedia-scraper.log
 
 # Shutdown instance when done (optional - comment out if you want to keep it running)
 # shutdown -h now
@@ -245,6 +288,17 @@ if [ -f ".env" ]; then
     
     echo "  Metadata keys: $(echo "$METADATA_STRING" | grep -o '[^,=]*=' | tr -d '=' | tr '\n' ' ')"
     
+    # Build complete metadata string including URLs_FILE if provided
+    FINAL_METADATA_STRING="$METADATA_STRING"
+    if [ -n "$URLS_FILE_ARG" ]; then
+        if [ -n "$FINAL_METADATA_STRING" ]; then
+            FINAL_METADATA_STRING="${FINAL_METADATA_STRING},URLS_FILE=${URLS_FILE_ARG}"
+        else
+            FINAL_METADATA_STRING="URLS_FILE=${URLS_FILE_ARG}"
+        fi
+        echo "  Including URLS_FILE in metadata: ${URLS_FILE_ARG}"
+    fi
+    
     gcloud compute instances create ${INSTANCE_NAME} \
       --zone=${ZONE} \
       --machine-type=${MACHINE_TYPE} \
@@ -252,17 +306,23 @@ if [ -f ".env" ]; then
       --boot-disk-type=pd-standard \
       --tags=grokipedia-scraper \
       --scopes=https://www.googleapis.com/auth/cloud-platform \
-      --metadata="${METADATA_STRING}" \
+      --metadata="${FINAL_METADATA_STRING}" \
       --metadata-from-file startup-script=<(echo "$STARTUP_SCRIPT")
 else
     echo "Creating VM without credentials (set them manually or use .env file)..."
-gcloud compute instances create ${INSTANCE_NAME} \
-  --zone=${ZONE} \
-  --machine-type=${MACHINE_TYPE} \
-  --boot-disk-size=${DISK_SIZE} \
-  --boot-disk-type=pd-standard \
-  --tags=grokipedia-scraper \
+    METADATA_WITHOUT_ENV=""
+    if [ -n "$URLS_FILE_ARG" ]; then
+        METADATA_WITHOUT_ENV="URLS_FILE=${URLS_FILE_ARG}"
+        echo "  Including URLS_FILE in metadata: ${URLS_FILE_ARG}"
+    fi
+    gcloud compute instances create ${INSTANCE_NAME} \
+      --zone=${ZONE} \
+      --machine-type=${MACHINE_TYPE} \
+      --boot-disk-size=${DISK_SIZE} \
+      --boot-disk-type=pd-standard \
+      --tags=grokipedia-scraper \
       --scopes=https://www.googleapis.com/auth/cloud-platform \
+      --metadata="${METADATA_WITHOUT_ENV}" \
       --metadata-from-file startup-script=<(echo "$STARTUP_SCRIPT")
 fi
 

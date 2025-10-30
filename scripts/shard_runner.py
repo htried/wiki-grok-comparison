@@ -26,6 +26,7 @@ async def main():
     parser.add_argument('--start_idx', type=int, required=True, help='Start index (inclusive)')
     parser.add_argument('--end_idx', type=int, required=True, help='End index (exclusive)')
     parser.add_argument('--shard_id', type=int, default=None, help='Optional shard ID for naming')
+    parser.add_argument('--urls_file', type=str, default=None, help='Optional path to a local file with URLs (jsonl/json/txt)')
     args = parser.parse_args()
     
     if args.start_idx >= args.end_idx:
@@ -36,10 +37,14 @@ async def main():
     print(f"Running scraper{shard_id_str}")
     print(f"URL range: {args.start_idx:,} to {args.end_idx:,} ({args.end_idx - args.start_idx:,} URLs)")
     
-    # Load URLs from HuggingFace dataset
+    # Load URLs: local file if provided, otherwise HuggingFace dataset
     try:
-        all_urls = scraper.load_urls_from_hf()
-        print(f"Loaded {len(all_urls):,} total URLs from HuggingFace")
+        if args.urls_file:
+            all_urls = scraper.load_urls_from_file(args.urls_file)
+            print(f"Loaded {len(all_urls):,} total URLs from local file: {args.urls_file}")
+        else:
+            all_urls = scraper.load_urls_from_hf()
+            print(f"Loaded {len(all_urls):,} total URLs from HuggingFace")
     except Exception as e:
         print(f"Error loading URLs: {e}")
         sys.exit(1)

@@ -724,6 +724,58 @@ def load_urls_from_hf():
         raise
 
 
+def load_urls_from_file(file_path: str):
+    """Load URLs from a local file.
+
+    Supports:
+    - .jsonl: one JSON object per line, with a 'url' field
+    - .json: either a list of URLs, or an object with key 'urls'
+    - any other text file: one URL per non-empty line
+    """
+    try:
+        path = Path(file_path)
+        if not path.exists():
+            raise FileNotFoundError(f"URLs file not found: {file_path}")
+
+        urls: list[str] = []
+        suffix = path.suffix.lower()
+
+        if suffix == ".jsonl":
+            with path.open("r") as f:
+                for line in f:
+                    line = line.strip()
+                    if not line:
+                        continue
+                    try:
+                        obj = json.loads(line)
+                        if isinstance(obj, dict) and "url" in obj:
+                            urls.append(obj["url"])
+                    except json.JSONDecodeError:
+                        continue
+        elif suffix == ".json":
+            with path.open("r") as f:
+                data = json.load(f)
+                if isinstance(data, list):
+                    # assume list of URL strings
+                    urls = [str(u) for u in data]
+                elif isinstance(data, dict):
+                    if "urls" in data and isinstance(data["urls"], list):
+                        urls = [str(u) for u in data["urls"]]
+        else:
+            with path.open("r") as f:
+                for line in f:
+                    url = line.strip()
+                    if url:
+                        urls.append(url)
+
+        urls_count = len(urls)
+        logger.info(f"Loaded {urls_count} URLs from file: {file_path}")
+        return urls
+    except Exception as e:
+        logger.error(f"Failed to load URLs from file '{file_path}': {e}")
+        raise
+
+
 if __name__ == '__main__':
     # Configuration
     config = {
