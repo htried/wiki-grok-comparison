@@ -1,0 +1,101 @@
+domain,grok_share,Type
+archive.org,0.02487313250566585,Portal
+imdb.com,0.010774567763362592,Database
+bbc.com,0.01057132162438023,News
+nytimes.com,0.009768608452039773,News
+pmc.ncbi.nlm.nih.gov,0.009678302083936474,Academic
+researchgate.net,0.008385948420020327,Academic
+youtube.com,0.008317957314493132,UGC
+theguardian.com,0.008317366482693765,News
+facebook.com,0.0072535738279328734,UGC
+sciencedirect.com,0.007083846031414618,Academic
+doi.org,0.005798559624790902,Academic
+indiatimes.com,0.004556676631120711,News
+books.google.com,0.00447298303431033,Portal
+jstor.org,0.004349817328442216,Academic
+billboard.com,0.004190747228612548,Niche media
+reuters.com,0.0036779961239616016,News
+britannica.com,0.0035351738986145356,Reference
+ncbi.nlm.nih.gov,0.0032950462207716647,Academic
+reddit.com,0.003273594481594635,UGC
+cambridge.org,0.0031149106948645537,Academic
+tandfonline.com,0.002948614267642624,Academic
+latimes.com,0.002759820783444784,Niche media
+espn.com,0.002714803945192988,Niche media
+variety.com,0.002552075233067238,Niche media
+academia.edu,0.002534532073486023,Academic
+npr.org,0.0024956280719276814,News
+pubmed.ncbi.nlm.nih.gov,0.002398277170831925,Academic
+discogs.com,0.002318878466716945,Database
+thehindu.com,0.002310425027125997,News
+academic.oup.com,0.002303948601632932,Academic
+cnn.com,0.002159944712687131,News
+instagram.com,0.0020974528877540474,UGC
+x/twitter.com,0.0019982158697603104,UGC
+amazon.com,0.0019348150728282,Portal
+washingtonpost.com,0.0019156130393487615,News
+deadline.com,0.0019139541654505379,Niche media
+rottentomatoes.com,0.00182337510574753,UGC
+hollywoodreporter.com,0.0018010371188714495,Niche media
+allmusic.com,0.001786539015486974,Database
+nature.com,0.001677076062504187,Academic
+aljazeera.com,0.0015403439495505996,News
+indianexpress.com,0.0015281182761636908,News
+forbes.com,0.0015204601870718911,News
+link.springer.com,0.001493463718700799,Academic
+music.apple.com,0.0014164056174833129,Portal
+archive.today,0.001359844834843878,Portal
+animenewsnetwork.com,0.00132071359028578,Portal
+journals.sagepub.com,0.0013162596274905493,Academic
+nps.gov,0.0012971484912110134,Government
+cbsnews.com,0.0012699475041401402,News
+officialcharts.com,0.00124676871816496,Portal
+newspapers.com,0.0012457234003660793,Portal
+pbs.org,0.0012272485444858622,Government
+cbc.ca,0.001224748871488539,Government
+quora.com,0.0012206130488929675,UGC
+ui.adsabs.harvard.edu,0.0012097735578045744,Academic
+abc.net.au,0.001189071720526742,Government
+mdpi.com,0.0011563487285617818,Academic
+hrw.org,0.001154826200463412,Other
+history.state.gov,0.0011503495133682057,Government
+onlinelibrary.wiley.com,0.0011369194520825866,Academic
+congress.gov,0.0011154222643056059,Government
+gov.uk,0.0011129907642082094,Government
+pro-football-reference.com,0.0010872895809357303,Database
+linkedin.com,0.001081040398442422,UGC
+espncricinfo.com,0.0010804495666430546,Niche media
+hindustantimes.com,0.0010650197669595767,News
+nbcnews.com,0.0010509307009746633,News
+ebsco.com,0.0010389322705875114,Portal
+telegraph.co.uk,0.0010347737236919643,News
+rollingstone.com,0.001022661671804934,Niche media
+politico.com,0.0009423994442908786,News
+indiatoday.in,0.0009412405049921197,News
+history.com,0.0009391498693943583,Niche media
+open.spotify.com,0.0009257198081087392,Database
+apps.dtic.mil,0.0009195842471153092,Government
+apnews.com,0.0009146985226205408,News
+cia.gov,0.000899268722937063,Government
+people.com,0.0008987006154376714,Niche media
+bloomberg.com,0.0008977234705387177,News
+metacritic.com,0.0008902244515467477,Database
+encyclopedia.com,0.0008881792645489377,Reference
+state.gov,0.0008609328288781131,Government
+brookings.edu,0.0008552744781841721,Other
+frontiersin.org,0.0008363451363044416,Academic
+genius.com,0.0008334364259075563,Niche media
+newindianexpress.com,0.0008225287619192362,News
+brill.com,0.0008186201823234215,Portal
+ign.com,0.0008125073456299671,Niche media
+baseball-reference.com,0.0008101212941325221,Database
+time.com,0.0007876015128566363,News
+abcnews.go.com,0.0007759666712690949,News
+goodreads.com,0.0007759439469691192,UGC
+justice.gov,0.0007746486618705062,Government
+arxiv.org,0.0007670814699786092,Academic
+usatoday.com,0.0007600369369861525,News
+economictimes.com,0.0007591961378870528,News
+screenrant.com,0.0007366081837112399,Niche media
+nypost.com,0.0007155654819337724,News
+mlb.com,0.0007045896450455254,Niche media

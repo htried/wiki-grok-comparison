@@ -1,0 +1,21 @@
+SELECT DISTINCT ?person ?personLabel ?enwiki ?positionLabel ?parliamentaryGroupLabel WHERE {
+  VALUES ?position {
+    wd:Q126063447    # Member of the House of Commons of the United Kingdom
+  }
+
+  # Members of Parliament (House of Commons) in the 59th Parliament
+  ?person p:P39 ?statement.
+  ?statement ps:P39 ?position.
+  ?statement pq:P580 ?start.
+  FILTER NOT EXISTS { ?statement pq:P582 ?end. }  # Currently in office
+
+  # Must have a parliamentary group listed
+  ?statement pq:P4100 ?parliamentaryGroup.
+
+  # Must have an English Wikipedia page
+  ?enwiki schema:about ?person;
+          schema:isPartOf <https://en.wikipedia.org/>.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?personLabel

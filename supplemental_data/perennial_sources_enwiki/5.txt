@@ -1,0 +1,592 @@
+{| class="wikitable sortable perennial-sources"
+|+ Perennial sources
+!rowspan="2" scope="col" | Source
+!rowspan="2" scope="col" | Status<br /><small>([[#Legend|legend]])</small>
+!colspan="3" scope="colgroup" | Discussions
+!rowspan="2" scope="col" class="unsortable" | Use
+|-
+! scope="col" class="unsortable" | List
+! scope="col" | Last
+! scope="col" class="unsortable" | Summary
+<onlyinclude>
+|- class="s-gr" id="Mail & Guardian"
+| data-sort-value="Mail & Guardian" | ''[[Mail & Guardian]]''
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|352|Reliability of the Mail & Guardian|2021|rfc=y}}
+| {{WP:RSPLAST|2021}}
+| The ''Mail & Guardian'' is a South African newspaper. There is consensus that it is generally reliable.
+| {{WP:RSPUSES|mg.co.za}}
+<section begin="deprecated"/>
+|- class="s-d" id="The Mail on Sunday"
+| data-sort-value="Mail on Sunday" | ''[[The Mail on Sunday]]'' {{WP:RSPSHORTCUT|WP:MAILONSUNDAY}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|318|Can we please adapt the Daily Mail consensus to reflect a position on Mail on Sunday?|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 278#Does WP:Dailymail apply to the Mail on Sunday|1]] [[WP:Reliable sources/Noticeboard/Archive 311#Clarification: Does Daily Mail RfC apply to the Mail on Sunday?|2]]
+| {{WP:RSPLAST|2020|stale=n}}
+| There is clear and substantial consensus that the ''Mail on Sunday'' is generally unreliable, and a slightly narrower consensus that the source should be deprecated. Those supporting deprecation point to factual errors, asserted fabrications, and biased reporting identified on the part of the source, with reference to specific instances, and to common ownership of the source with [[#Daily Mail|a previously deprecated source]].
+| {{WP:RSPUSES|mailonsunday.co.uk|mailonsunday.com|pressreader.com/uk/the-mail-on-sunday|pressreader.com/uk/the-scottish-mail-on-sunday|dailymail.co.uk/mailonsunday}}
+<section end="deprecated"/>
+|- class="s-gu" id="Marquis Who's Who"
+| ''[[Marquis Who's Who]]'' <small>(''Who's Who in America'')</small>
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 9#Marquis' "Who's Who" as RS?|1]] [[WP:Reliable sources/Noticeboard/Archive 24#Who's Who in America|2]] [[WP:Reliable sources/Noticeboard/Archive 53#Is Who's Who a reliable source?|3]] [[WP:Reliable sources/Noticeboard/Archive 56#Who's Who not RS?|4]] [[WP:Reliable sources/Noticeboard/Archive 229#Use of Who's Who for list of awards.|5]] [[WP:Reliable sources/Noticeboard/Archive 380#Marquis Who's Who|6]] [[WP:Reliable sources/Noticeboard/Archive 417#Who's Who in Australia - Reliable, please?|7]]
+| {{WP:RSPLAST|2022|stale=n}}
+| ''Marquis Who's Who'', including its publication ''Who's Who in America'', is considered generally unreliable. As most of its content is provided by the person concerned, editors generally consider ''Marquis Who's Who'' comparable to a [[WP:SPS|self-published source]]. There is a broad consensus that ''Marquis Who's Who'' should not be used to establish [[WP:N|notability]] for article topics. ''See also: {{pslink|Who's Who (UK)}}.''
+| {{WP:RSPUSES|marquiswhoswho.com|whoswhoinamerica.com}}
+|- class="s-nc" id="Mashable"
+| [[Mashable]] (non-sponsored content) {{WP:RSPSHORTCUT|WP:MASHABLE}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|334|Mashable|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 4#Techblogs|1]] [[WP:Reliable sources/Noticeboard/Archive 16#Blogs?|2]] [[WP:Reliable sources/Noticeboard/Archive 41#Mashable.com as a reference for Facebook|3]] [[WP:Reliable sources/Noticeboard/Archive 88#Blogs as sources|4]] [[WP:Reliable sources/Noticeboard/Archive 240#Request: RS check on BLP|5]] [[WP:Reliable sources/Noticeboard/Archive 264#Reliability of sources that put affiliate links in their reviews|6]]
+| {{WP:RSPLAST|2021}}
+| In a 2021 RfC, editors achieved a consensus that while non-sponsored content from Mashable is generally fine, Mashable tends towards less formal writing and is geared at a particular niche (tech news and pop culture). As such, non-sponsored content should be evaluated on a case-by-case basis, especially if the subject matter is outside of Mashable's usual focus.
+| {{WP:RSPUSES|mashable.com}}
+|- class="s-gu" id="Mashable (sponsored content)"
+| [[Mashable]] (sponsored content)
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|334|Mashable|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 4#Techblogs|1]] [[WP:Reliable sources/Noticeboard/Archive 16#Blogs?|2]] [[WP:Reliable sources/Noticeboard/Archive 41#Mashable.com as a reference for Facebook|3]] [[WP:Reliable sources/Noticeboard/Archive 88#Blogs as sources|4]] [[WP:Reliable sources/Noticeboard/Archive 240#Request: RS check on BLP|5]] [[WP:Reliable sources/Noticeboard/Archive 264#Reliability of sources that put affiliate links in their reviews|6]]
+| {{WP:RSPLAST|2021}}
+| In the RfC, editors achieved a consensus that extra attention needs to be paid when it comes to [[WP:SPONSORED|sponsored]] content, especially ensuring that the content was written by Mashable staff and not the sponsor themselves.
+| {{WP:RSPUSES|mashable.com}}
+|- class="s-gr" id="The Mary Sue"
+| data-sort-value="Mary Sue"| ''[[The Mary Sue]]'' {{WP:RSPSHORTCUT|WP:THEMARYSUE}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 189#The Mary Sue Disclaims Itself as an Unreliable Source|1]] [[WP:Reliable sources/Noticeboard/Archive 213#Crash Override Network|2]] [[WP:Reliable sources/Noticeboard/Archive 383#Mary Sue|3]]<br> [[Wikipedia talk:WikiProject Video games/Sources/Archive 9#The Mary Sue|A]] [[Wikipedia talk:WikiProject Video games/Sources/Archive 11#The Mary Sue revisited|B]]
+| {{WP:RSPLAST|2022}}
+| There is consensus that ''The Mary Sue'' is generally reliable. Most editors consider ''The Mary Sue'' [[WP:BIASED|biased or opinionated]]. Opinions should be attributed.
+| {{WP:RSPUSES|themarysue.com}}
+|- class="s-nc" id="MDPI"
+| {{anchor|MDPI}} [[MDPI]] <small>(Multidisciplinary Digital Publishing Institute)</small> {{WP:RSPSHORTCUT|WP:MDPI}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 196#MDPI journals|1]] [[WP:Reliable sources/Noticeboard/Archive 197#Vanity press or MEDRS-compliant source?|2]] [[WP:Reliable sources/Noticeboard/Archive 205#Other predatory journals|3]] [[WP:Reliable sources/Noticeboard/Archive 265#Reliability of a MDPI article|4]] [[WP:Reliable sources/Noticeboard/Archive 306#Is Religions a reliable source?|5]] [[WP:Reliable sources/Noticeboard/Archive 329#MDPI journals|6]] [[WP:Reliable sources/Noticeboard/Archive 351#MDPI/Entropy Journal?|7]]
+| {{WP:RSPLAST|2021}}
+| Publications in MDPI journals are considered questionable. Editors have raised concerns about the robustness of MDPI's peer review process and their lack of selectivity in what they publish. Originally placed on [[Beall's List]] of predatory open journals in 2014, MDPI was removed from the list in 2015, while applying pressure on Beall's employer. As of early 2024, about 5% of MDPI journals had been rejected by the [[Norwegian Scientific Index]], and another 5% are under review.<ref>See https://kanalregister.hkdir.no/publiseringskanaler/KanalForlagInfo.action?id=26778 (the publisher's summary page) and click on "Vis [+]" in "Assosierte tidsskrift" line to see the list and their ratings. As of February 2024, 13 (5.2%) of the 250 journals listed were rated X (under review) and 11 (4.4%) were rated 0 (unsuitable for scholarly publications, although they do not label them as predatory ''per se'').]</ref>
+| {{WP:RSPUSES|mdpi.com}}
+|- class="s-gu" id="MEAWW"
+| MEAWW <small>(Media Entertainment Arts WorldWide)</small>
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 289#Is Meaww a reliable source?|1]] [[WP:Reliable sources/Noticeboard/Archive 332#News Website MEAWW Reliable or Unreliable Source?|2]] [[WP:Reliable sources/Noticeboard/Archive 355#Pinkvilla, Meaww & Bollywood Life|3]]
+| {{WP:RSPLAST|2021}}
+| ''MEAWW'' is a tabloid site covering pop culture and the internet. The site often employs clickbait and is considered generally unreliable.
+| {{WP:RSPUSES|meaww.com}}
+|- class="s-gu" id="Media Bias/Fact Check"
+| ''[[Media Bias/Fact Check]]'' <small>(''MBFC'')</small> {{WP:RSPSHORTCUT|WP:MBFC}} {{WP:RSPSHORTCUT|WP:MB/FC}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 248#Should we use mediabiasfactcheck.com to determine what sources are reliable?|1]] [[WP:Reliable sources/Noticeboard/Archive 253#Media Bias Fact Check|2]] [[WP:Reliable sources/Noticeboard/Archive 271#Media Bias/Fact Check at Toronto Sun|3]] [[WP:Reliable sources/Noticeboard/Archive 346#News Guard + Media Bias Fact Check Redux|4]] [[WP:Reliable sources/Noticeboard#Media Bias/Fact Check|5]]
+| {{WP:RSPLAST|2025}}
+| There is consensus that ''Media Bias/Fact Check'' is generally unreliable, as it is [[WP:SPS|self-published]]. Editors have questioned the methodology of the site's ratings.
+| {{WP:RSPUSES|mediabiasfactcheck.com}}
+|- class="s-nc" id="Media Matters for America"
+| [[Media Matters for America]] <small>(MMfA)</small> {{WP:RSPSHORTCUT|WP:MEDIAMATTERS}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|59|Fairness and Accuracy in Reporting, Media Research Center, Media Matters for America, Newsbusters|2010|rfc=y}} {{rsnl|280|RfC: Media Matters for America|2019|rfc=y}}
++11{{efn|See also these discussions of Media Matters for America:
+[[WP:Reliable sources/Noticeboard/Archive 7#MMFA – Media Matters for America|1]]
+[[WP:Reliable sources/Noticeboard/Archive 35#Media Matters and News Hounds|2]]
+[[WP:Reliable sources/Noticeboard/Archive 51#Media Matters for America, Huffington Post, and NewsHounds|3]]
+[[WP:Reliable sources/Noticeboard/Archive 65#Media matters (25th time asked)|4]]
+[[WP:Reliable sources/Noticeboard/Archive 70#Media Matters yet again|5]]
+[[WP:Reliable sources/Noticeboard/Archive 88#Media Matters Blogs|6]]
+[[WP:Reliable sources/Noticeboard/Archive 101#User-generated blog posts and an unattributed Media Matters post as criticism of a peer-reviewed journal article|7]]
+[[WP:Reliable sources/Noticeboard/Archive 121#Reliability of Media Matters|8]]
+[[WP:Reliable sources/Noticeboard/Archive 163#Unpublished/non-peer Reviewed Study by Media Matters|9]]
+[[WP:Reliable sources/Noticeboard/Archive 236#Media Matters|10]]
+[[WP:Reliable sources/Noticeboard/Archive 421#Is the WashPo using Wikipedia as a source when reporting on MM4A.|11]]
+}}
+| {{WP:RSPLAST|2023}}
+| There is consensus that Media Matters is [[WP:MREL|marginally reliable]] and that its articles should be evaluated for reliability on a case-by-case basis. As a [[WP:BIASED|partisan advocacy group]], their statements should be [[WP:INTEXT|attributed]].
+| {{WP:RSPUSES|mediamatters.org}}
+|- class="s-gu" id="Media Research Center"
+| {{anchor|CNSNews.com}} [[Media Research Center]] <small>(MRC, [[CNSNews.com]], Cybercast News Service, [[MRCTV]], NewsBusters)</small> {{WP:RSPSHORTCUT|WP:MRC}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|59|Fairness and Accuracy in Reporting, Media Research Center, Media Matters for America, Newsbusters|2010|rfc=y}} {{rsnl|281|RfC: CNSNews.com|2019|rfc=y}} {{rsnl|295|RfC: Media Research Center and its arms (CNS, Newsbusters, MRCTV)|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 3#What about "Cybercast News Service" (CNSnews)?|1]] [[WP:Reliable sources/Noticeboard/Archive 18#CNSnews.com aka cybercast|2]] [[WP:Reliable sources/Noticeboard/Archive 65#Media Research Center / Newsbusters|3]] [[WP:Reliable sources/Noticeboard/Archive 109#Can a blog on newsbusters.org be a reliable source?|4]] [[WP:Reliable sources/Noticeboard/Archive 227#Newsbusters and The Blaze at WP:BLP page Malcolm Nance ?|5]] [[WP:Reliable sources/Noticeboard/Archive 283#Newsbusters and The Washington Examiner as sources for facts in the lead of CNN|6]]
+| {{WP:RSPLAST|2020|stale=n}}
+| There is consensus that the Media Research Center and its subdivisions (e.g. CNSNews.com, MRCTV, and NewsBusters) are generally unreliable for factual reporting. Some editors believe these sources publish false or fabricated information. As [[WP:BIASED|biased or opinionated sources]], their statements should be [[WP:INTEXT|attributed]].
+| {{WP:RSPUSES|mrc.org|cnsnews.com|mrctv.org|newsbusters.org}}
+|- class="s-nc" id="Mediaite"
+| [[Mediaite]] {{WP:RSPSHORTCUT|WP:MEDIAITE}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 225#Mediaite|1]] [[WP:Reliable sources/Noticeboard/Archive 239#TheBlaze show Dana etc. w rgd Dana Loesch|2]] [[WP:Reliable sources/Noticeboard/Archive 260#Consensus on Mediaite as reliable source?|3]] [[WP:Reliable sources/Noticeboard/Archive 397#The Daily Beast and Mediaite for extraordinary claim in a BLP|4]]
+| {{WP:RSPLAST|2023}}
+| There is some consensus that Mediaite is only marginally reliable, and should be avoided where better sources are available. Editors consider the source to inappropriately blur news and opinion, and [[WP:DUE|due weight]] should be considered if no other reliable sources support a given statement.
+| {{WP:RSPUSES|mediaite.com}}
+|- class="s-gu" id="Medium"
+| [[Medium (website)|Medium]] {{WP:RSPSHORTCUT|WP:MEDIUM}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|381|RfC: Cuepoint Medium publication reliability|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 192#Article by established journalist in Medium publication with editorial staff|1]] [[WP:Reliable sources/Noticeboard/Archive 232#Medium as a reference|2]] [[WP:Reliable sources/Noticeboard/Archive 260#Bob Pitt at Medium sourced for Jeremy Corbyn|3]] [[WP:Reliable sources/Noticeboard/Archive 336#Pauline Montagna|4]]
+| {{WP:RSPLAST|2022}}
+| Medium is a [[WP:BLOGS|blog]] hosting service. As a [[WP:SPS|self-published source]], it is considered generally unreliable and should be avoided unless the author is a [[WP:EXPERTSOURCE|subject-matter expert]] or the blog is used for [[WP:ABOUTSELF|uncontroversial self-descriptions]]. Medium should never be used for [[WP:THIRDPARTY|third-party claims]] about [[WP:BLPSPS|living persons]]. A 2022 RfC also found that ''[[Cuepoint]]'', Medium's music publication, is marginally reliable, with editors stating that its reliability depends on the qualification of the author.
+| {{WP:RSPUSES|medium.com}}
+|- class="s-gr" id="Meduza"
+| data-sort-value="Meduza" | ''[[Meduza]]''
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|488|RfC: Meduza|2025|rfc=y}}
+| {{WP:RSPLAST|2025}}
+| ''Meduza'' is a news outlet run by Russian dissidents. There is consensus that it is generally reliable.
+| {{WP:RSPUSES|meduza.io}}
+|- class="s-gr" id="Metacritic"
+| [[Metacritic]] <small>([[GameRankings]])</small> {{WP:RSPSHORTCUT|WP:METACRITIC}}
+| {{WP:RSPSTATUS|gr}}
+| 10{{efn|See these discussions of Metacritic:
+[[WP:Reliable sources/Noticeboard/Archive 27#Metacritic|1]]
+[[WP:Reliable sources/Noticeboard/Archive 45#Review aggregator sites|2]]
+[[Wikipedia talk:WikiProject Video games/Archive 33#When it is fair to state "game is|A]]
+[[Wikipedia talk:WikiProject Video games/Archive 34#Potential issue with GameRankings/MetaCritic -- add language to guidelines?|B]]
+[[Wikipedia talk:WikiProject Video games/Archive 44#Metacritic missing reviews|C]]
+[[Wikipedia talk:WikiProject Video games/Archive 70#Metacritic, GameRankings, MobyGames, TopTenReviews, GameTab, GameStats & Game Ratio|D]]
+[[Wikipedia talk:WikiProject Video games/Archive 93#Mass Effect 3 Metacritic User Reviews|E]]
+[[Wikipedia talk:WikiProject Film/Archive 44#Rotten Tomatoes and Metacritic 2012|F]]
+[[Wikipedia talk:Neutral point of view/Archive 52#Review score aggregators like Rotten Tomatoes, Metacritic and OpenCritic|G]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 17#Metacritic / Play Zine|H]]
+}}
+| {{WP:RSPLAST|2017}}
+| Metacritic is considered generally reliable for its review aggregation and its news articles on film, TV, and video games. There is no consensus on whether its blog articles and critic opinion pages are generally reliable for facts. There is consensus that user reviews on Metacritic are generally unreliable, as they are [[WP:SPS|self-published source]]s. Reviewers tracked by Metacritic are not automatically reliable for their reviews. In December 2019, video game aggregate site [[GameRankings]] shut down and merged with Metacritic; GameRankings's content is no longer accessible unless archived.<ref>{{cite web|last=Plunkett|first=Luke|title=RIP Gamerankings.com|url=https://kotaku.com/rip-gamerankings-com-1840250954|website=[[Kotaku]]|publisher=[[G/O Media]]|accessdate=2019-12-06|date=2019-12-05|df=mdy-all}}</ref><ref>{{cite web|title=GameRankings Shutting down |url=https://www.gamerankings.com/news.html |archive-url=https://web.archive.org/web/20191204051348/https://www.gamerankings.com/news.html |archive-date=2019-12-04}}</ref><ref>{{cite web|url=https://gamasutra.com/view/news/355254/Review_aggregator_site_GameRankings_is_shutting_down.php|title=Review aggregator site GameRankings is shutting down |last=McAloon|first=Alissa|work=[[Gamasutra]]|date=December 5, 2019|accessdate=December 5, 2019}}</ref>
+| {{WP:RSPUSES|metacritic.com|gamerankings.com}}
+|- class="s-gu" id="metal-experience"
+| Metal-experience.com {{WP:RSPSHORTCUT|WP:METALEXPERIENCE}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|334|RfC: metal-experience.com|2021|rfc=y}}
+| {{WP:RSPLAST|2021}}
+| Metal-experience.com was determined to be generally unreliable for factual reporting.
+| {{WP:RSPUSES|metal-experience.com}}
+|- class="s-nc" id="MetalSucks"
+| [[MetalSucks]]
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 146#MetalSucks|1]] [[WP:Reliable sources/Noticeboard/Archive 251#Metal Sucks|2]]<br> [[Wikipedia talk:WikiProject Albums/Archive 50#MetalSucks – reliable?|A]]
+| {{WP:RSPLAST|2018}}
+| MetalSucks is considered usable for its reviews and news articles. Avoid its overly satirical content and exercise caution when MetalSucks is the only source making a statement.
+| {{WP:RSPUSES|metalsucks.net}}
+|- class="s-gu" id="Metro"
+| [[Metro (British newspaper)|''Metro'' (UK)]] {{WP:RSPSHORTCUT|WP:METRO}}
+| {{WP:RSPSTATUS|gu}}
+| 11{{efn|See these discussions of Metro (UK): [[WP:Reliable sources/Noticeboard/Archive 19#Daily Mirror|1]]
+[[WP:Reliable sources/Noticeboard/Archive 156#tabloids|2]]
+[[WP:Reliable sources/Noticeboard/Archive 163#Reliability of the Daily Mail|3]]
+[[WP:Reliable sources/Noticeboard/Archive 192#Daily Mail|4]]
+[[WP:Reliable sources/Noticeboard/Archive 220#Survey|5]]
+[[WP:Reliable sources/Noticeboard/Archive 223#Scotland and the Daily Record|6]]
+[[WP:Reliable sources/Noticeboard/Archive 226#The Metro|7]]
+[[WP:Reliable sources/Noticeboard/Archive 351#Metro soaps carve out|8]]
+[[WP:Reliable sources/Noticeboard/Archive 375#Sport at the Metro|9]]
+[[WP:Reliable sources/Noticeboard/Archive 378#Metro for coverage of soap operas|10]]
+''[[WP:Reliable sources/Noticeboard#Using the Metro as a source on soap opera articles|11]]''
+}}
+| {{WP:RSPLAST|2025|stale=n|active=y}}
+| The reliability of ''Metro'' has been compared to that of the ''{{pslink|Daily Mail}}'' and other British tabloids. Articles published in the print newspaper are considered more reliable than articles published only on the metro.co.uk website. The newspaper articles were previously segregated online via the metro.news domain and are presently tagged under "metro newspaper" at the metro.co.uk domain.
+| {{WP:RSPUSES|metro.co.uk|metro.news}}
+|- class="s-gr" id="Metro (soap operas)"
+| [[Metro (British newspaper)|''Metro'' (UK)]] (soap operas) {{WP:RSPSHORTCUT|WP:METROSOAPS}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 351#Metro soaps carve out|1]] [[WP:Reliable sources/Noticeboard/Archive 378#Metro for coverage of soap operas|2]] [[WP:Reliable sources/Noticeboard#Using the Metro as a source on soap opera articles|3]]<br> [[WT:WikiProject Soap Operas#The use of Metro as source in articles related to soap operas|A]]
+| {{WP:RSPLAST|2025}}
+| There is consensus that the ''Metro'' is reliable as a source on soap operas.
+| {{WP:RSPUSES|metro.co.uk|metro.news}}
+|- class="s-nc" id="Middle East Media Research Institute"
+| [[Middle East Media Research Institute]] <small>(MEMRI)</small> {{WP:RSPSHORTCUT|WP:MEMRI}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|305|RfC: Middle East Media Research Institute (MEMRI)|2020|rfc=yes}}
+[[WP:Reliable sources/Noticeboard/Archive 8#MEMRI|1]] [[WP:Reliable sources/Noticeboard/Archive 16#MEMRI, again|2]] [[WP:Reliable sources/Noticeboard/Archive 32#Memri|3]] [[WP:Reliable sources/Noticeboard/Archive 422#Is Kyiv Post or MEMRI right?|4]]<br> [[Wikipedia talk:Reliable sources/Perennial sources/Archive 9#MEMRI|A]]
+| {{WP:RSPLAST|2023}}
+| The reliability of MEMRI is considered to lie between no consensus and generally unreliable. Many editors argue that MEMRI has a history of providing misleading coverage and that the source should be used with caution if at all.
+| {{WP:RSPUSES|memri.org|memritv.org}}
+|- class="s-nc" id="Middle East Monitor"
+| [[Middle East Monitor]] <small>(MEMO)</small> {{WP:RSPSHORTCUT|WP:MEMO}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 126#Middle East Monitor|1]] [[WP:Reliable sources/Noticeboard/Archive 265#Middle East Monitor|2]] [[WP:Reliable sources/Noticeboard/Archive 258#Middle East Monitor|3]] [[WP:Reliable sources/Noticeboard/Archive 343#Middle East Monitor|4]] [[WP:Reliable sources/Noticeboard/Archive 360#Middle East Monitor, Electronic Intifada, Palestine Chronicle and Twitter as sources in a BLP|5]] [[WP:Reliable sources/Noticeboard/Archive 436#Middle East Monitor|6]] [[WP:Reliable sources/Noticeboard/Archive 436#Assessment of use by others|7]]<br> [[Wikipedia talk:Reliable sources/Perennial sources/Archive 9#Middle East Monitor|A]]
+| {{WP:RSPLAST|2024}}
+| There is no consensus over the reliability of Middle East Monitor (MEMO). Previously consensus was established that it is a partisan think tank, with opinions ranging from "sometimes usable with attribution" to "unreliable".
+| {{WP:RSPUSES|middleeastmonitor.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="MintPress News"
+| ''[[MintPress News]]'' {{WP:RSPSHORTCUT|WP:MINTPRESS}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|268|RfC: MintPress News|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 464#MintPress News|1]]
+| {{WP:RSPLAST|2025|stale=n}}
+| ''MintPress News'' was deprecated in the 2019 RfC, which showed consensus that the site publishes false or fabricated information.
+| {{WP:RSPUSES|mintpressnews.com|mintpressnews.cn|mintpressnews.ru|mintpressnews.es}}
+<section end="deprecated"/>
+|- class="s-gr" id="Le Monde diplomatique"
+| data-sort-value="Monde diplomatique" | ''[[Le Monde diplomatique]]'' {{WP:RSPSHORTCUT|WP:LEMONDEDIPLOMATIQUE}}
+| {{WP:RSPSTATUS|gr}}
+|[[WP:Reliable sources/Noticeboard/Archive 76#Le Monde Diplomatique|1]] [[WP:Reliable sources/Noticeboard/Archive 83#Le Monde diplomatique and "mondediplo.com"|2]] [[WP:Reliable sources/Noticeboard/Archive 235#Fringe newspaper's map sourced only to a literary critic used for wiki ethnographic map|3]] [[WP:Reliable sources/Noticeboard/Archive 250#Le Monde Diplomatique|4]]
+| {{WP:RSPLAST|2018}}
+| There is consensus that ''Le Monde diplomatique'' is generally reliable. Some editors consider ''Le Monde diplomatique'' to be a biased and opinionated source.
+| {{WP:RSPUSES|monde-diplomatique.fr|mondediplo.com}}
+|- class="s-nc" id="Mondoweiss"
+| ''[[Mondoweiss]]'' {{WP:RSPSHORTCUT|WP:MONDOWEISS}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|427|What is the reliability of Mondoweiss?|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 130#Mondoweiss+Jessie Benjamin|1]] [[WP:Reliable sources/Noticeboard/Archive 192#Mondoweiss|2]] [[WP:Reliable sources/Noticeboard/Archive 204#Mondoweiss article on Noam Chomsky and criticism thereof?|3]] [[WP:Reliable sources/Noticeboard/Archive 214#Is this article acceptable for a report on an obscure Israeli village?|4]] [[WP:Reliable sources/Noticeboard/Archive 221#Mondoweiss|5]] [[WP:Reliable sources/Noticeboard/Archive 222#Jonathan Ofir as translator|6]] [[WP:Reliable sources/Noticeboard/Archive 223#Mondoweiss again|7]] [[WP:Reliable sources/Noticeboard/Archive 265#Mondoweiss again|8]]
+| {{WP:RSPLAST|2024}}
+| ''Mondoweiss'' is a news website operated by the Center for Economic Research and Social Change (CERSC), an advocacy organization. There is no consensus on the reliability of ''Mondoweiss''. Editors consider the site [[WP:BIASED|biased or opinionated]], and its statements should be [[WP:INTEXT|attributed]].
+| {{WP:RSPUSES|mondoweiss.net}}
+|- class="s-nc" id="Morning Star"
+| [[Morning Star (British newspaper)|''Morning Star'' (UK)]]
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 66#Status of Morning Star (UK newspaper)|1]] [[WP:Reliable sources/Noticeboard/Archive 84#Morning Star (UK newspaper)|2]] [[WP:Reliable sources/Noticeboard/Archive 275#Morning Star (British newspaper)|3]] [[WP:Reliable sources/Noticeboard/Archive 427#Morning Star (UK)|4]]<br> [[Talk:English Defence League/Archive 4#Morning Star|A]] [[Talk:Jeremy Corbyn/Archive 16#RfC on use of Morning Star as a source|B]]
+| {{WP:RSPLAST|2024}}
+| The ''Morning Star'' describes itself as a British "reader-owned co-operative and unique as a lone socialist voice in a sea of corporate media" and has low circulation. There is no consensus on whether the ''Morning Star'' engages in factual reporting, and broad consensus that it is a [[WP:BIASED|biased and partisan]] source. All uses of the ''Morning Star'' should be [[WP:INTEXT|attributed]]. Take care to ensure that content from the ''Morning Star'' constitutes [[WP:DUE|due weight]] in the article and conforms to the [[WP:BLP|biographies of living persons]] policy.
+| {{WP:RSPUSES|morningstaronline.co.uk}}
+|- class="s-gr" id="Mother Jones"
+| ''[[Mother Jones (magazine)|Mother Jones]]'' <small>(''MoJo'')</small> {{WP:RSPSHORTCUT|WP:MOTHERJONES}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 132#%5BMother Jones and Rolling Stone articles as RS sources in a BLP for a contentious claim|1]] [[WP:Reliable sources/Noticeboard/Archive 149#Opinion column by Stephanie Mencimer in Mother Jones|2]] [[WP:Reliable sources/Noticeboard/Archive 188#Buzzfeed, Mother Jones for BLP's.|3]] [[WP:Reliable sources/Noticeboard/Archive 229#Is Mother Jones magazine a reliable source for investigative reporting?|4]] [[WP:Reliable sources/Noticeboard/Archive 274#Does this Mother Jones article accurately summarize the arguments made by the PragerU videos it cites?|5]]
+| {{WP:RSPLAST|2019}}
+| There is consensus that ''Mother Jones'' is generally reliable. Almost all editors consider ''Mother Jones'' a [[WP:BIASED|biased source]], so its statements (particularly on political topics) may need to be [[WP:INTEXT|attributed]]. Consider whether content from this publication constitutes [[WP:DUE|due weight]] before citing it in an article.
+| {{WP:RSPUSES|motherjones.com}}
+|- class="s-gr" id="MSNBC"
+| [[MSNBC]] {{WP:RSPSHORTCUT|WP:MSNBC}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|307|RFC on MSNBC|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 303#Also CNN & MSNBC|1]] [[WP:Reliable sources/Noticeboard/Archive 307#Preliminary discussions for a potential RFC on CNN and MSNBC|2]] [[WP:Reliable sources/Noticeboard/Archive 314#NBC News- 'Undecided voters' at NBC's Biden town hall were featured on MSNBC as Biden voters|3]] [[WP:Reliable sources/Noticeboard/Archive 372#MSNBC|4]]
+| {{WP:RSPLAST|2022}}
+| There is consensus that MSNBC is generally reliable. Talk show content should be treated as [[WP:RSOPINION|opinion pieces]]. ''See also: {{pslink|NBC News}}''
+| {{WP:RSPUSES|msnbc.com}}
+|- class="s-b" id="MyLife"
+| [[MyLife]] <small>(Reunion.com)</small>
+| {{WP:RSPSTATUS|gu|b=y}}
+| [[File:X-circle.svg|20px|alt=Spam blacklist request|link=WP:Reliable sources/Noticeboard/Archive 265#mylife.com]]&nbsp;[[WP:Reliable sources/Noticeboard/Archive 265#mylife.com|2019]] {{sbll|June 2019|reunion.com|2019}}
+[[WP:Reliable sources/Noticeboard/Archive 233#Instantcheckmate and mylife|1]]
+| {{WP:RSPLAST|2019|stale=n}}
+| Due to persistent abuse, MyLife is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used. MyLife (formerly known as Reunion.com) is an [[information broker]] that publishes [[WP:UGC|user-generated content]], and is considered generally unreliable.
+| {{WP:RSPUSES|mylife.com|reunion.com}}
+|- class="s-gr" id="The Nation"
+| data-sort-value="Nation"| ''[[The Nation]]'' {{WP:RSPSHORTCUT|WP:THENATION}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 5#The Nation|1]] [[WP:Reliable sources/Noticeboard/Archive 9#The Nation article re: Daniel Pipes|2]] [[WP:Reliable sources/Noticeboard/Archive 11#Further Discussion of the Nation|3]] [[WP:Reliable sources/Noticeboard/Archive 30#Article about William Timmons in The Nation|4]] [[WP:Reliable sources/Noticeboard/Archive 39#Is The Nation a reliable source?|5]] [[WP:Reliable sources/Noticeboard/Archive 40#The Nation|6]] [[WP:Reliable sources/Noticeboard/Archive 283#The Nation|7]] [[WP:Reliable sources/Noticeboard/Archive 305#Is The Nation reliable for claims about the Douma Chemical attack?|8]] [[WP:Reliable sources/Noticeboard/Archive 371#The nation|9]]
+| {{WP:RSPLAST|2022}}
+| There is consensus that ''The Nation'' is generally reliable. In the "About" section of their website, they identify as progressive. Most editors consider ''The Nation'' a [[WP:PARTISAN|partisan source]] whose statements should be [[WP:INTEXT|attributed]]. The publication's [[WP:RSOPINION|opinion pieces]] should be handled with the appropriate guideline. Take care to ensure that content from ''The Nation'' constitutes [[WP:DUE|due weight]] in the article and conforms to the [[WP:BLP|biographies of living persons]] policy.
+| {{WP:RSPUSES|thenation.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="National Enquirer"
+| ''[[National Enquirer]]''
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|261|RfC: National Enquirer|2019|rfc=y}}<br>
+[[WP:Reliable sources/Noticeboard/Archive 35#National Enquirer|1]] [[WP:Reliable sources/Noticeboard/Archive 85#Tabloid Newspapers|2]] [[WP:Reliable sources/Noticeboard/Archive 114#Contactmusic.com on marital breakup|3]] [[WP:Reliable sources/Noticeboard/Archive 204#Daily Mail again|4]] [[WP:Reliable sources/Noticeboard/Archive 218#New York Daily News unreliable?|5]] [[WP:Reliable sources/Noticeboard/Archive 232#List of banned UK newspapers?|6]]
+| {{WP:RSPLAST|2019|stale=n}}
+| The ''National Enquirer'' is a [[supermarket tabloid]] that is considered generally unreliable. In the 2019 RfC, there was weak consensus to [[WP:DEPS|deprecate]] the ''National Enquirer'' as a source, but no consensus to create an [[WP:EF|edit filter]] to warn editors against using the publication.
+| {{WP:RSPUSES|nationalenquirer.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="National Geographic"
+| ''[[National Geographic]]'' <small>(''Nat Geo'')</small> {{WP:RSPSHORTCUT|WP:NATGEO}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 126#National Geographic|1]] [[WP:Reliable sources/Noticeboard/Archive 240#National Geographic website, Krampus, and Hel|2]] [[WP:Reliable sources/Noticeboard/Archive 313#National Geographic and Adam Weishaupt (the Illuminati guy)|3]] [[WP:Reliable sources/Noticeboard/Archive 408#National Geographic|4]]
+| {{WP:RSPLAST|2023}}
+| There is consensus that ''National Geographic'' is generally reliable. For coverage by ''National Geographic'' of [[WP:FRINGE|fringe]] topics and ideas, [[WP:DUE|due weight]] and [[WP:PARITY|parity of sources]] should be considered.
+| {{WP:RSPUSES|nationalgeographic.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="National Post"
+| ''[[National Post]]'' <small>(''Postmedia Network'')</small> {{WP:RSPSHORTCUT|WP:NATIONALPOST}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|448|RfC: National Post|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 16#National Post|1]] [[WP:Reliable sources/Noticeboard/Archive 23#National Post Rejected as Reliable Source|2]] [[WP:Reliable sources/Noticeboard/Archive 28#National Post blog|3]] [[WP:Reliable sources/Noticeboard/Archive 42#National Post Biography of Lawrence Solomon: SPS? or RS?|4]] [[WP:Reliable sources/Noticeboard/Archive 269#National Post: Accusations of Plagriarism made in an opinion column|5]] [[WP:Reliable sources/Noticeboard/Archive 420#National Post reprint of Foundation for Defense of Democracies paper|6]]
+| {{WP:RSPLAST|2024}}
+| ''[[National Post]]'' is considered to be a generally reliable [[WP:NEWSORG|newspaper]].
+| {{WP:RSPUSES|nationalpost.com}}
+|- class="s-nc" id="National Review"
+| ''[[National Review]]'' <small>(''NR'')</small> {{WP:RSPSHORTCUT|WP:NATIONALREVIEW}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 60#National Review a reliable source on China? MA thesis cites primary sources--okay or not?|1]] [[WP:Reliable sources/Noticeboard/Archive 82#Ion Mihai Pacepa, National Review Online, Pave the Way Foundation|2]] [[WP:Reliable sources/Noticeboard/Archive 128#Stanley Kurtz National Review article about Obama and the New Party|3]] [[WP:Reliable sources/Noticeboard/Archive 153#National Review opinion rant|4]] [[WP:Reliable sources/Noticeboard/Archive 214#Can National Review be considered a RS in the following context re Hillary Clinton's cattle trading?|5]] [[WP:Reliable sources/Noticeboard/Archive 253#RFC: National Review|6]]
+| {{WP:RSPLAST|2018}}
+| There is no consensus on the reliability of ''National Review''. Most editors consider ''National Review'' a [[WP:PARTISAN|partisan source]] whose statements should be [[WP:INTEXT|attributed]]. The publication's [[WP:RSOPINION|opinion pieces]] should be handled with the appropriate guideline. Take care to ensure that content from the ''National Review'' constitutes [[WP:DUE|due weight]] in the article and conforms to the [[WP:BLP|biographies of living persons]] policy.
+| {{WP:RSPUSES|nationalreview.com}}
+|- class="s-b" id="Natural News"
+| [[Natural News]] <small>(NewsTarget)</small> {{WP:RSPSHORTCUT|WP:NATURALNEWS}}
+| {{WP:RSPSTATUS|gu|b=y}}
+| {{sbll|October 2019|Natural News|2019}}
+[[WP:Reliable sources/Noticeboard/Archive 273#Natural News|1]]<br> [[WP:Fringe theories/Noticeboard/Archive 47#Incoming|A]] [[Talk:Natural News/Archive 1#Fake news|B]]
+| {{WP:RSPLAST|2019|stale=n}}
+| Due to persistent abuse, Natural News is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used. There is a near-unanimous consensus that the site repeatedly publishes false or fabricated information, including an exceptionally large number of [[conspiracy theory|conspiracy theories]].
+| {{WP:RSPUSES|naturalnews.com|newstarget.com}}
+[https://www.isdglobal.org/isd-publications/investigating-natural-news/ +494]
+|- class="s-gr" id="NBC News"
+| [[NBC News]] {{WP:RSPSHORTCUT|WP:NBC}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 186#Column on Donors Trust on (but not by) NBC|1]] [[WP:Reliable sources/Noticeboard/Archive 296#Is NBC a reliable sources for the Wikipedia The Epoch Times (ET) article?|2]] [[WP:Reliable sources/Noticeboard/Archive 314#NBC News- 'Undecided voters' at NBC's Biden town hall were featured on MSNBC as Biden voters|3]] [[WP:Reliable sources/Noticeboard/Archive 424#NBC News for Wąsosz pogrom|4]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that NBC News is generally reliable for news. ''See also: {{pslink|MSNBC}}''
+| {{WP:RSPUSES|nbcnews.com}}
+|- class="s-nc" id="The Needle Drop"
+| data-sort-value="Needle Drop" | ''[[The Needle Drop]]'' {{WP:RSPSHORTCUT|WP:THENEEDLEDROP}} {{WP:RSPSHORTCUT|WP:FANTANO}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|326|RfC: The Needle Drop|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 228#The Needle Drop|1]]<br> [[Wikipedia talk:WikiProject Albums/Archive 50#The Needle Drop|A]] [[Wikipedia talk:WikiProject Albums/Archive 54#Anthony Fantano responded with his take on the debate if his reviews on The Needle Drop are "professional" or not|B]] [[Special:PermanentLink/1250481692#The Needle Drop: news section|C]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that additional considerations apply when considering whether the use of ''[[The Needle Drop]]'' as a source is appropriate. There is currently strong consensus that [[Anthony Fantano]]'s reviews that are published via ''The Needle Drop'' are [[WP:SPS|self-published sources]]. There is currently rough consensus that Fantano is considered to be an established subject-matter expert as it pertains to music reviews and that these reviews may be used in an article as ''attributed opinion''. However, per Wikipedia policy regarding self-published sources, these reviews should never be used as [[WP:THIRDPARTY|third-party claims]] about living people. There is also currently a rough consensus that Fantano's reviews do not always constitute [[WP:DUE|due weight]] and that discretion should be applied on a case-by-case basis when determining if a review from ''The Needle Drop'' is appropriate to include in a given article. Articles on the theneedledrop.com website are unreliable due to a lack of an editorial policy.
+| {{WP:RSPUSES|theneedledrop.com}}
+|- class="s-gu" id="The New American"
+| data-sort-value="New American" | ''[[The New American]]'' {{WP:RSPSHORTCUT|WP:NEWAMERICAN}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 39#The New American reliable source and is this appropriate for Immigration Equality (organization)|1]] [[WP:Reliable sources/Noticeboard/Archive 82#Use of thenewamerican.com|2]] [[WP:Reliable sources/Noticeboard/Archive 84#Disappearing page|3]] [[WP:Reliable sources/Noticeboard/Archive 134#The New American usable as a RS?|4]] [[WP:Reliable sources/Noticeboard/Archive 175#The New American (John Birch Society) as a source|5]] [[WP:Reliable sources/Noticeboard/Archive 201#Glenn Beck usable as a RS?|6]]
+| {{WP:RSPLAST|2016|stale=n}}
+| There is consensus that ''The New American'' is generally unreliable for factual reporting. Some editors consider it usable for attributed opinions regarding the [[John Birch Society]].
+| {{WP:RSPUSES|thenewamerican.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="New Eastern Outlook"
+| data-sort-value="New Eastern Outlook" | ''[[New Eastern Outlook]]''
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|377|RfC: RFC concerning New Eastern Outlook|2022|rfc=y}}
+| {{WP:RSPLAST|2022}}
+| In the 2022 RfC, there is consensus to deprecate ''New Eastern Outlook''. Editors note that it is considered a Russian propaganda outlet by multiple reliable sources, and numerous examples of publishing false content.
+| {{WP:RSPUSES|journal-neo.org}}
+<section end="deprecated"/>
+|- class="s-gr" id="The New Republic"
+| data-sort-value="New Republic" | ''[[The New Republic]]'' {{WP:RSPSHORTCUT|WP:NEWREPUBLIC}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|287|RfC: The New Republic|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 157#Types of abortion restrictions in the United States|1]] [[WP:Reliable sources/Noticeboard/Archive 277#The New Republic on Quillette|2]] [[WP:Reliable sources/Noticeboard/Archive 381#Is The New Republic's Soapbox section a reliable source?|3]] [[WP:Reliable sources/Noticeboard/Archive 433#A New Republic article|4]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that ''The New Republic'' is generally reliable. Most editors consider ''The New Republic'' [[WP:BIASED|biased or opinionated]]. Opinions in the magazine should be [[WP:INTEXT|attributed]].
+| {{WP:RSPUSES|newrepublic.com}}
+|- class="s-gr" id="New York"
+| {{anchor|Vulture|Intelligencer}} ''[[New York (magazine)|New York]]'' <small>(''[[Vulture (website)|Vulture]]'', ''The Cut'', ''Grub Street'', ''Daily Intelligencer'')</small> {{WP:RSPSHORTCUT|WP:RSPNEWYORK}} {{WP:RSPSHORTCUT|WP:RSPVULTURE}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 63#David Lynch Foundation|1]] [[WP:Reliable sources/Noticeboard/Archive 159#Vulture.com|2]] [[WP:Reliable sources/Noticeboard/Archive 187#Unreliable Sources used in the GamerGate Article|3]] [[WP:Reliable sources/Noticeboard/Archive 216#New York Magazine/"New Journalism"|4]] [[WP:Reliable sources/Noticeboard/Archive 327#Are New York Magazine and Infection Control Today reliable sources for the idea that COVID-19 leaked from a Chinese lab?|5]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''New York'' magazine, including its subsidiary website ''Vulture'', is generally reliable. There is no consensus on whether it is generally reliable for contentious statements. ''See also: {{pslink|Polygon (pre-2025)}}, {{pslink|The Verge}}, {{pslink|Vox}}''
+| {{WP:RSPUSES|nymag.com|vulture.com|thecut.com|grubstreet.com}}
+|- class="s-gr" id="New York Daily News"
+| [[New York Daily News|New York ''Daily News'']] <small>(''Illustrated Daily News'')</small> {{WP:RSPSHORTCUT|WP:NYDN}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 127#New York Daily News – reliable source for attribution of "Incidents of zombie-like behavior in 2012"|1]] [[WP:Reliable sources/Noticeboard/Archive 218#New York Daily News unreliable?|2]] [[WP:Reliable sources/Noticeboard/Archive 289#NY Daily News on NYC coronavirus outbreak|3]]
+| {{WP:RSPLAST|2020}}
+| Most editors consider the content of New York ''Daily News'' articles to be generally reliable, but question the accuracy of its [[Tabloid journalism|tabloid-style]] headlines.
+| {{WP:RSPUSES|nydailynews.com}}
+|- class="s-gu" id="New York Post"
+| ''[[New York Post]]'' <small>(''NY Post'', ''New York Evening Post'', ''Page Six'')</small> (excluding entertainment) {{WP:RSPSHORTCUT|WP:NYPOST}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|312|RFC: New York Post (nypost.com)|2020|rfc=y}}
++14{{efn|See also these discussions of New York Post: [[WP:Reliable sources/Noticeboard/Archive 14#New York Post|1]]
+[[WP:Reliable sources/Noticeboard/Archive 40#Unreliable source at Rebecca Quick|2]]
+[[WP:Reliable sources/Noticeboard/Archive 194#Are Fire.org and New York Post Reliable Sources.|3]]
+[[WP:Reliable sources/Noticeboard/Archive 200#New York Post|4]]
+[[WP:Reliable sources/Noticeboard/Archive 267#New York Post|5]]
+[[WP:Reliable sources/Noticeboard/Archive 339#New York Post|6]]
+[[WP:Reliable sources/Noticeboard/Archive 339#How do we deal with opinion pieces published in both reliable and unreliable sources? (Fox News and New York Post)|7]]
+[[WP:Reliable sources/Noticeboard/Archive 371#Older local sports coverage from New York Post|8]]
+[[WP:Reliable sources/Noticeboard/Archive 391#New York Post on Hunter Biden's laptop|9]]
+[[WP:Reliable sources/Noticeboard/Archive 400#Is the New York Post reliable when used for a direct quote?|10]]
+[[WP:Reliable sources/Noticeboard/Archive 403#New York Post sports coverage|11]]
+[[WP:Reliable sources/Noticeboard/Archive 409#New York Post business/realestate coverage|12]]
+[[WP:Reliable sources/Noticeboard/Archive 429#New York Post: Not fact checking false claims|13]]
+[[WP:Reliable sources/Noticeboard/Archive 446#New York Post broadsheet, published until 1942|14]]
+}}
+| {{WP:RSPLAST|2024}}
+| There is consensus the ''New York Post'' is generally unreliable for factual reporting, especially with regard to politics, particularly [[New York City politics]]. A [[Tabloid journalism|tabloid newspaper]], editors criticise its lack of concern for fact-checking or corrections, including examples of outright fabrication. Editors consider the ''New York Post'' more reliable before it changed ownership in 1976, and particularly unreliable for coverage involving the [[New York City Police Department]]. A 2024 RfC concluded that the ''New York Post'' is marginally reliable for entertainment coverage; see below.
+This consensus does not apply to the broadsheet publication of the same name, that existed from 1801–1942.
+| {{WP:RSPUSES|nypost.com|pagesix.com}}
+|- class="s-nc" id="New York Post Entertainment"
+| ''[[New York Post]]'' <small>(''NY Post'', ''New York Evening Post'', ''Page Six'', ''Decider'')</small> (entertainment) {{WP:RSPSHORTCUT|WP:DECIDER}} {{WP:RSPSHORTCUT|WP:PAGESIX}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|436|RfC: Entertainment coverage of the New York Post (including Decider and Page Six)|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 348#Using a Decider.com interview|1]] [[WP:Reliable sources/Noticeboard/Archive 371#Decider.com / Jimmy DiResta / Naomi Wu|2]] [[WP:Reliable sources/Noticeboard/Archive 431#Using Decider / Decider.com for interviews and reviews|3]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that the ''[[New York Post]]'' ({{duses|nypost.com}}) and its sub-publications ''[[Decider (website)|Decider]]'' ({{duses|decider.com}}) and ''[[Page Six]]'' are considered to be marginally reliable sources for entertainment coverage, including reviews, but should not be used for controversial statements related to [[wp:BLP|living persons]].
+| {{WP:RSPUSES|nypost.com|pagesix.com|decider.com}}
+|- class="s-gr" id="The New York Times"
+| data-sort-value="New York Times" | ''[[The New York Times]]'' <small>(''NYT'')</small> {{WP:RSPSHORTCUT|WP:NYT}} {{WP:RSPSHORTCUT|WP:NYTIMES}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|244|RfC: Wound characteristics of military-style rifles|2018|rfc=y}}
++46{{efn|See also these discussions of ''The New York Times'':
+[[WP:Reliable sources/Noticeboard/Archive 3#Hexayurt – the New York Times not a reliable source?|1]]
+[[WP:Reliable sources/Noticeboard/Archive 3#Is the NYT an acceptable source on Blackwater USA?|2]]
+[[WP:Reliable sources/Noticeboard/Archive 8#Is the New York Times a WP:RS?|3]]
+[[WP:Reliable sources/Noticeboard/Archive 22#Is the New York Times Reliable?|4]]
+[[WP:Reliable sources/Noticeboard/Archive 23#Joe the Plumber New York Times "rejected" as a source|5]]
+[[WP:Reliable sources/Noticeboard/Archive 33#New York Times|6]]
+[[WP:Reliable sources/Noticeboard/Archive 37#NYTs Green Inc. Blog|7]]
+[[WP:Reliable sources/Noticeboard/Archive 38#New York Times, Associated Press, etc. as sources on legal questions|8]]
+[[WP:Reliable sources/Noticeboard/Archive 42#New York Times Article on Alternative Minimum Tax|9]]
+[[WP:Reliable sources/Noticeboard/Archive 46#Race Intelligence, NYT and bloggers|10]]
+[[WP:Reliable sources/Noticeboard/Archive 50#About two studies re-stated by The New York Times and Las Vegas Sun|11]]
+[[WP:Reliable sources/Noticeboard/Archive 53#New York Times news articles not RS?|12]]
+[[WP:Reliable sources/Noticeboard/Archive 71#The New York Times a "local" source?|13]]
+[[WP:Reliable sources/Noticeboard/Archive 74#The New York Times and The New Yorker magazine as sources in a WP:BLP|14]]
+[[WP:Reliable sources/Noticeboard/Archive 92#is movies.nyt.com a relibale source?|15]]
+[[WP:Reliable sources/Noticeboard/Archive 105#NYT blogs-Krugman specifically|16]]
+[[WP:Reliable sources/Noticeboard/Archive 107#NYT reliable as the NYT and not the U.S. government on the ISI?|17]]
+[[WP:Reliable sources/Noticeboard/Archive 109#Economist blogs and New York Times opinion pieces|18]]
+[[WP:Reliable sources/Noticeboard/Archive 117#Published letter to the editor of the New York Times|19]]
+[[WP:Reliable sources/Noticeboard/Archive 122#New York Times summary|20]]
+[[WP:Reliable sources/Noticeboard/Archive 122#Electric knife and NYT obit|21]]
+[[WP:Reliable sources/Noticeboard/Archive 140#Obituaries and Sun Myung Moon|22]]
+[[WP:Reliable sources/Noticeboard/Archive 145#New York Times wrong in 1983 article describing late Laura Branigan's vocal range.|23]]
+[[WP:Reliable sources/Noticeboard/Archive 174#New York Times|24]]
+[[WP:Reliable sources/Noticeboard/Archive 206#Are the New York Times, etc. reliable sources for information they do not give?|25]]
+[[WP:Reliable sources/Noticeboard/Archive 217#New York Times' "The Interpreter"|26]]
+[[WP:Reliable sources/Noticeboard/Archive 235#Is The New York Times a reliable source for american politics?|27]]
+[[WP:Reliable sources/Noticeboard/Archive 244#Is the NY Times a reliable source?|28]]
+[[WP:Reliable sources/Noticeboard/Archive 252#New York Times RfC|29]]
+[[WP:Reliable sources/Noticeboard/Archive 252#Updated RfC: The New York Times|30]]
+[[WP:Reliable sources/Noticeboard/Archive 260#The New York Times|31]]
+[[WP:Reliable sources/Noticeboard/Archive 268#New York Times: 5G reporting partnership with Verizon|32]]
+[[WP:Reliable sources/Noticeboard/Archive 275#New York Times' – Epstein reporting|33]]
+[[WP:Reliable sources/Noticeboard/Archive 284#Should the NYT best seller list be deprecated?|34]]
+[[WP:Reliable sources/Noticeboard/Archive 287#New York Times|35]]
+[[WP:Reliable sources/Noticeboard/Archive 290#Rich McHugh|36]]
+[[WP:Reliable sources/Noticeboard/Archive 292#NYT Tara Reade coverage|37]]
+[[WP:Reliable sources/Noticeboard/Archive 302#https://int.nyt.com/|38]]
+[[WP:Reliable sources/Noticeboard/Archive 350#New York Times|39]]
+[[WP:Reliable sources/Noticeboard/Archive 383#Is NYT report reliable for feminist support to chemical castration in Pakistan|40]]
+[[WP:Reliable sources/Noticeboard/Archive 394#New York Times (Medical Claims)|41]]
+[[WP:Reliable sources/Noticeboard/Archive 397#The Times, NYT, British media and LGBT|42]]
+[[WP:Reliable sources/Noticeboard/Archive 415#NYT and LGBT-related subjects (yet again)|43]]
+[[WP:Reliable sources/Noticeboard/Archive 423#The Economist reports on the New York Times|44]]
+[[WP:Reliable sources/Noticeboard/Archive 430#The New York Times|45]]
+[[WP:Reliable sources/Noticeboard/Archive 437#Concerning politico report on the nyt|46]]
+}}
+| {{WP:RSPLAST|2024}}
+| There is consensus that ''The New York Times'' is generally reliable. [[WP:RSOPINION]] should be used to evaluate opinion columns, while [[WP:NEWSBLOG]] should be used for the blogs on ''The New York Times''<nowiki />'s website. The 2018 RfC cites [[WP:MEDPOP]] to establish that popular press sources such as ''The New York Times'' should generally not be used to support [[WP:Biomedical information|medical claims]].
+| {{WP:RSPUSES|nytimes.com}}
+|- class="s-gr" id="The New Yorker"
+| data-sort-value="New Yorker" | ''[[The New Yorker]]''
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 74#The New York Times and The New Yorker magazine as sources in a WP:BLP|1]] [[WP:Reliable sources/Noticeboard/Archive 92#The New Yorker, Jane Mayer, and the Koch brothers|2]]
+| {{WP:RSPLAST|2011}}
+| There is consensus that ''The New Yorker'' is generally reliable. Editors note the publication's robust fact-checking process.
+| {{WP:RSPUSES|newyorker.com}}
+|- class="s-gr" id="The New Zealand Herald"
+| data-sort-value="New Zealand Herald, The" | ''[[The New Zealand Herald]]'' <small>(''NZ Herald'')</small>
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|350|Reliability of The New Zealand Herald|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 418#New Zealand Herald, Whanganui Chronicle, opinion piece?|1]]
+| {{WP:RSPLAST|2023}}
+| There is consensus that ''The New Zealand Herald'' is generally reliable.
+| {{WP:RSPUSES|nzherald.co.nz}}
+<section begin="deprecated"/>
+|- class="s-d" id="News of the World"
+| ''[[News of the World]]'' {{WP:RSPSHORTCUT|WP:NEWSOFTHEWORLD}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|279|News of the World|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 353#Removing News of the World as a deprecated source|1]]
+| {{WP:RSPLAST|2021|stale=n}}
+| ''News of the World'' was deprecated in the 2019 RfC. There is consensus that ''News of the World'' is generally unreliable. As is the case with ''{{pslink|The Sun}}'', ''News of the World'' should not be used as a reference in most cases aside from [[WP:ABOUTSELF|about-self]] usage, and should not be used to determine [[WP:GNG|notability]]. Some editors consider ''News of the World'' usable for uncontroversial film reviews if attribution is provided. ''News of the World'' shut down in 2011; website content is no longer accessible unless archived.
+| {{WP:RSPUSES|newsoftheworld.co.uk|newsoftheworld.com}}
+|- class="s-d" id="NewsBlaze"
+| NewsBlaze
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|353|RfC: Newsblaze|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 352#Consensus for NewsBlaze.com|1]]
+| {{WP:RSPLAST|2021}}
+| NewsBlaze was unanimously deprecated by [[WP:SNOW|snowball clause]] consensus in the 2021 RfC. Editors cite NewsBlaze's publication of false and/or fabricated information, conspiracy theories, the site's sourcing practices, and copyright concerns.
+| {{WP:RSPUSES|newsblaze.com|newsblaze.com.au}}
+|- class="s-d" id="NewsBreak"
+| [[NewsBreak]] <small>(News Break)</small> {{WP:RSPSHORTCUT|WP:NEWSBREAK}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|301|News Break|2020|rfc=y}}
+| {{WP:RSPLAST|2020|stale=n}}
+| NewsBreak is a [[news aggregator]] that publishes snippets of articles from other sources. In the 2020 RfC, there was consensus to deprecate NewsBreak in favor of the original sources.
+| {{WP:RSPUSES|newsbreak.com}}
+|- class="s-b" id="NewsFront"
+| ''[[NewsFront (website)|NewsFront]]'' {{WP:RSPSHORTCUT|WP:NEWSFRONT}}
+| {{WP:RSPSTATUS|d|b=y}}
+| {{rsnl|281|RfC: Deprecation of fake news / disinformation sites.|2019|rfc=y}}
+{{sbll|December 2019|More disinformation sites|2019}}<br>
+[[WP:Reliable sources/Noticeboard/Archive 281#news-front.info|1]]
+| {{WP:RSPLAST|2019|stale=n}}
+| Due to persistent abuse, ''NewsFront'' is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used. ''NewsFront'' was deprecated in the 2019 RfC, which showed unanimous consensus that the site publishes [[fake news]] and Russian propaganda. The use of ''NewsFront'' as a reference should be generally prohibited, especially when other sources exist that are more [[WP:RS|reliable]]. ''NewsFront'' should not be used for determining [[WP:N|notability]], or used as a [[WP:SECONDARY|secondary source]] in articles.
+| {{WP:RSPUSES|news-front.su|news-front.info}}
+<section end="deprecated"/>
+|- class="s-gr" id="Newslaundry"
+| [[Newslaundry]]
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|296|Newslaundry on OpIndia|2020|rfc=y}}
+| {{WP:RSPLAST|2020}}
+| There is consensus that Newslaundry is generally reliable. Some editors have expressed concerns regarding possible bias in its political narratives and reporting on rival publications; in cases where this could reasonably apply, attribution is recommended, and sufficient.
+| {{WP:RSPUSES|newslaundry.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Newsmax"
+| [[Newsmax]] {{WP:RSPSHORTCUT|WP:NEWSMAX}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|319|Newsmax|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 159#Newsmax|1]] [[WP:Reliable sources/Noticeboard/Archive 297#Is Newsmax reliable for the best Catholic Colleges?|2]] [[WP:Reliable sources/Noticeboard/Archive 390#Newsmax interviewee's opinions|3]]
+| {{WP:RSPLAST|2022}}
+| Newsmax was deprecated by [[WP:SNOW|snowball clause]] consensus in the November 2020 RfC. Concerns of editors included that Newsmax lacks adherence to journalistic standards, launders propaganda, promulgates misinformation, promotes conspiracy theories and false information for political purposes, and promotes medical misinformation such as [[COVID-19]]-related falsehoods, climate change denialism, conspiracy theories, and anti-vaccination propaganda.
+| {{WP:RSPUSES|newsmax.com|newsmaxtv.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="NewsNation"
+| [[NewsNation]] (general topics) {{WP:RSPSHORTCUT|WP:NEWSNATION}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|465|RfC: NewsNation|2025|rfc=y}}
+| {{WP:RSPLAST|2025}}
+| There is a consensus that NewsNation is generally reliable for matters not related to UFOs or UAPs. ''See also: {{pslink|NewsNation (UFOs, UAPs)}}.''
+| {{WP:RSPUSES|newsnationnow.com}}
+|- class="s-gu" id="NewsNation (UFOs, UAPs)"
+| [[NewsNation]] (UFOs, UAPs){{WP:RSPSHORTCUT|WP:UFONATION}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|465|RfC: NewsNation|2025|rfc=y}}
+| {{WP:RSPLAST|2025}}
+| There is a consensus that NewsNation is generally unreliable for the topic of UFOs or UAPs. Editors pointed to NewsNation's lead reporter on UFOs, [[Ross Coulthart]], having a well-documented history of promoting conspiracy theories in that topic area. ''See also: {{pslink|NewsNation (general topics)}}.''
+| {{WP:RSPUSES|newsnationnow.com/space/ufo*}}
+|- class="s-gr" id="Newsweek (pre-2013)"
+| data-sort-value="Newsweek 1933" | {{anchor|Newsweek (pre-2013)}} ''[[Newsweek]]'' (pre-2013)
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|280|Newsweek RfC|2019|rfc=y}}
++11{{efn|name=Newsweek|1=See also these discussions of Newsweek:
+[[WP:Reliable sources/Noticeboard/Archive 179#Newsweek statistics article|1]]
+[[WP:Reliable sources/Noticeboard/Archive 210#Newsweek|2]]
+[[WP:Reliable sources/Noticeboard/Archive 262#International Business Times|3]]
+[[WP:Reliable sources/Noticeboard/Archive 270#Newsweek|4]]
+[[WP:Reliable sources/Noticeboard/Archive 301#Newsweek reports on exclusive reporting from The Daily Mail|5]]
+[[WP:Reliable sources/Noticeboard/Archive 348#Newsweek (2021 to Present)|6]]
+[[WP:Reliable sources/Noticeboard/Archive 350#Kim Kardashian vs Hunter Biden|7]]
+[[WP:Reliable sources/Noticeboard/Archive 401#Newsweek Article|8]]
+[[WP:Reliable sources/Noticeboard/Archive 420#Newsweek AI|9]]
+[[WP:Reliable sources/Noticeboard/Archive 429#Newsweek post-IBT and FAs|10]]
+[[WP:Reliable sources/Noticeboard/Archive 432#WP:NEWSWEEK|11]]}}
+| {{WP:RSPLAST|2019}}
+| There is consensus that articles from ''Newsweek'' pre-2013 are generally reliable for news covered during that time. In 2011, ''Newsweek'' was a reputable magazine with only some minor problems while it was owned by [[The Newsweek Daily Beast Company]] (which also owned ''{{pslink|The Daily Beast}}''). Blogs under ''Newsweek'', including The Gaggle, should be handled with the [[WP:NEWSBLOG]] policy. ''See also: [[#Newsweek (2013-present)|Newsweek (2013–present)]].''
+| {{WP:RSPUSES|newsweek.com}}
+|- class="s-nc" id="Newsweek (2013–present)"
+| data-sort-value="Newsweek 2013" | {{anchor|Newsweek (2013–present)|Newsweek (2013-present)}} ''[[Newsweek]]'' (2013–present) {{WP:RSPSHORTCUT|WP:NEWSWEEK}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|280|Newsweek RfC|2019|rfc=y}}
++11{{efn|name=Newsweek}}
+| {{WP:RSPLAST|2024}}
+| Unlike articles before 2013, ''Newsweek'' articles since 2013 are not generally reliable. From 2013 to 2018, ''Newsweek'' was owned and operated by [[IBT Media]], the parent company of ''{{pslink|International Business Times}}''. IBT Media introduced a number of bad practices to the once reputable magazine and mainly focused on [[clickbait]] headlines over quality journalism. Its current relationship with IBT Media is unclear, and ''Newsweek''{{'}}s quality has not returned to its status prior to the 2013 purchase. Many editors have noted that there are several exceptions to this standard, so consensus is to evaluate ''Newsweek'' content on a case-by-case basis. In addition, as of April 2024, ''Newsweek'' has disclosed that they make use of AI assistance to write articles. ''See also: {{pslink|Newsweek (pre-2013)}}.''
+| {{WP:RSPUSES|newsweek.com}}
+|- class="s-nc" id="The Next Web"
+| data-sort-value="Next Web"| [[The Next Web]] <small>(TNW)</small>
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 177#The Next Web|1]] [[WP:Reliable sources/Noticeboard/Archive 204#Popcorn Time|2]] [[WP:Reliable sources/Noticeboard/Archive 250#About The Next Web|3]] [[WP:Reliable sources/Noticeboard/Archive 266#The Next Web for ProProfs|4]]
+| {{WP:RSPLAST|2019}}
+| There is no consensus on the reliability of The Next Web. Articles written by [[WP:CONTRIBUTOR|contributors]] may be subject to reduced or no editorial oversight. Avoid using The Next Web's [[WP:SPONSORED|sponsored content]].
+| {{WP:RSPUSES|thenextweb.com}}
+|- class="s-gu" id="NGO Monitor"
+| [[NGO Monitor]] <small>(Non-governmental Organization Monitor)</small> {{WP:RSPSHORTCUT|WP:NGOMONITOR}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|429|What is the reliability of NGO Monitor?|2024|rfc=yes}}
+[[WP:Reliable sources/Noticeboard/Archive 429#Is NGO Monitor a reliable (but obviously not unbiased) source regarding statements about NGOs and the BLP associated with them?|1]]
+| {{WP:RSPLAST|2024}}
+| There is a consensus that NGO Monitor is not reliable for facts. Editors agree that, despite attempts to portray itself otherwise, it is an advocacy organization whose primary goal is to attack organizations that disagree with it or with the Israeli government regarding the [[Israeli–Palestinian conflict]]. Some editors also express concern about past attempts by NGO Monitor staff to manipulate coverage of itself on Wikipedia.
+| {{WP:RSPUSES|ngo-monitor.org}}
+|- class="s-gr" id="NME"
+| ''[[NME]]'' <small>(''New Musical Express'')</small> {{WP:RSPSHORTCUT|WP:RSPNME}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 26#Rolling Stone, NME, Popmatters and Metal-Observer|1]] [[WP:Reliable sources/Noticeboard/Archive 318#New Musical Express / NME / www.nme.com|2]]
+| {{WP:RSPLAST|2020}}
+| There is consensus that British publication ''NME'' is generally reliable for content related to its areas of expertise, which include music.
+| {{WP:RSPUSES|nme.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="NNDB"
+| [[NNDB]] <small>(Notable Names Database)</small> {{WP:RSPSHORTCUT|WP:NNDB}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|259|RfC: Notable Names Database|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 3#NNDB|1]] [[WP:Reliable sources/Noticeboard/Archive 26#NNDB|2]] [[WP:Reliable sources/Noticeboard/Archive 101#NNDB|3]] [[WP:Reliable sources/Noticeboard/Archive 155#http://www.nndb.com/|4]]
+| {{WP:RSPLAST|2019|stale=n}}
+| NNDB is a biographical database operated by Soylent Communications, the parent company of [[shock site]] [[Rotten.com]]. It was deprecated in the 2019 RfC. Editors note NNDB's poor reputation for fact-checking and accuracy, despite the site claiming to have an editorial process. Editors have also found instances of NNDB incorporating content from Wikipedia, which would make the use of the affected pages [[WP:CIRCULAR|circular sourcing]].
+| {{WP:RSPUSES|nndb.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="NPR"
+| [[NPR]] <small>(National Public Radio)</small> {{WP:RSPSHORTCUT|WP:RSPNPR}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 139#NPR reference in War On Women|1]] [[WP:Reliable sources/Noticeboard/Archive 149#NPR religion program claim from Judy Valente about membership estimate from Christian Science church|2]] [[WP:Reliable sources/Noticeboard/Archive 292#NPR|3]] [[WP:Reliable sources/Noticeboard/Archive 322#Using an NPR report in the article Misinformation related to the COVID-19 pandemic|4]] [[WP:Reliable sources/Noticeboard/Archive 448#Is NPR a reliable source?|5]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that NPR, an American public service broadcaster, is generally reliable for news and statements of fact. NPR's [[WP:RSOPINION|opinion pieces]] should only be used with [[WP:INTEXT|attribution]].
+| {{WP:RSPUSES|npr.org}}
+</onlyinclude>
+|}

@@ -1,0 +1,101 @@
+domain,wiki_share,Type
+archive.org,0.03271019853273835,Portal
+books.google.com,0.02855165256596543,Portal
+bbc.com,0.023128435390027263,News
+nytimes.com,0.016867808036975258,News
+theguardian.com,0.0122614489023417,News
+billboard.com,0.008943753361502865,Niche media
+youtube.com,0.008921726833342105,UGC
+indiatimes.com,0.006478345956961504,News
+newspapers.com,0.005983128841071317,Portal
+espn.com,0.005610286290358251,Niche media
+deadline.com,0.005593353117593691,Niche media
+variety.com,0.0055755263737069915,Niche media
+washingtonpost.com,0.004790568821462792,News
+latimes.com,0.004322292874905136,Niche media
+reuters.com,0.004147421006302268,News
+hollywoodreporter.com,0.003860361283314677,Niche media
+cnn.com,0.0037447778586658215,News
+telegraph.co.uk,0.0036908955200007578,News
+animenewsnetwork.com,0.0034350661077319727,Niche media
+independent.co.uk,0.003292005371077301,News
+pro-football-reference.com,0.002904910360966097,Database
+allmusic.com,0.002857104305931588,Database
+rollingstone.com,0.0027605986247404286,Niche media
+thehindu.com,0.002656765660347719,News
+news.google.com,0.0025534688386282933,Portal
+espncricinfo.com,0.002337492698406968,Niche media
+forbes.com,0.002188400356677849,News
+x/twitter.com,0.00214148787276548,UGC
+imdb.com,0.002136215803144852,Database
+usatoday.com,0.002072504182136244,News
+nba.com,0.0020675001838522584,Industry site
+apnews.com,0.0019762665722817276,News
+cbc.ca,0.001875337714035974,News
+indianexpress.com,0.001808587951212089,News
+abc.net.au,0.001800858561005575,News
+ew.com,0.0017669475369203483,Industry site
+music.apple.com,0.0017491207930336481,Database
+baseball-reference.com,0.001714450233494602,Database
+entertain.naver.com,0.0017010913452186038,Niche media
+officialcharts.com,0.0016534640044085225,Niche media
+bloomberg.com,0.001649398255802784,News
+jstor.org,0.001637245688541675,Academic
+nhl.com,0.0016328671900431872,Industry site
+npr.org,0.001632152333145475,News
+wsj.com,0.0016019049506610238,News
+people.com,0.0015637941423017373,Niche media
+britannica.com,0.001540561293126088,Reference
+hindustantimes.com,0.0015311341177875071,News
+worldradiohistory.com,0.0015274704761867317,Niche media
+nme.com,0.0015053099123576508,Niche media
+ign.com,0.0015046397340160455,Niche media
+mtv.com,0.001471086138379675,Niche media
+rottentomatoes.com,0.0014667523184372943,UGC
+time.com,0.00140688305325389,News
+smh.com.au,0.0013627853183762633,News
+cbsnews.com,0.0013603726763464843,News
+nbcnews.com,0.0013504987154468334,News
+uefa.com,0.0013430373965769614,Industry site
+mlb.com,0.0013124325856436541,Industry site
+boxofficemojo.com,0.001299654518597047,Database
+chicagotribune.com,0.0012995204829287258,News
+pitchfork.com,0.0012933995207420643,Niche media
+facebook.com,0.001290003950477931,UGC
+wwe.com,0.0012509548924403973,Industry site
+stats.espncricinfo.com,0.0011645018863733175,Niche media
+indiatoday.in,0.001140822251636598,News
+basketball-reference.com,0.0011306802194003048,Database
+aljazeera.com,0.0011221912937399714,News
+sports-reference.com,0.0011194659018174432,Database
+si.com,0.0011032029073944887,Niche media
+cbssports.com,0.001096724516758971,Niche media
+abcnews.go.com,0.0010931502322704097,News
+politico.com,0.0010731342391344656,News
+discogs.com,0.0010483376404950705,Database
+census.gov,0.0010265791836709527,Government
+skysports.com,0.0010111204032579246,Niche media
+data.census.gov,0.0009866365545112786,Government
+metacritic.com,0.0009797113783146909,Database
+nfl.com,0.0009777455218459821,Industry site
+irishtimes.com,0.0009655035974726592,News
+ft.com,0.0009652355261360171,News
+thetimes.com,0.0009529042446504801,News
+theverge.com,0.000950134174171845,Niche media
+instagram.com,0.0009457109971172502,UGC
+businessinsider.com,0.0009151061861839429,Niche media
+cnbc.com,0.0009110404375782043,Niche media
+racing-reference.info,0.0009095213666705656,Database
+thehill.com,0.000903087654591155,Niche media
+huffingtonpost.com,0.000895402942940748,Niche media
+researchgate.net,0.0008949114788235707,Academic
+blabbermouth.net,0.0008786038058445091,Niche media
+pwtorch.com,0.0008766826279319074,Niche media
+philstar.com,0.0008465246025596702,News
+nydailynews.com,0.0008397781405875105,News
+screenrant.com,0.0008127476141427646,Niche media
+oricon.co.jp,0.0008050629024923575,Niche media
+foxnews.com,0.0007996121186473013,News
+independent.ie,0.0007853596592491625,News
+abs-cbn.com,0.0007849128736880924,News
+gamespot.com,0.0007845554452392363,Niche media

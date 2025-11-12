@@ -1,0 +1,641 @@
+{| class="wikitable sortable perennial-sources"
+|+ Perennial sources
+!rowspan="2" scope="col" | Source
+!rowspan="2" scope="col" | Status<br /><small>([[#Legend|legend]])</small>
+!colspan="3" scope="colgroup" | Discussions
+!rowspan="2" scope="col" class="unsortable" | Use
+|-
+! scope="col" class="unsortable" | List
+! scope="col" | Last
+! scope="col" class="unsortable" | Summary
+<onlyinclude><section begin="deprecated"/>
+|- class="s-d" id="The Unz Review"
+| data-sort-value="Unz Review" | {{anchor|Unz|Unz Review}} ''[[The Unz Review]]'' {{WP:RSPSHORTCUT|WP:UNZ}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|356|The Unz Review|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 349#The Unz Review|1]] [[WP:Reliable sources/Noticeboard/Archive 435#break (Syndication in Unz Review)|2]]
+| {{WP:RSPLAST|2024}}
+| ''The Unz Review'' was deprecated by [[WP:SNOWPRO|WP:SnowPro]] consensus in the 2021 RfC. Editors cite racist, antisemitic, pseudoscientific and fringe content. The site's extensive archive of journal reprints includes many apparent [[WP:COPYLINK|copyright violations]].
+| {{WP:RSPUSES|unz.com|unz.org}}
+<section end="deprecated"/>
+|- class="s-gu" id="Urban Dictionary"
+| [[Urban Dictionary]] {{WP:RSPSHORTCUT|WP:URBANDICTIONARY}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 24#Urban Dictionary|1]] [[WP:Reliable sources/Noticeboard/Archive 37#Urban Dictionary is/is not a Reliable Source.|2]] [[WP:Reliable sources/Noticeboard/Archive 293#Urban Dictionary|3]]
+| {{WP:RSPLAST|2020|stale=n}}
+| Urban Dictionary is considered generally unreliable, because it consists solely of [[WP:UGC|user-generated content]].
+| {{WP:RSPUSES|urbandictionary.com}}
+|- class="s-gr" id="U.S. News & World Report"
+| ''[[U.S. News & World Report]]''
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 45#Using US News and World Report as an academic authority.|1]] [[WP:Reliable sources/Noticeboard/Archive 120#U.S. News and World Report as source for criticism|2]] [[WP:Reliable sources/Noticeboard/Archive 298#U.S. News|3]]
+| {{WP:RSPLAST|2020}}
+| There is consensus that ''U.S. News & World Report'' is generally reliable.
+| {{WP:RSPUSES|usnews.com}}
+|- class="s-nc" id="US Weekly"
+| ''[[Us Weekly]]'' {{WP:RSPSHORTCUT|WP:USWEEKLY}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 10#accesshollywood – Reliable source?|1]] [[WP:Reliable sources/Noticeboard/Archive 112#US Weekly and People magazine|2]] [[WP:Reliable sources/Noticeboard/Archive 168#US Weekly|3]] [[WP:Reliable sources/Noticeboard/Archive 170#Celebrity sources and distinguishing tabloid (newspaper format) from tabloid journalism|4]] [[WP:Reliable sources/Noticeboard/Archive 238#Absence of evidence as evidence of absence|5]]
+| {{WP:RSPLAST|2018}}
+| There is no consensus on the reliability of ''Us Weekly''. It is often considered less reliable than ''{{pslink|People}}'' magazine. ''See also: {{pslink|People}}''
+| {{WP:RSPUSES|usmagazine.com}}
+|- class="s-gr" id="USA Today"
+| ''[[USA Today]]'' {{WP:RSPSHORTCUT|WP:USATODAY}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 9#USA Today|1]] [[WP:Reliable sources/Noticeboard/Archive 44#MLM, USAToday quoting a trade organisation in a lifestyle section|2]] [[WP:Reliable sources/Noticeboard/Archive 141#MMA reliability|3]] [[WP:Reliable sources/Noticeboard/Archive 238#USA Today article on a book|4]] [[WP:Reliable sources/Noticeboard/Archive 377#USA Today|5]] [[WP:Reliable sources/Noticeboard/Archive 430#USA Today|6]]
+[[Talk:USA Today/Archive 1#Is USA Today centrist?|A]] [[Wikipedia talk:WikiProject Video games/Sources/Archive 5#USA Today|B]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that staff-written articles on ''USA Today'' are generally reliable. Editors note the publication's robust editorial process and its [[centrism|centrist]] alignment. Some content is written by [[contributor model|contributors]] with minimal editorial oversight, and is generally unreliable.
+| {{WP:RSPUSES|usatoday.com|usatoday.com/story/special/contributor-content}}
+|- class="s-gr" id="Vanity Fair"
+| ''[[Vanity Fair (magazine)|Vanity Fair]]'' {{WP:RSPSHORTCUT|WP:VANITYFAIR}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 18#Using a partially disputed Vanity Fair article as a source?|1]] [[WP:Reliable sources/Noticeboard/Archive 262#Use of blogs for sourcing height in BLPs|2]] [[WP:Reliable sources/Noticeboard/Archive 319#Vanity Fair partisanship|3]] [[WP:Reliable sources/Noticeboard/Archive 348#MEDRS required for amount of grant money received?|4]]
+| {{WP:RSPLAST|2021}}
+| ''Vanity Fair'' is considered generally reliable, including for [[popular culture]] topics. Some editors say it is [[WP:BIASED|biased or opinionated]].
+| {{WP:RSPUSES|vanityfair.com}}
+|- class="s-gr" id="Variety"
+| ''[[Variety (magazine)|Variety]]'' {{WP:RSPSHORTCUT|WP:VARIETY}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 2#Variety on Dragon Ball Z|1]] [[WP:Reliable sources/Noticeboard/Archive 20#Are Variety and The Hollywood Reporter reliable sources for film reviews?|2]] [[WP:Reliable sources/Noticeboard/Archive 29#Tucker Max and questions about 2 sources|3]] [[WP:Reliable sources/Noticeboard/Archive 160#imdb as a source for credits|4]] [[WP:Reliable sources/Noticeboard/Archive 207#Forbes article by credible contributor|5]]
+| {{WP:RSPLAST|2016}}
+| As an entertainment trade magazine, ''Variety'' is considered a reliable source in its field.
+| {{WP:RSPUSES|variety.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="VDARE"
+| [[VDARE]]
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|254|RFC: VDARE|2018|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 271#VDARE|1]]
+| {{WP:RSPLAST|2019|stale=n}}
+| VDARE was deprecated in the 2018 RfC. Editors agree that it is generally unusable as a source, although there may be rare exceptions such as in identifying its writers in an [[WP:ABOUTSELF|about-self fashion]]. Such limited instances will only be under careful and guided ("filtered") discretion.
+| {{WP:RSPUSES|vdare.com}}
+<section end="deprecated"/>
+|- class="s-gu" id="Venezuelanalysis"
+| [[Venezuelanalysis]] {{WP:RSPSHORTCUT|WP:VENEZUELANALYSIS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|262|RfC: Venezuelanalysis|2019|rfc=y}} {{rsnl|420|RfC: Venezuelanalysis|2023|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 55#Venezuelanalysis|1]]
+<br />[[Talk:Hugo Chávez/Archive 19#Sources|A]] [[Talk:Hugo Chávez/Archive 29#Venezuelanalysis.com not WP:RS|B]]
+| {{WP:RSPLAST|2023|stale=n}}
+| There is consensus that Venezuelanalysis is generally unreliable. Some editors consider Venezuelanalysis a [[Bolivarian propaganda]] outlet, and most editors question its accuracy and editorial oversight. Almost all editors describe the site as [[WP:BIASED|biased or opinionated]], so its claims should be [[WP:INTEXT|attributed]].
+| {{WP:RSPUSES|venezuelanalysis.com}}
+|- class="s-nc" id="VentureBeat"
+| [[VentureBeat]] {{WP:RSPSHORTCUT|WP:VENTUREBEAT}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 105#VentureBeat|1]] [[WP:Reliable sources/Noticeboard/Archive 482#Reevaluating VentureBeat: Churnalism, notability and AI use|2]] [[WP:Reliable sources/Noticeboard/Archive 486#TechCrunch, VentureBeat, and Business Insider|3]]<br>[[Wikipedia talk:WikiProject Video games/Sources/Archive 12#Venturebeat/Gamesbeat|A]]
+| {{WP:RSPLAST|2025}}
+| There is no consensus on the reliability of VentureBeat. Some editors expressed concern over the site's publication of [[churnalism]] and AI-generated articles, and argued against using the site to establish [[WP:N|notability]]. WikiProject Video games has [[WP:VG/S#General gaming|classified VentureBeat]] as generally reliable for its coverage of video games.
+| {{WP:RSPUSES|venturebeat.com}}
+|- class="s-gr" id="The Verge"
+| data-sort-value="Verge" | ''[[The Verge]]'' {{WP:RSPSHORTCUT|WP:THEVERGE}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|247|RfC about the reliability of The Verge as a source for use in articles relating to tech, science, culture, and cars|2018|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 259#Should The Verge be considered unreliable for topics involving computer hardware?|1]] [[WP:Reliable sources/Noticeboard/Archive 356#RfC: Is The Verge a reliable source when it comes to social issues?|2]] [[WP:Reliable sources/Noticeboard/Archive 426#The Verge|3]]
+| {{WP:RSPLAST|2024}}
+| There is broad consensus that ''The Verge'' is a [[WP:RS|reliable source]] for use in articles relating to technology, science, and automobiles. Some editors question the quality of ''The Verge''{{'}}s instructional content on [[computer hardware]]. ''See also: {{pslink|Vox}}, {{pslink|Polygon (pre-2025)}}, {{pslink|New York}}''
+| {{WP:RSPUSES|theverge.com}}
+<section begin="deprecated"/>
+|- class="s-b" id="Veterans Today"
+| ''[[Veterans Today]]''
+| {{WP:RSPSTATUS|d|b=y}}
+| {{rsnl|281|RfC: Deprecation of fake news / disinformation sites.|2019|rfc=y}}
+{{sbll|December 2019|More disinformation sites|2019}}<br>
+{{sbll|January 2025|vtforeignpolicy.com|2025}}<br>
+[[WP:Reliable sources/Noticeboard/Archive 139#Press TV and Veterans Today RS for their contibutors|1]] [[WP:Reliable sources/Noticeboard/Archive 182#Veterans Today|2]]
+| {{WP:RSPLAST|2019|stale=n}}
+| Due to persistent abuse, ''Veterans Today'' is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used. ''Veterans Today'' was deprecated in the 2019 RfC, which showed unanimous consensus that the site publishes [[fake news]] and [[antisemitism|antisemitic]] [[conspiracy theory|conspiracy theories]]. The use of ''Veterans Today'' as a reference should be generally prohibited, especially when other sources exist that are more [[WP:RS|reliable]]. ''Veterans Today'' should not be used for determining [[WP:N|notability]], or used as a [[WP:SECONDARY|secondary source]] in articles.
+| {{WP:RSPUSES|veteranstoday.com|vtforeignpolicy.com}}
+<section end="deprecated"/>
+|- class="s-gu" id="VGChartz"
+| [[VGChartz]]
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|277|RfC: VGChartz|2019|rfc=y}}
++10{{efn|See also these discussions of VGChartz:
+[[Wikipedia talk:WikiProject Video games/Archive 18#VGCharts|A]]
+[[Wikipedia talk:WikiProject Video games/Archive 35#Video Game sales charts|B]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 1#VG Chartz|C]]
+[[Wikipedia talk:WikiProject Video games/Archive 38#VGChartz re-visited|D]]
+[[Talk:VGChartz/Archive 1#lack of credibility|E]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 1#VGChartz|F]]
+[[Talk:VGChartz/Archive 1#Just to be clear|G]]
+[[Wikipedia talk:WikiProject Video games/Archive 55#VG Chartz|H]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 3#VGChartz|I]]
+[[Wikipedia talk:WikiProject Video games/Archive 96#VGChartz Inquiry|J]]
+}}
+| {{WP:RSPLAST|2019|stale=n}}
+| In the 2019 RfC, editors unanimously agreed that VGChartz is generally unreliable. The site consists mainly of news articles that qualify as [[WP:UGC|user-generated content]]. In addition, editors heavily criticize VGChartz for poor accuracy standards in its video game sales data, and its methodology page consists of wholly unverified claims.<ref>{{cite web|last=Carless|first=Simon|date=June 23, 2008|df=mdy|url=https://www.gamedeveloper.com/game-platforms/analysis-what-vgchartz-does-and-doesn-t-do-for-the-game-biz|title=Analysis: What VGChartz Does (And Doesn't) Do For The Game Biz|work=[[Game Developer (website)|Game Developer]]|accessdate=October 3, 2014}}</ref> If sources that are more reliable publish video game sales data for certain regions (usually [[Circana]], [[GfK Chart-Track]], and/or [[Media Create]]), it is strongly advised that editors cite those sources instead.
+| {{WP:RSPUSES|vgchartz.com}}
+|- class="s-nc" id="Vice Media"
+| {{anchor|VICE|Vice}} [[Vice Media]] <small>(''[[Garage (magazine)|Garage]]'', ''[[Vice (magazine)|Vice]]'', [[Vice News]], ''Motherboard'')</small> {{WP:RSPSHORTCUT|WP:VICE}}
+| {{WP:RSPSTATUS|nc}}
+| 17{{efn|See these discussions of Vice Media:
+[[WP:Reliable sources/Noticeboard/Archive 177#Reviews section of The Weight of Chains|1]]
+[[WP:Reliable sources/Noticeboard/Archive 178#Isha Foundation and Vice|2]]
+[[WP:Reliable sources/Noticeboard/Archive 189#Vice magazine usable?|3]]
+[[WP:Reliable sources/Noticeboard/Archive 244#VICE News|4]]
+[[WP:Reliable sources/Noticeboard/Archive 250#Motherboard|5]]
+[[WP:Reliable sources/Noticeboard/Archive 269#Refinery29|6]]
+[[WP:Reliable sources/Noticeboard/Archive 325#RSP listing for Vice Media|7]]
+[[WP:Reliable sources/Noticeboard/Archive 335#Vice and Dazed|8]]
+[[WP:Reliable sources/Noticeboard/Archive 347#Vice on Bret Weinstein|9]]
+[[WP:Reliable sources/Noticeboard/Archive 368#Vice on Pornhub|10]]
+[[WP:Reliable sources/Noticeboard/Archive 373#Reliability of Vice news?|11]]
+[[WP:Reliable sources/Noticeboard/Archive 376#Vice and other Sources at JP Sears|12]]
+[[WP:Reliable sources/Noticeboard/Archive 412#Vice News|13]]
+[[WP:Reliable sources/Noticeboard/Archive 414#Use of Vice in Operation Gideon (2020)|14]]
+[[WP:Reliable sources/Noticeboard/Archive 417#Vice.com and transphobia description|15]]
+[[WP:Reliable sources/Noticeboard/Archive 429#Vice|16]]
+[[WP:Reliable sources/Noticeboard/Archive 461#Vice Media (again)|17]]
+}}
+| {{WP:RSPLAST|2024}}
+| There is no consensus on the reliability of [[Vice Media]] publications.
+| {{WP:RSPUSES|vice.com|refinery29.com|vicetv.com}}
+|- class="s-gu" id="VoC"
+| [[Victims of Communism Memorial Foundation]] <small>(VOC)</small>
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 329#Victims of Communism Memorial Foundation|1]] [[WP:Reliable sources/Noticeboard/Archive 362#victimsofcommunism.org|2]]
+| {{WP:RSPLAST|2021}}
+| The Victims of Communism Memorial Foundation is an American [[anti-communist]] think tank and [[WP:SPS|blog]], considered to be an unreliable source due to misinformation and a generally poor reputation for fact checking and accuracy.
+| {{WP:RSPUSES|victimsofcommunism.org}}
+|- class="s-gr" id="The Village Voice"
+| data-sort-value="Village Voice" | ''[[The Village Voice]]''
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable_sources/Noticeboard/Archive_43#Village_Voice_Editorial_"Swift_Boat_Swill"|1]] [[WP:Reliable_sources/Noticeboard/Archive_50#Self-described_guide_to_"alternative_opinion"|2]] [[WP:Reliable_sources/Noticeboard/Archive_53#Is_village_voice_a_reliable_source|3]] [[WP:Reliable_sources/Noticeboard/Archive_159#"Consortium%20News"%20at%20October%20Surprise%20conspiracy%20theory|4]] [[WP:Reliable_sources/Noticeboard/Archive_193#American%20Mercury%20et%20al|5]] [[WP:Reliable_sources/Noticeboard/Archive_186#Is%20The%20Bay%20Magazine%20usable?|6]] [[WP:Reliable_sources/Noticeboard/Archive_222#All%20newspapers%20that%20publish%20in%20tabloid%20format%20are%20not%20reliable%20sources?|7]] [[WP:Reliable_sources/Noticeboard/Archive_349#Boston_Phoenix|8]] [[WP:Reliable_sources/Noticeboard/Archive_432#NYC%20Local%20Journalism,%20the%20Israeli%20Press%20&%20coverage%20of%20pro-Palestine%20Protesting|9]]
+| {{WP:RSPLAST|2024}}
+| There is consensus among editors that ''The Village Voice'' is generally reliable. It is an [[alternative newspaper|alternative]] [[newsweekly]] that has received multiple [[Pulitzer Prizes]].
+| {{WP:RSPUSES|villagevoice.com}}
+|- class="s-gr" id="Vogue"
+| ''[[Vogue (magazine)|Vogue]]'' {{WP:RSPSHORTCUT|WP:VOGUE}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 30#Problematic source on Hak Ja Han|1]] [[WP:Reliable sources/Noticeboard/Archive 81#Sources with Quotes|2]] [[WP:Reliable sources/Noticeboard/Archive 83#Quote in News Article as a Source|3]] [[WP:Reliable sources/Noticeboard/Archive 237#It's time to talk about biography.com generally|4]]
+| {{WP:RSPLAST|2018}}
+| ''Vogue'' is considered generally reliable. Potentially contentious statements made by ''Vogue'' interview subjects can be [[WP:INTEXT|attributed]] to the individual.
+| {{WP:RSPUSES|vogue.com}}
+|- class="s-gr" id="Voice of America"
+| [[Voice of America]] <small>(VOA, VoA)</small> {{WP:RSPSHORTCUT|WP:RSPVOA}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|353|VOA (Voice of America)|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 23#Article protected for 6 weeks now over dispute whether the Voice of America can be used to call someone an expert|1]]
+[[WP:Reliable sources/Noticeboard/Archive 46#Voice of America|2]]
+[[WP:Reliable sources/Noticeboard/Archive 90#VOA and US Army Signal Corps video|3]]
+[[WP:Reliable sources/Noticeboard/Archive 91#VOA video file|4]]
+[[WP:Reliable sources/Noticeboard/Archive 261#Voice of America (VOA)|5]]
+[[WP:Reliable sources/Noticeboard/Archive 330#Voice of America (VOA)|6]]
+[[WP:Reliable sources/Noticeboard/Archive 405#Caution required for Voice of America and related Radio Free stations from June 2020 to January 2021?|7]]
+[[WP:Reliable sources/Noticeboard/Archive 431#U.S. Agency for Global Media (USAGM)|8]]
+[[WP:Reliable sources/Noticeboard/Archive 437#Reopening the status of VOA as a perennial source|9]]
+| {{WP:RSPLAST|2024}}
+| Voice of America is an American [[State media|state-owned]] [[International broadcasting|international radio broadcaster]]. It is considered to be generally reliable, though some editors express concerns regarding its neutrality and editorial independence from the U.S. government.
+| {{WP:RSPUSES|voanews.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Voltaire Network"
+| [[Voltaire Network]]
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|297|voltairenet.org|2020|rfc=y}}
+| {{WP:RSPLAST|2020|stale=n}}
+| The Voltaire Network is considered unreliable due to its affiliation with conspiracy theorist [[Thierry Meyssan]] and its republication of articles from [[#Centre for Research on Globalization|Global Research]]. Editors unanimously agreed to deprecate the Voltaire Network in the 2020 RfC.
+| {{WP:RSPUSES|voltairenet.org}}
+<section end="deprecated"/>
+|- class="s-gr" id="Vox"
+| ''[[Vox (website)|Vox]]'' <small>(''[[Recode]]'')</small> {{WP:RSPSHORTCUT|WP:RSPVOX}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 170#is quoting someone's calculations based on four year old outdated information allowed?|1]] [[WP:Reliable sources/Noticeboard/Archive 181#Huffington Post and Vox and WP:BLP|2]] [[WP:Reliable sources/Noticeboard/Archive 219#Vox.com and Huffington Post at Smith & Wesson M&P15|3]] [[WP:Reliable sources/Noticeboard/Archive 285#Vox article containing a factually wrong claim is used in an article|4]] [[WP:Reliable sources/Noticeboard/Archive 362#Vox revisited|5]] [[WP:Reliable sources/Noticeboard/Archive 388#Vox|6]] [[WP:Reliable sources/Noticeboard/Archive 441#OpenAI "content and product partnerships" with Vox Media and The Atlantic|7]]
+| {{WP:RSPLAST|2024}}
+| ''Vox'' is considered generally reliable. Some editors say that ''Vox'' is a [[WP:PARTISAN|partisan source]] in the field of politics. ''See also: {{pslink|Polygon (pre-2025)}}, {{pslink|The Verge}}, {{pslink|New York}} ''
+| {{WP:RSPUSES|vox.com}}
+|- class="s-gr" id="The Wall Street Journal"
+| data-sort-value="Wall Street Journal" | ''[[The Wall Street Journal]]'' <small>(''WSJ'')</small> {{WP:RSPSHORTCUT|WP:WSJ}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 48#Alleged Wall Street Journal Publication|1]] [[WP:Reliable sources/Noticeboard/Archive 80#Washington Wire by WSJ?|2]] [[WP:Reliable sources/Noticeboard/Archive 96#Wall Street Journal is usually bogus|3]] [[WP:Reliable sources/Noticeboard/Archive 180#Wall Street Journal "Saturday Essay"|4]] [[WP:Reliable sources/Noticeboard/Archive 273#Dubious report by the Wall Street Journal|5]] [[WP:Reliable sources/Noticeboard/Archive 407#Wall Street Journal opinions|6]] [[WP:Reliable sources/Noticeboard/Archive 448#WSJ says it can't prove claims that 10% of UNWRA staff had ties to militant groups|7]]
+| {{WP:RSPLAST|2024}}
+| Most editors consider ''The Wall Street Journal'' generally reliable for news. Use [[WP:NEWSBLOG]] to evaluate the newspaper's blogs, including Washington Wire. Use [[WP:RSOPINION]] for opinion pieces.
+| {{WP:RSPUSES|wsj.com}}
+|- class="s-nc" id="Washington Examiner"
+| ''[[Washington Examiner]]'' {{WP:RSPSHORTCUT|WP:WASHINGTONEXAMINER}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 213#Reliability of the Washington Examiner|1]] [[WP:Reliable sources/Noticeboard/Archive 218#Washington Examiner|2]] [[WP:Reliable sources/Noticeboard/Archive 229#Erick Erickson and The Washington Examiner|3]] [[WP:Reliable sources/Noticeboard/Archive 192#Washington Examiner op-eds|4]] [[WP:Reliable sources/Noticeboard/Archive 253#Washington Examiner|5]] [[WP:Reliable sources/Noticeboard/Archive 271#Sources at Media bias in the United States for claims of censorship of conservative content|6]] [[WP:Reliable sources/Noticeboard/Archive 283#Newsbusters and The Washington Examiner as sources for facts in the lead of CNN|7]] [[WP:Reliable sources/Noticeboard/Archive 285#Washington Examiner on John McAfee|8]]
+| {{WP:RSPLAST|2020}}
+| There is no consensus on the reliability of the ''Washington Examiner'', but there is consensus that it should not be used to substantiate [[WP:EXCEPTIONAL|exceptional claims]]. Almost all editors consider the ''Washington Examiner'' a [[WP:PARTISAN|partisan source]] and believe that statements from this publication should be [[WP:INTEXT|attributed]]. The ''Washington Examiner'' publishes [[WP:RSOPINION|opinion columns]], which should be handled by following the appropriate guideline.
+| {{WP:RSPUSES|washingtonexaminer.com}}
+|- class="s-gu" id="The Washington Free Beacon 2012-2018"
+| data-sort-value="Washington Free Beacon 2012-2018" | ''[[The Washington Free Beacon]]'' (2012–2018)
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|478|RFC on the reliability of the Washington Free Beacon|2025|rfc=yes}}
+[[WP:Reliable sources/Noticeboard/Archive 227#Washington Free Beacon|1]] [[WP:Reliable sources/Noticeboard/Archive 291#Using The Washington Free Beacon in politically related BLPs - is it an RS?|2]]
+| {{WP:RSPLAST|2025}}
+| Most editors considered the ''Washington Free Beacon'' to be generally unreliable as a source during the editorship of [[Matthew Continetti]], particularly for material about BLPs or political topics. There was no consensus to deprecate it in a 2020 discussion, and a 2025 discussion confirmed consensus for its status as generally unreliable.
+| {{WP:RSPUSES|freebeacon.com}}
+|- class="s-gr" id="The Washington Free Beacon 2019-present"
+| data-sort-value="Washington Free Beacon 2019-present" |''[[The Washington Free Beacon]]'' (2019–present) {{WP:RSPSHORTCUT|WP:FREEBEACON}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|478|RFC on the reliability of the Washington Free Beacon|2025|rfc=yes}}
+[[WP:Reliable sources/Noticeboard/Archive 227#Washington Free Beacon|1]] [[WP:Reliable sources/Noticeboard/Archive 291#Using The Washington Free Beacon in politically related BLPs - is it an RS?|2]]
+| {{WP:RSPLAST|2025}}
+|Most editors considered the ''Washington Free Beacon'' to have become generally reliable during the editorship of [[Eliana Johnson]]. However, some editors consider it a [[Wikipedia:PARTISAN|partisan source]]. All editors should be aware that the ''Free Beacon'' sometimes publishes satirical or humorous articles which should be distinguished from their usual journalistic work. Some editors found articles by Andrew Stiles (''The Stiles Section'') generally unreliable.
+| {{WP:RSPUSES|freebeacon.com}}
+|- class="s-gr" id="The Washington Post"
+| data-sort-value="Washington Post" | ''[[The Washington Post]]'' <small>(''The Post'', ''WaPo'', ''TWP'')</small> {{WP:RSPSHORTCUT|WP:WAPO}}
+| {{WP:RSPSTATUS|gr}}
+| 20{{efn|See these discussions of ''The Washington Post'':
+[[WP:Reliable sources/Noticeboard/Archive 8#Christopher Hitchens, "Time" magazine and "Washington Post" as RS|1]]
+[[WP:Reliable sources/Noticeboard/Archive 72#A Washington Post Article...|2]]
+[[WP:Reliable sources/Noticeboard/Archive 165#Washington Post blog at Tor (anonymity network)|3]]
+[[WP:Reliable sources/Noticeboard/Archive 179#Volokh Conspiracy (now at washingtonpost.com)|4]]
+[[WP:Reliable sources/Noticeboard/Archive 180#Times, Washington Post and Guardian Reliability regarding GamerGate|5]]
+[[WP:Reliable sources/Noticeboard/Archive 180#Is "Speaking of Science" at the Washington Post a WP:NEWSBLOG?|6]]
+[[WP:Reliable sources/Noticeboard/Archive 184#Cambridge University Press and Washington Post on Islamophobia in Steven Emerson article|7]]
+[[WP:Reliable sources/Noticeboard/Archive 191#Americans for Prosperity funding proposed addition from Washington Post|8]]
+[[WP:Reliable sources/Noticeboard/Archive 197#Gun show loophole (Rolling Stone & Washington Post)|9]]
+[[WP:Reliable sources/Noticeboard/Archive 227#Erik Wemple of The Washington Post|10]]
+[[WP:Reliable sources/Noticeboard/Archive 246#Formalizing the addition of the Washington Post to WP:Identifying reliable sources/Perennial sources|11]]
+[[WP:Reliable sources/Noticeboard/Archive 258#Washington Post editorial|12]]
+[[WP:Reliable sources/Noticeboard/Archive 271#Washington Post article on LGBT rights|13]]
+[[WP:Reliable sources/Noticeboard/Archive 301#Monkey Cage|14]]
+[[WP:Reliable sources/Noticeboard/Archive 323#The reliability of an article in the Washington Post has been questioned|15]]
+[[WP:Reliable sources/Noticeboard/Archive 334#Washington Post and CNN|16]]
+[[WP:Reliable sources/Noticeboard/Archive 336#Washington Post have its rating downgraded like Fox News|17]]
+[[WP:Reliable sources/Noticeboard/Archive 421#Is the WashPo using Wikipedia as a source when reporting on MM4A.|18]]
+[[WP:Reliable sources/Noticeboard/Archive 440#Washington Post "in a hole" and required to have "AI everywhere in our newsroom"|19]]
+[[WP:Reliable sources/Noticeboard/Archive 442#Heads up re Washington Post|20]]
+}}
+| {{WP:RSPLAST|2024}}
+| Most editors consider ''The Washington Post'' generally reliable. Some editors note that [[WP:NEWSBLOG]] should be used to evaluate blog posts on ''The Washington Post''<nowiki />'s website.
+| {{WP:RSPUSES|washingtonpost.com}}
+|- class="s-nc" id="The Washington Times"
+| data-sort-value="Washington Times" | ''[[The Washington Times]]'' {{WP:RSPSHORTCUT|WP:WASHINGTONTIMES}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|328|RfC: The Washington Times|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 232#Washington Times|1]] [[WP:Reliable sources/Noticeboard/Archive 209#Is the Washington Times an acceptable source for statements of fact related to student protesters/black lives matter/Milo Yiannopoulos?|2]] [[WP:Reliable sources/Noticeboard/Archive 261#The Washington Times|3]] [[WP:Reliable sources/Noticeboard/Archive 285#The Washington Times|4]] [[WP:Reliable sources/Noticeboard/Archive 316#Rebel News|5]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''The Washington Times'' is a marginally reliable source for politics and science. Most editors agree that it is a [[WP:PARTISAN|partisan]] source. Some editors noted a history of publishing inaccurate or false information, of being slow to issue retractions or corrections, and of sometimes only doing so under the threat of legal action; a considerable minority favored deprecation on these grounds. ''The Washington Times'' is probably suitable for its mundane political coverage, although better sources should be preferred when available. ''The Washington Times'' should generally not be used for contentious claims, especially about [[WP:BLP|living persons]]. A majority of editors regard ''The Washington Times'' as generally reliable for topics other than politics and science. Opinion columns are governed by [[WP:RSOPINION]] and [[WP:NEWSBLOG]]. Some editors observed that ''The Washington Times'' has a [[WP:COI|conflict of interest]] regarding the [[Unification movement]] and related topics.
+| {{WP:RSPUSES|washingtontimes.com}}
+|- class="s-gu" id="WatchMojo"
+| [[WatchMojo]] {{WP:RSPSHORTCUT|WP:WATCHMOJO}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 294#WatchMojo|1]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 16#I would like to know your opinion on these sites.|A]] [[Wikipedia talk:WikiProject Video games/Sources/Archive 17#WatchMojo.com|B]] [[Wikipedia talk:WikiProject Video games/Sources/Archive 17#Unreliable|C]]
+| {{WP:RSPLAST|2020|stale=n}}
+| WatchMojo is a site that publishes Internet videos consisting of ranking [[listicle]]s. The site is considered generally unreliable due to poor fact checking and editorial oversight, and for failing to disclose its methodology.
+| {{WP:RSPUSES|watchmojo.com}}
+|- class="s-gu" id="Weather2Travel"
+| Weather2Travel.com
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 123#Weather2travel.com|1]] [[WP:Reliable sources/Noticeboard/Archive 131#weather2travel|2]]
+| {{WP:RSPLAST|2012|stale=n}}
+| Weather2Travel is a website operated by UK-based Global Support Limited. It expressly disclaims all content as indicative only and unfit to be relied upon. Some editors expressed concerns it may have a conflict of interest by way of some commercial ties.
+| {{WP:RSPUSES|weather2travel.com}}
+|- class="s-gr" id="The Weekly Standard"
+| data-sort-value="Weekly Standard" | ''[[The Weekly Standard]]''
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 54#Is Weekly Standard a Reliable Source for Facts in a BLP?|1]] [[WP:Reliable sources/Noticeboard/Archive 149#Is the Weekly Standard a Reliable Source?|2]] [[WP:Reliable sources/Noticeboard/Archive 178#Weekly Standard redux|3]]
+| {{WP:RSPLAST|2014}}
+| ''The Weekly Standard'' was considered generally reliable, but much of their published content was [[WP:RSOPINION|opinion]] and should be [[WP:INTEXT|attributed]] as such. Most editors say this magazine was a [[WP:PARTISAN|partisan source]]. ''The Weekly Standard'' shut down in 2018; website content is no longer available unless archived.
+| {{WP:RSPUSES|weeklystandard.com}}
+|- class="s-gu" id="The Western Journal"
+| data-sort-value="Western Journal" | ''[[The Western Journal]]'' <small>(''Western Journalism'')</small> {{WP:RSPSHORTCUT|WP:WESTERNJOURNAL}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|275|RfC: "The Western Journal" (September)|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 271#Western Journal|1]]
+| {{WP:RSPLAST|2019|stale=n}}
+| In the 2019 RfC, there was consensus that ''The Western Journal'' is generally unreliable, but no consensus on whether ''The Western Journal'' should be deprecated. The publication's [[WP:SYNDICATED|syndicated content]] should be evaluated by the reliability of its original publisher.
+| {{WP:RSPUSES|westernjournal.com}}
+|- class="s-gu" id="We Got This Covered"
+| ''We Got This Covered'' {{WP:RSPSHORTCUT|WP:WEGOTTHISCOVERED}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 281#Omigosh, are Cheatsheet.com and WeGotThisCovered.com reliable?|1]] [[WP:Reliable sources/Noticeboard/Archive 290#WeGotThisCovered.com is unreliable|2]] [[WP:Reliable sources/Noticeboard/Archive 376#WeGotThisCovered.com|3]]
+| {{WP:RSPLAST|2022}}
+| ''We Got This Covered'' is generally unreliable due to its lack of editorial oversight, publication of unsubstantiated or false rumors, speculation claimed as fact, and accepting contributions from non-staff contributors.
+| {{WP:RSPUSES|wegotthiscovered.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Wen Wei Po"
+| ''[[Wen Wei Po]]'' {{WP:RSPSHORTCUT|WP:WENWEIPO}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|306|RfC: Wen Wei Po|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 94#Wen Wei Po|1]]
+| {{WP:RSPLAST|2020|stale=n}}
+| ''Wen Wei Po'' was deprecated in the 2020 RfC as a state-owned Hong Kong propaganda outlet that has published falsified information.
+| {{WP:RSPUSES|wenweipo.com}}
+<section end="deprecated"/>
+|- class="s-gu" id="WhatCulture"
+| [[WhatCulture]] {{WP:RSPSHORTCUT|WP:WHATCULTURE}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 171#WhatCulture|1]] [[WP:Reliable sources/Noticeboard/Archive 296#WhatCulture|2]] [[WP:Reliable sources/Noticeboard/Archive 421#WhatCulture|3]]
+| {{WP:RSPLAST|2023}}
+| WhatCulture is considered generally unreliable. Contributors "do not need to have any relevant experience or hold any particular qualifications" and editors note a poor record of fact checking. [[WP:WikiProject Professional wrestling/Sources#Unreliable sources|It is listed as an unreliable source by WikiProject Professional wrestling]] and [[WP:WikiProject Video games/Sources#Unreliable sources|WikiProject Video games]].
+| {{WP:RSPUSES|whatculture.com}}
+|- class="s-gu" id="Who's Who (UK)"
+| [[Who's Who (UK)|''Who's Who'' (UK)]]
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|368|RfC - Who's Who (UK)|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 53#Is Who's Who a reliable source?|1]] [[WP:Reliable sources/Noticeboard/Archive 89#Who's Who U.K.|2]] [[WP:Reliable sources/Noticeboard/Archive 257#Who's Who and UK politicians|3]] [[WP:Reliable sources/Noticeboard/Archive 417#Who's Who in Australia - Reliable, please?|4]]
+| {{WP:RSPLAST|2022}}
+| ''Who's Who'' (UK) is considered generally unreliable due to its poor editorial standards and history of publishing false or inaccurate information. Its content is supplied primarily by its subjects, so it should be regarded as a [[WP:SPS|self-published source]]. ''See also: {{pslink|Marquis Who's Who}}.''
+| {{WP:RSPUSES|ukwhoswho.com}}
+|- class="s-gu" id="WhoSampled"
+| [[WhoSampled]] {{WP:RSPSHORTCUT|WP:WHOSAMPLED}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 120#whosampled.com|1]] [[WP:Reliable sources/Noticeboard/Archive 206#WhoSampled|2]]
+| {{WP:RSPLAST|2016|stale=n}}
+| WhoSampled is almost entirely composed of [[WP:UGC|user-generated content]], and is a [[WP:SPS|self-published source]].
+| {{WP:RSPUSES|whosampled.com}}
+|- class="s-gu" id="Wikidata"
+| [[Wikidata]] {{WP:RSPSHORTCUT|WP:RSPWD}}
+| {{WP:RSPSTATUS|gu}}
+| [[File:Treffpunkt.svg|20px|alt=Request for comment|link=WP:Requests for comment/Wikidata Phase 2]] [[WP:Requests for comment/Wikidata Phase 2|2013]] [[File:Treffpunkt.svg|20px|alt=Request for comment|link=WP:Wikidata/2018 Infobox RfC#Discussion]] [[WP:Wikidata/2018 Infobox RfC#Discussion|2018]]
+[[WP:Reliable sources/Noticeboard/Archive 187#Is Wikidata a 'reliable source' ?|1]] [[WP:Reliable sources/Noticeboard/Archive 242#WikiData source|2]] [[WP:Reliable sources/Noticeboard/Archive 424#Wikimedia Foundation projects|3]]
+| {{WP:RSPLAST|2024|stale=n}}
+| Wikidata is largely user-generated, and articles should not directly cite Wikidata as a source (just as it would be inappropriate to cite other Wikipedias' articles as sources). ''See also: {{pslink|Wikidata transcluded statements}}.''
+| {{WP:RSPUSES|wikidata.org}}
+|- class="s-nc" id="Wikidata transcluded statements"
+| [[Wikidata]] transcluded statements {{WP:RSPSHORTCUT|WP:RSPWDTRANS}}
+| {{WP:RSPSTATUS|nc}}
+| [[File:Treffpunkt.svg|20px|alt=Request for comment|link=WP:Requests for comment/Wikidata Phase 2]] [[WP:Requests for comment/Wikidata Phase 2|2013]] [[File:Treffpunkt.svg|20px|alt=Request for comment|link=WP:Wikidata/2018 Infobox RfC#Discussion]] [[WP:Wikidata/2018 Infobox RfC#Discussion|2018]]
+[[WP:Reliable sources/Noticeboard/Archive 187#Is Wikidata a 'reliable source' ?|1]] [[WP:Reliable sources/Noticeboard/Archive 242#WikiData source|2]]
+| {{WP:RSPLAST|2018}}
+| Uniquely among WMF sites, Wikidata's statements can be directly transcluded into articles; this is usually done to provide external links or infobox data. For example, more than two million external links from Wikidata are shown through the {{tl|Authority control}} template. There has been controversy over the use of Wikidata in the English Wikipedia due to its infancy, its vandalism issues and its sourcing. While there is no consensus on whether information from Wikidata should be used at all, there is general agreement that any Wikidata statements transcluded need to be just as – or more – reliable compared to Wikipedia content. As such, [[Module:WikidataIB]] and some related modules and templates filter unsourced Wikidata statements by default; however, other modules and templates, such as [[Module:Wikidata]], do not. ''See also: {{pslink|Wikidata}} (direct citations).''
+| style="text-align: center;" | —
+|- class="s-gu" id="WikiLeaks"
+| {{anchor|Wikileaks}} [[WikiLeaks]] {{WP:RSPSHORTCUT|WP:RSPWIKILEAKS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|348|RfC: WikiLeaks|2021|rfc=y}}
+17{{efn|See these discussions of WikiLeaks:
+[[WP:Reliable sources/Noticeboard/Archive 45#Wikileaks|1]]
+[[WP:Reliable sources/Noticeboard/Archive 47#Wikileaks?|2]]
+[[WP:Reliable sources/Noticeboard/Archive 78#Wikileaks Homeland Security Memo|3]]
+[[WP:Reliable sources/Noticeboard/Archive 132#WikiLeaks Cablegate documents|4]]
+[[WP:Reliable sources/Noticeboard/Archive 150#Is WikiLeaks a RS or OR?|5]]
+[[WP:Reliable sources/Noticeboard/Archive 158#WikiLeaks webpage as reliable source on exiled persons|6]]
+[[WP:Reliable sources/Noticeboard/Archive 177#Ali Khamenei wikileaks as a source|7]]
+[[WP:Reliable sources/Noticeboard/Archive 187#Wikileaks source?|8]]
+[[WP:Reliable sources/Noticeboard/Archive 206#Wikileaks|9]]
+[[WP:Reliable sources/Noticeboard/Archive 239#Wikileaks|10]]
+[[WP:Reliable sources/Noticeboard/Archive 246#Is a document from Wikileaks reliable?|11]]
+[[WP:Reliable sources/Noticeboard/Archive 288#Wikileaks|12]]
+[[WP:Reliable sources/Noticeboard/Archive 288#WikiLeaks cable|13]]
+[[WP:Reliable sources/Noticeboard/Archive 339#US diplomatic cables on Wikileaks|14]]
+[[WP:Reliable sources/Noticeboard/Archive 388#Wikileaks|15]]
+[[WP:Reliable sources/Noticeboard/Archive 402#Policy violation to link to WikiLeaks|16]]
+[[WP:Reliable sources/Noticeboard/Archive 431#WikiLeaks on its own article|17]]
+}}
+| {{WP:RSPLAST|2024}}
+| WikiLeaks is a repository of [[WP:PRIMARY|primary source]] documents [[News leak|leaked]] by [[anonymous sources]]. No consensus exists on its reliability. Some editors questioned the applicability of reliability ratings to Wikileaks. Some editors believe that documents from WikiLeaks fail the [[WP:V|verifiability policy]], because WikiLeaks does not adequately authenticate them, and there are concerns regarding whether the documents are genuine or tampered. It may be appropriate to cite a document from WikiLeaks as a [[WP:PRIMARY|primary source]], but only if it is discussed by a [[WP:RS|reliable source]]. However, linking to material that violates copyright is prohibited by [[WP:COPYLINK]].
+| {{WP:RSPUSES|wikileaks.org}}
+|- class="s-gu" id="Wikinews"
+| [[Wikinews]] {{WP:RSPSHORTCUT|WP:RSPWIKINEWS}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 3#Wikinews|1]] [[WP:Reliable sources/Noticeboard/Archive 4#Wikinews redux|2]] [[WP:Reliable sources/Noticeboard/Archive 5#Wikinews: Please post definite answer|3]] [[WP:Reliable sources/Noticeboard/Archive 20#Wikinews being used as a source for UFO sightings|4]] [[WP:Reliable sources/Noticeboard/Archive 27#Wikinews|5]] [[WP:Reliable sources/Noticeboard/Archive 40#Wikinews as a reference|6]] [[WP:Reliable sources/Noticeboard/Archive 125#Wikinews|7]] [[WP:Reliable sources/Noticeboard/Archive 126#Wikinews is reliable.|8]] [[WP:Reliable sources/Noticeboard/Archive 424#Wikimedia Foundation projects|9]]
+| {{WP:RSPLAST|2024|stale=n}}
+| Most editors believe that Wikinews articles do not meet Wikipedia's [[WP:V|verifiability standards]]. As Wikinews does not enforce a strong editorial policy, many editors consider the site equivalent to a [[WP:SPS|self-published source]], which is generally unreliable.
+| {{WP:RSPUSES|wikinews.org}}
+|- class="s-gu" id="Wikipedia"
+| [[Wikipedia]] <small>(including ''[[The Signpost]]'')</small> {{WP:RSPSHORTCUT|WP:RSPWP}}
+| {{WP:RSPSTATUS|gu}}
+| 22{{efn|See these discussions of WP:
+[[WP:Reliable sources/Noticeboard/Archive 5#Wikipedia/Wikinews research arm|1]]
+[[WP:Reliable sources/Noticeboard/Archive 13#Is Wikipedia a reliable source?|2]]
+[[WP:Reliable sources/Noticeboard/Archive 18#Polish Wikipedia useable as a source|3]]
+[[WP:Reliable sources/Noticeboard/Archive 26#Is ArbCom a reliable source?|4]]
+[[WP:Reliable sources/Noticeboard/Archive 37#Using Wikipedia software notices to confirm that high traffic to Michael Jackson's article caused server upsets|5]]
+[[WP:Reliable sources/Noticeboard/Archive 96#Image of Wikipedia in series' opening|6]]
+[[WP:Reliable sources/Noticeboard/Archive 107#References to non-English Wikipedias|7]]
+[[WP:Reliable sources/Noticeboard/Archive 113#List of books that plagiarize from Wikipedia|8]]
+[[WP:Reliable sources/Noticeboard/Archive 146#Is Wikipedia a reliable source?|9]]
+[[WP:Reliable sources/Noticeboard/Archive 154#Can Wikipedia be used as a reference when describing its own actions?|10]]
+[[WP:Reliable sources/Noticeboard/Archive 158#Use of wikipedia talk page as primary source on Chelsea Manning|11]]
+[[WP:Reliable sources/Noticeboard/Archive 166#Signpost as source for Wiki-PR editing of Wikipedia|12]]
+[[WP:Reliable sources/Noticeboard/Archive 178#Wikipedia will eat itself?|13]]
+[[WP:Reliable sources/Noticeboard/Archive 193#Stupid Wikipedia mirrors and Wikipedia Books!!!|14]]
+[[WP:Reliable sources/Noticeboard/Archive 198#Linking to a Wikipedia Article|15]]
+[[WP:Reliable sources/Noticeboard/Archive 211#A Wikipedia RfA|16]]
+[[WP:Reliable sources/Noticeboard/Archive 221#Changing a bizarre Wiki rule on sourcing|17]]
+[[WP:Reliable sources/Noticeboard/Archive 244#Wikipedia as a self-source.|18]]
+[[WP:Reliable sources/Noticeboard/Archive 290#Is The Signpost a RS?|19]]
+[[WP:Reliable sources/Noticeboard/Archive 339#Wikipedia fork|20]]
+[[WP:Reliable sources/Noticeboard/Archive 424#Wikimedia Foundation projects|21]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 2#Everything2.com, Wikia, Wikipedia|A]]
+}}
+| {{WP:RSPLAST|2024}}
+| [[WP:WINARS|Wikipedia itself is not a reliable source]] because [[WP:UGC|open wiki]]s are [[WP:SPS|self-published sources]]. This includes articles, non-article pages, ''[[The Signpost]]'', non-English Wikipedias, [[WP:Books|Wikipedia Books]], and [[WP:MIRROR|Wikipedia mirrors]]; see [[WP:CIRCULAR]] for guidance.<ref>{{cite web|url=http://www.independent.co.uk/news/long_reads/wikipedia-explained-what-is-it-trustworthy-how-work-wikimedia-2030-a8213446.html|title=Can we trust Wikipedia? 1.4 billion people can't be wrong|date=February 19, 2018|website=The Independent|accessdate=February 22, 2019|archive-url=https://web.archive.org/web/20190211185638/https://www.independent.co.uk/news/long_reads/wikipedia-explained-what-is-it-trustworthy-how-work-wikimedia-2030-a8213446.html|archive-date=February 11, 2019|url-status=live|df=mdy-all}}</ref> Occasionally, inexperienced editors may unintentionally cite the Wikipedia article about a publication instead of the publication itself; in these cases, fix the citation instead of removing it. Although citing Wikipedia as a source is against policy, content can be copied between articles with proper attribution; see [[WP:COPYWITHIN]] for instructions.
+| {{WP:RSPUSES|wikipedia.org}}
+|- class="s-gr" id="The Wire India"
+| data-sort-value="Wire, The" | [[The Wire (India)|''The Wire'' (India)]]
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|402|RfC: The Wire (India)|2023|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 289#Is LiveWire a reliable source for Pinjra Tod?|1]] [[WP:Reliable sources/Noticeboard/Archive 367#The Wire (India) relaible source|2]] [[WP:Reliable sources/Noticeboard/Archive 389#The Wire (India)|3]] [[WP:Reliable sources/Noticeboard/Archive 390#New fake story by The Wire|4]] [[WP:Reliable sources/Noticeboard/Archive 402#The Wire (Indian Publication) and Meta Controversy|5]]
+| {{WP:RSPLAST|2023}}
+| ''The Wire'' is considered generally reliable under the [[WP:NEWSORG|news organizations guideline]].
+| {{WP:RSPUSES|thewire.in|thewirehindi.com|thewireurdu.com}}
+|- class="s-gr" id="Wired"
+| ''[[Wired (magazine)|Wired]]'' <small>(''[[Wired UK]]'')</small>
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 3#leaked documents?|1]] [[WP:Reliable sources/Noticeboard/Archive 79#Wired.com|2]] [[WP:Reliable sources/Noticeboard/Archive 103#wired.com and whosnews.usaweekend.com|3]] [[WP:Reliable sources/Noticeboard/Archive 109#Wired 1998|4]] [[WP:Reliable sources/Noticeboard/Archive 199#Wired magazine story and insistence by editors to follow apparent misrepresentation|5]] [[WP:Reliable sources/Noticeboard/Archive 200#Wired re: time travel|6]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 4#Wired|A]]
+| {{WP:RSPLAST|2018}}
+| ''Wired'' magazine is considered generally reliable for science and technology.
+| {{WP:RSPUSES|wired.com|wired.co.uk}}
+|- class="s-gu" id="WordPress.com"
+| [[WordPress.com]] {{WP:RSPSHORTCUT|WP:RSPWORDPRESS}}
+| {{WP:RSPSTATUS|gu}}
+| 16{{efn|See these discussions of WordPress.com:
+[[WP:Reliable sources/Noticeboard/Archive 9#justice4lebanon.wordpress.com|1]]
+[[WP:Reliable sources/Noticeboard/Archive 36#Wordpress|2]]
+[[WP:Reliable sources/Noticeboard/Archive 45#A Wordpress.com interview as a source|3]]
+[[WP:Reliable sources/Noticeboard/Archive 51#wordpress.com|4]]
+[[WP:Reliable sources/Noticeboard/Archive 53#counterjihadeuropa.wordpress|5]]
+[[WP:Reliable sources/Noticeboard/Archive 72#wordpress|6]]
+[[WP:Reliable sources/Noticeboard/Archive 124#Three Irish wordpress sources|7]]
+[[WP:Reliable sources/Noticeboard/Archive 162#http://tiananmenstremendousachievements.wordpress.com/|8]]
+[[WP:Reliable sources/Noticeboard/Archive 169#Are these two Wordpress-hosted blog posts reliable sources for Speyer wine bottle?|9]]
+[[WP:Reliable sources/Noticeboard/Archive 174#http://tbjoshuawatch.wordpress.com/|10]]
+[[WP:Reliable sources/Noticeboard/Archive 218#Box Office Bangladesh (boxofficebangladesh.wordpress.com)|11]]
+[[WP:Reliable sources/Noticeboard/Archive 239#If a reliable source relies solely on a Wordpress blog which is unreliable ...|12]]
+[[WP:Reliable sources/Noticeboard/Archive 249#kannadamoviesinfo.wordpress.com|13]]
+[[WP:Reliable sources/Noticeboard/Archive 288#Birthday Cake for Breakfast|14]]
+[[WP:Reliable sources/Noticeboard/Archive 339#Wordpress on critical reception from writer already quoted in page|15]]
+[[WP:Reliable sources/Noticeboard/Archive 412#WordPress – BrentTornado|16]]
+}}
+| {{WP:RSPLAST|2023}}
+| WordPress.com is a [[WP:BLOGS|blog]] hosting service that runs on the [[WordPress]] software. As a [[WP:SPS|self-published source]], it is considered generally unreliable and should be avoided unless the author is a [[WP:EXPERTSOURCE|subject-matter expert]] or the blog is used for [[WP:ABOUTSELF|uncontroversial self-descriptions]]. WordPress.com should never be used for claims related to [[WP:BLPSPS|living persons]]; this includes interviews, as even those cannot be authenticated.
+| {{WP:RSPUSES|wordpress.com}}
+|- class="s-nc" id="WCD-WCE-WRD"
+| ''World Christian Database'', ''[[World Christian Encyclopedia]]'', and ''World Religion Database'' <small>(''WCD'', ''WCE'', ''WRD'')</small> {{WP:RSPSHORTCUT|WP:WCD}} {{WP:RSPSHORTCUT|WP:WCE}} {{WP:RSPSHORTCUT|WP:WRD}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|395|RfC: deprecation of Gordon-Conwell's WRD/WCD/ARDA & Pew-Templeton's GRF|2022|rfc=y}} {{rsnl|428|RfC: WCE-WRD/WCD|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 395#Association of Religion Data Archives and World Religion Database|1]] [[WP:Reliable sources/Noticeboard/Archive 428#World Christian Encyclopedia and World Religion Database/World Christian Database|2]]
+| {{WP:RSPLAST|2024}}
+| Additional considerations apply to the use of the ''World Christian Database'', ''World Christian Encyclopedia'', and ''World Religion Database''. Editors should attribute factual information derived from the sources and they should generally not use them if other reliable sources are available. Scholars have advanced strong methodological critiques of the sources. However, they are published by [[Oxford University Press]], [[Edinburgh University Press]], and [[Brill Publishing|Brill]], and they are used with caution by reliable sources, including the [[Pew Research Center]], Oxford Handbooks, and [[Cambridge University Press|Cambridge reference works]] (some postdating the methodological critiques).
+| {{WP:RSPUSES|worldchristiandatabase.org|referenceworks.brillonline.com/entries/world-christian-encyclopedia-online|worldreligiondatabase.org}}
+<section begin="deprecated"/>
+|- class="s-d" id="WorldNetDaily"
+| ''[[WorldNetDaily]]'' <small>(''WND'')</small> {{WP:RSPSHORTCUT|WP:WND}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|253|RfC: WorldNetDaily|2018|rfc=y}}
++16{{efn|See also these discussions of ''WorldNetDaily'':
+[[WP:Reliable sources/Noticeboard/Archive 4#FrontPage Magazine and WorldNetDaily|1]]
+[[WP:Reliable sources/Noticeboard/Archive 22#WorldNetDaily|2]]
+[[WP:Reliable sources/Noticeboard/Archive 38#World Net Daily|3]]
+[[WP:Reliable sources/Noticeboard/Archive 45#Open source intelligence websites as reliable sources - WorldNetDaily|4]]
+[[WP:Reliable sources/Noticeboard/Archive 49#Statement in book published by WND Books--Purpose: to reflect that author warned of risk before event happened|5]]
+[[WP:Reliable sources/Noticeboard/Archive 52#WorldNetDaily|6]]
+[[WP:Reliable sources/Noticeboard/Archive 59#WorldNetDaily books|7]]
+[[WP:Reliable sources/Noticeboard/Archive 62#WORLD NET DAILY final answer needed|8]]
+[[WP:Reliable sources/Noticeboard/Archive 80#World Net Daily - RS citation?|9]]
+[[WP:Reliable sources/Noticeboard/Archive 113#WND (WorldNetDaily?, WorldNetWeekly?, not sure what the acronym stands for)|10]]
+[[WP:Reliable sources/Noticeboard/Archive 188#Is WND.com RS|11]]
+[[WP:Reliable sources/Noticeboard/Archive 200#Are Xinhau and WND reliable sources for information on Islamism in the Gaza Strip|12]]
+[[WP:Reliable sources/Noticeboard/Archive 229#wnd.com (i.e. World Net Daily) and citizenwells.net (i.e. Citizen News) for use in Suicide of Vince Foster (third listing)|13]]
+[[WP:Reliable sources/Noticeboard/Archive 251#Billy Graham interview on WorldNetDaily|14]]
+[[WP:Reliable sources/Noticeboard/Archive 252#Opinions sourced to WorldNetDaily|15]]
+[[WP:Reliable sources/Noticeboard/Archive 252#Is an article in World Net Daily reliable source?|16]]
+}}
+| {{WP:RSPLAST|2018|stale=n}}
+| ''WorldNetDaily'' was deprecated in the 2018 RfC. There is clear consensus that ''WorldNetDaily'' is not a reliable source, and that it should not be used because of its particularly poor reputation for fact-checking and accuracy. The website is known for promoting falsehoods and [[conspiracy theories]]. Most editors consider ''WorldNetDaily'' a [[WP:PARTISAN|partisan source]]. ''WorldNetDaily''<nowiki />'s [[WP:SYNDICATED|syndicated content]] should be evaluated by the reliability of its original publisher, and the citation should preferably point to the original publisher.
+| {{WP:RSPUSES|wnd.com|worldnetdaily.com}}
+<section end="deprecated"/>
+|- class="s-gu" id="Worldometer"
+| [[Worldometer]] <small>(Worldometers)</small>
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 287#https://www.worldometers.info/coronavirus/#countries|1]] [[WP:Reliable sources/Noticeboard/Archive 288#worldometers.info coronavirus statistics|2]] [[WP:Reliable sources/Noticeboard/Archive 299#Worldometers.info|3]]
+| {{WP:RSPLAST|2020|stale=n}}
+| Worldometer is a [[WP:SPS|self-published source]] and editors have questioned its accuracy and methodology. It is [[Template:Current COVID-19 Project Consensus|disallowed]] by [[WP:COVID-19|WikiProject COVID-19]] as a source for statistics on the [[COVID-19 pandemic]] and is considered generally unreliable for other topics.
+| {{WP:RSPUSES|worldometers.info}}
+|- class="s-nc" id="World Socialist Web Site"
+| [[World Socialist Web Site]] (WSWS) {{WP:RSPSHORTCUT|WP:WSWS}}
+| {{WP:RSPSTATUS|nc}}
+| 10{{efn|See these discussions of World Socialist Web Site:
+[[WP:Reliable sources/Noticeboard/Archive 15#Reliability of WSWS|1]] [[WP:Reliable sources/Noticeboard/Archive 24#IsraelInsider|2]]
+[[WP:Reliable sources/Noticeboard/Archive 24#Valkyrie|3]]
+[[WP:Reliable sources/Noticeboard/Archive 67#Boxun.com|4]]
+[[WP:Reliable sources/Noticeboard/Archive 145#Biased Editing of Kevyn Orr biography?|5]]
+[[WP:Reliable sources/Noticeboard/Archive 194#World Socialist Web Site|6]]
+[[WP:Reliable sources/Noticeboard/Archive 292#The 1619 Project and the World Socialist Web Site|7]]
+[[WP:Reliable sources/Noticeboard/Archive 341#World Socialist Web Site denying Uyghur Genocide|8]]
+[[WP:Reliable sources/Noticeboard/Archive 353#World Socialist Web Site|9]]
+[[WP:Reliable sources/Noticeboard/Archive 425#World Socialist Web Site|10]]
+}}
+| {{WP:RSPLAST|2024}}
+| The World Socialist Web Site is the online news and information publication of the [[International Committee of the Fourth International]], a [[Trotskyist]] political organisation. Most editors consider it to be reliable for the [[WP:INTEXT|attributed]] [[WP:RSOPINION|opinions]] of its authors. There is no consensus on whether it is reliable for factual reporting. If used, it must be evaluated for [[WP:UNDUE|due weight]] as it is an [[WP:BIASED|opinionated source]]. Some editors suggest that it may be more reliable for news related to labor issues.
+| {{WP:RSPUSES|wsws.org}}
+|- class="s-gr" id="TheWrap"
+| ''[[TheWrap]]'' {{WP:RSPSHORTCUT|WP:THEWRAP}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 149#The Wrap (thewrap.com)|1]] [[WP:Reliable sources/Noticeboard/Archive 222#TheWrap|2]]
+| {{WP:RSPLAST|2017}}
+| As an industry trade publication, there is consensus that ''TheWrap'' is a good source for entertainment news and media analysis. There is no consensus regarding the reliability of ''TheWrap''<nowiki />'s articles on other topics.
+| {{WP:RSPUSES|thewrap.com}}
+|- class="s-nc" id="XBIZ"
+| data-sort-value="XBIZ"| [[XBIZ]]
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|349|RfC: Adult industry sources|2021|rfc=y}}
+| {{WP:RSPLAST|2021}}
+| ''XBIZ'' is considered generally reliable for the adult industry. However, it publishes press releases/sponsored content without clearly delineating the distinction between their own journalism and the promotional content of others. Thus, editors should take care that the source is not used for content obviously or likely to be promotional.
+| {{WP:RSPUSES|xbiz.com}}
+|- class="s-nc" id="Xinhua News Agency"
+| [[Xinhua News Agency]] <small>(New China News Agency)</small> {{WP:RSPSHORTCUT|WP:XINHUA}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|312|RfC: Xinhua News Agency|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 38#Is Xinhua News reliable?|1]] [[WP:Reliable sources/Noticeboard/Archive 288#Xinhua News Agency|2]] [[WP:Reliable sources/Noticeboard/Archive 341#Xinhua|3]]
+| {{WP:RSPLAST|2021}}
+| Xinhua News Agency is the official state-run press agency of the People's Republic of China. There is consensus that Xinhua is generally reliable for factual reporting except in areas where the government of China may have a reason to use it for propaganda or disinformation. Xinhua is also generally reliable for the views and positions of the Chinese government and its officials. For subjects where the Chinese government may be a stakeholder, the consensus is almost unanimous that Xinhua cannot be trusted to cover them accurately and dispassionately; some editors favour outright deprecation because of its lack of [[WP:IS|editorial independence]]. There is no consensus for applying any one single label to the whole of the agency. Caution should be exercised in using this source, extremely so in case of [[WP:REDFLAG|extraordinary claims]] on controversial subjects or [[WP:BLP|biographies of living people]]. When in doubt, try to find better sources instead; use [[WP:INTEXT|inline attribution]] if you must use Xinhua.
+| {{WP:RSPUSES|xinhuanet.com|news.cn}}
+|- class="s-gr" id="Yahoo News"
+| ''[[Yahoo! News]]'' {{WP:RSPSHORTCUT|WP:YAHOONEWS}}
+| {{WP:RSPSTATUS|gr}}
+| 12{{efn|See these discussions of Yahoo News:
+[[WP:Reliable sources/Noticeboard/Archive 90#movies.yahoo.com|1]]
+[[WP:Reliable sources/Noticeboard/Archive 157#Is Yahoo! News a Reliable Source?|2]]
+[[WP:Reliable sources/Noticeboard/Archive 200#Tampa Tribune vs. Yahoo! News in Personal life section of Graig Weich|3]]
+[[WP:Reliable sources/Noticeboard/Archive 234#Is Yahoo Sports a reliable source?|4]]
+[[WP:Reliable sources/Noticeboard/Archive 332#Yahoo! News article for PragerU|5]]
+[[WP:Reliable sources/Noticeboard/Archive 355#RfC -- Yahoo! News|6]]
+[[WP:Reliable sources/Noticeboard/Archive 356#Should Yahoo! News / Sports be listed as an reliable, unreliable, or deprecated source?|7]]
+[[WP:Reliable sources/Noticeboard/Archive 376#Raping and killing a 1-year-old in Ukraine as alleged by Ukr. politician and reported by Daily Beast and Yahoo News|8]]
+[[WP:Reliable sources/Noticeboard/Archive 387#Ukrinform and Yahoo|9]]
+[[WP:Reliable sources/Noticeboard/Archive 404#Reliability of Yahoo! News, Noticel, El Mundo, Home News Tribune, and Hartford Courant|10]]
+[[WP:Reliable sources/Noticeboard/Archive 429#Is Yahoo's intheknow.com generally reliable?|11]]
+[[Wikipedia talk:Reliable sources/Perennial sources/Archive 7#Yahoo! News|A]]
+}}
+| {{WP:RSPLAST|2024}}
+| ''Yahoo! News'' runs both original reporting and syndicated feeds of other sources. Editors have treated the original reporting as an ordinary [[WP:NEWSORG]], and thus presumed generally reliable. Take care with syndicated content, which varies from highly reliable sources to very unreliable sources. Syndicated content should be evaluated as you would evaluate the original source. Syndicated content will have the original source's name and/or logo at the top.
+| {{WP:RSPUSES|news.yahoo.com}}
+|- class="s-gu" id="YouTube"
+| [[YouTube]] {{WP:RSPSHORTCUT|WP:RSPYT}}
+| {{WP:RSPSTATUS|gu}}
+| 36{{efn|See also these discussions of YouTube:
+[[WP:Reliable sources/Noticeboard/Archive 19#YouTube|1]]
+[[WP:Reliable sources/Noticeboard/Archive 79#YouTube used as source on Deadwood (TV series)|2]]
+[[WP:Reliable sources/Noticeboard/Archive 122#Youtube again|3]]
+[[WP:Reliable sources/Noticeboard/Archive 117#When is YouTube a good source?|4]]
+[[WP:Reliable sources/Noticeboard/Archive 212#Youtube video used as a source in the lead section of the Blockchain (database) article.|5]]
+[[WP:Reliable sources/Noticeboard/Archive 256#YouTube official music video as a reference for that video|6]]
+[[WP:Reliable sources/Noticeboard/Archive 259#Is a YouTube video sufficient to call James Allsup a holocaust denier|7]]
+[[WP:Reliable sources/Noticeboard/Archive 267#Youtube – ABCs of attraction channel|8]]
+[[WP:Reliable sources/Noticeboard/Archive 268#Fan created content on YouTube|9]]
+[[WP:Reliable sources/Noticeboard/Archive 286#USS Nimitz UFO incident youtube interviews of witnesses|10]]
+[[WP:Reliable sources/Noticeboard/Archive 288#YouTube video and COVID-19|11]]
+[[WP:Reliable sources/Noticeboard/Archive 289#Youtube|12]]
+[[WP:Reliable sources/Noticeboard/Archive 291#Official meeting videos posted to YouTube|13]]
+[[WP:Reliable sources/Noticeboard/Archive 293#Citing individual Youtube reviews and Know Your Meme|14]]
+[[WP:Reliable sources/Noticeboard/Archive 293#EEVblog|15]]
+[[WP:Reliable sources/Noticeboard/Archive 293#Allow a small number of YouTube channels as reliable sources?|16]]
+[[WP:Reliable sources/Noticeboard/Archive 296#Can YouTube video (having more than 100K views) be used as references for notability|17]]
+[[WP:Reliable sources/Noticeboard/Archive 296#Patric Cagle and Broken People YouTube sources, and groundlings.com|18]]
+[[WP:Reliable sources/Noticeboard/Archive 300#Workshopping a YouTube RfC|19]]
+[[WP:Reliable sources/Noticeboard/Archive 301#YouTube personality subscriber and viewing figures in BLPs|20]]
+[[WP:Reliable sources/Noticeboard/Archive 307#RfC: YouTube|21]]
+[[WP:Reliable sources/Noticeboard/Archive 358#Dr. John Campbell's Youtube channel|22]]
+[[WP:Reliable sources/Noticeboard/Archive 359#Should the text that appears alongside YouTube videos be considered reliable?|23]]
+[[WP:Reliable sources/Noticeboard/Archive 361#BBC video on Cage YouTube Channel for use on Draft:Tauqir Sharif|24]]
+[[WP:Reliable sources/Noticeboard/Archive 368#Are YouTube subscriber counts reliable sources?|25]]
+[[WP:Reliable sources/Noticeboard/Archive 382#25|26]]
+[[WP:Reliable sources/Noticeboard/Archive 401#Youtube as source|27]]
+[[WP:Reliable sources/Noticeboard/Archive 404#Kings and Generals YouTube channel|28]]
+[[WP:Reliable sources/Noticeboard/Archive 407#Nazario Collection and use of YouTube (and the media)|29]]
+[[WP:Reliable sources/Noticeboard/Archive 417#Is a YouTube video with archaeologist Brad Hafford a reliable source for Baghdad Battery?|30]]
+[[WP:Reliable sources/Noticeboard/Archive 426#YouTube and Spotify sources, are these reliable?|31]]
+[[WP:Reliable sources/Noticeboard/Archive 433#Use of YouTube as source for video information|32]]
+[[WP:Reliable sources/Noticeboard/Archive 436#TED Talks (from ted.com or youtube)|33]]
+[[WP:Reliable sources/Noticeboard/Archive 437#Citing a YouTube channel|34]]
+[[WP:Reliable sources/Noticeboard/Archive 460#Is it acceptable to include self published YouTube videos?|35]]
+[[Wikipedia talk:WikiProject Video games/Sources/Archive 10#YouTube add?|A]]
+}}
+| {{WP:RSPLAST|2024}}
+| Most videos on YouTube are anonymous, [[WP:SPS|self-published]], and unverifiable, and should not be used as a reference. Content uploaded from a verified official account, such as that of a news organization, may be treated as originating from the uploader and therefore inheriting their level of reliability. However, many YouTube videos from unofficial accounts are copyright violations and should not be linked from Wikipedia, according to [[WP:COPYLINK]]. See also [[WP:YOUTUBE]] and [[WP:VIDEOLINK]]. For illustrative, non-referential use, see [[c:Commons:YouTube files]] and [[Wikipedia:Image use policy]].
+| {{WP:RSPUSES|youtube.com}}
+|- class="s-gr" id="ZDNet (pre-October 2020)"
+| [[ZDNET]] (pre-October 2020)
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|430|RfC: Red Ventures|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 40#Download pages as source for notability?|1]] [[WP:Reliable sources/Noticeboard/Archive 55#Reliability of Virgin Media|2]] [[WP:Reliable sources/Noticeboard/Archive 109#Daily Caller as source of opinion refuting a technical white paper + secondary sources|3]] [[WP:Reliable sources/Noticeboard/Archive 158#http://desktoplinuxreviews.com and http://www.omgubuntu.co.uk|4]] [[WP:Reliable sources/Noticeboard/Archive 181#Reliable sources for identifying malware|5]] [[WP:Reliable sources/Noticeboard/Archive 197#TorrentFreak, again|6]] [[WP:Reliable sources/Noticeboard/Archive 239#Tweet as an RS|7]] [[WP:Reliable sources/Noticeboard/Archive 424#Something strange is going on with ZDNet|8]]
+| {{WP:RSPLAST|2024}}
+| ZDNet is considered generally reliable for technology-related articles prior to its acquisition by [[Red Ventures]] in October 2020.
+| {{WP:RSPUSES|zdnet.com}}
+|- class="s-gu" id="ZDNet (October 2020–present)"
+| [[ZDNET]] (October 2020–present)
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|430|RfC: Red Ventures|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 401#Is ZDNet still reliable?|1]] [[WP:Reliable sources/Noticeboard/Archive 424#Something strange is going on with ZDNet|2]] [[WP:Reliable sources/Noticeboard/Archive 453#CNET and ZDNET are now under Ziff Davis ownership. Should they get a new chance or continue be considered too unreliable?|3]]
+| {{WP:RSPLAST|2024}}
+| ZDNet was acquired by digital marketing company Red Ventures in October 2020. There is consensus that ZDNet, along with other online properties of Red Ventures, is generally unreliable. Editors express concern that Red Ventures, as a matter of policy, uses AI-authored content on its properties in a non-transparent and unreliable manner. ZDNET was purchased by Ziff Davis in August 2024, which may mean that the reasons for considering it unreliable may no longer apply. 
+| {{WP:RSPUSES|zdnet.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Zero Hedge"
+| [[Zero Hedge]] <small>(ZeroHedge, ZH)</small> {{WP:RSPSHORTCUT|WP:ZEROHEDGE}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|302|RfC: Zero Hedge|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 199#ZeroHedge Blog post by "Tyler Durden"|1]] [[WP:Reliable sources/Noticeboard/Archive 238#Zero Hedge|2]] [[WP:Reliable sources/Noticeboard/Archive 259#rate "Zero Hedge"|3]]
+| {{WP:RSPLAST|2020|stale=n}}
+| Zero Hedge was deprecated in the 2020 RfC due to its propagation of [[conspiracy theories]]. It is a [[WP:BLOGS|self-published blog]] that is [[WP:BIASED|biased or opinionated]].
+| {{WP:RSPUSES|zerohedge.com}}
+<section end="deprecated"/>
+|- class="s-b" id="ZoomInfo"
+| [[ZoomInfo]]
+| {{WP:RSPSTATUS|gu|b=y}}
+| {{sbll|January 2020|Zoominfo.com|2020}}
+[[WP:Reliable sources/Noticeboard/Archive 198#Linkedin / Zoolink|1]] [[WP:Reliable sources/Noticeboard/Archive 283#zoominfo|2]]
+| {{WP:RSPLAST|2020|stale=n}}
+| Due to persistent abuse, ZoomInfo is currently on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used.
+| {{WP:RSPUSES|zoominfo.com}}
+</onlyinclude>
+|}

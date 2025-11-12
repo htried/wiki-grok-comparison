@@ -1,0 +1,576 @@
+{| class="wikitable sortable perennial-sources"
+|+ Perennial sources
+!rowspan="2" scope="col" | Source
+!rowspan="2" scope="col" | Status<br /><small>([[#Legend|legend]])</small>
+!colspan="3" scope="colgroup" | Discussions
+!rowspan="2" scope="col" class="unsortable" | Use
+|-
+! scope="col" class="unsortable" | List
+! scope="col" | Last
+! scope="col" class="unsortable" | Summary
+<onlyinclude>
+<section begin="deprecated"/>
+|- class="s-d" id="Occupy Democrats"
+| [[Occupy Democrats]] <small>(Washington Press)</small> {{WP:RSPSHORTCUT|WP:OCCUPYDEMOCRATS}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|249|RfC: Occupy Democrats|2018|rfc=y}}
+| {{WP:RSPLAST|2018|stale=n}}
+| In the 2018 RfC, there was clear consensus to deprecate Occupy Democrats as a source à la the ''{{pslink|Daily Mail}}''. This does not mean it cannot ever be used on Wikipedia; it means it cannot be used as a reference for facts. It can still be used as a [[WP:PRIMARY|primary source]] for attributing opinions, viewpoints, and the like.
+| {{WP:RSPUSES|occupydemocrats.com|washingtonpress.com}}
+|- class="s-d" id="Office of Cuba Broadcasting"
+| [[Radio y Televisión Martí|Office of Cuba Broadcasting]] <small>(Radio y Television Martí, martinoticias.com)</small> {{WP:RSPSHORTCUT|WP:OCB}}{{WP:RSPSHORTCUT|WP:RYTM}}{{WP:RSPSHORTCUT|WP:MARTI}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|432|RfC: Surrogate services of the U.S. Agency for Global Media|2024|rfc=y}} {{rsnl|437|Office of Cuba Broadcasting of the United States Government|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 431#U.S. Agency for Global Media (USAGM)|1]]
+| {{WP:RSPLAST|2024}}
+| Any platforms operated by the Office of Cuba Broadcasting of the [[U.S. Agency for Global Media]], including but not limited to ''Radio y Television Martí'' (RyTM) and its website, martinoticias.com, are deprecated. There is consensus that RyTM has poor editorial controls that fall below professional standards of journalism, presents opinion as fact, reports on unsubstantiated information, and promotes propaganda, including anti-Semitic conspiracy theories.
+| {{WP:RSPUSES|martinoticias.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="OKO.press"
+| [[OKO.press]] {{WP:RSPSHORTCUT|WP:OKO}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|355|Survey: OKO.press|2021|rfc=y}} {{rsnl|432|RFC: OKO.press|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 328#Glaukopis journal|1]] [[WP:Reliable sources/Noticeboard/Archive 329#Gazeta Wyborcza and OKO.press|2]]
+| {{WP:RSPLAST|2024}}
+| OKO.press is a Polish investigative journalism and fact-checking website. There is consensus that it is generally reliable in its reporting, though some editors consider it a [[WP:BIASED|biased source]].
+| {{WP:RSPUSES|oko.press}}
+<section begin="deprecated"/>
+|- class="s-d" id="One America News Network"
+| [[One America News Network]] <small>(OANN)</small> {{WP:RSPSHORTCUT|WP:OANN}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|281|RfC: One America News Network|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 241#One America News Network|1]]
+| {{WP:RSPLAST|2019|stale=n}}
+| In the 2019 RfC, there was clear consensus to deprecate One America News Network as a source à la the ''{{pslink|Daily Mail}}''. Editors noted that One America News Network published a number of falsehoods, conspiracy theories, and intentionally misleading stories. One America News Network should not be used, ever, as a reference for facts, due to its unreliability. It can still be used as a [[WP:PRIMARY|primary source]] when attributing opinions, viewpoints, and commentary, meaning that it should not be used as a source outside of its own article.
+| {{WP:RSPUSES|oann.com}}
+<section end="deprecated"/>
+|- class="s-gu" id="The Onion"
+| data-sort-value="Onion" | ''[[The Onion]]''
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 221#The Onion|1]] [[WP:Reliable sources/Noticeboard/Archive 260#Can we talk about The Onion?|2]] [[WP:Reliable sources/Noticeboard/Archive 458#Infowars|3]]
+| {{WP:RSPLAST|2024|stale=n}}
+| ''The Onion'' is a [[List of satirical news websites|satirical news website]], and should not be used as a source for facts.
+| {{WP:RSPUSES|theonion.com}}
+|- class="s-b" id="OpIndia"
+| [[OpIndia]] {{WP:RSPSHORTCUT|WP:OPINDIA}}
+| {{WP:RSPSTATUS|gu|b=y}}
+| [[WP:Reliable sources/Noticeboard/Archive 248#Scroll, OpIndia, The Wire, The Quint, The Print, DailyO, postcardnews, rightlog etc.|1]] [[WP:Reliable sources/Noticeboard/Archive 288#OpIndia and Swarajya|2]]
+| {{WP:RSPLAST|2020|stale=n}}
+| Due to persistent abuse, OpIndia is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[WT:WHITELIST|whitelisted]] before they can be used. OpIndia is considered generally unreliable due to its poor reputation for fact-checking and accuracy. OpIndia was rejected by the {{pslink|International Fact-Checking Network}} when it applied for accreditation in 2019. In the [[WP:Reliable sources/Noticeboard/Archive 288#OpIndia and Swarajya|2020 discussion]], most editors expressed support for [[WP:DEPREC|deprecating]] OpIndia. Editors consider the site [[WP:BIASED|biased or opinionated]]. OpIndia has directly attacked and [[Doxing|doxed]] Wikipedia editors who edit India-related articles. Posting or linking to another editor's personal information is prohibited under the [[WP:OUTING|outing policy]], unless the editor is voluntarily disclosing the information on Wikipedia. Editors who are subject to legal risks due to their activity on Wikipedia may [[:m:Legal/Legal Policies#Defense of Contributors|request assistance from the Wikimedia Foundation]], although support is not guaranteed. ''See also: {{pslink|Swarajya}}.''
+| {{WP:RSPUSES|opindia.com|opindia.in}}
+|- class="s-gu" id="Our Campaigns"
+| Our Campaigns
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|335|RfC – ourcampaigns.com|2021|rfc=y}}
+| {{WP:RSPLAST|2021}}
+| Our Campaigns is considered generally unreliable due to its publishing of [[WP:USERG|user-generated content]].
+| {{WP:RSPUSES|ourcampaigns.com}}
+|- class="s-gu" id="PanAm Post"
+| ''[[PanAm Post]]''
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|296|RfC: PanAm Post|2020|rfc=y}} {{rsnl|418|RfC: Reliability of PanAm Post|2023|rfc=y}}
+| {{WP:RSPLAST|2023}}
+| There is consensus that the ''PanAm Post'' is generally unreliable for factual reporting. Most editors consider the publication [[WP:BIASED|biased or opinionated]]. Some editors note that the ''PanAm Post'' is [[WP:UBO|used by other sources that are reliable]] and only believe that its opinion section should be avoided.
+| {{WP:RSPUSES|panampost.com}}
+|- class="s-gu" id="Patheos"
+| [[Patheos]] {{WP:RSPSHORTCUT|WP:PATHEOS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|365|Request for comment on citing Patheos|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 167#Patheos blogs|1]] [[WP:Reliable sources/Noticeboard/Archive 182#Patheos.com|2]] [[WP:Reliable sources/Noticeboard/Archive 185#Patheos|3]]
+| {{WP:RSPLAST|2022}}
+| Patheos is a website that hosts a collection of blogs. These blogs receive little editorial oversight and should be treated as [[WP:SPS|self-published sources]].
+| {{WP:RSPUSES|patheos.com}}
+|- class="s-nc" id="La Patilla"
+| data-sort-value="Patilla" | ''[[La Patilla]]''
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|415|RfC: Reliability of La Patilla|2023|rfc=y}}
+[[Talk:La Patilla#RfC: Reliability of La Patilla|1]]
+| {{WP:RSPLAST|2023}}
+| ''La Patilla'' is considered marginally reliable as a news source covering Venezuela, with several additional considerations. Aggregated content should not be used at all. Avoid referencing articles on ''La Patilla'' that themselves reference unreliable sources, as editors have concerns about editorial oversight in such cases. Editors note a clear [[WP:BIASED|political bias]], be extremely cautious in referencing coverage of politics. Some editors note that the bias may also affect choice of topics. Avoid use in [[WP:GS|contentious topics]], e.g. COVID-19. Avoid for controversial [[WP:BLP]] claims.
+| {{WP:RSPUSES|lapatilla.com}}
+|- class="s-gr" id="Public Broadcasting Service"
+| [[PBS]] <small>(Public Broadcasting Service)</small> {{WP:RSPSHORTCUT|WP:RSPPBS}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 101#Emme (model)|1]] [[WP:Reliable sources/Noticeboard/Archive 135#Judaism: The oldest monotheistic religion|2]] [[WP:Reliable sources/Noticeboard/Archive 150#Center for Investigative Reporting|3]] [[WP:Reliable sources/Noticeboard/Archive 153#thinkprogress.org as a generally accepted WP:RS|4]] [[WP:Reliable sources/Noticeboard/Archive 206#Pbs.org|5]]
+| {{WP:RSPLAST|2016}}
+| The [[PBS|Public Broadcasting Service]] is an American public broadcaster. It is considered generally reliable by editors.
+| {{WP:RSPUSES|pbs.org}}
+<section begin="deprecated"/>
+|-class="s-d" id="Peerage websites"
+| [[Peerage]] websites ([[WP:SPS|self-published]])
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|295|Two genealogy sites|2020|rfc=y}} {{rsnl|297|More nobility fansites|2020|rfc=y}}
++12{{efn|See also these discussions of peerage websites (self-published):
+[[WP:Reliable sources/Noticeboard/Archive 52#worldstatesmen.org|1]]
+[[WP:Reliable sources/Noticeboard/Archive 103#Self-published royalty websites|2]]
+[[WP:Reliable sources/Noticeboard/Archive 112#Worldstatesmen.org|3]]
+[[WP:Reliable sources/Noticeboard/Archive 114#thepeerage.com|4]]
+[[WP:Reliable sources/Noticeboard/Archive 121#thepeerage.com (update)|5]]
+[[WP:Reliable sources/Noticeboard/Archive 132#thepeerage.com|6]]
+[[WP:Reliable sources/Noticeboard/Archive 158#Worldstatesmen.org|7]]
+[[WP:Reliable sources/Noticeboard/Archive 224#Rulers.org and Worldstatesmen.org|8]]
+[[WP:Reliable sources/Noticeboard/Archive 233#worldstatesmen.org|9]]
+[[WP:Reliable sources/Noticeboard/Archive 263#Royalark|10]]
+[[WP:Reliable sources/Noticeboard/Archive 266#thepeerage.com|11]]
+[[WP:Reliable sources/Noticeboard/Archive 298#Deprecated site question|12]]
+}}
+| {{WP:RSPLAST|2020|stale=n}}
+| Two RfCs found consensus that certain [[WP:SPS|self-published]] peerage websites are not reliable for genealogical information and should be deprecated. See [[WP:Reliable sources/Perennial sources#Self-published peerage websites|WP:RSP §&nbsp;Self-published peerage websites]] for the full list.
+| [[#Self-published peerage websites|List]]
+<section end="deprecated"/>
+|- class="s-gr" id="People"
+| ''[[People (magazine)|People]]'' {{WP:RSPSHORTCUT|WP:PEOPLEMAG}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|157|RfC: Is People magazine a reliable source for BLPs?|2013|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 27#Tabloid Magazines, e.g. People Magazine|1]] [[WP:Reliable sources/Noticeboard/Archive 44#Mackenzie Phillips|2]] [[WP:Reliable sources/Noticeboard/Archive 112#US Weekly and People magazine|3]]
+[[WP:Reliable sources/Noticeboard/Archive 170#Celebrity sources and distinguishing tabloid (newspaper format) from tabloid journalism|4]] [[WP:Reliable sources/Noticeboard/Archive 240#Request: RS check on BLP|5]] [[WP:Reliable sources/Noticeboard/Archive 361#Demote People magazine|6]] [[WP:Reliable sources/Noticeboard/Archive 387#People Magazine reliability?|7]]
+| {{WP:RSPLAST|2022}}
+| There is consensus that ''People'' magazine can be a reliable source in [[WP:BLP|biographies of living persons]], but the magazine should not be used for contentious claims unless supplemented with a stronger source.
+| {{WP:RSPUSES|people.com}}
+|- class="s-gr" id="People Make Games"
+| [[People Make Games]]
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|399|RFC: People Make Games|2023|rfc=y}}
+| {{WP:RSPLAST|2023}}
+| There is consensus that People Make Games is generally reliable for the topic of video games, although care should be taken if using the source for [[WP:BLP]]-related information due to concerns that they have no clear editorial policy, and they are a [[WP:EXPERTSPS]].
+| {{--}}
+|- class="s-gr" id="Pew Research Center"
+| [[Pew Research Center]]
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 78#UNHCR and PEW Research Center|1]] [[WP:Reliable sources/Noticeboard/Archive 123#Pew Research Center|2]]
+| {{WP:RSPLAST|2012}}
+| There is consensus that the [[Pew Research Center]] is generally reliable.
+| {{WP:RSPUSES|pewresearch.org|people-press.org|journalism.org|pewsocialtrends.org|pewforum.org|pewinternet.org|pewhispanic.org|pewglobal.org}}
+|- class="s-gu" id="An Phoblacht"
+| data-sort-value="Phoblacht" | ''[[An Phoblacht]]''
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|299|RfC: An Phoblacht|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 199#An Poblacht as reliable source??|1]]
+| {{WP:RSPLAST|2020|stale=n}}
+| There is consensus that ''An Phoblacht'' is generally unreliable for news reporting, as it is a publication of [[Sinn Féin]]. Under the conditions of [[WP:ABOUTSELF]], ''An Phoblacht'' is usable for [[WP:INTEXT|attributed]] statements from Sinn Féin and some editors believe that the publication may also be used for attributed statements from the [[Provisional Irish Republican Army]] (IRA).
+| {{WP:RSPUSES|anphoblacht.com}}
+|- class="s-gu" id="Pinkvilla"
+| [[Pinkvilla]] {{WP:RSPSHORTCUT|WP:PINKVILLA}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|484|RfC: Pinkvilla|2025|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 355#Pinkvilla, Meaww & Bollywood Life|1]] [[Wikipedia:Reliable sources/Noticeboard/Archive 418#Reliablity of Pinkvilla|2]] [[WP:Reliable sources/Noticeboard/Archive 463#Pinkvilla|3]] [[WP:Reliable sources/Noticeboard/Archive 466#pinkvilla.com - reliability disclaimers on pages|4]] [[WP:Reliable sources/Noticeboard/Archive 477#Pinkvilla copied data from Cinetrak|5]] [[WP:Reliable sources/Noticeboard/Archive 479#Pinkvilla|6]] [[WP:Reliable sources/Noticeboard/Archive 483#Pinkvilla|7]]<br> [[Wikipedia talk:WikiProject Film/Indian cinema task force/Archive 8#Pinkvilla is unreliable for box office figures|A]]
+| {{WP:RSPLAST|2025}}
+| Due to concerns centered around the reliability of box office numbers and lack of authenticity, in the 2025 RfC, there was consensus that Pinkvilla is generally unreliable.
+| {{WP:RSPUSES|pinkvilla.com}}
+|- class="s-gr" id="PinkNews"
+| ''[[PinkNews]]'' {{WP:RSPSHORTCUT|WP:PINKNEWS}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|305|PinkNews|2020|rfc=y}}
++10{{efn|See also these discussions of ''PinkNews'':
+[[WP:Reliable sources/Noticeboard/Archive 47#Pink News|1]] [[WP:Reliable sources/Noticeboard/Archive 110#Multiple sources offered to label a person as being "Bigot of the Year"|2]] [[WP:Reliable sources/Noticeboard/Archive 292#PinkNews AKA Pink News|3]] [[WP:Reliable sources/Noticeboard/Archive 305#PinkNews|4]] [[WP:Reliable sources/Noticeboard/Archive 359#PinkNews needs to be reevaluated|5]] [[WP:Reliable sources/Noticeboard/Archive 369#Pink News|6]] [[WP:Reliable sources/Noticeboard/Archive 384#PinkNews and BLP|7]] [[WP:Reliable sources/Noticeboard/Archive 407#Pink News|8]] [[WP:Reliable sources/Noticeboard/Archive 433#PinkNews's reliability|9]] [[WP:Reliable sources/Noticeboard/Archive 449#Out, PinkNews, and Pride.com|10]]
+}}
+| {{WP:RSPLAST|2024}}
+| There is rough consensus that ''[[PinkNews]]'' is ''generally'' reliable for factual reporting, but additional considerations may apply and caution should be used. Most of those who commented on ''PinkNews''{{'}} reliability for statements about a person's sexuality said that such claims had to be based on direct quotes from the subject.
+| {{WP:RSPUSES|pinknews.co.uk}}
+|- class="s-gu" id="Planespotters"
+| Planespotters.net {{WP:RSPSHORTCUT|WP:PLANESPOTTERS}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 399#Planespotters.net|1]] [[WP:Reliable sources/Noticeboard/Archive 408#Airline fleets- Planespotters.net|2]]<br> [[Talk:Air Transat#Fleet size|A]] [[WT:WikiProject Aviation/Archive 17#Planespotters as reliable source|B]] [[WT:WikiProject Aviation/Archive 23#Planespotters.com again|C]]
+| {{WP:RSPLAST|2023}}
+| Although Planespotters.net has been widely used for aviation articles, there is consensus that it is generally unreliable. The website's content is mostly self-published or user-generated, unverified, with many instances of inaccurate reporting.
+| {{WP:RSPUSES|planespotters.net}}
+|- class="s-gr" id="Playboy"
+| ''[[Playboy]]''
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 22#Marjoe Gortner in Oui|1]] [[WP:Reliable sources/Noticeboard/Archive 24#Hustler magazine a reliable source for World Affairs?|2]] [[WP:Reliable sources/Noticeboard/Archive 42#Adult industry|3]] [[WP:Reliable sources/Noticeboard/Archive 74#Hustler magazine as a source|4]] [[WP:Reliable sources/Noticeboard/Archive 104#Xrentdvd|5]] [[WP:Reliable sources/Noticeboard/Archive 120#Askmen.com|6]] [[WP:Reliable sources/Noticeboard/Archive 123#Wim Dankbaar – Is this a notability issue or is this a reliable source issue?|7]] [[WP:Reliable sources/Noticeboard/Archive 184#wekinglypigs.com|8]]
+| {{WP:RSPLAST|2015}}
+| There is consensus that ''Playboy'' is generally reliable. Editors note the publication's reputation for high-quality interviews and fact-checking.
+| {{WP:RSPUSES|playboy.com}}
+|- class="s-b" id="The Points Guy"
+| data-sort-value="Points Guy news" | [[The Points Guy]] (news and reviews) <small>(TPG)</small>
+| {{WP:RSPSTATUS|nc|b=y}}
+| {{sbll|December 2018|Sponsored consumer finance blogs|2018}} {{rsnl|263|RfC: The Points Guy|2019|rfc=y}}
+[[MediaWiki talk:Spam-blacklist/archives/May 2019#thepointsguy.com|A]] [[MediaWiki talk:Spam-whitelist/Archives/2019/03#"News" and "Reviews" sections of The Points Guy (thepointsguy.com/news, thepointsguy.com/reviews)|B]] [[MediaWiki talk:Spam-whitelist/Archives/2019/04#"News" and "Reviews" sections of The Points Guy (thepointsguy.com/news, thepointsguy.com/reviews)|C]]
+| {{WP:RSPLAST|2019|stale=n}}
+| There is no consensus on the reliability of news articles and reviews on The Points Guy. The Points Guy has advertising relationships with credit card and travel companies, and content involving these companies should be avoided as sources. The Points Guy is currently on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[WT:WHITELIST|whitelisted]] before they can be used. ''See also: {{pslink|The Points Guy (sponsored content)}}.''
+| {{WP:RSPUSES|thepointsguy.com/news|thepointsguy.com/reviews}}
+|- class="s-b" id="The Points Guy (sponsored content)"
+| data-sort-value="Points Guy sponsored" | [[The Points Guy]] (sponsored content) <small>(TPG)</small>
+| {{WP:RSPSTATUS|gu|b=y}}
+| {{sbll|December 2018|Sponsored consumer finance blogs|2018}} {{rsnl|263|RfC: The Points Guy|2019|rfc=y}}
+[[MediaWiki talk:Spam-blacklist/archives/May 2019#thepointsguy.com|A]] [[MediaWiki talk:Spam-whitelist/Archives/2019/03#"News" and "Reviews" sections of The Points Guy (thepointsguy.com/news, thepointsguy.com/reviews)|B]] [[MediaWiki talk:Spam-whitelist/Archives/2019/04#"News" and "Reviews" sections of The Points Guy (thepointsguy.com/news, thepointsguy.com/reviews)|C]]
+| {{WP:RSPLAST|2019|stale=n}}
+| There is consensus that sponsored content on The Points Guy, including content involving credit cards, should not be used as sources. The Points Guy has advertising relationships with credit card and travel companies, receiving compensation from readers signing up for credit cards via the website's links. The Points Guy is currently on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[WT:WHITELIST|whitelisted]] before they can be used. ''See also: [[#The Points Guy|The Points Guy (news and reviews)]].''
+| {{WP:RSPUSES|thepointsguy.com}}
+|- class="s-gr" id="Politico"
+| ''[[Politico]]'' {{WP:RSPSHORTCUT|WP:POLITICO}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|363|RfC: Politico update?|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 11#Politico.com|1]] [[WP:Reliable sources/Noticeboard/Archive 19#DataTreasury|2]] [[WP:Reliable sources/Noticeboard/Archive 50#Politico; Also for Book reviews: New Engish Review and Pajamas Media|3]] [[WP:Reliable sources/Noticeboard/Archive 65#self-published?|4]] [[WP:Reliable sources/Noticeboard/Archive 232#Is an SPLC report a reliable source for List of Confederate monuments and memorials?|5]] [[WP:Reliable sources/Noticeboard/Archive 241#Statements of Fact Based on One Report from One Media Outlet, Sourced to Anonymous Sources|6]] [[WP:Reliable sources/Noticeboard/Archive 458#Politico status update|7]]
+| {{WP:RSPLAST|2024}}
+| ''Politico'' is considered generally reliable for American politics. A small number of editors say that ''Politico'' is a [[WP:BIASED|biased]] source.
+| {{WP:RSPUSES|politico.com}}
+|- class="s-gr" id="PolitiFact"
+| [[PolitiFact]] <small>(PunditFact)</small>
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|215|Is PolitiFact a reliable source for fact checking?|2016|rfc=y}} {{rsnl|279|RfC: PolitiFact|2019|rfc=y}}
+| {{WP:RSPLAST|2019}}
+| PolitiFact is a reliable source for reporting the veracity of statements made by political candidates as well as the percentage of false statements made by a political candidate (of the statements checked by PolitiFact), provided that [[WP:INTEXT|attribution]] is given.
+| {{WP:RSPUSES|politifact.com}}
+|- class="s-gr" id="Polygon (pre-May 2025)"
+| ''[[Polygon (website)|Polygon]]'' (pre-May 2025)
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 218#Tweet as a reliable source|1]] [[WP:Reliable sources/Noticeboard/Archive 302#Is video game website polygon.com a RS for information on allegations of sexual misconduct against BLPs?|2]]<br> [[WT:WikiProject Video games/Sources/Archive 6#Polygon|A]] [[WT:WikiProject Video games/Sources/Archive 7#Additions to VGReviews|B]] [[WT:WikiProject Video games/Sources/Archive 9#Legends of Localization, Polygon|C]] [[WT:WikiProject Video games/Sources/Archive 10#Polygon|D]]
+| {{WP:RSPLAST|2020}}
+| ''Polygon'' is considered generally reliable for video games and pop culture related topics during its ownership by [[Vox Media]]. ''See also: {{pslink|The Verge}}, {{pslink|Vox}}, {{pslink|New York}}''
+| {{WP:RSPUSES|polygon.com}}
+|- class="s-m" id="Polygon"
+| ''[[Polygon (website)|Polygon]]'' (May 2025–present) {{WP:RSPSHORTCUT|WP:POLYGON}}
+| {{WP:RSPSTATUS|m}}
+| [[WT:WikiProject Video games/Sources#Polygon sold to Valnet, hit with major layoffs|A]] [[WT:WikiProject Video games#Polygon sold to Valnet, most staff laid off.|B]]
+| {{WP:RSPLAST|2025}}
+| In May 2025, Vox Media sold ''Polygon'' to Valnet, which promptly laid off most staff; as of May 2025, this event's long-term impact on reliability is unknown. Editors have expressed concern over the site's ownership by Valnet, which runs several content farms. Articles should be evaluated on a case-by-case basis until the status of editorial deterioration is confirmed. ''See also: [[WP:VALNET]]''
+| {{WP:RSPUSES|polygon.com}}
+|- class="s-nc" id="Popular Mechanics"
+| ''[[Popular Mechanics]]'' (UFOs, UAPs) <small>(PopMech)</small> {{WP:RSPSHORTCUT|WP:POPMECH}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl||RfC: Popular Mechanics (online) for flying saucers|2025|rfc=y}}<!--Needs updating with archive link-->
+[[WP:Reliable sources/Noticeboard/Archive 323#Popular Mechanics for UFO claims|1]]
+| {{WP:RSPLAST|2025}}
+| In the 2025 RfC, editors raised concerns over ''Popular Mechanics''{{'}}s coverage of UFO/UAP topics, regarding their promotion of [[WP:FRINGE|fringe topics]] and coverage of [[UFOs]]. Caution is required in order to avoid citing [[WP:HEADLINES|headlines]] while articles should be considered on a [[WP:CONTEXTMATTERS|case-by-case basis]], providing [[WP:INTEXT|attribution]] where necessary for [[WP:BIAS|questionable claims]] within this topic area.
+| {{WP:RSPUSES|popularmechanics.com}}
+|- class="s-gu" id="The Post Millennial"
+| data-sort-value="Post Millennial" | ''[[The Post Millennial]]'' {{WP:RSPSHORTCUT|WP:POSTMIL}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|308|RfC: The Post Millennial|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 296#The Post Millennial for article Supervised injection site|1]] [[WP:Reliable sources/Noticeboard/Archive 320#The Post Millennial, again|2]]
+| {{WP:RSPLAST|2020|stale=n}}
+| There is consensus that ''The Post Millennial'' is generally unreliable. Editors have noted multiple instances of inaccurate reporting, and consider the publication to be strongly biased. ''See also: {{pslink|Human Events}}.''
+| {{WP:RSPUSES|thepostmillennial.com}}
+|- class="s-gu" id="PR Newswire"
+| [[PR Newswire]] {{WP:RSPSHORTCUT|WP:PRNEWSWIRE}}
+| {{WP:RSPSTATUS|gu}}
+|[[WP:Reliable sources/Noticeboard/Archive 56#PR newswire and Ajax world magazine|1]] [[WP:Reliable sources/Noticeboard/Archive 88#PR Newswire|2]] [[WP:Reliable sources/Noticeboard/Archive 149#is PRweb/PR NewsWire OK for use as citation?|3]] [[WP:Reliable sources/Noticeboard/Archive 214#Online Business News Sources which use PR:Newswire – WP:PROMOTION concerns|4]] [[WP:Reliable sources/Noticeboard/Archive 260#PR Newswire and SYZYGY for Millennials WP article|5]]
+| {{WP:RSPLAST|2019|stale=n}}
+| There is consensus that PR Newswire is generally unreliable, as press releases published on the site are not subject to editorial oversight. Some articles may be used for uncontroversial claims [[WP:ABOUTSELF|about the article's author]].
+| {{WP:RSPUSES|prnewswire.com|prnewswire.co.uk}}
+|- class="s-gu" id="Preprints"
+| [[Preprint]]s {{WP:RSPSHORTCUT|WP:RSNPREPRINTS}} {{WP:RSPSHORTCUT|WP:ARXIV}} {{WP:RSPSHORTCUT|WP:BIORXIV}} {{WP:RSPSHORTCUT|WP:MEDRXIV}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|365|Rfc for deprecation of pre-print repositories|2022|rfc=y}}
++11{{efn|See these discussions of arXiv:
+[[WP:Reliable sources/Noticeboard/Archive 68#ArXiv.org|1]] [[WP:Reliable sources/Noticeboard/Archive 93#Arxiv lecture notes|2]] [[WP:Reliable sources/Noticeboard/Archive 131#arXiv paper|3]] [[WP:Reliable sources/Noticeboard/Archive 134#ARXIV.ORG paper|4]] [[WT:Reliable sources/Archive 4#ArXiv preprints and conference abstracts|A]] [[WT:Reliable sources/Archive 49#Unpublished/SPS/UGC sources and Template:Cite arXiv|B]]<br/>
+These discussions of bioRxiv: [[WP:Reliable sources/Noticeboard/Archive 276#Non peer-reviewed pre-print version of scientific paper|1]] [[WP:Reliable sources/Noticeboard/Archive 304#bioRxiv (discussion on RS for haplogroups)|2]]<br>
+These discussions of SSRN: [[WP:Reliable sources/Noticeboard/Archive 3#Social Science Research Network|1]] [[WP:Reliable sources/Noticeboard/Archive 11#Paper That Uses Non-RS?|2]] [[WP:Reliable sources/Noticeboard/Archive 413# SSRN: Published or preprint?|3]]
+}}
+| {{WP:RSPLAST|2015|stale=n}}
+| [[List of preprint repositories|Preprint repositories]], like [[arXiv]], [[bioRxiv]], [[medRxiv]], ''[[PeerJ Preprints]]'', ''[[Preprints.org]]'', and [[SSRN]] contain papers that have undergone moderation, but not necessarily [[Scholarly peer review|peer review]]. There is consensus that preprints are [[WP:SPS|self-published source]]s, and are generally unreliable with the exception of papers authored by established [[subject-matter expert]]s. Verify whether a preprint paper has been published in a peer-reviewed [[academic journal]]; in these cases, cite the more reliable journal and provide an [[open access]] link to the paper (which may be hosted on the preprint repository). See also [[WP:SPSPREPRINT]].
+| {{WP:RSPUSES|arxiv.org|biorxiv.org|medrxiv.org}}
+<section begin="deprecated"/>
+|- class="s-d" id="Press TV"
+| [[Press TV]] {{WP:RSPSHORTCUT|WP:PRESSTV}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|346|RfC: PressTV|2020|rfc=y}} {{rsnl|346|RfC: Press TV on Saudi Arabian protests|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 42#Press TV|1]] [[WP:Reliable sources/Noticeboard/Archive 108#Alex Jones, Mathaba, Pravda, and PressTV|2]] [[WP:Reliable sources/Noticeboard/Archive 139#Press TV and Veterans Today RS for their contibutors|3]] [[WP:Reliable sources/Noticeboard/Archive 175#Using Press TV for reporting Hamas claims|4]] [[WP:Reliable sources/Noticeboard/Archive 190#Press TV|5]] [[WP:Reliable sources/Noticeboard/Archive 259#PressTV|6]] [[WP:Reliable sources/Noticeboard/Archive 346#Press TV's website|7]]
+| {{WP:RSPLAST|2021}}
+| In the 2020 RfC, editors found a clear consensus to deprecate Press TV, owing to its status as an Iranian government propaganda outlet that publishes disinformation, conspiracy theories, antisemitic content including [[Holocaust denial]],<ref name="ADL2013">{{Cite web |title=Iran's Press TV: Broadcasting Anti-Semitism to the English-Speaking World |publisher=Anti-Defamation League |date=October 17, 2013 |access-date=August 8, 2018 |url=https://www.adl.org/sites/default/files/documents/assets/pdf/anti-semitism/united-states/Press-TV-Report-2013-10-17.pdf |archive-url=https://web.archive.org/web/20190103013606/https://www.adl.org/sites/default/files/documents/assets/pdf/anti-semitism/united-states/Press-TV-Report-2013-10-17.pdf |archive-date=January 3, 2019 |url-status=live }}</ref> and a host of other problematic content.
+| {{WP:RSPUSES|presstv.com|presstv.ir|presstv.co.uk|presstv.tv}}
+<section end="deprecated"/>
+|- class="s-nc" id="Pride.com"
+| [[Pride.com]]
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|299|RfC: Pride.com|2020|rfc=y}}
+| {{WP:RSPLAST|2020}}
+| There is consensus that Pride.com is marginally reliable and that its articles should be evaluated for reliability on a case-by-case basis. Editors consider Pride.com comparable to {{pslink|BuzzFeed}} in its presentation.
+| {{WP:RSPUSES|pride.com}}
+<section begin="deprecated"/>
+|- class="s-b" id="Project Veritas"
+| [[Project Veritas]] <small>([[James O'Keefe]], O'Keefe Media Group)</small> {{WP:RSPSHORTCUT|WP:VERITAS}}
+| {{WP:RSPSTATUS|d|b=y}}
+| {{rsnl|410|O'Keefe Media Group and Project Veritas|2023|rfc=y}}
+[[File:X-circle.svg|20px|alt=Spam blacklist request|link=MediaWiki talk:Spam-blacklist/log/2021#December 2021]]&nbsp;[[MediaWiki talk:Spam-blacklist/log/2021#December 2021|2021]]<br>
+[[WP:Reliable sources/Noticeboard/Archive 271#Sources at Media bias in the United States for claims of censorship of conservative content|1]] [[WP:Reliable sources/Noticeboard/Archive 274#RfC: "CNN" (October)|2]] [[WP:Reliable sources/Noticeboard/Archive 322#RfC: CNN|3]]<br> [[Wikipedia:Biographies of living_persons/Noticeboard/Archive128#James O'Keefe|A]] [[Wikipedia:Biographies of living_persons/Noticeboard/Archive131#James O'Keefe|B]] [[Wikipedia:Biographies of living_persons/Noticeboard/Archive140#James O'Keefe|C]]
+| {{WP:RSPLAST|2023}}
+| Due to persistent abuse, Project Veritas is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[WT:WHITELIST|whitelisted]] before they can be used. In the 2023 RfC, there was overwhelming consensus to deprecate James O'Keefe personally, the O'Keefe Media Group, Project Veritas and future O'Keefe outlets as sources, due to O'Keefe's documented history of deliberate fabrication. There were also strong minorities for adding O'Keefe's works to the spam blacklist and barring even [[WP:ABOUTSELF|about-self]] claims. Citations to O'Keefe's work in any medium and claims based on any such citations should be removed.
+| {{WP:RSPUSES|projectveritas.com|okeefemediagroup.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="ProPublica"
+| [[ProPublica]] {{WP:RSPSHORTCUT|WP:PROPUBLICA}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|279|RfC: "ProPublica" (October)|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 213#News organizations using a third-party fact checking service|1]]
+| {{WP:RSPLAST|2019}}
+| There is a strong consensus that ProPublica is generally reliable for all purposes because it has an excellent reputation for fact-checking and accuracy, is widely cited by reliable sources, and has received multiple [[Pulitzer Prize]]s.
+| {{WP:RSPUSES|propublica.org}}
+|- class="s-nc" id="Quackwatch"
+| [[Quackwatch]]
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|282|Is Quackwatch an SPS and thus not allowed as a source on BLPs?|2019|rfc=y}}
++14{{efn|See also these discussions of Quackwatch:
+[[WP:Reliable sources/Noticeboard/Archive 2#QuackWatch|1]]
+[[WP:Reliable sources/Noticeboard/Archive 4#Quackwatch|2]]
+[[WP:Reliable sources/Noticeboard/Archive 14#Plural medicine, tradition and modernity|3]]
+[[WP:Reliable sources/Noticeboard/Archive 15#Quackwatch|4]]
+[[WP:Reliable sources/Noticeboard/Archive 22#Quackwatch etc|5]]
+[[WP:Reliable sources/Noticeboard/Archive 32#Usage of Quackwatch as RS in medical quackery|6]]
+[[WP:Reliable sources/Noticeboard/Archive 55#How can Quackwatch be considered a "reliable source"?|7]]
+[[WP:Reliable sources/Noticeboard/Archive 118#Quackwatch|8]]
+[[WP:Reliable sources/Noticeboard/Archive 146#Could Quackwatch, Martin Gardner and Michael Shermer be used to affirm that Rudolf Steiner was a pseudoscientist?|9]]
+[[WP:Reliable sources/Noticeboard/Archive 148#Quackwatch|10]]
+[[WP:Reliable sources/Noticeboard/Archive 223#Two sources in the lede of Alkaline diet|11]]
+[[WP:Reliable sources/Noticeboard/Archive 311#QuackWatch|12]]
+[[WT:Identifying reliable sources (medicine)/Archive 13#Is Quackwatch a reliable source?|A]]
+[[WT:Identifying reliable sources (medicine)/Archive 16#Proposal to address Quackwatch by name in this guideline|B]]
+}}
+| {{WP:RSPLAST|2020}}
+| Articles written by [[Stephen Barrett]] on Quackwatch are considered generally reliable (as Barrett is a [[WP:EXPERTSOURCE|subject-matter expert]]) and [[WP:SPS|self-published]] (as there is disagreement on the comprehensiveness of Quackwatch's editorial process); Barrett's articles should not be used as a source of information on [[WP:BLPSPS|other living persons]]. Articles written by other authors on Quackwatch are not considered self-published. Many editors believe uses of Quackwatch should be evaluated on a case-by-case basis, and some editors say its statements should be [[WP:INTEXT|attributed]]. It may be preferable to use the sources cited by Quackwatch instead of Quackwatch itself. Since it often covers [[WP:FRINGE|fringe]] material, [[WP:PARITY|parity of sources]] should be considered.
+| {{WP:RSPUSES|quackwatch.org}}
+|- class="s-gu" id="Quadrant"
+| ''[[Quadrant (magazine)|Quadrant]]''
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|269|RfC: Quadrant Magazine|2019|rfc=y}}
+| {{WP:RSPLAST|2019|stale=n}}
+| Most editors consider ''Quadrant'' generally unreliable for factual reporting. The publication is a [[WP:BIASED|biased and opinionated source]].
+| {{WP:RSPUSES|quadrant.org.au}}
+|- class="s-gu" id="Quillette"
+| ''[[Quillette]]'' {{WP:RSPSHORTCUT|WP:QUILLETTE}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|314|Quillette|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 240#Is Quillette and Spencer Case a reliable source?|1]] [[WP:Reliable sources/Noticeboard/Archive 249#"Greviance Studies" scandal – use of peer-reviewed journals as RS|2]] [[WP:Reliable sources/Noticeboard/Archive 271#Quillette|3]] [[WP:Reliable sources/Noticeboard/Archive 353#Expert opinion on Quilette|4]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''Quillette'' is generally unreliable for facts, with non-trivial minorities arguing for either full deprecation or "considerations apply". ''Quillette'' is primarily a publication of opinion, and thus actual usage in articles will usually be a question of whether or not it is [[WP:DUE]] for an attributed opinion rather than whether it is reliable for a factual claim.
+| {{WP:RSPUSES|quillette.com}}
+|- class="s-gu" id="Quora"
+| [[Quora]] {{WP:RSPSHORTCUT|WP:QUORA}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 229#Quora.com|1]] [[WP:Reliable sources/Noticeboard/Archive 247#Is this an RS?|2]] [[WP:Reliable sources/Noticeboard/Archive 267#A wake-up call|3]] [[WP:Reliable sources/Noticeboard/Archive 269#Question about Quora|4]]
+| {{WP:RSPLAST|2019|stale=n}}
+| Quora is a [[Q&A site]]. As an Internet forum, it is a [[WP:SPS|self-published source]] that incorporates [[WP:UGC|user-generated content]], and is considered generally unreliable. Posts from [[verified account]]s on Quora can be used as [[WP:PRIMARY|primary sources]] for [[WP:ABOUTSELF|statements about themselves]]. Posts from verified accounts of established experts may also be used to substantiate statements in their field of expertise, in accordance with the [[WP:SPS|policy on self-published sources]].
+| {{WP:RSPUSES|quora.com}}
+|- class="s-gr" id="Radio Free Asia"
+| [[Radio Free Asia]] <small>(RFA)</small> {{WP:RSPSHORTCUT|WP:RSPRFA}} {{WP:RSPSHORTCUT|WP:RADIOFREEASIA}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|333|RfC: Radio Free Asia (RFA)|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 313#Views on International Campaign for Tibet, UNESCO, Tibet Post International/The Tibet Post, Tibet Watch, Unrepresented Nations and Peoples Organization, Free Tibet, Radio Free Asia|1]] [[WP:Reliable sources/Noticeboard/Archive 329#Reliability of Radio Free Asia|2]] [[WP:Reliable sources/Noticeboard/Archive 341#Xinhua|3]] [[WP:Reliable sources/Noticeboard/Archive 391#Radio Free Asia|4]]
+| {{WP:RSPLAST|2022}}
+| Radio Free Asia can be generally considered a reliable source. In particularly geopolitically charged areas, [[WP:INTEXT|attribution]] of its point of view and funding by the U.S. government may be appropriate. Per the result of a 2021 RfC, editors have established that there is little reason to think RFA demonstrates some systematic inaccuracy, unreliability, or level of government co-option that precludes its use.
+| {{WP:RSPUSES|rfa.org}}
+|- class="s-nc" id="Radio Free Europe/Radio Liberty"
+| [[Radio Free Europe/Radio Liberty]] <small>(RFE/RL)</small> {{WP:RSPSHORTCUT|WP:RFE/RL}} {{WP:RSPSHORTCUT|WP:RADIOFREEEUROPE}} {{WP:RSPSHORTCUT|WP:RADIOLIBERTY}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|444|RfC: RFE/RL|2024|rfc=y}} {{rsnl|432|RfC: Surrogate services of the U.S. Agency for Global Media|2024|rfc=y}} {{rsnl|353|Radio Free Europe/Radio Liberty|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 20#Using the Radio Free Europe web site as a RS for someone's expertise|1]] [[WP:Reliable sources/Noticeboard/Archive 281#Radio Free Europe|2]] [[WP:Reliable sources/Noticeboard/Archive 290#Stop the Church|3]] [[WP:Reliable sources/Noticeboard/Archive 352#Radio Free Europe/Radio Liberty (RFE/RL) as a reliable source|4]] [[WP:Reliable sources/Noticeboard/Archive 381#RadioFreeEurope/RFL|5]] [[WP:Reliable sources/Noticeboard/Archive 431#U.S. Agency for Global Media (USAGM)|6]]
+| {{WP:RSPLAST|2024}}
+| Additional considerations apply to the use of [[Radio Free Europe/Radio Liberty]] (RFE/RL). RFE/RL should be used cautiously, if at all, for reporting published from the 1950s to the early 1970s, when RFE/RL had a documented relationship with the CIA. RFE/RL may be biased in some subject areas (particularly through omission of relevant, countervailing facts), and in those areas, it should be attributed in the article body. There is no consensus as to what subject areas require attribution. The scope of topics requiring attribution of RFE/RL should be decided on a case-by-case basis.
+| {{WP:RSPUSES|rferl.org}}
+|- class="s-gr" id="Rappler"
+| [[Rappler]] {{WP:RSPSHORTCUT|WP:RAPPLER}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 185#Rappler|1]] [[WP:Reliable sources/Noticeboard/Archive 215#Rappler.com?|2]] [[WP:Reliable sources/Noticeboard/Archive 236#Rappler|3]]
+| {{WP:RSPLAST|2018}}
+| There is consensus that staff content by Rappler is generally reliable. The IMHO section consists of opinions by readers, and not by paid staff. The defunct x.rappler.com section functioned as a self-published blogging service, and is therefore considered generally unreliable.
+| {{WP:RSPUSES|rappler.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Rate Your Music"
+| [[Rate Your Music]] <small>(RYM, Cinemos, Glitchwave, Sonemic)</small>{{WP:RSPSHORTCUT|WP:RATEYOURMUSIC}}{{WP:RSPSHORTCUT|WP:RYM}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|259|RfC: Rateyourmusic, Discogs, and Last.fm|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 212#rateyourmusic.com|1]] [[WP:Reliable sources/Noticeboard/Archive 372#Rate Your Music|2]]<br> [[WT:WikiProject Albums/Archive 33#Rate Your Music|A]]
+| {{WP:RSPLAST|2022|stale=n}}
+| Rate Your Music was deprecated in the 2019 RfC. The content on Rate Your Music is [[WP:UGC|user-generated]], and is considered generally unreliable.
+| {{WP:RSPUSES|rateyourmusic.com|cinemos.com|glitchwave.com|sonemic.com}}
+<section end="deprecated"/>
+|- class="s-gu" id="Raw Story"
+| {{anchor|The Raw Story}} ''[[Raw Story]]'' {{WP:RSPSHORTCUT|WP:RAWSTORY}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|324|RfC - The Raw Story|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 12#Raw Story|1]] [[WP:Reliable sources/Noticeboard/Archive 17#Raw Story|2]] [[WP:Reliable sources/Noticeboard/Archive 112#The Raw Story|3]] [[WP:Reliable sources/Noticeboard/Archive 202#Raw Story|4]] [[WP:Reliable sources/Noticeboard/Archive 226#Raw story a RS for details on this obscure death?|5]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''Raw Story'' is generally unreliable for factual reporting, based upon a pattern of publishing false and sensationalized stories. Editors almost unanimously agree that the source is [[WP:BIASED|biased]] and that [[WP:ATTRIBUTEPOV|in-text attribution]] should accompany each use of the source.
+| {{WP:RSPUSES|rawstory.com}}
+|- class="s-nc" id="RealClearPolitics"
+| {{anchor|RSPRealClearPolitics}} [[RealClearPolitics]] <small>(RCP, RealClearInvestigations)</small> {{WP:RSPSHORTCUT|WP:REALCLEARPOLITICS}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|336|RealClear media|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 278#RealClear media|1]]
+| {{WP:RSPLAST|2021}}
+| There is no consensus as to RealClearPolitics's reliability. They appear to have the trappings of a reliable source, but their tactics in news reporting suggest they may be publishing non-factual or misleading information. Use as a source in a Wikipedia article should probably only be done with caution, and better yet should be avoided.
+| {{WP:RSPUSES|realclearpolitics.com|realclearinvestigations.com}}
+|- class="s-gr" id="Reason"
+| {{anchor|RSPREASON}} ''[[Reason (magazine)|Reason]]'' {{WP:RSPSHORTCUT|WP:REASONMAGAZINE}} {{WP:RSPSHORTCUT|WP:REASONNEWS}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 200#Reason Magazine at David Lisak|1]] [[WP:Reliable sources/Noticeboard/Archive 291#Reason Magazine and reason.com|2]] [[WP:Reliable sources/Noticeboard/Archive 352#Reason.com|3]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''Reason'' is generally reliable for news and facts. Editors consider ''Reason'' to be a [[WP:BIASED|biased or opinionated source]] that primarily publishes commentary, analysis, and opinion articles. [[WP:RSOPINION|Statements of opinion]] should be [[WP:INTEXT|attributed]] and evaluated for [[WP:DUE|due weight]].
+| {{WP:RSPUSES|reason.com}}
+|- class="s-gu" id="Red Ventures"
+| [[Red Ventures]] {{WP:RSPSHORTCUT|WP:REDVENTURES}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|430|RfC: Red Ventures|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 424#Something strange is going on with ZDNet|1]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that the online properties of Red Ventures are generally unreliable post-acquisition. Editors express concern that Red Ventures, as a matter of policy, uses AI-authored content on its properties in a non-transparent and unreliable manner. No consensus was reached with respect to Red Ventures' print publications. Sources sold by Red Ventures in 2022 to Fandom were not discussed in the RfC. ''See also: {{pslink|CNET (November 2022–present)}}, {{pslink|ZDNet (October 2020–present)}}.''
+|
+|- class="s-gu" id="Reddit"
+| | {{anchor|RSPREDDIT}} [[Reddit]] {{WP:RSPSHORTCUT|WP:RSREDDIT}} {{WP:RSPSHORTCUT|WP:RSPREDDIT}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 156#Reddit (IAmA)|1]] [[WP:Reliable sources/Noticeboard/Archive 159#Reddit|2]] [[WP:Reliable sources/Noticeboard/Archive 189#Would an answer in a Reddit AMA be admissible as a reliable primary source?|3]] [[WP:Reliable sources/Noticeboard/Archive 241#Can reddit comments from article subjects be cited as reliable self-published sources?|4]] [[WP:Reliable sources/Noticeboard/Archive 285#Reddit as a source|5]] [[WP:Reliable sources/Noticeboard/Archive 401#Reliability of Reddit comments published by immediate family member of a deceased individual (Technoblade)|6]]
+| {{WP:RSPLAST|2023}}
+| Reddit is a [[social news]] and discussion website. Reddit contains mostly [[WP:UGC|user-generated content]], and is considered both [[WP:SPS|self-published]] and generally unreliable. Interview responses written by [[Account verification|verified]] interviewees on the [[r/IAmA]] subreddit are [[WP:PRIMARY|primary sources]], and editors disagree on their reliability. The policy on the use of [[WP:REDDIT|sources about themselves]] applies.
+| {{WP:RSPUSES|reddit.com}}
+|- class="s-gu" id="RedState"
+| [[RedState]]
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 259#RedState|1]] [[WP:Reliable sources/Noticeboard/Archive 313#RedState|2]]
+| {{WP:RSPLAST|2020|stale=n}}
+| There is consensus that RedState should not be used as a source of facts. Opinion pieces from RedState are likely to be undue.
+| {{WP:RSPUSES|redstate.com}}
+|- class="s-gr" id="The Register"
+| data-sort-value="Register"| ''[[The Register]]'' <small>(''"El Reg"'')</small>
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 4#The Register|1]] [[WP:Reliable sources/Noticeboard/Archive 79#The Register article on physicist's resignation from the American Physical Society|2]] [[WP:Reliable sources/Noticeboard/Archive 102#The Register at Santorum (neologism)|3]] [[WP:Reliable sources/Noticeboard/Archive 194#The Register as a reliable source for quotations|4]] [[WP:Reliable sources/Noticeboard/Archive 229#The Register|5]]<br> [[WP:Biographies of living persons/Noticeboard/Archive58#Do The Register and The London Telegraph (among others) meet WP:RS for quoting an individual?|A]]
+| {{WP:RSPLAST|2017}}
+| ''The Register'' is considered generally reliable for technology-related articles. Some editors say that ''The Register'' is [[WP:BIASED|biased or opinionated]] on topics involving [[Wikipedia]].
+| {{WP:RSPUSES|theregister.co.uk|theregister.com}}
+|- class="s-gu" id="Religious scriptures texts"
+| Religious [[scriptural texts]] <small>(e.g. [[Bible]], [[Quran]])</small> {{WP:RSPSHORTCUT|WP:RSPSCRIPTURE}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|327|Scriptural texts (WP:RSPSCRIPTURE)|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 25#Bible as a reliable source|1]] [[WP:Reliable sources/Noticeboard/Archive 35#Is The Bible (or other religious scripture) a reliable source?|2]] [[WP:Reliable sources/Noticeboard/Archive 244#Gospel of John|3]] [[WP:Reliable sources/Noticeboard/Archive 209#Quotes from primary sources?|4]]
+| {{WP:RSPLAST|2021}}
+| Scriptural texts, like the [[Bible]] and the [[Quran]], are [[WP:PRIMARY|primary sources]] only suitable for attributed, relevant quotes and in compliance with other Wikipedia content policies and guidelines. Content that interprets or summarizes scriptural passages or narratives should generally be cited to appropriate scholarly sources (for example, in the academic field of [[religious studies]]) and [[WP:INTEXT|attributed]] when appropriate. Analysis of scriptural content by Wikipedia editors is prohibited by the [[WP:NOR|Wikipedia policy regarding original research]], and a 2020 discussion found no consensus on whether unsourced summaries of scriptural texts should be allowed under [[MOS:PLOTSOURCE]].
+| —
+<section begin="deprecated"/>
+|- class="s-d" id="Republic TV"
+| {{anchor|REPUBLICTV}} [[Republic TV]] <small>(Republic World)</small> {{WP:RSPSHORTCUT|WP:REPUBLICTV}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|357|RfC: Republic TV|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 248#Republic TV and Times Now|1]] [[WP:Reliable sources/Noticeboard/Archive 321#Republic TV|2]]
+| {{WP:RSPLAST|2021}}
+| In the 2021 RfC, there was a consistent and overwhelming consensus to deprecate Republic TV. Editors cite hoaxes, fake news, fabrication, misinformation and conspiracy theories.
+| {{WP:RSPUSES|republicworld.com|republicbharat.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="Reuters"
+| [[Reuters]] {{WP:RSPSHORTCUT|WP:REUTERS}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 107#Can this review from reuters be used?|1]] [[WP:Reliable sources/Noticeboard/Archive 130#Thomson Reuters|2]] [[WP:Reliable sources/Noticeboard/Archive 243#Can “wire” news services such AP, Reuters, or AFP ever report inaccurate, misleading, or false information|3]]
+| {{WP:RSPLAST|2018}}
+| Reuters is a [[news agency]]. There is consensus that Reuters is generally reliable. [[WP:SYNDICATED|Syndicated]] reports from Reuters that are published in other sources are also considered generally reliable. [[Press release]]s published by Reuters are not automatically reliable.
+| {{WP:RSPUSES|reuters.com}}
+|- class="s-nc" id="RhythmOne"
+| [[RhythmOne]] <small>([[AllMusic]], [[AllMovie]] pre-2024, AllGame, All Media Guide, AllRovi)</small> {{WP:RSPSHORTCUT|WP:ALLMUSIC}}
+| {{WP:RSPSTATUS|nc}}
+| 29{{efn|See these discussions of RhythmOne:
+[[WP:Reliable sources/Noticeboard/Archive 3#All music guide as a genre source|1]]
+[[WP:Reliable sources/Noticeboard/Archive 14#Allmusic not a reliable source on heavy metal music|2]]
+[[WP:Reliable sources/Noticeboard/Archive 16#Allmusic.com continued|3]]
+[[WP:Reliable sources/Noticeboard/Archive 19#The Black Parade genre|4]]
+[[WP:Reliable sources/Noticeboard/Archive 24#Are allmusic.com, punkbands.com, www.roomthirteen.com etc. reliable sources for asserting notability of rock bands?|5]]
+[[WP:Reliable sources/Noticeboard/Archive 30#allmusic.com|6]]
+[[WP:Reliable sources/Noticeboard/Archive 46#Allmusic|7]]
+[[WP:Reliable sources/Noticeboard/Archive 47#DVDverdict and ALLmovie|8]]
+[[WP:Reliable sources/Noticeboard/Archive 66#Allmovie|9]]
+[[WP:Reliable sources/Noticeboard/Archive 70#Allmovie biography section|10]]
+[[WP:Reliable sources/Noticeboard/Archive 75#Allgame.com|11]]
+[[WP:Reliable sources/Noticeboard/Archive 78#is Allmusic.com a reliable source?|12]]
+[[WP:Reliable sources/Noticeboard/Archive 105#AllRovi|13]]
+[[WP:Reliable sources/Noticeboard/Archive 112#Allrovi and BLPs?|14]]
+[[WP:Reliable sources/Noticeboard/Archive 122#Soundtrack reviews|15]]
+[[WP:Reliable sources/Noticeboard/Archive 124#Allmusic.com|16]]
+[[WP:Reliable sources/Noticeboard/Archive 128#Allrovi|17]]
+[[WP:Reliable sources/Noticeboard/Archive 129#California Birth Index and WP:BLPPRIMARY|18]]
+[[WP:Reliable sources/Noticeboard/Archive 149#AllMusic review and This War Is Ours|19]]
+[[WP:Reliable sources/Noticeboard/Archive 160#AllMusic/AMG as a source for biographical info|20]]
+[[WP:Reliable sources/Noticeboard/Archive 166#BLP info sourced from All Movie Guide|21]]
+[[WP:Reliable sources/Noticeboard/Archive 188#http://www.allmusic.com/|22]]
+[[WP:Reliable sources/Noticeboard/Archive 231#AllMusic|23]]
+[[WP:Reliable sources/Noticeboard/Archive 258#All Music Reviews|24]]
+[[WP:Reliable sources/Noticeboard/Archive 271#Musician Discographies from Allmusic and/or Discogs|25]]
+[[WP:Reliable sources/Noticeboard/Archive 331#AllMusic (allmusic.com): summary of previous AllMusic and/or "All Music" discussions|26]]
+[[WP:Reliable sources/Noticeboard/Archive 408#AllMusic|27]]
+[[WT:WikiProject Albums/Archive 52#AllMusic|A]]
+[[WT:WikiProject Albums/Archive 54#"Sources to avoid" section|B]]
+}}
+| {{WP:RSPLAST|2024}}
+| RhythmOne (which acquired All Media Guide, formerly AllRovi) has operated the websites [[AllMusic]], [[AllMovie]] (until 2024), and AllGame (defunct). There is consensus that RhythmOne websites are usable for entertainment reviews with [[WP:INTEXT|in-text attribution]]. Some editors question the accuracy of these websites for [[WP:BLP|biographical details]] and recommend more reliable sources when available. Editors also advise against using AllMusic's [[Music genre|genre]] classifications from the website's summaries at the top of a page. Listings without accompanying prose do not count toward [[WP:N|notability]]. ''See also: [[#AllMovie|AllMovie]], following its acquisition from RhythmOne.''
+| {{WP:RSPUSES|allmusic.com|allmovie.com|allgame.com}}
+|- class="s-nc" id="RIA Novosti"
+| [[RIA Novosti]] {{WP:RSPSHORTCUT|WP:RIANOVOSTI}}
+| {{WP:RSPSTATUS|nc}}
+| 10{{efn|See these discussions of RIA Novosti:
+[[WP:Reliable sources/Noticeboard/Archive 84#RIA Novosti|1]] [[WP:Reliable sources/Noticeboard/Archive 95#RIA Novosti and the official Russian position in areas of geopolitical and historical contention|2]] [[WP:Reliable sources/Noticeboard/Archive 180#Russian Media|3]] [[WP:Reliable sources/Noticeboard/Archive 212#Source being used in the S-400 article|4]] [[WP:Reliable sources/Noticeboard/Archive 367#Sputnik, kind of|5]] [[WP:Reliable sources/Noticeboard/Archive 377#TASS, Interfax (russian version) and RIA Novosti's reliability on the 2022 Russian invasion of Ukraine (especially on alleged attacks in russia)|6]] [[WP:Reliable sources/Noticeboard/Archive 380#RIA Novosti's and interfax russia's reliability.|7]] [[WP:Reliable sources/Noticeboard/Archive 400#RIA Novosti|8]] [[WP:Reliable sources/Noticeboard/Archive 455#RIA Novosti|9]]<br> [[WP:Biographies of living persons/Noticeboard/Archive364#Bad sources?|A]]
+}}
+| {{WP:RSPLAST|2024}}
+| RIA Novosti was an official news agency of the Russian government. There is a broad consensus that it is a [[WP:BIASED|biased and opinionated]] source. It is generally considered usable for official government statements and positions. There is no consensus on whether it is reliable for other topics, though opinions generally lean towards unreliability. ''See also: {{pslink|Sputnik}}, which replaced the international edition of RIA Novosti.''
+| {{WP:RSPUSES|rian.ru|rian.com.ua}}
+|- class="s-gr" id="Rolling Stone"
+| ''[[Rolling Stone]]'' (culture) {{WP:RSPSHORTCUT|WP:ROLLINGSTONE}} {{WP:RSPSHORTCUT|WP:ROLLINGSTONECULTURE}}
+| {{WP:RSPSTATUS|gr}}
+|{{rsnl|353|Rolling Stone|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 17#Rolling Stone|1]] [[WP:Reliable sources/Noticeboard/Archive 26#Rolling Stone, NME, Popmatters and Metal-Observer|2]] [[WP:Reliable sources/Noticeboard/Archive 39#Rolling Stone review|3]] [[WP:Reliable sources/Noticeboard/Archive 82#Twitter, Rolling Stone magazine and The Guardian|4]]<br> [[WT:WikiProject Video games/Sources/Archive 16#Glixel|A]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''Rolling Stone'' has generally reliable coverage on culture matters (i.e., films, music, entertainment, etc.). ''Rolling Stone''<nowiki/>'s [[WP:RSOPINION|opinion pieces]] and reviews, as well as any contentious statements regarding [[WP:BLP|living persons]], should only be used with [[WP:INTEXT|attribution]]. The publication's [[capsule reviews]] deserve [[WP:DUE|less weight]] than their full-length reviews, as they are subject to a lower standard of fact-checking. See also {{pslink|Rolling Stone (politics and society), 2011–present}}, {{pslink|Rolling Stone (Culture Council)}}.
+| {{WP:RSPUSES|rollingstone.com}}
+|- class="s-gu" id="Rolling Stone (politics and society, 2011–present)"
+| ''[[Rolling Stone]]'' (politics and society, 2011–present) {{WP:RSPSHORTCUT|WP:ROLLINGSTONEPOLITICS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|353|Rolling Stone|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 41#Is opinion piece in Rolling Stone a reliable source on Goldman Sachs?|1]] [[WP:Reliable sources/Noticeboard/Archive 106#Is this piece from the Rolling Stone Culture Section a RS?|2]] [[WP:Reliable sources/Noticeboard/Archive 132#Mother Jones and Rolling Stone articles as RS sources in a BLP for a contentious claim|3]] [[WP:Reliable sources/Noticeboard/Archive 197#Gun show loophole (Rolling Stone & Washington Post)|4]] [[WP:Reliable sources/Noticeboard/Archive 274#Is Rolling Stone's 'Useful Idiots' podcast a RS?|5]] [[WP:Reliable sources/Noticeboard/Archive 366#Rolling Stone scoop on involvement in Jan. 6|6]] [[WP:Reliable sources/Noticeboard/Archive 410#Rolling Stone as a source for politics|7]]<br> [[WT:Reliable sources/Perennial sources/Archive 8#Rolling Stone as a source for politics|A]]
+| {{WP:RSPLAST|2023}}
+| According to a 2021 RfC discussion, there is unanimous consensus among editors that ''Rolling Stone'' is generally unreliable for politically and societally sensitive issues reported since 2011 (inclusive), though it must be borne in mind that this date is an estimate and not a definitive cutoff, as the deterioration of journalistic practices happened gradually. Some editors have said that low-quality reporting also appeared in some preceding years, but a specific date after which the articles are considered generally unreliable has not been proposed. Previous consensus was that ''Rolling Stone'' was generally reliable for political and societal topics before 2011. Most editors say that ''Rolling Stone'' is a [[WP:PARTISAN|partisan source]] in the field of politics, and that their statements in this field should be [[WP:INTEXT|attributed]]. Moreover, [[WP:MEDRS|medical]] or [[WP:SCIRS|scientific]] claims should not be sourced to the publication.
+| {{WP:RSPUSES|rollingstone.com/politics}}
+|- class="s-gu" id="Rolling Stone (Culture Council)"
+| ''[[Rolling Stone]]'' (''Culture Council'') {{WP:RSPSHORTCUT|WP:ROLLINGSTONECON}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|353|Rolling Stone|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 326#Caution: Rolling Stone goes pay-for-play|1]]
+| {{WP:RSPLAST|2021}}
+| There is unanimous consensus among editors that ''Culture Council'' articles (of URL form rollingstone.com/culture-council/*) are [[WP:SPS|self-published sources]] and are, in most aspects, equivalent to [[WP:FORBESCON|''Forbes''-]] and [[WP:RSP#HuffPost contributors|''HuffPost''-]]contributors. Editors, however, have also expressed concern that at least some of the content published is [[WP:PROMO|promotional]] and thus not usable. Editors should thus determine on a case-by-case basis whether the opinions published there are [[WP:IS|independent]] and also if they constitute [[WP:DUE|due weight]]. Usage of these sources for [[WP:THIRDPARTY|third-party claims]] in [[WP:BLP|biographies of living persons]] as well as [[WP:MEDRS|medical or scientific claims]] is not allowed.
+| {{WP:RSPUSES|council.rollingstone.com|rollingstone.com/culture-council}}
+|- class="s-gr" id="Rotten Tomatoes"
+| [[Rotten Tomatoes]] {{WP:RSPSHORTCUT|WP:ROTTENTOMATOES}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|411|RFC: Use of Rotten Tomatoes for biographical information|2023|rfc=y}}
++16{{efn|See also these discussions of Rotten Tomatoes:
+[[WP:Reliable sources/Noticeboard/Archive 7#Rotten Tomatoes Critic Blogs|1]]
+[[WP:Reliable sources/Noticeboard/Archive 45#Review aggregator sites|2]]
+[[WP:Reliable sources/Noticeboard/Archive 135#Atlas Shrugged – Rotten Tomatoes user rating|3]]
+[[WP:Reliable sources/Noticeboard/Archive 179#Are Rotten Tomatoes reviewers automatically reliable sources/reviews?|4]]
+[[WP:Reliable sources/Noticeboard/Archive 278#Rotten Tomatoes audience score|5]]
+[[WP:Reliable sources/Noticeboard/Archive 320#Rotten Tomatoes reliable for actor biography details?|6]]
+[[WP:Reliable sources/Noticeboard/Archive 335#Biographical information on Rotten Tomatoes website|7]]
+[[WP:Reliable sources/Noticeboard/Archive 386#Rotten Tomatoes celebrities section|8]]
+[[WP:Reliable sources/Noticeboard/Archive 403#Rotten Tomatoes reliabilty|9]]
+[[WP:Reliable sources/Noticeboard/Archive 409#Rotten Tomatoes being cited for WP:BLP|10]]
+[[WP:Reliable sources/Noticeboard/Archive 414#Rotten Tomatoes revisited|11]]
+[[WP:Reliable sources/Noticeboard/Archive 440#Proposed change to Rotten Tomatoes on RSP|12]]
+[[Talk:Apocalypse Now/Archive 2#Rotten Tomatoes|A]]
+[[WT:WikiProject Film/Archive 44#Rotten Tomatoes and Metacritic 2012|B]]
+[[WT:Neutral point of view/Archive 52#Review score aggregators like Rotten Tomatoes, Metacritic and OpenCritic|C]]
+[[WT:Reliable sources/Perennial sources/Archive 9#Rotten Tomatoes|D]]
+}}
+| {{WP:RSPLAST|2024}}
+| Rotten Tomatoes is considered generally reliable for its review aggregation and its news articles on film and TV. There is no consensus on whether its blog articles and critic opinion pages are generally reliable for facts. There is consensus that user reviews on Rotten Tomatoes are generally unreliable, as they are [[WP:SPS|self-published source]]s. Reviewers tracked by Rotten Tomatoes are not automatically reliable for their reviews, while there is no consensus on whether their "Top Critics" are generally reliable. There is consensus that Rotten Tomatoes should not be used for biographical information, cast and crew data, or other film and television data, as it is sourced from user-generated and user-provided content with a lack of oversight and verification.
+| {{WP:RSPUSES|rottentomatoes.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Royal Central"
+| {{anchor|Royal Central}} Royal Central
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|383|RFC: Sydney Zatz on Royal Central|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 379#Royal Central, deprecate?|1]] [[WP:Reliable sources/Noticeboard/Archive 380#Royal Central (cont.)|2]]
+| {{WP:RSPLAST|2022}}
+| The 2022 RfC found a consensus to deprecate Royal Central on the grounds that it lacked serious editorial standards and hosted plagiarized content.
+| {{WP:RSPUSES|royalcentral.co.uk}}
+</onlyinclude><onlyinclude>|- class="s-d" id="RT"
+| {{anchor|RT (general topics)|RT (controversial topics)}} [[RT (TV network)|RT]] <small>(Russia Today, ANO TV-Novosti, [[Ruptly]], Redfish, [[Maffick]])</small> {{WP:RSPSHORTCUT|WP:RT.COM}} {{WP:RSPSHORTCUT|WP:RUSSIATODAY}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|295|RfC: RT (Russia Today)|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 159#Enquiry concerning the RT Network|1]] [[WP:Reliable sources/Noticeboard/Archive 168#RT news and Crimean status referendum, 2014|2]] [[WP:Reliable sources/Noticeboard/Archive 173#Russia Today|3]] [[WP:Reliable sources/Noticeboard/Archive 192#Attributed statement sourced by RT news article|4]] [[WP:Reliable sources/Noticeboard/Archive 231#RT news|5]] [[WP:Reliable sources/Noticeboard/Archive 253#On Contact / RT|6]] [[WP:Reliable sources/Noticeboard/Archive 370#Ruptly, subsidiary of RT (Russia Today)|7]] [[WP:Reliable sources/Noticeboard/Archive 375#Whitelist RT article on de-Leninization which kicks the State line|8]]
+| {{WP:RSPLAST|2022}}
+| There is consensus that RT is an unreliable source, publishes false or fabricated information, and should be deprecated. Many editors describe RT as a mouthpiece of the Russian government that engages in propaganda and disinformation.
+| {{WP:RSPUSES|rt.com|russiatoday.com|russiatoday.ru|ruptly.tv|redfish.media|rt.rs|actualidad-rt.com|swentr.site}}
+<section end="deprecated"/>
+|- class="s-gr" id="RTÉ"
+| [[RTÉ]] <small>(Raidió Teilifís Éireann)</small>
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|409|RfC: Should RTÉ (Raidió Teilifís Éireann) be considered to be a generally reliable source?|2023|rfc=y}}
+| {{WP:RSPLAST|2023}}
+| RTÉ is an Irish [[Public broadcasting|public service broadcaster]]. There is consensus that RTÉ is generally reliable.
+| {{WP:RSPUSES|rte.ie/}}
+</onlyinclude>
+|}

@@ -1,0 +1,22 @@
+SELECT DISTINCT ?person ?personLabel ?enwiki ?start ?positionLabel ?partyLabel WHERE {
+  VALUES ?position {
+    wd:Q1939555    # Member of the Bundestag
+  }
+
+  ?person p:P39 ?statement.
+  ?statement ps:P39 ?position.
+  ?statement pq:P580 ?start.
+
+  # Parliamentary term: 21st Bundestag
+  ?statement pq:P2937 wd:Q124661964.
+
+  # Must have a party affiliation
+  OPTIONAL { ?person wdt:P102 ?party. }
+
+  # Must have an English Wikipedia page
+  ?enwiki schema:about ?person;
+          schema:isPartOf <https://en.wikipedia.org/>.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?personLabel
