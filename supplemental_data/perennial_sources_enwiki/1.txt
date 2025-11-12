@@ -1,0 +1,407 @@
+{| class="wikitable sortable perennial-sources"
+|+ Perennial sources
+!rowspan="2" scope="col" | Source
+!rowspan="2" scope="col" | Status<br /><small>([[#Legend|legend]])</small>
+!colspan="3" scope="colgroup" | Discussions
+!rowspan="2" scope="col" class="unsortable" | Use
+|-
+! scope="col" class="unsortable" | List
+! scope="col" | Last
+! scope="col" class="unsortable" | Summary
+<onlyinclude>
+|- class="s-gu" id="112 Ukraine"
+| [[112 Ukraine]] {{WP:RSPSHORTCUT|WP:112UKRAINE}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|281|RfC: Deprecation of fake news / disinformation sites.|2019|rfc=y}} {{sbll|January 2020|State sponsored fake news|2020}} {{rsnl|315|112.ua|rfc=y|2020}}
+[[WP:Reliable sources/Noticeboard/Archive 281#news-front.info|1]]<br> [[WP:Articles for deletion/Timeline of the war in Donbass (January–March 2016)|A]] [[Wikipedia talk:Reliable sources/Perennial sources/Archive 4#112 Ukraine|B]]
+| {{WP:RSPLAST|2020|stale=n}}
+| 112 Ukraine was deprecated following a 2019 RfC, which showed overwhelming consensus for the deprecation of a slew of sources associated with Russian disinformation in Ukraine. It was pointed out later in a 2020 RfC that 112 Ukraine had not been explicitly discussed in that first discussion prior to its blacklisting request. Further discussion established a rough consensus that the source is generally unreliable, but did not form a consensus for deprecation or blacklisting. The prior blacklisting was reversed as out of process. 112 Ukraine was shut down in 2021; website content is no longer accessible unless archived.
+| {{WP:RSPUSES|112.ua|112.international}}
+|- class="s-gr" id="ABC News"
+| [[ABC News (United States)|ABC News (US)]]
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 318#ABC News and FiveThirtyEight|1]] [[WP:Reliable sources/Noticeboard/Archive 346#Some reliable sources|2]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ABC News, the news division of the [[American Broadcasting Company]], is generally reliable. It is not to be confused with [[ABC News|other publications of the same name]].<!-- Disambiguation on purpose per WP:INTDAB -->
+| {{WP:RSPUSES|abcnews.com|abcnews.go.com}}
+|- class="s-nc" id="Academic repositories"
+| Academic repositories {{WP:RSPSHORTCUT|WP:ACADREP}}{{WP:RSPSHORTCUT|WP:ACADEMIA.EDU}}{{WP:RSPSHORTCUT|WP:RGATE}}{{WP:RSPSHORTCUT|WP:ZENODO}}
+| {{WP:RSPSTATUS|nc}}
+| 16{{efn|See also these discussions of ''Academia.edu'':
+[[WP:Reliable sources/Noticeboard/Archive 187#academia.edu|1]]
+[[WP:Reliable sources/Noticeboard/Archive 233#Academia.edu|2]]
+[[WP:Reliable sources/Noticeboard/Archive 268#academia.edu|3]]
+[[WP:Reliable sources/Noticeboard/Archive 290#Altered source and academia.edu|4]]
+[[WP:Reliable sources/Noticeboard/Archive 327#Academia.edu|5]]
+[[WP:Reliable sources/Noticeboard/Archive 335#Academia.edu|6]]
+[[WP:Reliable sources/Noticeboard/Archive 341#Is academia.edu a legitimate secondary source, or should it count as UGC?|7]]
+[[WP:Reliable sources/Noticeboard/Archive 433#Articles from Academia.edu|8]]<br/>
+These discussions of ''ResearchGate'':
+[[WP:Reliable sources/Noticeboard/Archive 178#Is ResearchGate reliable?|1]]
+[[WP:Reliable sources/Noticeboard/Archive 184#ResearchGate|2]]
+[[WP:Reliable sources/Noticeboard/Archive 271#DOI: 10.13140|3]]
+[[WP:Reliable sources/Noticeboard/Archive 394#Is Researchgate a reliable source for number of peer reviewed papers?|4]]<br/>
+These discussions of ''Zenodo'':
+[[WP:Reliable sources/Noticeboard/Archive 341#" Research that has not been peer-reviewed is akin to a blog — anyone can publish one online with little expertise."|1]]
+[[WP:Reliable sources/Noticeboard/Archive 435#Indian Research Journal of History and Humanities and Social Sciences|2]]
+}}
+| {{WP:RSPLAST|2024}}
+| General repositories like [[Academia.edu]], [[HAL Open Archives]], [[ResearchGate]], [[Semantic Scholar]], and [[Zenodo]] host academic papers, conference proceedings, book chapters, preprints, technical reports, etc. No filters exist for quality, and will host several unreviewed [[preprint]]s, [[retracted paper]]s not marked as such, unreviewed [[manuscript (publishing)|manuscripts]], and even papers from [[predatory journals]]. Determine the original source of what is being cited to establish reliability. When possible, cite the original source in preference to the repository.
+| {{WP:RSPUSES|academia.edu|researchgate.net|zenodo.org}}
+|- class="s-gu" id="Acclaimed Music"
+| [[Acclaimed Music]]
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 21#Acclaimedmusic.net|1]] [[WP:Reliable sources/Noticeboard/Archive 50#acclaimedmusic.net|2]] [[WP:Reliable sources/Noticeboard/Archive 99#acclaimedmusic.net|3]] [[Wikipedia:Reliable sources/Noticeboard/Archive 219#Can Acclaimed Music be used to cite individual review scores?|4]]<br> [[Wikipedia talk:WikiProject Music/Archive 41#Reliability of acclaimedmusic.net|A]]
+| {{WP:RSPLAST|2022|stale=n}}
+| Acclaimed Music is considered unreliable as the site is a [[WP:SPS|self-published source]] with little to no editorial oversight. It often aggregates lists published by other notable publications.
+| {{WP:RSPUSES|acclaimedmusic.net}}
+|- class="s-gu" id="Ad Fontes Media"
+| [[Ad Fontes Media]] {{WP:RSPSHORTCUT|WP:ADFONTES}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 258#media bias chart from adfontes media|1]] [[WP:Reliable sources/Noticeboard/Archive 290#Ad Fontes Media and AllSides|2]] [[WP:Reliable sources/Noticeboard/Archive 298#Ad Fontes Media Bias Chart|3]] [[WP:Reliable sources/Noticeboard/Archive 302#Can we call Wonkette far-left on the basis of adfontesmedia.com|4]] [[WP:Reliable sources/Noticeboard/Archive 350#Allsides.com media bias chart, revisited|5]]
+| {{WP:RSPLAST|2021|stale=n}}
+| There is consensus that Ad Fontes Media and their Media Bias Chart should not be used in article space in reference to sources' political leaning or reliability. Editors consider it a [[WP:SPS|self-published source]] and have questioned its methodology.
+| {{WP:RSPUSES|adfontesmedia.com}}
+|- class="s-b" id="Advameg"
+| [[Advameg]] <small>([[City-Data]])</small>
+| {{WP:RSPSTATUS|gu|b=y}}
+| {{rsnl|257|Fundinguniverse.com|2019|rfc=y}} {{sbll|April 2019|Advameg sites (city-data.com, filmreference.com, etc.)|2019}} {{rsnl|264|Rfc: company-histories.com|2019|rfc=y}}
++14{{efn|See also these discussions of Advameg:
+[[WP:Reliable sources/Noticeboard/Archive 26#www.filmreference.com|1]]
+[[WP:Reliable sources/Noticeboard/Archive 31#www.city-data.com|2]]
+[[WP:Reliable sources/Noticeboard/Archive 39#filmreference.com|3]]
+[[WP:Reliable sources/Noticeboard/Archive 48#City-Data.com|4]]
+[[WP:Reliable sources/Noticeboard/Archive 72#Notable Biographies / Encyclopedia of World Biographies|5]]
+[[WP:Reliable sources/Noticeboard/Archive 77#Encyclopedia of the Nations (website)|6]]
+[[WP:Reliable sources/Noticeboard/Archive 93#filmreference.com|7]]
+[[WP:Reliable sources/Noticeboard/Archive 146#notablebiographies.com|8]]
+[[WP:Reliable sources/Noticeboard/Archive 164#http://www.deathreference.com/, and a 1918 reference|9]]
+[[WP:Reliable sources/Noticeboard/Archive 231#Reference for Business's Encyclopedia of Business (Advameg)|10]]
+[[WP:Reliable sources/Noticeboard/Archive 236#country-data.com as a source for history and ethnogenesis|11]]
+[[WP:Reliable sources/Noticeboard/Archive 240#americanforeignrelations.com|12]]
+[[WP:Reliable sources/Noticeboard/Archive 259#referenceforbusiness.com|13]]
+[[MediaWiki talk:Spam-blacklist/archives/April 2019#Advameg sites (city-data.com, filmreference.com, etc.)|A]]
+}}
+| {{WP:RSPLAST|2019|stale=n}}
+| Advameg operates [[content farm]]s, including [[City-Data]], that use [[Web scraping|scraped]] or improperly licensed content. These sites frequently republish content from [[Gale (publisher)|Gale]]'s encyclopedias; many editors can [[WP:Gale|obtain access to Gale]] through [[WP:TWL|The Wikipedia Library]] free of charge. Advameg's sites are on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used. [[WP:COPYLINK]] prohibits linking to copyright violations.
+| {{WP:RSPUSES|company-histories.com|fundinguniverse.com}} [[MediaWiki talk:Spam-blacklist/archives/April 2019#Site list|+43]]
+|- class="s-gr" id="The Age"
+| data-sort-value="Age, The" | ''[[The Age]]'' {{WP:RSPSHORTCUT|WP:THEAGE}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|352|Reliability of The Sydney Morning Herald and The Age|2021|rfc=y}}
+| {{WP:RSPLAST|2021|stale=y}}
+| ''The Age'' is a newspaper based in Melbourne, Australia. There is consensus that it is generally reliable.
+| {{WP:RSPUSES|theage.com.au}}
+|- class="s-gr" id="Agence France-Presse"
+| [[Agence France-Presse]] <small>(AFP)</small> {{WP:RSPSHORTCUT|WP:RSPAFP}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 243#Can “wire” news services such AP, Reuters, or AFP ever report inaccurate, misleading, or false information|1]] [[WP:Reliable sources/Noticeboard/Archive 294#AFP|2]] [[WP:Reliable sources/Noticeboard/Archive 332#AFP as a source at Charlie Kirk|3]]
+| {{WP:RSPLAST|2021}}
+| Agence France-Presse is a [[news agency]]. There is consensus that Agence France-Presse is generally reliable. [[WP:SYNDICATED|Syndicated]] reports from Agence France-Presse that are published in other sources are also considered generally reliable.
+| {{WP:RSPUSES|afp.com}}
+|- class="s-nc" id="Al Arabiya"
+| [[Al Arabiya]] {{WP:RSPSHORTCUT|WP:ALARABIYA}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 98#Alarabiya, reliable or not?|1]] [[WP:Reliable sources/Noticeboard/Archive 130#Al Arabiya|2]] [[WP:Reliable sources/Noticeboard/Archive 139#Al-Arabiya and the Syrian civil war|3]] [[WP:Reliable sources/Noticeboard/Archive 418#Al Arabiya|4]] [[WP:Reliable sources/Noticeboard/Archive 428#Al Arabiya|5]]
+| 2024
+| There is consensus that Al Arabiya is a usable source for topics unrelated to the Saudi Arabian government. As it is state-owned by Saudi government since 2018 and is published in a country with low press freedom, editors consider Al Arabiya biased and non-independent for Saudi Arabian politics, and recommend attribution and use amongst other sources to maintain NPOV for coverage in this area. Some editors consider Al Arabiya unreliable for matters related to Saudi geopolitical interests.
+| {{WP:RSPUSES|alarabiya.net}}
+|- class="s-gr" id="Al Jazeera"
+| [[Al Jazeera Media Network|Al Jazeera]] {{WP:RSPSHORTCUT|WP:ALJAZEERA}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|449|Reliability of Al Jazeera|2024|rfc=y}}
++16{{efn|See these discussions of Al Jazeera:
+[[WP:Reliable sources/Noticeboard/Archive 1#al Jazeera video|1]]
+[[WP:Reliable sources/Noticeboard/Archive 31#Aljazeera.com|2]]
+[[WP:Reliable sources/Noticeboard/Archive 45#Al Jazeera|3]]
+[[WP:Reliable sources/Noticeboard/Archive 92#Is the Aljazeera Live News Blog a Reliable Source?|4]]
+[[WP:Reliable sources/Noticeboard/Archive 129#A quote in aljazeera in regards to two statements|5]]
+[[WP:Reliable sources/Noticeboard/Archive 134#Aljazeera regarding Syria Civil War RS|6]]
+[[WP:Reliable sources/Noticeboard/Archive 166#Al Jazeera piece a reliable source?|7]]
+[[WP:Reliable sources/Noticeboard/Archive 253#Arizona Border Recon|8]]
+[[WP:Reliable sources/Noticeboard/Archive 306#Al Jazeera might have published a false claim|9]]
+[[WP:Reliable sources/Noticeboard/Archive 421#Al Jazeera - 2023|10]]
+[[WP:Reliable sources/Noticeboard/Archive 434#Al Jazeera reliability|11]]
+[[WP:Reliable sources/Noticeboard/Archive 445#Al Jazeera - factual errors|12]]
+[[WP:Reliable sources/Noticeboard/Archive 449#Reliability_of_Al_Jazeera|13]]
+[[WP:Reliable sources/Noticeboard/Archive 456#IDF claims Gaza reporters are terrorists; reporters and their employer say no|14]]
+[[Wikipedia talk:Reliable sources/Perennial sources/Archive 9#Al Jazeera Trustworthiness|A]]
+[[Wikipedia talk:Reliable sources/Perennial sources/Archive 9#Why is Al-Jazeera green?|B]]
+}}
+| {{WP:RSPLAST|2024}}
+| Al Jazeera is a Qatari state-funded [[WP:NEWSORG|news organization]] and in the 2024 RfC there was consensus that it is generally reliable. Most editors seem to agree that Al Jazeera English and especially Al Jazeera Arabic are [[WP:BIASED|biased]] sources on the [[Arab–Israeli conflict]] and on topics for which the Qatari government has a conflict of interest. Editors perceive [[Al Jazeera English]] to be more reliable than [[Al Jazeera Arabic]]. Al Jazeera's [[live blog]]s should be treated with caution, per the [[WP:NEWSBLOG|policy on news blogs]]. Note that the domain name "aljazeera.com" only started hosting Al Jazeera English content in 2011; links to aljazeera.com prior to 2011 pointed to the unaffiliated ''[[Al Jazeera Magazine]]''.
+| {{WP:RSPUSES|aljazeera.com|aljazeera.net}}
+<section begin="deprecated"/>
+|- class="s-d" id="Al Mayadeen"
+| [[Al Mayadeen]] {{WP:RSPSHORTCUT|WP:ALMAYADEEN}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|420|RFC: Al-Mayadeen|2023|rfc=y}}
+| {{WP:RSPLAST|2023}}
+| Al Mayadeen is a Lebanese pan-Arabist news channel. It was deprecated in a 2023 RfC. Some editors believe it publishes lies or misrepresents sources, some describe it as propaganda.
+|{{WP:RSPUSES|almayadeen.net|almayadeen.tv}}
+<section end="deprecated"/>
+|- class="s-nc" id="Al-Manar"
+| {{anchor|Al-Manar (general topics)}} [[Al-Manar]] (general topics) {{WP:RSPSHORTCUT|WP:ALMANAR}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|462|RfC: Al-Manar|2024|rfc=y}}
+[[Wikipedia:Reliable sources/Noticeboard/Archive 458#Al-Manar|1]]
+| {{WP:RSPLAST|2024}}
+| The 2024 RfC established no consensus on the reliability of Al-Manar. As a publication of [[Hezbollah]], editors believe it may be usable for attributed statements from Hezbollah under the conditions of [[WP:ABOUTSELF]]. It may also be usable for non-controversial topics on Lebanese culture depending on the context. ''See also: [[#Al-Manar (controversial topics)|Al-Manar (controversial topics)]].''
+| {{WP:RSPUSES|almanar.com.lb}}
+|- class="s-gu" id="Al-Manar (controversial topics)"
+| [[Al-Manar]] (controversial topics) {{WP:RSPSHORTCUT|WP:ALMANARPOLITICS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|462|RfC: Al-Manar|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 417#Dead links to Al-Manar|1]] [[Wikipedia:Reliable sources/Noticeboard/Archive 458#Al-Manar|2]]
+| {{WP:RSPLAST|2024}}
+| In the 2024 RfC, editors generally agreed that Al-Manar is generally unreliable for topics that are controversial, especially with regards to the [[Arab–Israeli conflict]]. ''See also: [[#Al-Manar|Al-Manar (general topics)]].''
+| {{WP:RSPUSES|almanar.com.lb}}
+|- class="s-nc" id="Alexa Internet"
+| [[Alexa Internet]]
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|374|RfC: Alexa Internet|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 16#Alexa.com|1]] [[WP:Reliable sources/Noticeboard/Archive 63#Alexa rankings|2]] [[WP:Reliable sources/Noticeboard/Archive 102#Alexa rankings?|3]]<br> [[WP:Village pump (proposals)/Archive 173#RfC: Alexa Rankings in Infoboxes|A]]
+| {{WP:RSPLAST|2022}}
+| Alexa Internet was a web traffic analysis company owned by {{pslink|Amazon}} and discontinued as of May 2022. There is no consensus on the reliability of [[Alexa Internet]]'s website rankings. According to Alexa Internet, rankings of low-traffic websites are less reliable than rankings of high-traffic websites, and rankings of 100,000 and above are unreliable. A March 2022 RfC found no consensus on whether citations of Alexa Internet should be removed now that the service is defunct. Due to their instability, Alexa rankings should be excluded from [[H:IB|infoboxes]].
+| {{WP:RSPUSES|alexa.com}}
+|- class="s-gu" id="AllMovie"
+| [[AllMovie]] (2024–present) {{WP:RSPSHORTCUT|WP:ALLMOVIE}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 442#allmovie.com now using film descriptions and actor biographies from Wikipedia|1]] [[WP:Reliable sources/Noticeboard/Archive 464#Allmovie|2]]
+| {{WP:RSPLAST|2025}}
+| AllMovie, previously owned by [[RhythmOne]], is a movie database. Since its acquisition, it has operated as a [[WP:MIRROR|mirror of Wikimedia content]]; using republished Wikimedia content is considered [[WP:CIRCULAR|circular sourcing]]. ''See also: [[#RhythmOne|RhythmOne]].''
+| {{WP:RSPUSES|allmovie.com}}
+|- class="s-nc" id="AllSides"
+| [[AllSides]] {{WP:RSPSHORTCUT|WP:ALLSIDES}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|375|RfC: AllSides media bias ratings|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 235#Allsides.com|1]] [[WP:Reliable sources/Noticeboard/Archive 278#Is Allsides.com a reliable source?|2]] [[WP:Reliable sources/Noticeboard/Archive 290#Ad Fontes Media and AllSides|3]] [[WP:Reliable sources/Noticeboard/Archive 350#Allsides.com media bias chart, revisited|4]] [[WP:Reliable sources/Noticeboard/Archive 366#Allsides.com|5]] [[WP:Reliable sources/Noticeboard/Archive 396#Allsides.com redux, use of Breitbart and Wikipediocracy as a source|6]]
+| {{WP:RSPLAST|2023}}
+| In a 2022 RfC, editors found no consensus on the reliability of AllSides as a whole. A significant minority of users noted that AllSides has been referenced in reliable sources as an accurate source for media bias ratings, while another significant minority argued that its methodology, which is partly based on the opinions of users, makes it unsuitable for Wikipedia. There is general consensus that reliability varies among the website's articles and should be determined on a case-by-case basis; while the high-confidence ratings are generally reliable as they are reviewed carefully by experts, others depend on blind user surveys that some editors consider opinionated and less reliable.
+| {{WP:RSPUSES|allsides.com}}
+|- class="s-gu" id="AlterNet"
+| [[AlterNet]]
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 86#Alternet|1]] [[WP:Reliable sources/Noticeboard/Archive 125#AlterNet|2]] [[WP:Reliable sources/Noticeboard/Archive 147#AlterNet and Truthdig|3]] [[WP:Reliable sources/Noticeboard/Archive 251#AlterNet|4]] [[WP:Reliable sources/Noticeboard/Archive 264#Should AlterNet be deprecated?|5]]
+| {{WP:RSPLAST|2019}}
+| There is consensus that AlterNet is generally unreliable. Editors consider AlterNet a [[WP:PARTISAN|partisan source]], and its statements should be [[WP:INTEXT|attributed]]. AlterNet's [[WP:SYNDICATED|syndicated content]] should be evaluated by the reliability of its original publisher, and the citation should preferably point to the original publisher.
+| {{WP:RSPUSES|alternet.org}}
+|- class="s-gu" id="Amazon"
+| [[Amazon (company)|Amazon]] {{WP:RSPSHORTCUT|WP:RSPAMAZON}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 20#Citing unverifiable Amazon 'editorial reviews' as book reviews|1]] [[WP:Reliable sources/Noticeboard/Archive 21#Is Amazon.com a reliable source?|2]] [[WP:Reliable sources/Noticeboard/Archive 43#Amazon.com as an RS for unreleased material|3]] [[WP:Reliable sources/Noticeboard/Archive 56#Amazon.com for digital music release info|4]] [[WP:Reliable sources/Noticeboard/Archive 232#BuzzFeed and Amazon.com|5]] [[WP:Reliable sources/Noticeboard/Archive 286#The elephant in the room – amazon.com|6]] [[WP:Reliable sources/Noticeboard/Archive 337#Amazon as a source|7]]
+| {{WP:RSPLAST|2021|stale=n}}
+| User reviews on Amazon are anonymous, [[WP:SELFPUB|self-published]], and unverifiable, and should not be used at all. While Amazon itself is a reliable source for basic information about a work (such as release date, ISBN, etc.), it is unnecessary to cite Amazon when the work itself may serve as a source for that information. Future release dates may be unreliable.
+| {{WP:RSPUSES|amazon.com|amazon.cn|amazon.in|amazon.co.jp|amazon.com.sg|amazon.com.tr|amazon.fr|amazon.de|amazon.it|amazon.nl|amazon.es|amazon.co.uk|amazon.ca|amazon.com.mx|amazon.com.au|amazon.com.br}}
+|- class="s-nc" id="The American Conservative"
+| data-sort-value="American Conservative" | ''[[The American Conservative]]'' <small>(''TAC'')</small> {{WP:RSPSHORTCUT|WP:TAC}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|273|RfC: The American Conservative|2019|rfc=y}} {{rsnl|312|RfC: The American Conservative|2020|rfc=y}} {{rsnl|357|RFC : The American Conservative|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 273#An op-ed by Paul Gottfried about the accuracy of a PragerU video|1]] [[WP:Reliable sources/Noticeboard/Archive 409#Use of The American Conservative for opinion at A Letter to Liberals|2]]
+| {{WP:RSPLAST|2023}}
+| ''The American Conservative'' is published by the American Ideas Institute, an advocacy organisation. It is a self-identified opinionated source whose factual accuracy has been questioned, and many editors say that ''The American Conservative'' should not be used as a source for facts. There is consensus that [[WP:RSOPINION|opinions]] sourced to it must always be accompanied with [[WP:INTEXT|in-text attribution]].
+| {{WP:RSPUSES|theamericanconservative.com}}
+|- class="s-gr" id="Amnesty International"
+| [[Amnesty International]] <small>(Amnesty, AI)</small> {{WP:RSPSHORTCUT|WP:RSPAI}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|371|Amnesty International|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 324#Amnesty|1]] [[WP:Reliable sources/Noticeboard/Archive 276#Is research by Amnesty International a valid source for Wikipedia?|2]] [[WP:Reliable sources/Noticeboard/Archive 414#War crimes|3]]
+| {{WP:RSPLAST|2023}}
+| Amnesty International is a human rights advocacy organisation. There is consensus that Amnesty International is generally reliable for facts. Editors may on occasion wish to use wording more neutral than that used by Amnesty and in controversial cases editors may wish to consider attribution for opinion.
+| {{WP:RSPUSES|amnesty.org}}
+|- class="s-nc" id="Anadolu Agency"
+| {{anchor|Anadolu Agency (general topics)}} [[Anadolu Agency]] (general topics) <small>(AA)</small> {{WP:RSPSHORTCUT|WP:ANADOLU}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|281|RfC: Anadolu Agency|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 376#Is Anadolu Agency legit source?|1]] [[WP:Reliable sources/Noticeboard/Archive 418#RfC: Anadolu Agency|2]]
+| {{WP:RSPLAST|2023}}
+| The 2019 RfC established no consensus on the reliability of Anadolu Agency. Well-established news outlets are normally considered reliable for statements of fact. However, Anadolu Agency is frequently described as a mouthpiece of the Turkish government that engages in propaganda, owing to its [[State media|state-run]] status. ''See also: [[#Anadolu Agency (controversial topics)|Anadolu Agency (controversial topics, international politics)]].''
+| {{WP:RSPUSES|aa.com.tr/en|aa.com.tr}}
+|- class="s-gu" id="Anadolu Agency (controversial topics)"
+| [[Anadolu Agency]] (controversial topics, international politics) <small>(AA)</small> {{WP:RSPSHORTCUT|WP:AAPOLITICS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|281|RfC: Anadolu Agency|2019|rfc=y}}
+| {{WP:RSPLAST|2019|stale=n}}
+| In the 2019 RfC, editors generally agreed that Anadolu Agency is generally unreliable for topics that are controversial or related to international politics. ''See also: [[#Anadolu Agency|Anadolu Agency (general topics)]].''
+| {{WP:RSPUSES|aa.com.tr/en|aa.com.tr}}
+|- class="s-gu" id="Ancestry.com"
+| [[Ancestry.com]] {{WP:RSPSHORTCUT|WP:ANCESTRY}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 61#Question about Ancestry.com|1]] [[WP:Reliable sources/Noticeboard/Archive 92#Ancestry.com|2]] [[WP:Reliable sources/Noticeboard/Archive 150#Ancestry.com|3]] [[WP:Reliable sources/Noticeboard/Archive 189#Ancestry.com|4]] [[WP:Reliable sources/Noticeboard/Archive 298#Royalcruft again|5]] [[WP:Reliable sources/Noticeboard/Archive 335#Ancestry.com|6]]
+| {{WP:RSPLAST|2021|stale=n}}
+| Ancestry.com is a [[genealogy]] site that hosts a database of [[WP:PRIMARY|primary source]] documents including marriage and census records. Some of these sources may be usable under [[WP:PRIMARY]], but secondary sources, where available, are usually preferred; further, see [[WP:BLPPRIMARY]]. Ancestry.com also hosts [[WP:UGC|user-generated content]], which is unreliable.
+| {{WP:RSPUSES|ancestry.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="ANNA News"
+| [[ANNA News]] <small>(Abkhazian Network News Agency, Analytical Network News Agency)</small>
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|371|RfC: ANNA News|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 123#Abkhazian Network News Agency showing video interviews with Houla massacre survivors (plus Syria News)|1]]
+| {{WP:RSPLAST|2022}}
+| ANNA News was deprecated in the 2022 RfC. It is a pro-Kremlin news agency that has been described as propaganda and has published fabricated information.
+|{{WP:RSPUSES|anna-news.info}}
+<section end="deprecated"/>
+|- class="s-gu" id="Answers.com"
+| [[Answers.com]] <small>(WikiAnswers)</small>
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 10#Encyclopedias in Answers.com|1]] [[WP:Reliable sources/Noticeboard/Archive 22#Encyclopedia content hosted on Answers.com and Highbeam (encyclopedia.com)|2]] [[WP:Reliable sources/Noticeboard/Archive 23#This Answers.com article|3]] [[WP:Reliable sources/Noticeboard/Archive 80#Company histories on answers.com|4]]
+| {{WP:RSPLAST|2010|stale=n}}
+| Answers.com (previously known as WikiAnswers) is a [[Q&A site]] that incorporates [[WP:UGC|user-generated content]]. In the past, Answers.com republished excerpts and summaries of [[WP:TERTIARY|tertiary sources]], including [[D&B Hoovers]], [[Gale (publisher)|Gale]], and [[HighBeam Research]]. Citations of republished content on Answers.com should point to the original source, with a note that the source was accessed "via Answers.com". Answers.com also previously served as a [[WP:MIRROR|Wikipedia mirror]]; using republished Wikipedia content is considered [[WP:CIRCULAR|circular sourcing]].
+| {{WP:RSPUSES|answers.com}}
+|- class="s-gr" id="Anti-Defamation League"
+| [[Anti-Defamation League]] <small>(ADL)</small> (excluding the Israeli–Palestinian conflict and antisemitism) {{WP:RSPSHORTCUT|WP:RSPADL}} {{WP:RSPSHORTCUT|WP:ADLHSD}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|302|RfC: Anti-Defamation League (ADL)|2020|rfc=yes}} {{rsnl|439|RFC: The Anti-Defamation League|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 9#Are these reliable sources and do they conflict with NPOV?|1]] [[WP:Reliable sources/Noticeboard/Archive 58#Anti-Defamation League|2]] [[WP:Reliable sources/Noticeboard/Archive 147#ADL website as source on noncontroversial facts|3]] [[WP:Reliable sources/Noticeboard/Archive 204#And the ADL|4]] [[WP:Reliable sources/Noticeboard/Archive 234#ADL is being cited as a reliable source|5]] [[WP:Reliable sources/Noticeboard/Archive 336#adl.org/blog (Anti-Defamation League Blog)|6]] [[WP:Reliable sources/Noticeboard/Archive 434#Is it time to re-evaluate the ADL?|7]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that, outside the context of the [[Israeli–Palestinian conflict]], the ADL is generally a reliable source, particularly for topics related to hate groups and extremism in the U.S. There is no consensus that the ADL must always be attributed, but there is consensus that its labelling of organisations and individuals (especially as antisemitic) should be attributed. Some editors regard the ADL's opinion pieces as unreliable and should only be used with attribution. In the 2024 RfC, there was rough consensus that the [[List of symbols designated by the Anti-Defamation League as hate symbols|ADL's hate symbol]] database is reliable for identifying the existence of a symbol and for straightforward descriptive facts, but not for more complex details such as a symbol's history. In such cases, [[WP:INTEXT|in-text attribution]] to the ADL may be advisable.
+| {{WP:RSPUSES|adl.org|adl.org/resources/hate-symbols/search}}
+|- class="s-nc" id="Anti-Defamation League (antisemitism)"
+| [[Anti-Defamation League]] <small>(ADL)</small> (antisemitism, excluding Israel or Zionism) {{WP:RSPSHORTCUT|WP:ADLAS}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|302|RfC: Anti-Defamation League (ADL)|2020|rfc=yes}} {{rsnl|439|RFC: The Anti-Defamation League|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 434#Is it time to re-evaluate the ADL?|1]]
+| {{WP:RSPLAST|2024}}
+| The ADL can roughly be taken as reliable on the topic of antisemitism when [[Israel]] and [[Zionism]] are not concerned, and the reliability is a case-by-case matter. There is consensus that the labelling of organisations and individuals by the ADL as antisemitic should be [[WP:INTEXT|attributed]]. The ADL has also demonstrated a habit of conflating [[Criticism of Israel|criticism of the Israeli government's actions]] with antisemitism.
+| {{WP:RSPUSES|adl.org}}
+|- class="s-gu" id="Anti-Defamation League (Israel/Palestine conflict)"
+| [[Anti-Defamation League]] <small>(ADL)</small> (Israeli–Palestinian conflict, including related antisemitism) {{WP:RSPSHORTCUT|WP:ADLPIA}} {{WP:RSPSHORTCUT|WP:ADLIPA}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|439|RFC: The Anti-Defamation League|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 434#Is it time to re-evaluate the ADL?|1]] [[Wikipedia:Reliable sources/Noticeboard/Archive 468#The Times of Israel and fake news.|2]]
+| {{WP:RSPLAST|2024|stale=n}}
+| There is consensus that the ADL is a generally unreliable source for the Israeli–Palestinian conflict, due to significant evidence that the ADL acts as a pro-Israeli advocacy group and has repeatedly published false and misleading statements as fact, un-retracted, regarding the Israeli–Palestinian conflict. The general unreliability of the ADL extends to the intersection of the topics of antisemitism and the Israeli–Palestinian conflict.
+| {{WP:RSPUSES|adl.org}}
+|- class="s-gu" id="Antiwar.com"
+| [[Antiwar.com]]
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 2#Antiwar.com and Globalsecurity.org|1]] [[WP:Reliable sources/Noticeboard/Archive 3#antiwar.com|2]] [[WP:Reliable sources/Noticeboard/Archive 71#The Terror Enigma: 9/11 and the Israeli Connection|3]] [[WP:Reliable sources/Noticeboard/Archive 106#antiwar.com|4]]
+| {{WP:RSPLAST|2011}}
+| There is consensus that Antiwar.com is generally unreliable. Editors consider Antiwar.com to be [[WP:BIASED|biased or opinionated]].
+| {{WP:RSPUSES|antiwar.com|antiwar.org}}
+|- class="s-gr" id="Aon"
+| [[Aon (company)|Aon]] {{WP:RSPSHORTCUT|WP:RSPAON}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|383|RFC on Aon, particularly in weather related articles|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 375#Aon|1]]
+| {{WP:RSPLAST|2022}}
+| In a 2022 RfC, there was consensus that Aon is generally reliable for weather-related articles. Editors pointed out that Aon often provides data not found in other sources, and care should be taken when using the source as it may be providing a different estimate than other sources, e.g. total economic damages, rather than property damage.
+| {{WP:RSPUSES|aon.com}}
+|- class="s-nc" id="Apple Daily"
+| ''[[Apple Daily]]''{{WP:RSPSHORTCUT|WP:APPLEDAILY}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|297|RfC: Apple Daily|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 346#Apple Daily shutting down|1]]
+| {{WP:RSPLAST|2021}}
+| A 2020 RfC found that ''Apple Daily'' was often but not always reliable, and that it may be appropriate to use it in articles about Hong Kong, but subject to editorial judgment, particularly if the topic is controversial and/or ''Apple Daily'' is the only source for a contested claim. There was concern that historically, it was not necessarily as reliable as it was in 2020. ''Apple Daily'' shut down in June 2021; website content is no longer accessible unless archived.<ref>{{Cite web|url=https://www.bbc.co.uk/news/world-asia-china-57578926|title=Apple Daily: Hong Kong pro-democracy paper announces closure|website=BBC News|date=June 23, 2021|access-date=June 24, 2021|archive-url=https://web.archive.org/web/20210624014051/https://www.bbc.co.uk/news/world-asia-china-57578926|archive-date=June 24, 2021|url-status=live}}</ref> Editors with access to [[Factiva|Dow Jones Factiva]] can access articles published by them in print between 2012 January 1 and 2018 March 15; simplified Chinese has source code APPLDS and traditional is APPLOT.
+| {{WP:RSPUSES|hk.appledaily.com}}
+|- class="s-nc" id="Arab News"
+| ''[[Arab News]]''
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|289|Rfc: Arab news is a reliable source?|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 5#ArabNews|1]] [[WP:Reliable sources/Noticeboard/Archive 260#World atlas + Arab news|2]] [[WP:Reliable sources/Noticeboard/Archive 305#Arab News on Iran International|3]] [[WP:Reliable sources/Noticeboard/Archive 324#Arab News reliable on the People's Mujahedin of Iran?|4]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''Arab News'' is a usable source for topics unrelated to the [[Saudi Arabia]]n government. As ''Arab News'' is closely associated with the Saudi Arabian government and is published in a country with low [[press freedom]], editors consider ''Arab News'' [[WP:BIASED|biased]] and [[WP:IS|non-independent]] for Saudi Arabian politics, and recommend [[WP:INTEXT|attribution]] for its coverage in this area. Some editors consider ''Arab News'' unreliable for matters related to the Saudi Arabian government.
+| {{WP:RSPUSES|arabnews.com}}
+|- class="s-gu" id="Army Recognition"
+| ''Army Recognition'' {{WP:RSPSHORTCUT|WP:ARMYRECOGNITION}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 344#armyrecognition.com|1]] [[WP:Reliable sources/Noticeboard/Archive 349#Army Recognition|2]] ''[[WP:Reliable sources/Noticeboard#Request to revise Army Recognition entry – defamatory & unsourced|3]]''
+| {{WP:RSPLAST|2025|inprogress=y}}
+| ''Army Recognition'' is a site that reproduces press release material without any original reportage. In at least one example it has copied content without attribution from other sources. Editors allege that ''Army Recognition'' operates on a pay-for-coverage basis, providing "online marketing and advertising solutions" for the defense industry. This model may raise questions about the impartiality and independence of its content.
+| {{WP:RSPUSES|armyrecognition.com|navyrecognition.com}}
+|- class="s-gr" id="Ars Technica"
+| ''[[Ars Technica]]'' {{WP:RSPSHORTCUT|WP:ARSTECHNICA}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 2#Ars Technica news?|1]] [[WP:Reliable sources/Noticeboard/Archive 136#Ars Technica a Reliable Source?|2]] [[WP:Reliable sources/Noticeboard/Archive 371# RS for Board Games- Board Game Quest, Ars Technica, Kotaku and TechRaptor|3]]
+| {{WP:RSPLAST|2022}}
+| ''Ars Technica'' is considered generally reliable for science- and technology-related articles.
+| {{WP:RSPUSES|arstechnica.com|arstechnica.co.uk}}
+|- class="s-nc" id="Asian News International"
+| [[Asian News International]] <small>(ANI)</small> {{WP:RSPSHORTCUT|WP:RSPANI}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|331|RfC: Asian News International (ANI)|2021|rfc=y}}
+| {{WP:RSPLAST|2021}}
+| Asian News International is an Indian [[news agency]]. For general reporting, Asian News International is considered to be between [[WP:MREL|marginally reliable]] and [[WP:GUNREL|generally unreliable]], with consensus that it is biased and that it should be [[WP:INTEXT|attributed in-text]] for contentious claims. For its coverage related to Indian domestic politics, foreign politics, and other topics in which the [[Government of India]] may have an established stake, there is consensus that Asian News International is [[WP:QUESTIONABLE|questionable]] and generally unreliable due to its reported dissemination of pro-government propaganda.
+| {{WP:RSPUSES|aninews.in}}
+|- class="s-nc" id="AskMen"
+| [[AskMen]] {{WP:RSPSHORTCUT|WP:ASKMEN}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 25#askmen.com|1]] [[WP:Reliable sources/Noticeboard/Archive 34#Askmen.com|2]] [[WP:Reliable sources/Noticeboard/Archive 37#AskMen.com|3]] [[WP:Reliable sources/Noticeboard/Archive 51#Ask.com|4]] [[WP:Reliable sources/Noticeboard/Archive 120#Askmen.com|5]] [[WP:Reliable sources/Noticeboard/Archive 284#AskMen|6]]
+| {{WP:RSPLAST|2020}}
+| There is no consensus on the reliability of AskMen. ''See also: {{pslink|IGN}}.''
+| {{WP:RSPUSES|askmen.com}}
+|- class="s-nc" id="Association of Religion Data Archives"
+| [[Association of Religion Data Archives]] <small>(ARDA, Pew–Templeton Global Religious Futures)</small> {{WP:RSPSHORTCUT|WP:THEARDA}} {{WP:RSPSHORTCUT|WP:GORDONCONWELL}} {{WP:RSPSHORTCUT|WP:GLOBALRELIGIOUSFUTURES}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|395|RfC: deprecation of Gordon-Conwell's WRD/WCD/ARDA & Pew-Templeton's GRF|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 239#thearda.com|1]] [[WP:Reliable sources/Noticeboard/Archive 395#Association of Religion Data Archives and World Religion Database|2]]
+| {{WP:RSPLAST|2022}}
+| ARDA is an archive repository of information pertaining to religion. The 2022 RfC did not gain a consensus on the reliability of ARDA; there was, however, a rough consensus to use the sources with in-text attribution provided that more reliable sources are unavailable.
+| {{WP:RSPUSES|thearda.com|gordonconwell.edu|globalreligiousfutures.org|pewresearch.org/religion/2015/04/02/religious-projection-table|pewresearch.org/religion/2015/04/02/religious-projections-2010-2050}}
+|- class="s-gr" id="Associated Press"
+| [[Associated Press]] <small>(AP)</small> {{WP:RSPSHORTCUT|WP:RSPAP}}
+| {{WP:RSPSTATUS|gr}}
+| 12{{efn|See these discussions of Associated Press:[[WP:Reliable sources/Noticeboard/Archive 38#New York Times, Associated Press, etc. as sources on legal questions|1]] [[WP:Reliable sources/Noticeboard/Archive 58#Associated Press, reliable?|2]] [[WP:Reliable sources/Noticeboard/Archive 129#Brian Bakst &#91;Associated Press&#93; (2012-06-16) "Paul Ryan's Future Could Mean Mitt Romney White House Over U.S. House Of Representatives" Huffington Post on Paul Ryan|3]] [[WP:Reliable sources/Noticeboard/Archive 150#PRISM and an Associated Press article discussing the Najibullah Zazi case|4]] [[WP:Reliable sources/Noticeboard/Archive 164#Associated Press article being used in Shooting of Trayvon Martin|5]] [[WP:Reliable sources/Noticeboard/Archive 243#Can “wire” news services such AP, Reuters, or AFP ever report inaccurate, misleading, or false information|6]] [[WP:Reliable sources/Noticeboard/Archive 331#Associated Press sponsored content|7]] [[WP:Reliable sources/Noticeboard/Archive 361#Are AP and CNN reliable for putting the allegation of the China COVID-19 cover-up in Wikivoice?|8]] [[WP:Reliable sources/Noticeboard/Archive 379#Does the Associated Press' commitment to accountability journalism render it generally more WP:BIASED?|9]] [[WP:Reliable sources/Noticeboard/Archive 397#opinion pieces published by the AP?|10]] [[WP:Reliable sources/Noticeboard/Archive 424#AP News with plagiarism|11]] [[WP:Reliable sources/Noticeboard/Archive 448#Associated Press famous birthdays lists|12]]
+}}
+| {{WP:RSPLAST|2024}}
+| The Associated Press is a [[news agency]]. There is consensus that the Associated Press is generally reliable. [[WP:SYNDICATED|Syndicated]] reports from the Associated Press that are published in other sources are also considered generally reliable.
+| {{WP:RSPUSES|ap.org|apnews.com}}
+|- class="s-gr" id="The Atlantic"
+| data-sort-value="Atlantic"| ''[[The Atlantic]]'' <small>(''The Atlantic Monthly'')</small> {{WP:RSPSHORTCUT|WP:THEATLANTIC}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 8#The Atlantic Monthly website|1]] [[WP:Reliable sources/Noticeboard/Archive 240#Is Conor Friedersdorf and the Atlantic a Reliable Source?|2]] [[WP:Reliable sources/Noticeboard/Archive 268#The Kingdom in the Closet by Nadya Labi|3]] [[WP:Reliable sources/Noticeboard/Archive 373#How should we treat the Atlantic's Ideas section? Is it news or opinion?|4]] [[WP:Reliable sources/Noticeboard/Archive 441#OpenAI "content and product partnerships" with Vox Media and The Atlantic|5]]
+| {{WP:RSPLAST|2024}}
+| ''The Atlantic'' is considered generally reliable. Editors should beware that ''The Atlantic'' does not always clearly delineate between reporting and opinion content; opinion pieces, including all articles in the "Ideas" column (theatlantic.com/ideas/), are governed by [[WP:RSOPINION]].
+| {{WP:RSPUSES|theatlantic.com}}
+|- class="s-gu" id="Atlas Obscura places"
+| [[Atlas Obscura]] "places" articles {{WP:RSPSHORTCUT|WP:AOPLACES}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 313#Atlas Obscura|1]] [[WP:Reliable sources/Noticeboard/Archive 399#Atlas Obscura|2]] [[WP:Reliable sources/Noticeboard/Archive 412#Atlas Obscura's staff-written articles|3]] [[WP:Reliable sources/Noticeboard/Archive 415#List Atlas Obscura in perennial sources?|4]]
+| {{WP:RSPLAST|2023}}
+| Atlas Obscura's "places" articles are user-generated and user-editable with minimal oversight, and the site's terms of use includes disclaimers about user submissions. Many of the "places" articles [[Wikipedia:CIRCULAR|cite Wikipedia]] as a source of their information or otherwise lack clear or reliable sourcing. These articles should generally not be referenced on Wikipedia.
+| {{WP:RSPUSES|atlasobscura.com/places}}
+|- class="s-gr" id="Atlas Obscura articles"
+| [[Atlas Obscura]] "articles" articles {{WP:RSPSHORTCUT|WP:AOARTICLES}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 313#Atlas Obscura|1]] [[WP:Reliable sources/Noticeboard/Archive 399#Atlas Obscura|2]] [[WP:Reliable sources/Noticeboard/Archive 412#Atlas Obscura's staff-written articles|3]] [[WP:Reliable sources/Noticeboard/Archive 415#List Atlas Obscura in perennial sources?|4]]
+| {{WP:RSPLAST|2023}}
+| Atlas Obscura's "articles" articles are professionally authored with editor oversight, and generally reliable. However, other areas of the site operate as a commercial travel service vendor, and the site hosts user-generated content in its "places" articles (see [[WP:AOPLACES]])
+| {{WP:RSPUSES|atlasobscura.com/articles}}
+|- class="s-gr" id="The Australian"
+| data-sort-value="Australian"| ''[[The Australian]]'' {{WP:RSPSHORTCUT|WP:THEAUSTRALIAN}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 245#The Australian newspaper|1]] [[WP:Reliable sources/Noticeboard/Archive 309#The Australian|2]] [[WP:Reliable sources/Noticeboard/Archive 442#Is The Australian reliable?|3]]
+| {{WP:RSPLAST|2024}}
+| ''The Australian'' is considered generally reliable. Some editors consider ''The Australian'' to be a partisan source. Opinion pieces are covered by [[WP:RSOPINION]] and [[WP:NEWSBLOG]]. Several editors expressed concern regarding their coverage of climate change related topics.
+| {{WP:RSPUSES|theaustralian.com.au}}
+|- class="s-nc" id="Asian News International"
+| [[Australian Strategic Policy Institute]] <small>(ASPI)</small>
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|357|RfC: Australian Strategic Policy Institute (ASPI) as Source|2021|rfc=y}}
+| {{WP:RSPLAST|2021}}
+| There is consensus that use of Australian Strategic Policy Institute should be evaluated for [[WP:UNDUE|due weight]] and accompanied with [[WP:INTEXT|in text attribution]] when used. Editors consider the Australian Strategic Policy Institute to be a [[WP:BIASED|biased or opinionated source]] that is reliable in the topic area of Australian defence and strategic issues but recommend care as it is a think tank associated with the defence industry in Australia and the Australian Government.
+| {{WP:RSPUSES|aspi.org.au}}
+|- class="s-gr" id="The A.V. Club"
+| data-sort-value="AV Club"| ''[[The A.V. Club]]'' {{WP:RSPSHORTCUT|WP:AVCLUB}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 9#The A/V Club|1]] [[WP:Reliable sources/Noticeboard/Archive 151#The A.V. Club at Teenage Mutant Ninja Turtles (2014 film)|2]] [[WP:Reliable sources/Noticeboard/Archive 177#Westeros.org. Again|3]] [[WP:Reliable sources/Noticeboard/Archive 409#G/O Media to start using AI|4]]<br> [[Wikipedia talk:WikiProject Albums/Archive 32#Review site: The A.V. Club|A]]
+| {{WP:RSPLAST|2023}}
+| ''The A.V. Club'' is considered generally reliable for film, music and TV reviews. There is consensus that AI-generated articles are generally unreliable; ''The A.V. Club''{{'s}} parent company, G/O Media, began releasing such pieces in July 2023, usually under the byline "The A.V. Club Bot".<ref>{{cite news |last1=Sato |first1=Mia |title=G/O Media's AI 'innovation' is off to a rocky start |url=https://www.theverge.com/2023/7/6/23785645/go-media-ai-generated-articles-gizmodo-av-club-artificial-intelligence-bots |access-date=February 27, 2024 |work=[[The Verge]] |date=July 6, 2023 |language=en}}</ref>
+| {{WP:RSPUSES|avclub.com}}
+|- class="s-gr" id="AVN"
+| data-sort-value="AVN"| [[AVN (magazine)|''AVN'']] <small>(''Adult Video News'', ''AVN Magazine'')</small> {{WP:RSPSHORTCUT|WP:AVN}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|349|RfC: Adult industry sources|2021|rfc=y}}
+| {{WP:RSPLAST|2021}}
+| ''AVN'' is considered generally reliable for the adult industry. Editors should take care to ensure the content is not a republished press release (which is marked as such in search).
+| {{WP:RSPUSES|avn.com}}
+|- class="s-gr" id="Axios"
+| ''[[Axios (website)|Axios]]'' {{WP:RSPSHORTCUT|WP:AXIOS}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 263#Axios (website)|1]] [[WP:Reliable sources/Noticeboard/Archive 289#Axios.com as a generally reliable source?|2]]
+| {{WP:RSPLAST|2020}}
+| There is consensus that ''Axios'' is generally reliable. Some editors consider ''Axios'' to be a [[WP:BIASED|biased or opinionated source]]. [[WP:RSOPINION|Statements of opinion]] should be [[WP:INTEXT|attributed]] and evaluated for [[WP:DUE|due weight]].
+| {{WP:RSPUSES|axios.com}}
+</onlyinclude>
+|}

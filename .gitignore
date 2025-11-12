@@ -6,6 +6,7 @@ discovery_checkpoint.json
 discovery_stats.json
 *.ndjson
 *.pkl
+!results/overall/cached_*_idx.pkl
 .env
 *.faiss
 data/

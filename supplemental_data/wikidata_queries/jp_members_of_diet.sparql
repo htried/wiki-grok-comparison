@@ -1,0 +1,20 @@
+SELECT DISTINCT ?person ?personLabel ?enwiki ?positionLabel ?parliamentaryGroupLabel WHERE {
+  VALUES ?position {
+    wd:Q17506823    #  member of the House of Representatives of Japan
+  }
+
+  ?person p:P39 ?statement.
+  ?statement ps:P39 ?position.
+  ?statement pq:P580 ?start.
+  FILTER NOT EXISTS { ?statement pq:P582 ?end. }  # Currently in office
+
+  # Must have a parliamentary group listed
+  ?statement pq:P4100 ?parliamentaryGroup.
+
+  # Must have an English Wikipedia page
+  ?enwiki schema:about ?person;
+          schema:isPartOf <https://en.wikipedia.org/>.
+
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+ORDER BY ?personLabel

@@ -1,0 +1,15 @@
+results/overall/domains/wp_domains_wo_license.json filter=lfs diff=lfs merge=lfs -text
+results/overall/domains/wp_domains.json filter=lfs diff=lfs merge=lfs -text
+results/overall/domains/grok_domains_w_license.json filter=lfs diff=lfs merge=lfs -text
+results/overall/domains/wp_domains_w_license.json filter=lfs diff=lfs merge=lfs -text
+results/overall/domains/grok_domains_wo_license.json filter=lfs diff=lfs merge=lfs -text
+results/overall/domains/grok_domains.json filter=lfs diff=lfs merge=lfs -text
+results/overall/domains/citation_count_df.csv filter=lfs diff=lfs merge=lfs -text
+results/overall/domains/reliability_citation_diff.csv filter=lfs diff=lfs merge=lfs -text
+results/overall/similarity/embeddings_similarities_pairwise_stats.parquet filter=lfs diff=lfs merge=lfs -text
+results/overall/similarity/embeddings_similarities_pairwise_top1_alignments.parquet filter=lfs diff=lfs merge=lfs -text
+results/overall/similarity/structural_comparison.csv filter=lfs diff=lfs merge=lfs -text
+results/overall/cached_grok_idx.pkl filter=lfs diff=lfs merge=lfs -text
+results/overall/cached_wiki_idx.pkl filter=lfs diff=lfs merge=lfs -text
+supplemental_data/pageview_data/pageviews_0.csv filter=lfs diff=lfs merge=lfs -text
+supplemental_data/pageview_data/pageviews_1.csv filter=lfs diff=lfs merge=lfs -text

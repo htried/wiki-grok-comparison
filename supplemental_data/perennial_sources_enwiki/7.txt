@@ -1,0 +1,615 @@
+{| class="wikitable sortable perennial-sources"
+|+ Perennial sources
+!rowspan="2" scope="col" | Source
+!rowspan="2" scope="col" | Status<br /><small>([[#Legend|legend]])</small>
+!colspan="3" scope="colgroup" | Discussions
+!rowspan="2" scope="col" class="unsortable" | Use
+|-
+! scope="col" class="unsortable" | List
+! scope="col" | Last
+! scope="col" class="unsortable" | Summary
+<onlyinclude>
+|- class="s-nc" id="Salon"
+| ''[[Salon.com|Salon]]'' {{WP:RSPSHORTCUT|WP:SALON.COM}}
+| {{WP:RSPSTATUS|nc}}
+| 10{{efn|See these discussions of Salon: [[WP:Reliable sources/Noticeboard/Archive 1#Salon as a source at a BLP related article under ArbComm special standards|1]] [[WP:Reliable sources/Noticeboard/Archive 34#Salon on Rachel Corrie|2]] [[WP:Reliable sources/Noticeboard/Archive 71#The Israeli "art student" mystery article from salon.com|3]] [[WP:Reliable sources/Noticeboard/Archive 200#Salon.com|4]] [[WP:Reliable sources/Noticeboard/Archive 214#Reliability of Salon Newspaper as a Reference on Wikipedia|5]] [[WP:Reliable sources/Noticeboard/Archive 235#Salon Newspaper an Opinion website ?|6]] [[WP:Reliable sources/Noticeboard/Archive 238#Salon Newspaper an Opinion website ?|7]] [[WP:Reliable sources/Noticeboard/Archive 379#Salon.com let misinformation stand for over a year|8]] [[WP:Reliable sources/Noticeboard/Archive 386#Are Salon and Decider RS for film reviews?|9]] [[WP:Reliable sources/Noticeboard/Archive 398#Use of Salon for pseudoscience article (List of cryptids)|10]]
+}}
+| {{WP:RSPLAST|2023}}
+| There is no consensus on the reliability of ''Salon''. Editors consider ''Salon'' [[WP:BIASED|biased or opinionated]], and its statements should be [[WP:INTEXT|attributed]].
+| {{WP:RSPUSES|salon.com}}
+|- class="s-nc" id="Science-Based Medicine"
+| ''[[Science-Based Medicine]]'' {{WP:RSPSHORTCUT|WP:SBM}} {{WP:RSPSHORTCUT|WP:SBMED}} {{WP:RSPSHORTCUT|WP:SCIENCEBASEDMEDICINE}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|256|RfC on sciencebasedmedicine.org|2019|rfc=y}}
+{{rsnl|463|RFC Science-Based Medicine|2025|rfc=y}}<br>
+[[WP:Reliable sources/Noticeboard/Archive 141#Film review by David Gorski at ScienceBasedMedicine.org of Gabriel Cousens documentary Simply Raw|1]] [[WP:Reliable sources/Noticeboard/Archive 247#sciencebasedmedicine.org|2]] [[WP:Reliable sources/Noticeboard/Archive 351#Science-Based Medicine|3]]
+| {{WP:RSPLAST|2025}}
+| There is a general consensus that at least some articles on Science-Based Medicine can be considered [[WP:SPS|self-published]], and substantial disagreement over whether the site's editorial control is adequate. Some material on the site may not be substantially reviewed if reviewed at all. As such, material from this site should be used with caution and [[WP:INTEXT|with attribution]] and furthermore should not on its own be used to support negative or controversial content in BLPs. Particular articles from the site may still be reliable on the basis of self-published sources by experts; those should be considered on an individual basis.
+| {{WP:RSPUSES|sciencebasedmedicine.org}}
+|- class="s-nc" id="ScienceBlogs"
+| [[ScienceBlogs]]
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 48#Guardian blog articles|1]] [[WP:Reliable sources/Noticeboard/Archive 58#Scienceblogs.com/Deltoid AKA timlambert.org is not a Reliable Source|2]] [[WP:Reliable sources/Noticeboard/Archive 77#Deep Sea News|3]] [[WP:Reliable sources/Noticeboard/Archive 105#Journal of Cosmology|4]] [[WP:Reliable sources/Noticeboard/Archive 113#Few body systems|5]] [[WP:Reliable sources/Noticeboard/Archive 117#Blog posts and personal websites in the AAH article|6]] [[WP:Reliable sources/Noticeboard/Archive 133#PZ Myers on Stuart Pivar's Lifecode|7]]<br> [[Talk:Energy Catalyzer/Archive 10#'ScienceBlogs' article on the E-Cat|A]]
+| {{WP:RSPLAST|2012}}
+| ScienceBlogs is an invitation-only network of blogs. There is no consensus on the reliability of ScienceBlogs articles in general. Most editors consider ScienceBlogs articles written by [[WP:EXPERTSOURCE|subject-matter experts]] reliable, though articles outside the writer's relevant field are not. As a [[WP:SPS|self-published source]] it should not be used as a source of information on [[WP:BLPSPS|other living persons]]. Since it often covers [[WP:FRINGE|fringe]] material, [[WP:PARITY|parity of sources]] may be relevant.
+| {{WP:RSPUSES|scienceblogs.com}}
+|- class="s-gu" id="ScienceDirect topic"
+| [[ScienceDirect]] topic page
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 270#Elsevier topics: reliability of machine-generated sources|1]] [[WP:Reliable sources/Noticeboard/Archive 417#Elsevier topics again|2]] [[WP:Reliable sources/Noticeboard/Archive 422#Machine-generated text at ScienceDirect used as source|3]] [[WP:Reliable sources/Noticeboard/Archive 432#ScienceDirect Topics (AI-generated pages)|4]]
+| {{WP:RSPLAST|2023}}
+| [[ScienceDirect]] is an online bibliographical database run by Elsevier. In addition to academic publications, the website maintains machine-generated "topic pages" consisting of quotations from publications in the database. These topic pages change over time, presenting a challenge to [[WP:V|verifiability]]. Citations should be made to the actual, underlying publications quoted by the topic page.
+| {{WP:RSPUSES|sciencedirect.com/topics/}}
+|- class="s-gr" id="Scientific American"
+| ''[[Scientific American]]'' <small>(''SA'', ''SciAm'')</small>
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 51#Scientific American (editorial) quote in RealClimate|1]] [[WP:Reliable sources/Noticeboard/Archive 301#Scientific American|2]]
+| {{WP:RSPLAST|2020}}
+| ''Scientific American'' is considered generally reliable for [[popular science]] content. Use [[WP:MEDPOP]] to determine whether the publication's medical coverage should be used.
+| {{WP:RSPUSES|scientificamerican.com}}
+|- class="s-gr" id="SCOTUSblog"
+| ''[[SCOTUSblog]]'' {{WP:RSPSHORTCUT|WP:RSPSCOTUSBLOG}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|326|RfC on SCOTUSblog|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 38#Tom Goldstein and SCOTUSblog as sources for Supreme Court articles|1]] [[WP:Reliable sources/Noticeboard/Archive 301#Determining whether a source is SPS in deciding whether BLPSPS applies|2]]
+| {{WP:RSPLAST|2021}}
+| In a 2021 RfC, there was strong consensus that ''SCOTUSblog'' is [[WP:GREL|generally reliable]] for law-related topics. Some authors on ''SCOTUSblog'' are [[subject-matter experts]], but editors do not consider the website an [[WP:SCHOLARSHIP|academic source]]. Editors recommend [[WP:INTEXT|in-text attribution]] for ''SCOTUSblog''{{'}}s [[WP:RSOPINION|opinion]] and analysis articles.
+| {{WP:RSPUSES|scotusblog.com}}
+|- class="s-nc" id="Screen Rant"
+| ''[[Screen Rant]]'' {{WP:RSPSHORTCUT|WP:SCREENRANT}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|328|RfC - Screen Rant|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 266#Screen Rant|1]]<br> [[Wikipedia talk:WikiProject Video games/Sources/Archive 17#Unclear|A]] [[Wikipedia talk:WikiProject Video games/Sources/Archive 21#ScreenRant|B]]
+| {{WP:RSPLAST|2021}}
+| There is consensus that ''Screen Rant'' is a marginally reliable source. It is considered reliable for entertainment-related topics, but should not be used for controversial statements related to [[WP:BLP|living persons]]. ''See also: [[WP:VALNET]]''
+| {{WP:RSPUSES|screenrant.com}}
+|- class="s-gu" id="Scribd"
+| data-sort-value="Scribd" | [[Scribd]] {{WP:RSPSHORTCUT|WP:SCRIBD}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 33#Is Scribd.com a Reliable Source?|1]] [[WP:Reliable sources/Noticeboard/Archive 151#Court documents hosted on Scribd|2]] [[WP:Reliable sources/Noticeboard/Archive 184#Scribd.com|3]] [[WP:Reliable sources/Noticeboard/Archive 206#Documents uploaded to ScribD|4]]
+| {{WP:RSPLAST|2016|stale=n}}
+| Scribd operates a self-publishing platform for documents and audiobooks. It is considered generally unreliable, especially for [[WP:BLPSPS|biographies of living persons]]. Anyone can upload any document they like and there is no assurance that it hasn't been manipulated. Many documents on Scribd's self-publishing platform violate copyrights, so linking to them from Wikipedia would also violate the [[WP:COPYVIOEL]] guideline and the [[WP:COPYVIO]] policy. If a particular document hosted on the platform is in itself reliable, editors are advised to cite the source without linking to the Scribd entry.
+| {{WP:RSPUSES|scribd.com}}
+|- class="s-nc" id="Sherdog"
+| [[Sherdog]]
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|rfc=y|318|RfC: Sherdog.com|2020}}
+| {{WP:RSPLAST|2020}}
+| In the 2020 RfC, Sherdog was determined to be not [[WP:SPS|self-published]] and can be used for basic information on MMA fighters and matches. However, it is considered less reliable than [[ESPN]] and other generally reliable sources, so use with caution.
+| {{WP:RSPUSES|sherdog.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Simple Flying"
+| ''Simple Flying'' {{WP:RSPSHORTCUT|WP:RSPSIMPLEFLYING}} {{WP:RSPSHORTCUT|WP:SIMPLEFLYING}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|rfc=y|489|RfC: Simple Flying|2025}}
+[[WP:Reliable sources/Noticeboard/Archive 423#SimpleFlying revisit|1]] [[WP:Reliable sources/Noticeboard/Archive 421#SimpleFlying.com|2]] [[WP:Reliable sources/Noticeboard/Archive 286#Simple Flying|3]]
+| {{WP:RSPLAST|2025}}
+| ''Simple Flying'' was deprecated in the 2025 RfC. Editors agreed that the website engages in churnalism and that its articles often contain inaccuracies. See [[WP:Simple Flying]] for more information.
+| {{WP:RSPUSES|simpleflying.com}}
+<section end="deprecated"/>
+|- class="s-gr" id="Sixth Tone"
+| ''[[Sixth Tone]]'' (general topics) {{WP:RSPSHORTCUT|WP:SIXTHTONE}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|287|RfC: Sixth Tone|2020|rfc=y}}
+| {{WP:RSPLAST|2020}}
+| ''Sixth Tone'' is usable for general non-political topics, such as Chinese society and culture. ''See also: {{pslink|Sixth Tone (politics)}}.''
+| {{WP:RSPUSES|sixthtone.com}}
+|- class="s-gu" id="Sixth Tone (politics)"
+| ''[[Sixth Tone]]'' (politics) {{WP:RSPSHORTCUT|WP:SIXTHTONEPOLITICS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|287|RfC: Sixth Tone|2020|rfc=y}}
+| {{WP:RSPLAST|2020|stale=n}}
+| ''Sixth Tone'' is published by the [[Shanghai United Media Group]], which is government-controlled. Editors consider ''Sixth Tone'' generally unreliable for politics. ''See also: [[#Sixth Tone|Sixth Tone (general topics)]].''
+| {{WP:RSPUSES|sixthtone.com}}
+|- class="s-nc" id="The Skeptic's Dictionary"
+| data-sort-value="Skeptic's Dictionary" | ''[[The Skeptic's Dictionary]]''
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 9#The Skeptic's Dictionary|1]] [[WP:Reliable sources/Noticeboard/Archive 8#Skeptic's dictionary|2]] [[WP:Reliable sources/Noticeboard/Archive 14#Is skepdic.com a reliable source?|3]] [[WP:Reliable sources/Noticeboard/Archive 285#Skeptic's Dictionary and Skeptoid are they self-published sources?|4]]
+| {{WP:RSPLAST|2020}}
+| ''The Skeptic's Dictionary'' is a book by [[Robert Todd Carroll]] that expanded into a website. The website is a [[WP:SPS|self-published source]] (by a subject-matter expert) and should not be used as a source of information on [[WP:BLPSPS|other living persons]]. [[WP:INTEXT|Attribution]] may be necessary. In some cases, it's preferable to read and cite the sources cited by ''The Skeptic's Dictionary''. As it often covers [[WP:FRINGE|fringe]] material, [[WP:PARITY|parity of sources]] may be relevant.
+| {{WP:RSPUSES|skepdic.com}}
+|- class="s-gr" id="Skeptical Inquirer"
+| ''[[Skeptical Inquirer]]''
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|373|RfC: Skeptical Inquirer|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 364#Columns at Skeptical Inquirer|1]]<br> [[Wikipedia:Arbitration/Requests/Case/Skepticism and coordinated editing/Proposed decision#Skeptical Inquirer as a reliable source|A]]
+| {{WP:RSPLAST|2022}}
+| A [[Wikipedia:Reliable sources/Noticeboard/Archive 373#Skeptical Inquirer at Arbcom|2022 RfC]] established reasonably clear consensus that ''Skeptical Inquirer'' is generally reliable. [[Wikipedia:Arbitration/Requests/Case/Skepticism and coordinated editing/Proposed decision#Skeptical Inquirer as a reliable source|The Arbitration Committee previously found]] that it is not considered a [[WP:SPS|self-published source]], and that it should be used in a manner similar to other opinion sources.
+| {{WP:RSPUSES|skepticalinquirer.org}}
+|- class="s-gu" id="The Skwawkbox"
+| data-sort-value="Skwawkbox" | ''[[The Skwawkbox]]''
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 274#Seeking acceptance of reliability of UK progressive online only news sites – The Canary, Evolve Politics and Skwawkbox|1]] [[WP:Reliable sources/Noticeboard/Archive 288#Move Skwawkbox to at least 'no consensus' section|2]] [[WP:Reliable sources/Noticeboard/Archive 435#Deprecate/blacklist The Skwawkbox|3]]
+| {{WP:RSPLAST|2024}}
+| ''The Skwawkbox'' is considered generally unreliable because it is [[WP:SPS|self-published]]. Most editors describe ''The Skwawkbox'' as [[WP:BIASED|biased or opinionated]].
+| {{WP:RSPUSES|skwawkbox.org}}
+|- class="s-nc" id="Sky News Australia"
+| [[Sky News Australia]]
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|384|Sky News Australia|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 448#Sky News Australia and the Women's boxing controversy|1]]
+| {{WP:RSPLAST|2024}}
+| In the 2022 RfC, there is a consensus that additional considerations apply to Sky News Australia, and that it should not be used to substantiate any exceptional claims. The talk shows for Sky News Australia engage in disinformation and should be considered generally unreliable. The majority of articles labeled as "news" contain short blurbs and video segments, which should similarly be considered unreliable. For articles with significant written content, caution is advised. Sky News Australia is not to be confused with the UK [[Sky News]]; the two are presently unaffiliated.
+| {{WP:RSPUSES|skynews.com.au}}
+|- class="s-gr" id="Sky News UK"
+| [[Sky News]] (UK) {{WP:RSPSHORTCUT|WP:SKYNEWSUK}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 205#Alleged war crimes by Russians in Syria|1]] [[WP:Reliable sources/Noticeboard/Archive 334#Sky News|2]] [[WP:Reliable sources/Noticeboard/Archive 390#LBC News|3]] [[WP:Reliable sources/Noticeboard/Archive 458#Sky News caught manipulating footage|4]]
+| {{WP:RSPLAST|2024}}
+| Sky News (UK) is considered an ordinary [[WP:NEWSORG]] and is thus presumed generally reliable. Sky News UK is unaffiliated with Sky News Australia. Sky News UK has partial ownership of Sky News Arabia.
+| {{WP:RSPUSES|news.sky.com}}
+|- class="s-gr" id="Snopes"
+| [[Snopes]] {{WP:RSPSHORTCUT|WP:SNOPES}}
+| {{WP:RSPSTATUS|gr}}
+| 15{{efn|See these discussions of Snopes:
+[[WP:Reliable sources/Noticeboard/Archive 24#Media Awareness Network|1]]
+[[WP:Reliable sources/Noticeboard/Archive 25#Snopes.com|2]]
+[[WP:Reliable sources/Noticeboard/Archive 109#forgetomori|3]]
+[[WP:Reliable sources/Noticeboard/Archive 127#Snopes.com|4]]
+[[WP:Reliable sources/Noticeboard/Archive 141#Snopes.com again|5]]
+[[WP:Reliable sources/Noticeboard/Archive 209#Is the Washington Times an acceptable source for statements of face related to student protesters/black lives matter/Milo Yiannopoulos?|6]]
+[[WP:Reliable sources/Noticeboard/Archive 213#The Telegraph|7]]
+[[WP:Reliable sources/Noticeboard/Archive 221#Can we have clearer guidance on what sort of sourcing from the Mail is and isn't OK?|8]]
+[[WP:Reliable sources/Noticeboard/Archive 237#Is Fox News a WP:RS|9]]
+[[WP:Reliable sources/Noticeboard/Archive 244#Can we attribute statements to Snopes?|10]]
+[[WP:Reliable sources/Noticeboard/Archive 245#Are The Daily Dot and Tubefilter reliable sources?|11]]
+[[WP:Reliable sources/Noticeboard/Archive 248#A selection from Snopes|12]]
+[[WP:Reliable sources/Noticeboard/Archive 268#Revisiting Snopes|13]]
+[[WP:Reliable sources/Noticeboard/Archive 294#Sentence check (Snopes)|14]]
+[[WP:Reliable sources/Noticeboard/Archive 350#Snopes in light of the latest revelations|15]]
+}}
+| {{WP:RSPLAST|2021}}
+| Snopes is certified by the {{pslink|International Fact-Checking Network}}, and is considered generally reliable. [[WP:INTEXT|Attribution]] may be necessary. Since it often covers [[WP:FRINGE|fringe]] material, [[WP:PARITY|parity of sources]] may be relevant.
+| {{WP:RSPUSES|snopes.com}}
+|- class="s-nc" id="Social Blade"
+| [[Social Blade]]
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|442|RFC: Social media analytic websites (e.g. Social Blade)|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 350#Reliability of Social Blade|1]] [[WP:Reliable sources/Noticeboard/Archive 425#Is Social Blade a reliable source for YouTube statistics?|2]]
+| {{WP:RSPLAST|2024|stale=n}}
+| Editors consider Social Blade, a social media analytics website, reliable when it comes to objective statistics and data. This does not apply to the site's "grades", "rankings", and "estimated earnings" information, which have dubious methodologies. There is consensus that Social Blade is ineffective in determining notability as it is a primary source.
+| {{WP:RSPUSES|socialblade.com}}
+|- class="s-gu" id="SourceWatch"
+| [[SourceWatch]]
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 60#Sourcewatch|1]] [[WP:Reliable sources/Noticeboard/Archive 75#Sourcewatch|2]] [[WP:Reliable sources/Noticeboard/Archive 214#Is SourceWatch a reliable source under the Exceptions section of UGC?|3]]
+| {{WP:RSPLAST|2016|stale=n}}
+| As an [[WP:UGC|open wiki]], SourceWatch is considered generally unreliable. SourceWatch is operated by the [[Center for Media and Democracy]].
+| {{WP:RSPUSES|sourcewatch.org}}
+|- class="s-nc" id="The South African"
+| data-sort-value="South African" | ''[[The South African]]''
+|{{WP:RSPSTATUS|nc}}
+| {{rsnl|453|RFC on The South African|2024|rfc=y}}
+| {{WP:RSPLAST|2024}}
+| ''The South African'' was ruled as no-consensus on reliability in the 2024 RfC, however there have been issues relating to plagiarism from Wikipedia within some articles. Consensus was to make additional considerations, pending any further instances of copying.
+| {{WP:RSPUSES|thesouthafrican.com}}
+|- class="s-gr" id="SCMP"
+| ''[[South China Morning Post]]'' <small>(''SCMP'', ''Sunday Morning Post'')</small> {{WP:RSPSHORTCUT|WP:SCMP}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|319|RfC: South China Morning Post (SCMP)|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 268#Minnie Chan's reports on the Chinese military|1]]
+[[WP:Reliable sources/Noticeboard/Archive 285#South China Morning Post reliability|2]]
+[[WP:Reliable sources/Noticeboard/Archive 309#South China Morning Post (and Lin Nguyen, a fabricated writer)|3]]
+| {{WP:RSPLAST|2020}}
+| The ''South China Morning Post'' is widely considered to be the English-language [[newspaper of record]] in Hong Kong. In the 2020 RFC, there was consensus that the ''SCMP'' is generally reliable. However, in addition, there is a rough consensus that additional considerations may apply for the newspaper's coverage of certain topics, including the [[Chinese Communist Party]] and the ''SCMP''{{'}}s current owner, [[Alibaba Group|Alibaba]]. Editors may apply higher scrutiny when dealing with the ''SCMP''{{'}}s coverage of such topics.
+| {{WP:RSPUSES|scmp.com}}
+|- class="s-gr" id="Southern Poverty Law Center"
+| [[Southern Poverty Law Center]] <small>(SPLC)</small> {{WP:RSPSHORTCUT|WP:SPLC}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|481|RFC: Southern Poverty Law Center|2025|rfc=y}}
++20{{efn|See also these discussions of the Southern Poverty Law Center:
+[[WP:Reliable sources/Noticeboard/Archive 22#Southern Poverty Law Center|1]]
+[[WP:Reliable sources/Noticeboard/Archive 26#Southern Poverty Law Center|2]]
+[[WP:Reliable sources/Noticeboard/Archive 48#Southern Poverty Law Center (again) & Rousas John Rushdoony|3]]
+[[WP:Reliable sources/Noticeboard/Archive 70#Southern Poverty Law Center Blog Reliability|4]]
+[[WP:Reliable sources/Noticeboard/Archive 127#Is an SPLC intelligence report a reliable source for information about the men's rights movement?|5]]
+[[WP:Reliable sources/Noticeboard/Archive 128#Southern Poverty Law Center|6]]
+[[WP:Reliable sources/Noticeboard/Archive 130#Southern Poverty Law Center|7]]
+[[WP:Reliable sources/Noticeboard/Archive 148#SPLC & Men's Right: Is this article speaking for the SPLC or Arthur Goldwag?|8]]
+[[WP:Reliable sources/Noticeboard/Archive 208#Southern Poverty Law Center on Debbie Schlussel's Anti-Muslim stance|9]]
+[[WP:Reliable sources/Noticeboard/Archive 230#Southern Poverty Law Center As Source For Labeling Someone a White Supremacist|10]]
+[[WP:Reliable sources/Noticeboard/Archive 232#Is an SPLC report a reliable source for List of Confederate monuments and memorials?|11]]
+[[WP:Reliable sources/Noticeboard/Archive 245#Southern Poverty Law Center|12]]
+[[WP:Reliable sources/Noticeboard/Archive 247#SPLC: not a reliable source|13]]
+[[WP:Reliable sources/Noticeboard/Archive 260#Is the SPLC reliable? It is reliable|14]]
+[[WP:Reliable sources/Noticeboard/Archive 270#Black Sun (symbol)|15]]
+[[WP:Reliable sources/Noticeboard/Archive 280#Southern Poverty Law Center|16]]
+[[WP:Reliable sources/Noticeboard/Archive 339#RSP wording for SPLC|17]]
+[[WP:Reliable sources/Noticeboard/Archive 347#When can SPLC be treated as a 3rd party RS vs a primary source that needs to be first mentioned by a independent RS?|18]]
+[[WP:Reliable sources/Noticeboard/Archive 380#SPLC at ALEC|19]]
+[[Wikipedia talk:Manual of Style/Lead section/Archive 20#RFC: Should an SPLC classification as a hate group be automatically leadworthy?|A]]
+}}
+| {{WP:RSPLAST|2025}}
+| The Southern Poverty Law Center is considered generally reliable on topics related to [[hate group]]s and [[extremism]] in the United States. As an advocacy group, the SPLC is a [[WP:BIASED|biased and opinionated source]]. The organization's views, especially when labeling hate groups, should be [[WP:INTEXT|attributed]] per [[WP:RSOPINION]]. Take care to ensure that content from the SPLC constitutes [[WP:DUE|due weight]] in the article and conforms to the [[WP:BLP|biographies of living persons]] policy. Some editors have questioned the reliability of the SPLC on non-United States topics. SPLC classifications should not automatically be included in the lead section of the article about the group which received the classification. The decision to include should rather be decided on a case-by-case basis.
+| {{WP:RSPUSES|splcenter.org}}
+<section begin="deprecated"/>
+|- class="s-b" id="SouthFront"
+| ''[[SouthFront]]'' <small>(South Front)</small> {{WP:RSPSHORTCUT|WP:SOUTHFRONT}}
+| {{WP:RSPSTATUS|d|b=y}}
+| {{rsnl|281|RfC: Deprecation of fake news / disinformation sites.|2019|rfc=y}}
+{{sbll|December 2019|More disinformation sites|2019}}<br>
+[[WP:Reliable sources/Noticeboard/Archive 283#southfront.org|1]]
+| {{WP:RSPLAST|2020|stale=n}}
+| Due to persistent abuse, ''SouthFront'' is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used. ''SouthFront'' was deprecated in the 2019 RfC, which showed unanimous consensus that the site publishes [[fake news]] and Russian propaganda. The use of ''SouthFront'' as a reference should be generally prohibited, especially when other sources exist that are more [[WP:RS|reliable]]. ''SouthFront'' should not be used for determining [[WP:N|notability]], or used as a [[WP:SECONDARY|secondary source]] in articles.
+| {{WP:RSPUSES|southfront.org|southfront.press}}
+<section end="deprecated"/>
+|- class="s-gr" id="Space.com"
+| [[Space.com]] {{WP:RSPSHORTCUT|WP:SPACE.COM}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 125#Space.com claim that Iran plans moon program|1]] [[WP:Reliable sources/Noticeboard/Archive 335#RfC: Space.com|2]]
+| {{WP:RSPLAST|2021}}
+| Space.com may be reliable for astronomy and spaceflight news, and has a reputation for being generally accurate. Space.com articles often have a sensational tone, which might degrade their quality, so it is necessary to check the author's qualification below the article. Care should also be taken as the site publishes a lot of syndicated material and is prone to occasional [[churnalism]].
+| {{WP:RSPUSES|space.com}}
+|- class="s-nc" id="SparkNotes"
+| [[SparkNotes]]
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 227#Reliability of Cliffsnotes, Sparknotes and study guides in general|1]] [[WP:Reliable sources/Noticeboard/Archive 236#Reliability of CliffsNotes and SparkNotes?|2]]
+| {{WP:RSPLAST|2018}}
+| SparkNotes is a [[study guide]]. Editors consider SparkNotes usable for superficial analyses of literature, and recommend supplementing SparkNotes citations with additional sources.
+| {{WP:RSPUSES|sparknotes.com}}
+|- class="s-nc" id="The Spectator"
+| data-sort-value="Spectator" | {{anchor|Spectator}} ''[[The Spectator]]'' {{WP:RSPSHORTCUT|WP:SPECTATOR}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 203#Is Alex Massie in the Spectator a reliable source for a known and unchallenged legal distinction?|1]] [[WP:Reliable sources/Noticeboard/Archive 298#The Spectator|2]]
+| {{WP:RSPLAST|2020}}
+| ''The Spectator'' primarily consists of opinion pieces and these should be judged by [[WP:RSOPINION]], [[WP:RSEDITORIAL]], and [[WP:NEWSBLOG]].
+| {{WP:RSPUSES|spectator.co.uk|spectator.us}}
+|- class="s-gr" id="Der Spiegel"
+| data-sort-value="Spiegel" | ''[[Der Spiegel]]'' <small>(''[[Spiegel Online]]'', ''SPON'')</small>
+| {{WP:RSPSTATUS|gr}}
+| 10{{efn|See these discussions of ''Der Spiegel'':
+[[WP:Reliable sources/Noticeboard/Archive 45#Is an anonymous op-ed in a smallish newspaper a reliable source for a BLP?|1]]
+[[WP:Reliable sources/Noticeboard/Archive 54#The Indian Institute of Planning and Management|2]]
+[[WP:Reliable sources/Noticeboard/Archive 104#Martina Hingis|3]]
+[[WP:Reliable sources/Noticeboard/Archive 112#Der Spiegel|4]]
+[[WP:Reliable sources/Noticeboard/Archive 136#Electronic Intifada|5]]
+[[WP:Reliable sources/Noticeboard/Archive 157#Survey (second question "If Yes, under what circumstances should People not be used...")|6]]
+[[WP:Reliable sources/Noticeboard/Archive 159#Enquiry concerning the RT Network|7]]
+[[WP:Reliable sources/Noticeboard/Archive 193#Bellingcat|8]]
+[[WP:Reliable sources/Noticeboard/Archive 245#BuzzFeed (yes, I know – again)|9]]
+[[WP:Reliable sources/Noticeboard/Archive 253#Claas Relotius in Der Spiegel|10]]
+}}
+| {{WP:RSPLAST|2018}}
+| There is consensus that ''Der Spiegel'' is generally reliable. Articles written by [[Claas Relotius]] are fabrications, and are thus unreliable.
+| {{WP:RSPUSES|spiegel.de}}
+|- class="s-gu" id="Spirit of Metal"
+| Spirit of Metal
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 32#www.spirit-of-metal.com|1]] [[WP:Reliable sources/Noticeboard/Archive 66#Amazon & spirit of metal|2]]
+| {{WP:RSPLAST|2010|stale=n}}
+| Spirit of Metal is considered a [[WP:SELFPUBLISHED|self-published source]] and generally unreliable.
+| {{WP:RSPUSES|spirit-of-metal.com}}
+|- class="s-gr" id="Sports Illustrated (pre-June 2019)"
+| ''[[Sports Illustrated]]'' (pre-June 2019)
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 421#Sports Illustrated|1]] [[WP:Reliable sources/Noticeboard/Archive 422#RfC: Sports Illustrated|2]] [[WP:Reliable sources/Noticeboard/Archive 425#Sports Illustrated...|3]] [[Wikipedia:Reliable sources/Noticeboard/Archive 471#Sports Illustrated|4]]
+| {{WP:RSPLAST|2025}}
+| There is a general consensus that work by ''Sports Illustrated'' pre-acquisition by [[Maven Networks]] in June 2019 is considered generally reliable for sports-related news.
+| {{WP:RSPUSES|si.com}}
+|- class="s-nc" id="Sports Illustrated (June 2019–present)"
+| ''[[Sports Illustrated]]'' (June 2019–present) {{WP:RSPSHORTCUT|WP:RSPSI}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 421#Sports Illustrated|1]] [[WP:Reliable sources/Noticeboard/Archive 422#RfC: Sports Illustrated|2]] [[WP:Reliable sources/Noticeboard/Archive 425#Sports Illustrated...|3]] [[Wikipedia:Reliable sources/Noticeboard/Archive 471#Sports Illustrated|4]]
+| {{WP:RSPLAST|2025}}
+| There is a general consensus that at least some articles by ''Sports Illustrated'' post-acquisition by [[Maven Networks]] in June 2019 are considered unreliable. Following the purchase, Maven employed independent contractors for low pay and no benefits to write for the magazine, leading to a gradual decline in quality. This culminated in November 2023 when it was revealed that artificial intelligence (AI) had been used to write product review articles with little to no human oversight. While some veteran writers recognized as subject matter experts remain reliable on a case-by-case basis, editors should exercise caution to ensure that articles were not produced by AI or uncredited authors bylined as "SI Staff".
+| {{WP:RSPUSES|si.com}}
+|- class="s-gu" id="Sportskeeda"
+| {{Anchor|Sportskeeda}} [[Sportskeeda]] {{WP:RSPSHORTCUT|WP:SPORTSKEEDA}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 306#Sportskeeda|1]] [[WP:Reliable sources/Noticeboard/Archive 343#Sportskeeda generally unreliable?|2]] [[WP:Reliable sources/Noticeboard/Archive 352#Addition of Sportskeeda to Video Game sources|3]] [[WP:Reliable sources/Noticeboard/Archive 417#Sportskeeda|4]]
+| {{WP:RSPLAST|2023}}
+| Sportskeeda is considered generally unreliable due to a consensus that there is little or no editorial oversight over the website's content, which is largely user-written.
+| {{WP:RSPUSES|sportskeeda.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Sputnik"
+| [[Sputnik (news agency)|Sputnik]] {{WP:RSPSHORTCUT|WP:SPUTNIK}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|296|RfC: Sputnik|2020|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 205#Sputnik News|1]] [[WP:Reliable sources/Noticeboard/Archive 212#Source being used in the S-400 article|2]] [[WP:Reliable sources/Noticeboard/Archive 246#Sputnik (news agency)|3]] [[WP:Reliable sources/Noticeboard/Archive 337#Sputnik-Abkhazia|4]] [[WP:Reliable sources/Noticeboard/Archive 367#Sputnik, kind of|5]]
+| {{WP:RSPLAST|2022}}
+| There is consensus that Sputnik is an unreliable source that publishes false or fabricated information, and should be [[WP:DEPS|deprecated]] as in the [[WP:Reliable sources/Noticeboard/Archive 220#Daily Mail RfC|2017 RfC]] of the ''[[Daily Mail]]''. Sputnik is considered a Russian propaganda outlet that engages in bias and disinformation,<ref name="MacFarquhar">{{cite news|url=https://www.nytimes.com/2016/08/29/world/europe/russia-sweden-disinformation.html|title=A Powerful Russian Weapon: The Spread of False Stories|last=MacFarquhar|first=Neil|date=August 28, 2016|work=The New York Times|accessdate=29 August 2016|archive-url=https://web.archive.org/web/20170221063555/https://www.nytimes.com/2016/08/29/world/europe/russia-sweden-disinformation.html|archive-date=February 21, 2017|url-status=live|url-access=limited|df=mdy-all}}</ref> a significant proportion of editors endorse that view, with some editors considering it less reliable than ''{{pslink|Breitbart News}}''. ''See also: {{pslink|RIA Novosti}}, whose international edition was replaced by Sputnik.''
+| {{WP:RSPUSES|sputniknews.com|voiceofrussia.com|sputniknews.ru|sputnik.by|armeniasputnik.am|sputnik.kz|sputniknews.cn|sputnik.md|sputnik-georgia.com|sputnik-georgia.ru|sputnik-abkhazia.ru|sputnik-abkhazia.info|sputnik-ossetia.com|sputnik-ossetia.ru|sputniknewslv.com|sputniknews.lt|sputniknews.lat|latamnews.lat|sputniknews.gr|sputniknews-uz.com|sputniknews.uz|sputnik-tj.com|sputnik.az|sputnik.kg|sputnikglobe.com|radiosputnik.ria.ru|sputniknews.in|sputniknews.africa|sputnikportal.rs|sputnikmediabank.com|sarabic.ae}}
+<section end="deprecated"/>
+|- class="s-gu" id="Stack Exchange"
+| [[Stack Exchange]] <small>([[Stack Overflow]], [[MathOverflow]], [[Ask Ubuntu]])</small>
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 168#Stack Overflow a reliable source for an algorithm?|1]] [[WP:Reliable sources/Noticeboard/Archive 228#Can the Stack Exchange Network be considered reliable?|2]] [[WP:Reliable sources/Noticeboard/Archive 402#Is Stack Exchange a reliable source|3]]<br> [[Talk:Leap year/Archive 3#RfC: use "peer-reviewed" in connection with stackoverflow.com|A]]
+| {{WP:RSPLAST|2023|stale=n}}
+| Stack Exchange is a network of [[Q&A site]]s, including [[Stack Overflow]], [[MathOverflow]], and [[Ask Ubuntu]]. As an Internet forum, it is a [[WP:SPS|self-published source]] that incorporates [[WP:UGC|user-generated content]], and is considered generally unreliable.
+| {{WP:RSPUSES|stackexchange.com|stackoverflow.com|serverfault.com|superuser.com|askubuntu.com|mathoverflow.net}}
+|- class="s-gu" id="starsunfolded.com"
+| StarsUnfolded
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 214#starsunfolded.com|1]] [[WP:Reliable sources/Noticeboard/Archive 256#Starsunfolded.com|2]] [[WP:Reliable sources/Noticeboard/Archive 303#Recommend deprecating starsunfolded.com|3]]
+| {{WP:RSPLAST|2020|stale=n}}
+| There is consensus that StarsUnfolded is unreliable as it is a [[WP:SPS|self-published source]].
+| {{WP:RSPUSES|starsunfolded.com}}
+|- class="s-gu" id="Statista"
+| [[Statista]] {{WP:RSPSHORTCUT|WP:STATISTA}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 269#Statista|1]] [[WP:Reliable sources/Noticeboard/Archive 311#Statista.com|2]] [[WP:Reliable sources/Noticeboard/Archive 366#Statista|3]] [[WP:Reliable sources/Noticeboard/Archive 388#Statista|4]] [[WP:Reliable sources/Noticeboard/Archive 403#Statista - April 2023|5]]
+| {{WP:RSPLAST|2023}}
+| Statista aggregates statistical information from a number of sources, many of which are reliable. It is not the source of the statistics it displays, so should not be cited directly. It may be useful as a research tool to find sources of statistical information.
+| {{WP:RSPUSES|statista.com}}
+|- class="s-gr" id="The Straits Times"
+| data-sort-value="Straits Times, The" | ''[[The Straits Times]]'' {{WP:RSPSHORTCUT|WP:STRAITSTIMES}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|350|Reliability of The Straits Times|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 437#the Straits Times|1]]
+[[WP:Reliable sources/Noticeboard/Archive 486#Reliability of The Straits Times must be rediscussed|2]]
+| {{WP:RSPLAST|2024}} 
+| ''The Straits Times'' is Singapore's English-language newspaper of record and is considered generally reliable. However, its coverage of politically sensitive topics such as local politics, government policy and the ruling [[People's Action Party]] (PAP) should be approached with additional considerations, due to Singapore's poor record on freedom of speech and press. Editors are encouraged to critically assess material from this source, especially (but not limited to) the period between 1982 and 2021.
+| {{WP:RSPUSES|straitstimes.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="The Sun"
+| data-sort-value="Sun" | [[The Sun (United Kingdom)|''The Sun'' (UK)]] <small>(''The Sun on Sunday'', ''The Irish Sun'', ''The Scottish Sun'', ''The U.S. Sun'')</small> {{WP:RSPSHORTCUT|WP:THESUN}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|254|RfC: The Sun|2019|rfc=y}} {{rsnl|446|RFC: The Sun, a broadsheet newspaper published from 1964 to 1969|2024|rfc=y}}
++16{{efn|See also these discussions of ''The Sun'' (UK):
+[[WP:Reliable sources/Noticeboard/Archive 8#Amy Winehouse/The Sun & British tabloids|1]]
+[[WP:Reliable sources/Noticeboard/Archive 26#The Sun/Matt Smith|2]]
+[[WP:Reliable sources/Noticeboard/Archive 53#The Sun|3]]
+[[WP:Reliable sources/Noticeboard/Archive 85#Tabloid Newspapers|4]]
+[[WP:Reliable sources/Noticeboard/Archive 100#Query|5]]
+[[WP:Reliable sources/Noticeboard/Archive 134#Is the British tabloid newspaper "The Sun" a reliable source?|6]]
+[[WP:Reliable sources/Noticeboard/Archive 156#tabloids|7]]
+[[WP:Reliable sources/Noticeboard/Archive 226#The Sun RfC|8]]
+[[WP:Reliable sources/Noticeboard/Archive 277#Regional editions of The Sun|9]]
+[[WP:Reliable sources/Noticeboard/Archive 277#The Sun being used for content on living people again|10]]
+[[WP:Reliable sources/Noticeboard/Archive 278#Correct action when someone persistently adds back a deprecated source?|11]]
+[[WP:Reliable sources/Noticeboard/Archive 280#Use of The Sun in Team Trees article|12]]
+[[WP:Reliable sources/Noticeboard/Archive 284#RfC on The Sun|13]]
+[[WP:Reliable sources/Noticeboard/Archive 288#The Sun on BLPs|14]]
+[[WP:Reliable sources/Noticeboard/Archive 314#Use of The Sun interview of a music group as a source|15]]
+[[WP:Reliable sources/Noticeboard/Archive 450#Opinion piece in The Sun, used solely as evidence of its author's views|16]]
+}}
+| {{WP:RSPLAST|2024}}
+| ''The Sun'' was deprecated in the 2019 RfC. There is consensus that ''The Sun'' is generally unreliable. [[WP:CITE|References]] from ''The Sun'' are actively discouraged from being used in any article and they should not be used for determining the [[WP:N|notability]] of any subject. The RfC does not override [[WP:ABOUTSELF]], which allows the use of ''The Sun'' for uncontroversial self-descriptions. Some editors consider ''The Sun'' usable for uncontroversial sports reporting, although more reliable sources are recommended.
+This deprecation does not apply to the broadsheet publication of the same name, that existed from 1964–1969.
+| {{WP:RSPUSES|thesun.co.uk|thesun.ie|thescottishsun.co.uk|the-sun.com|thesun.mobi|sunnation.co.uk|dreamteamfc.com|page3.com}}
+<section end="deprecated"/>
+|- class="s-b" id="Swarajya"
+| ''[[Swarajya (magazine)|Swarajya]]'' {{WP:RSPSHORTCUT|WP:SWARAJYA}}
+| {{WP:RSPSTATUS|gu|b=y}}
+| [[WP:Reliable sources/Noticeboard/Archive 278#I searched for Swarajya magzine in archives or its reliability but cannot find either.|1]] [[WP:Reliable sources/Noticeboard/Archive 288#OpIndia and Swarajya|2]] [[WP:Reliable sources/Noticeboard/Archive 347#Laundering Swarajya and citing opinion articles|3]]
+| {{WP:RSPLAST|2021}}
+| Due to persistent abuse, ''Swarajya'' is on the [[WP:SPB|Wikipedia spam blacklist]], and links must be [[Wikipedia talk:WHITELIST|whitelisted]] before they can be used. ''Swarajya'' is considered generally unreliable due to its poor reputation for fact-checking and accuracy. In the [[WP:Reliable sources/Noticeboard/Archive 288#OpIndia and Swarajya|2020 discussion]], most editors expressed support for [[WP:DEPREC|deprecating]] ''Swarajya''. Editors consider the publication [[WP:BIASED|biased or opinionated]]. ''Swarajya'' was formerly the parent publication of {{pslink|OpIndia}}, and frequently republishes content from OpIndia under the "Swarajya Staff" [[byline]]. ''See also: {{pslink|OpIndia}}.''
+| {{WP:RSPUSES|swarajyamag.com}}
+|- class="s-gr" id="The Sydney Morning Herald"
+| data-sort-value="Sydney Morning Herald, The" | ''[[The Sydney Morning Herald]]''
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|352|Reliability of The Sydney Morning Herald and The Age|2021|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 377#Sydney Morning Herald and outing|1]]
+| {{WP:RSPLAST|2022}}
+| There is consensus that ''The Sydney Morning Herald'' is generally reliable.
+| {{WP:RSPUSES|smh.com.au}}
+<section begin="deprecated"/>
+|- class="s-d" id="Taki's Magazine"
+| ''[[Taki's Magazine]]'' <small>(''Takimag'', ''Taki's Top Drawer'')</small>
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|273|RfC: Taki's Magazine|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 112#Taki's Magazine used as a source at James Kirchick|1]]
+| {{WP:RSPLAST|2019|stale=n}}
+| ''Taki's Magazine'' was deprecated in the 2019 RfC, which showed consensus that it is an unreliable opinion magazine that should be avoided outside of very limited exceptions (e.g. [[WP:ABOUTSELF]]).
+| {{WP:RSPUSES|takimag.com}}
+|- class="s-d" id="Tasnim News Agency"
+| [[Tasnim News Agency]] {{WP:RSPSHORTCUT|WP:TASNIMNEWSAGENCY}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|431|RfC: Tasnim News Agency|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 234#Tasnim|1]] [[WP:Reliable sources/Noticeboard/Archive 264#Tasnimnews ?|2]] [[WP:Reliable sources/Noticeboard/Archive 399#Iranian government and IRGC-linked sources|3]] [[WP:Reliable sources/Noticeboard/Archive 419#Tasnim News Agency for specific use case|4]] [[WP:Reliable sources/Noticeboard/Archive 431#Tasnim News Agency - revisiting its reliability|5]]
+| {{WP:RSPLAST|2024}}
+| Tasnim News Agency was deprecated in the 2024 RfC due to being an [[IRGC]]-controlled outlet that disseminates state propaganda and conspiracy theories.
+| {{WP:RSPUSES|tasnimnews.com|tn.ai}}
+<section end="deprecated"/>
+|- class="s-gu" id="TASS"
+| [[TASS]] <small>(ITAR-TASS, Telegraph Agency of the Soviet Union, Information Telegraph Agency of Russia)</small> {{WP:RSPSHORTCUT|WP:TASS}}
+| {{WP:RSPSTATUS|gu}}
+| {{rsnl|260|RfC: TASS|2019|rfc=y}} {{rsnl|378|RfC on TASS|2022|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 370#Use of TASS for Ukranian refugee figures|1]] [[WP:Reliable sources/Noticeboard/Archive 377#TASS, Interfax (russian version) and RIA Novosti's reliability on the 2022 Russian invasion of Ukraine (especially on alleged attacks in Russia)|2]]
+| {{WP:RSPLAST|2022}}
+| In a 2022 RfC, editors achieved a strong consensus that TASS is a [[WP:BIASED|biased]] source with respect to topics in which the Russian government may have an interest and that the source is generally unreliable for providing contentious facts in that context. Editors attained a rough consensus that TASS should not be deprecated at this time and a rough consensus that TASS is generally unreliable more broadly for facts, with the caveat that it is considered reliable for quotes of statements made by the Kremlin, the Russian State, and pro-Kremlin politicians.
+A previous [[WP:Reliable sources/Noticeboard/Archive 260#RfC: TASS|2019 RfC]] had concluded that reliability is unclear or additional considerations apply.
+| {{WP:RSPUSES|tass.com|tass.ru}}
+|- class="s-nc" id="TechCrunch"
+| [[TechCrunch]] {{WP:RSPSHORTCUT|WP:TECHCRUNCH}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 110#TechCrunch and Engadget|1]] [[WP:Reliable sources/Noticeboard/Archive 87#techcrunch.com|2]] [[WP:Reliable sources/Noticeboard/Archive 221#Are news articles written by TechCrunch staff considered RS?|3]] [[WP:Reliable sources/Noticeboard/Archive 246#Is TechCrunch a reliable source?|4]] [[WP:Reliable sources/Noticeboard/Archive 486#TechCrunch, VentureBeat, and Business Insider|5]]
+| {{WP:RSPLAST|2025}}
+| Careful consideration should be given to whether a piece is written by staff or as a part of their blog, as well as whether the piece/writer may have a conflict of interest, and to what extent they rely on public relations material from their subject for their writing. TechCrunch may be useful for satisfying [[WP:V|verifiability]], though their articles often have too little independent analysis to satisfy [[WP:CORPDEPTH]].
+| {{WP:RSPUSES|techcrunch.com}}
+|- class="s-nc" id="TED"
+| [[TED (conference)|TED]] {{WP:RSPSHORTCUT|WP:RSPTED}}
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 207#Is this TED talk a reliable source for cost of Space Shuttle?|1]] [[WP:Reliable sources/Noticeboard/Archive 436#TED Talks (from ted.com or youtube)|2]]
+| {{WP:RSPLAST|2024}}
+|TED content (from [[TED (conference)#TED.com|ted.com]] or youtube.com) may be valid [[WP:RS|RS]], assuming the speaker is considered reliable and an expert on what they are talking about. Content about the speaker themselves should abide by [[WP:ABOUTSELF|ABOUTSELF]] and [[WP:WEIGHT|WEIGHT]]. TedX content has no quality standard or editorial oversight.
+| {{WP:RSPUSES|ted.com}}
+<section begin="deprecated"/>
+|- class="s-d" id="Telesur"
+| [[Telesur]] {{WP:RSPSHORTCUT|WP:TELESUR}}
+| {{WP:RSPSTATUS|d}}
+| {{rsnl|262|RfC: Telesur|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 46#TeleSUR|1]] [[WP:Reliable sources/Noticeboard/Archive 211#TeleSur English|2]]
+| {{WP:RSPLAST|2019|stale=n}}
+| Telesur was deprecated in the 2019 RfC, which showed consensus that the TV channel is a [[Bolivarian propaganda]] outlet. Many editors state that Telesur publishes false information. As a [[state-owned media]] network in a country with low [[press freedom]], Telesur may be a [[WP:PRIMARY|primary source]] for the viewpoint of the Venezuelan government, although [[WP:DUE|due weight]] should be considered. Telesur is [[WP:BIASED|biased or opinionated]], and its statements should be [[WP:INTEXT|attributed]].
+| {{WP:RSPUSES|telesurtv.net|telesurenglish.net}}
+<section end="deprecated"/>
+|- class="s-nc" id="ThinkProgress"
+| ''[[ThinkProgress]]''
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|153|RFC ThinkProgress|2013|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 78#Thinkprogress.org|1]] [[WP:Reliable sources/Noticeboard/Archive 153#thinkprogress.org as a generally accepted WP:RS|2]]
+| {{WP:RSPLAST|2013}}
+| Discussions of ''ThinkProgress'' are dated, with the most recent in 2013. Circumstances may have changed. Some consider ''ThinkProgress'' a form of [[WP:NEWSBLOG]], and reliable for [[WP:INTEXT|attributed]] statements of opinion. Others argue that ''ThinkProgress'' is generally reliable under [[WP:NEWSORG]], albeit with due consideration for their political leanings. ''ThinkProgress'' is generally considered a [[WP:PARTISAN|partisan source]] for the purposes of American politics. ''ThinkProgress'' shut down in 2019; website content is still accessible.
+| {{WP:RSPUSES|thinkprogress.org}}
+|- class="s-gr" id="Time"
+| ''[[Time (magazine)|Time]]'' {{WP:RSPSHORTCUT|WP:TIMEMAGAZINE}} {{WP:RSPSHORTCUT|WP:RSPTIME}}
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 8#Christopher Hitchens, "Time" magazine and "Washington Post" as RS|1]] [[WP:Reliable sources/Noticeboard/Archive 103#TIME Techland|2]] [[WP:Reliable sources/Noticeboard/Archive 109#TIME magazine|3]] [[WP:Reliable sources/Noticeboard/Archive 120#Unresolved situation: Is Time Magazine a RS? Is IMDB a RS?|4]] [[WP:Reliable sources/Noticeboard/Archive 266#Karol Markowicz writing for TIME|5]]<br> [[Wikipedia talk:Reliable sources/Perennial sources/Archive 9#Why is Time Magazine green?|A]]
+| {{WP:RSPLAST|2024}}
+| There is consensus that ''Time'' is generally reliable. ''Time''<nowiki />'s [[WP:NEWSBLOG|magazine blogs]], including Techland, should be handled with the appropriate policy. Refer to [[WP:NEWSORG]] for guidance on [[op-ed]]s, which should only be used with [[WP:INTEXT|attribution]].
+| {{WP:RSPUSES|time.com}}
+|- class="s-gr" id="The Times"
+| data-sort-value="Times"| ''[[The Times]]'' <small>(''The Times of London'', ''The London Times'', ''[[The Sunday Times]]'')</small> {{WP:RSPSHORTCUT|WP:THETIMES}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|392|rfc=y|RfC: The Times|2022}}
++10{{efn|See also these discussions of The Times: [[WP:Reliable sources/Noticeboard/Archive 38#The Times of London|1]] [[WP:Reliable sources/Noticeboard/Archive 58#Times identified as "unreliable"|2]] [[WP:Reliable sources/Noticeboard/Archive 83#Times and IBTimes RS?|3]] [[WP:Reliable sources/Noticeboard/Archive 85#Unite Against Fascism and The Times et al|4]] [[WP:Reliable sources/Noticeboard/Archive 97#Times Guide to the House of Commons 2010|5]] [[WP:Reliable sources/Noticeboard/Archive 130#The Times of London is no more accessible free of charge!|6]] [[WP:Reliable sources/Noticeboard/Archive 136#The "London Daily Times"; January 23, 1994, supposedly cited by Stringer and McKie (Robin), 1997; page 190|7]] [[Talk:Edward Snowden/Archive 7#Sunday Times story|8]] [[WP:Reliable sources/Noticeboard/Archive 382#A Daily Mail interview relayed by The Times|9]] [[WP:Reliable sources/Noticeboard/Archive 397#The Times, NYT, British media and LGBT|10]]
+}}
+| {{WP:RSPLAST|2023}}
+| ''The Times'', including its sister paper ''[[The Sunday Times]]'', is considered generally reliable.
+| {{WP:RSPUSES|thetimes.com|thetimes.co.uk|thesundaytimes.co.uk|timesonline.co.uk}}
+|- class="s-gr" id="The Times of Israel"
+| data-sort-value="Times of Israel" | ''[[The Times of Israel]]'' <small>(''ToI'')</small> {{WP:RSPSHORTCUT|WP:TIMESOFISRAEL}}
+| {{WP:RSPSTATUS|gr}}
+| {{rsnl|461|RfC: Times of Israel|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 192#Times of Israel|1]] [[WP:Reliable sources/Noticeboard/Archive 442#Stop using The Times of Israel as a source for Israel-Palestine conflict news.|2]] [[WP:Reliable sources/Noticeboard/Archive 457#What does everyone think about the Times of Israel?|3]] [[Wikipedia:Reliable sources/Noticeboard/Archive 461#Times of Israel blogs|4]] [[Wikipedia:Reliable sources/Noticeboard/Archive 468#The Times of Israel and fake news.|5]]
+| {{WP:RSPLAST|2024}}
+| In the 2024 RfC, there was consensus that ''The Times of Israel'' is generally reliable, although potentially biased in certain topics like the [[Israeli–Palestinian conflict]]. ToI disclaims responsibility for the contents of the blogs section (which is written by third parties) though experts' blog posts may be sometimes usable per the guidance at [[WP:BLOGS]].
+| {{WP:RSPUSES|timesofisrael.com}}
+|- class="s-nc" id="The Times of India"|data-sort-value="Times of India"
+| data-sort-value="Times of India" | ''[[The Times of India]]'' (post-1950) <small>(''TOI'')</small> {{WP:RSPSHORTCUT|WP:TIMESOFINDIA}}
+| {{WP:RSPSTATUS|nc}}
+|{{rsnl|287|Times of India RFC|2020|rfc=y}} {{rsnl|447|RfC: The Times of India|2024|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 320#The Times of India|1]] [[WP:Reliable sources/Noticeboard/Archive 342#Valid Sources?|2]] [[WP:Reliable sources/Noticeboard/Archive 353#Circular references from The Times of India|3]] [[WP:Reliable sources/Noticeboard/Archive 364#Times of India is not that pro-government as mentioned ?|4]] [[WP:Reliable sources/Noticeboard/Archive 442#Times of India running AI-generated articles?|5]]
+|{{WP:RSPLAST|2024}}
+| Additional considerations apply to articles published in ''[[The Times of India]]'' (''TOI'') after 1950. ''TOI'' has sometimes had a poor reputation for fact-checking and its use should be evaluated with caution. Editors should ensure that they do not use [[WP:RSNOI|paid advertorials]]—which were first published in ''TOI'' in 1950 at the earliest—to verify information or establish notability. Paid advertorials may be of particular concern in topics such as entertainment. Editors should also be aware that ''TOI'' may have published at least one AI-generated article.
+| {{WP:RSPUSES|timesofindia.com|timesofindia.indiatimes.com}}
+|- class="s-nc" id="TMZ"
+| [[TMZ]] {{WP:RSPSHORTCUT|WP:TMZ}}
+| {{WP:RSPSTATUS|nc}}
+| 14{{efn|See these discussions of TMZ:
+[[WP:Reliable sources/Noticeboard/Archive 4#TMZ.com|1]]
+[[WP:Reliable sources/Noticeboard/Archive 34#TMZ.com|2]]
+[[WP:Reliable sources/Noticeboard/Archive 37#TMZ|3]]
+[[WP:Reliable sources/Noticeboard/Archive 51#TMZ|4]]
+[[WP:Reliable sources/Noticeboard/Archive 72#Is TMZ a reliable source?|5]]
+[[WP:Reliable sources/Noticeboard/Archive 91#Question about TMZ|6]]
+[[WP:Reliable sources/Noticeboard/Archive 101#TMZ and WP:Circular|7]]
+[[WP:Reliable sources/Noticeboard/Archive 112#Is TMZ.com reliable|8]]
+[[WP:Reliable sources/Noticeboard/Archive 115#TMZ for info in Celebrity Rehab article|9]]
+[[WP:Reliable sources/Noticeboard/Archive 127#TMZ|10]]
+[[WP:Reliable sources/Noticeboard/Archive 184#TMZ|11]]
+[[WP:Reliable sources/Noticeboard/Archive 200#Re-examining TMZ|12]]
+[[WP:Reliable sources/Noticeboard/Archive 214#TMZ on NBC's role in Bush/Trump controversy|13]]
+[[WP:Reliable sources/Noticeboard/Archive 391#RFC Related to Reliable Sourcing|14]]
+}}
+| {{WP:RSPLAST|2022}}
+| There is no consensus on the reliability of TMZ. Although TMZ is cited by reliable sources, most editors consider TMZ a low-quality source and prefer more reliable sources when available. Because TMZ frequently publishes articles based on rumor and speculation without named sources, it is recommended to explicitly [[WP:INTEXT|attribute]] statements to TMZ if used. When TMZ is the only source for a piece of information, consider also whether the information constitutes [[WP:DUE|due or undue weight]], especially when the subject is a [[WP:BLP|living person]].
+| {{WP:RSPUSES|tmz.com}}
+|- class="s-gr" id="TorrentFreak"
+| [[TorrentFreak]] <small>(TF)</small>
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 28#Using a blog to reference information on illegal online activity?|1]] [[WP:Reliable sources/Noticeboard/Archive 34#Reliability check on TorrentFreak|2]] [[WP:Reliable sources/Noticeboard/Archive 63#TorrentFreak|3]] [[WP:Reliable sources/Noticeboard/Archive 118#Sources at Web Sheriff|4]] [[WP:Reliable sources/Noticeboard/Archive 120#TorrentFreak|5]] [[WP:Reliable sources/Noticeboard/Archive 197#TorrentFreak, again|6]] [[WP:Reliable sources/Noticeboard/Archive 204#Popcorn Time|7]] [[WP:Reliable sources/Noticeboard/Archive 268#TorrentFreak for Web Sheriff|8]]
+| {{WP:RSPLAST|2019}}
+| Most editors consider TorrentFreak generally reliable on topics involving file sharing. Editors note references to the website in mainstream media. The source may or may not be reliable for other topics.
+| {{WP:RSPUSES|torrentfreak.com}}
+|- class="s-gu" id="Town and Village Guide (UK)"
+| Town and Village Guide (UK)
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 457#Town & Village Guide (UK)|1]]<br> [[Wikipedia talk:WikiProject UK geography/Archive 43#Unreliable source? "Town and Village Guide"|A]]
+| {{WP:RSPLAST|2024}}
+| As of 2024, there is consensus that Town and Village Guide is a directory service scraping Google Maps and is probably AI-generated. It lacks information as to its publisher, fact checking, and editorial board, making it a [[WP:SPS|self-published source]].
+| {{WP:RSPUSES|townandvillageguide.com}}
+|- class="s-nc" id="Townhall"
+| [[Townhall]]
+| {{WP:RSPSTATUS|nc}}
+| [[WP:Reliable sources/Noticeboard/Archive 23#http://townhall.com/|1]] [[WP:Reliable sources/Noticeboard/Archive 69#Is Townhall.com a reliable source for proving opposing opinions?|2]] [[WP:Reliable sources/Noticeboard/Archive 248#Why Townhall is not a RS|3]]
+| {{WP:RSPLAST|2018}}
+| As of 2010, a few editors commented that opinion pieces in Townhall are reliable as a source for the opinion of the author of the individual piece, although they may not be reliable for [[WP:INTEXT|unattributed]] statements of fact, and context will dictate whether the opinion of the author as such, meets the standard of [[WP:DUEWEIGHT]].
+| {{WP:RSPUSES|townhall.com}}
+|- class="s-nc" id="TRT World"
+| [[TRT World]] <small>(TRT, Türkiye Radyo ve Televizyon, Turkish Radio and Television)</small> {{WP:RSPSHORTCUT|WP:TRT}}
+| {{WP:RSPSTATUS|nc}}
+| {{rsnl|267|RfC: TRT World|2019|rfc=y}}
+[[WP:Reliable sources/Noticeboard/Archive 394#TRT for post Paris shooting events|1]]
+| {{WP:RSPLAST|2022}}
+| Consensus exists that TRT World is reliable for statements regarding the official views of the Turkish government but not reliable for subjects with which the Turkish government could be construed to have a conflict of interest. For other miscellaneous cases, it shall be assumed to be reliable enough.
+| {{WP:RSPUSES|trtworld.com}}
+|- class="s-gu" id="The Truth About Guns"
+| data-sort-value="Truth About Guns" | [[The Truth About Guns]] <small>(TTAG)</small> {{WP:RSPSHORTCUT|WP:TTAG}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 259#thetruthaboutguns.com|1]] [[WP:Reliable sources/Noticeboard/Archive 270#thetruthaboutguns.com|2]] [[WP:Reliable sources/Noticeboard/Archive 272#thetruthaboutguns.com|3]]
+| {{WP:RSPLAST|2019|stale=n}}
+| The Truth About Guns is a [[WP:BLOGS|group blog]]. There is consensus that TTAG does not have a strong reputation for fact-checking and accuracy. TTAG has promoted [[conspiracy theories]], and does not clearly label its [[WP:SPONSORED|sponsored content]]. Editors agree that TTAG is [[WP:BIASED|biased or opinionated]]. Opinions in TTAG are likely to constitute [[WP:UNDUE|undue weight]].
+| {{WP:RSPUSES|thetruthaboutguns.com}}
+|- class="s-gu" id="TV.com"
+| [[TV.com]]
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 34#TV.com|1]] [[WP:Reliable sources/Noticeboard/Archive 42#Channel 4 TV edit|2]] [[WP:Reliable sources/Noticeboard/Archive 50#TV.com and IMDB|3]] [[WP:Reliable sources/Noticeboard/Archive 57#Is TV.com a reliable source or wikipedia mirror?|4]] [[WP:Reliable sources/Noticeboard/Archive 131#TV.com|5]] [[WP:Reliable sources/Noticeboard/Archive 313#TV.com|6]]
+| {{WP:RSPLAST|2020|stale=n}}
+| TV.com was largely [[WP:USERGENERATED|user-generated]] and generally unreliable. Some editors believe material published by its own staff may be cited. TV.com shut down in July 2021; website content is no longer accessible unless archived.
+| {{WP:RSPUSES|TV.com}}
+|- class="s-gr" id="TV Guide"
+| ''[[TV Guide]]''
+| {{WP:RSPSTATUS|gr}}
+| [[WP:Reliable sources/Noticeboard/Archive 88#TV Guide.com|1]] [[WP:Reliable sources/Noticeboard/Archive 120#TV Guide|2]] [[WP:Reliable sources/Noticeboard/Archive 335#Are Astrodatabank, TV Guide, Ranker.com, Google Arts & Culture reliable?|3]] [[WP:Reliable sources/Noticeboard/Archive 380#TV Guide for a birth date|4]] [[WP:Reliable sources/Noticeboard/Archive 426#TV Guide re: Film, Actors, Directors, Bios., etc.|5]]
+| {{WP:RSPLAST|2024}}
+| ''TV Guide'' is considered generally reliable for television-related topics. Some editors consider ''TV Guide'' a [[WP:PRIMARY|primary source]] for air dates.
+| {{WP:RSPUSES|tvguide.com|tvguidemagazine.com}}
+|- class="s-gu" id="TV Tropes"
+| [[TV Tropes]] {{WP:RSPSHORTCUT|WP:RSPTVTROPES}}
+| {{WP:RSPSTATUS|gu}}
+| [[WP:Reliable sources/Noticeboard/Archive 80#tvtropes.org|1]] [[WP:Reliable sources/Noticeboard/Archive 211#TVTropes|2]] [[WP:Reliable sources/Noticeboard/Archive 419#Valley View Center|3]]<br> [[Wikipedia talk:WikiProject Video games/Sources/Archive 16#I would like to know your opinion on these sites.|A]]
+| {{WP:RSPLAST|2023|stale=n}}
+| TV Tropes is considered generally unreliable because it is an [[WP:UGC|open wiki]], which is a type of [[WP:SPS|self-published source]].
+| {{WP:RSPUSES|tvtropes.org}}
+|- class="s-gu" id="Twitter"
+| [[Twitter]] <small>(X)</small> {{WP:RSPSHORTCUT|WP:RSPTWITTER}} {{WP:RSPSHORTCUT|WP:RSPX}}
+| {{WP:RSPSTATUS|gu}}
+| 50{{efn|See these discussions of Twitter:
+[[WP:Reliable sources/Noticeboard/Archive 29#Twitter.com?|1]]
+[[WP:Reliable sources/Noticeboard/Archive 34#Stephen Fry's twitter|2]]
+[[WP:Reliable sources/Noticeboard/Archive 35#Facebook or Twitter?|3]]
+[[WP:Reliable sources/Noticeboard/Archive 44#Twitter|4]]
+[[WP:Reliable sources/Noticeboard/Archive 52#Twitter feeds from RELIABLE sources|5]]
+[[WP:Reliable sources/Noticeboard/Archive 54#Twitter, Facebook, Youtube|6]]
+[[WP:Reliable sources/Noticeboard/Archive 60#Using twitter as a source for BLP info|7]]
+[[WP:Reliable sources/Noticeboard/Archive 61#Kylie and twitter|8]]
+[[WP:Reliable sources/Noticeboard/Archive 79#Is @WestWingReport on Twitter a reliable source for the First Transcontinental Telegraph?|9]]
+[[WP:Reliable sources/Noticeboard/Archive 80#Twitter as a source|10]]
+[[WP:Reliable sources/Noticeboard/Archive 82#Twitter, Rolling Stone magazine and The Guardian|11]]
+[[WP:Reliable sources/Noticeboard/Archive 111#Twitter updates for bio information|12]]
+[[WP:Reliable sources/Noticeboard/Archive 114#twitter references|13]]
+[[WP:Reliable sources/Noticeboard/Archive 117#Twitter as a source|14]]
+[[WP:Reliable sources/Noticeboard/Archive 128#Chart News (Twitter)|15]]
+[[WP:Reliable sources/Noticeboard/Archive 130#Images posted to Twitter as reliable sources|16]]
+[[WP:Reliable sources/Noticeboard/Archive 167#Are Facebook and Twitter a RS for an alternate name?|17]]
+[[WP:Reliable sources/Noticeboard/Archive 174#use of Twitter, etc in Islamic State of Iraq and the Levant#Equipment|18]]
+[[WP:Reliable sources/Noticeboard/Archive 177#When exactly is Twitter appropriate for self-published biographical claims?|19]]
+[[WP:Reliable sources/Noticeboard/Archive 178#Request opinion on a couple of Twitter cites|20]]
+[[WP:Reliable sources/Noticeboard/Archive 192#Twitter|21]]
+[[WP:Reliable sources/Noticeboard/Archive 216#Twitter on SpongeBob SquarePants (season 9)|22]]
+[[WP:Reliable sources/Noticeboard/Archive 218#Tweets as a RS on an article about something other than the Twitter user?|23]]
+[[WP:Reliable sources/Noticeboard/Archive 226#Twitter|24]]
+[[WP:Reliable sources/Noticeboard/Archive 239#Ratings from a twitter account|25]]
+[[WP:Reliable sources/Noticeboard/Archive 245#WP:DOB and thanking people for birthday wishes on Twitter|26]]
+[[WP:Reliable sources/Noticeboard/Archive 251#Article sourced primarily to Twitter|27]]
+[[WP:Reliable sources/Noticeboard/Archive 256#Facebook, Twitter, Instagram, Blogger and Tumblr, etc.|28]]
+[[WP:Reliable sources/Noticeboard/Archive 265#Twitter|29]]
+[[WP:Reliable sources/Noticeboard/Archive 269#Twitter of a family/close friend for a factual claim on deceased BLP?|30]]
+[[WP:Reliable sources/Noticeboard/Archive 270#A politician’s tweet of their political position|31]]
+[[WP:Reliable sources/Noticeboard/Archive 271#The "if the user's identity is confirmed in some way" part of Twitter as WP:RS|32]]
+[[WP:Reliable sources/Noticeboard/Archive 273#Most of reaction is tweet|33]]
+[[WP:Reliable sources/Noticeboard/Archive 274#Teller|34]]
+[[WP:Reliable sources/Noticeboard/Archive 280#Twitter posts and John Nicolson|35]]
+[[WP:Reliable sources/Noticeboard/Archive 289#Twitter account of the Ministry of Health of Poland|36]]
+[[WP:Reliable sources/Noticeboard/Archive 290#Twitter as a source in a BLP|37]]
+[[WP:Reliable sources/Noticeboard/Archive 302#Twitter|38]]
+[[WP:Reliable sources/Noticeboard/Archive 346#Using an anonymous Twitter account that translates announcements by the Taliban as a source for a live situation map of the war in Afghanistan|39]]
+[[WP:Reliable sources/Noticeboard/Archive 346#File/image sources|40]]
+[[WP:Reliable sources/Noticeboard/Archive 347#Elon Musk's Tweets|41]]
+[[WP:Reliable sources/Noticeboard/Archive 348#The @Suriyak Twitter account for occupation of various locations on the Syrian Civil War situation map|42]]
+[[WP:Reliable sources/Noticeboard/Archive 389#Twitter Blue and verified Twitter accounts|43]]
+[[WP:Reliable sources/Noticeboard/Archive 391#Twitter as a source query|44]]
+[[WP:Reliable sources/Noticeboard/Archive 403#Twitter and WP:ABOUTSELF, again|45]]
+[[WP:Reliable sources/Noticeboard/Archive 407#Oryx, random twitter accounts, Zvezda|46]]
+[[WP:Reliable sources/Noticeboard/Archive 409#A reliable source relying on Twitter speculation|47]]
+[[WP:Reliable sources/Noticeboard/Archive 433#SuriyakMaps on Twitter|48]]
+[[WP:Reliable sources/Noticeboard/Archive 449#Social Media as sources|49]]
+[[WP:Reliable sources/Noticeboard/Archive 463#Twitter|50]]
+}}
+| {{WP:RSPLAST|2025|stale=n}}
+| Twitter (rebranded to X since July 2023) is a social network. As a [[WP:SPS|self-published source]], it is considered generally unreliable and should be avoided unless the author is a [[WP:EXPERTSOURCE|subject-matter expert]] or the tweet is used for an [[WP:ABOUTSELF|uncontroversial self-description]]. In most cases, Twitter accounts should only be cited if the user's identity is confirmed in some way. Tweets that are not covered by reliable sources are likely to constitute [[WP:UNDUE|undue weight]]. Twitter should never be used for [[WP:THIRDPARTY|third-party claims]] claims related to [[WP:BLPSPS|living persons]].
+| {{WP:RSPUSES|twitter.com}} {{WP:RSPUSES|x.com}}
+</onlyinclude>
+|}
