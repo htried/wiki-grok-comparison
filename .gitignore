@@ -221,3 +221,6 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+results/fixed_issues/all_fixed_issues.jsonl
+results/fixed_issues/consolidation_stats.json
+results/fixed_issues/failed_slugs.txt

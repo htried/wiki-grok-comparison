@@ -7,6 +7,7 @@ import asyncio
 import json
 import logging
 import os
+import re
 from datetime import datetime
 from pathlib import Path
 from urllib.parse import quote
@@ -24,16 +25,54 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+# Greek letter to English name mapping
+GREEK_LETTERS = {
+    'Α': 'Alpha', 'α': 'alpha',
+    'Β': 'Beta', 'β': 'beta',
+    'Γ': 'Gamma', 'γ': 'gamma',
+    'Δ': 'Delta', 'δ': 'delta',
+    'Ε': 'Epsilon', 'ε': 'epsilon',
+    'Ζ': 'Zeta', 'ζ': 'zeta',
+    'Η': 'Eta', 'η': 'eta',
+    'Θ': 'Theta', 'θ': 'theta',
+    'Ι': 'Iota', 'ι': 'iota',
+    'Κ': 'Kappa', 'κ': 'kappa',
+    'Λ': 'Lambda', 'λ': 'lambda',
+    'Μ': 'Mu', 'μ': 'mu',
+    'Ν': 'Nu', 'ν': 'nu',
+    'Ξ': 'Xi', 'ξ': 'xi',
+    'Ο': 'Omicron', 'ο': 'omicron',
+    'Π': 'Pi', 'π': 'pi',
+    'Ρ': 'Rho', 'ρ': 'rho',
+    'Σ': 'Sigma', 'σ': 'sigma', 'ς': 'sigma',
+    'Τ': 'Tau', 'τ': 'tau',
+    'Υ': 'Upsilon', 'υ': 'upsilon',
+    'Φ': 'Phi', 'φ': 'phi', 'ϕ': 'phi',
+    'Χ': 'Chi', 'χ': 'chi',
+    'Ψ': 'Psi', 'ψ': 'psi',
+    'Ω': 'Omega', 'ω': 'omega',
+}
+
 def title_to_slug(title: str) -> str:
     """Convert a title to a slug format (spaces -> underscores, handle special chars).
     
     Examples:
     - "Fullback (rugby league)" -> "Fullback_(rugby_league)"
     - "Sofía Gómez Villafañe" -> "Sofía_Gómez_Villafañe"
-    - "The Silent Sea(TV series)" -> "The_Silent_Sea(TV_series)"
+    - "The Silent Sea(TV series)" -> "The_Silent_Sea_(TV_series)"
+    - "ΦX174" -> "Phi_X_174"
     """
     # Replace spaces with underscores
     slug = title.replace(' ', '_')
+    
+    # Replace Greek letters with their English names
+    for greek_char, english_name in GREEK_LETTERS.items():
+        slug = slug.replace(greek_char, english_name)
+    
+    # Add underscore before opening parenthesis if missing
+    # Fix patterns like "Title(description)" -> "Title_(description)"
+    slug = re.sub(r'([^_])\(', r'\1_(', slug)
+    
     # The API handles URL encoding, so we don't need to do much else
     return slug
 
@@ -119,6 +158,14 @@ async def fetch_fixed_issues(session, limiter, slug, config, skip_on_error=True)
             ) as response:
                 if response.status == 200:
                     data = await response.json()
+                    # Check if page was found
+                    if not data.get('found', True) or data.get('page') is None:
+                        return {
+                            'success': False,
+                            'error': 'page_not_found',
+                            'slug': slug,
+                            'status_code': 200
+                        }
                     # Extract fixedIssues from response
                     fixed_issues = data.get('page', {}).get('fixedIssues', [])
                     # Only store what we need - don't store full response to minimize data transfer
