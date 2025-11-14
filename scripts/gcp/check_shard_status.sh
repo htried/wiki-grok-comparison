@@ -1,9 +1,10 @@
 #!/bin/bash
 # Helper script to check status of fixed issues shard instances
 
-SHARD_ID=${1:-0}
+PREFIX=${1:-fixed-issues}
+SHARD_ID=${2:-0}
 ZONE="us-central1-a"
-INSTANCE_NAME="fixed-issues-shard-${SHARD_ID}"
+INSTANCE_NAME="${PREFIX}-shard-${SHARD_ID}"
 
 echo "Checking status of ${INSTANCE_NAME}..."
 echo ""
