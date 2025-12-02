@@ -246,7 +246,7 @@ PY
     fi
 fi
 
-python3 \$REPO_DIR/gcp/shard_runner.py --shard_id ${SHARD_ID} --start_idx ${START_IDX} --end_idx ${END_IDX} \$EXTRA_URLS_FLAG 2>&1 | tee /var/log/grokipedia-scraper.log
+python3 \$REPO_DIR/scripts/gcp/shard_runner.py --shard_id ${SHARD_ID} --start_idx ${START_IDX} --end_idx ${END_IDX} \$EXTRA_URLS_FLAG 2>&1 | tee /var/log/grokipedia-scraper.log
 
 # Shutdown instance when done (optional - comment out if you want to keep it running)
 # shutdown -h now
