@@ -247,8 +247,15 @@ PY
 fi
 
 # Get scraper version from metadata or use default
-METADATA_SCRAPER_VERSION=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/SCRAPER_VERSION" -H "Metadata-Flavor: Google" 2>/dev/null || echo "${SCRAPER_VERSION}")
-echo "Using scraper version: \${METADATA_SCRAPER_VERSION}"
+METADATA_SCRAPER_VERSION_RAW=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/SCRAPER_VERSION" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
+# Check if the response is valid (not HTML error page)
+if [ -z "\$METADATA_SCRAPER_VERSION_RAW" ] || echo "\$METADATA_SCRAPER_VERSION_RAW" | grep -q '<!DOCTYPE\|<html\|Error 404'; then
+    METADATA_SCRAPER_VERSION="${SCRAPER_VERSION}"
+    echo "SCRAPER_VERSION not found in metadata, using default: \${METADATA_SCRAPER_VERSION}"
+else
+    METADATA_SCRAPER_VERSION="\$METADATA_SCRAPER_VERSION_RAW"
+    echo "Using scraper version from metadata: \${METADATA_SCRAPER_VERSION}"
+fi
 
 python3 \$REPO_DIR/scripts/gcp/shard_runner.py --shard_id ${SHARD_ID} --start_idx ${START_IDX} --end_idx ${END_IDX} \$EXTRA_URLS_FLAG --scraper_version \${METADATA_SCRAPER_VERSION} 2>&1 | tee /var/log/grokipedia-scraper.log
 
