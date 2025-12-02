@@ -18,7 +18,23 @@ load_dotenv()
 # Add scripts directory to path
 sys.path.insert(0, str(Path(__file__).parent))
 
-import grokipedia_scraper as scraper
+# Import scraper module based on version
+def import_scraper(version='0.1'):
+    """Import the appropriate scraper module based on version"""
+    if version == '0.2' or version == 'v0.2':
+        try:
+            import grokipedia_scraper_v0_2 as scraper
+            print(f"Using scraper v0.2 (improved parsing with better link extraction)")
+            return scraper
+        except ImportError as e:
+            print(f"Warning: Could not import grokipedia_scraper_v0_2: {e}")
+            print("Falling back to v0.1 scraper")
+            import grokipedia_scraper as scraper
+            return scraper
+    else:
+        import grokipedia_scraper as scraper
+        print(f"Using scraper v0.1 (default)")
+        return scraper
 
 
 async def main():
@@ -27,7 +43,11 @@ async def main():
     parser.add_argument('--end_idx', type=int, required=True, help='End index (exclusive)')
     parser.add_argument('--shard_id', type=int, default=None, help='Optional shard ID for naming')
     parser.add_argument('--urls_file', type=str, default=None, help='Optional path to a local file with URLs (jsonl/json/txt)')
+    parser.add_argument('--scraper_version', type=str, default='0.1', choices=['0.1', '0.2', 'v0.1', 'v0.2'], help='Scraper version to use (default: 0.1)')
     args = parser.parse_args()
+    
+    # Import the appropriate scraper module
+    scraper = import_scraper(args.scraper_version)
     
     if args.start_idx >= args.end_idx:
         print("Error: start_idx must be less than end_idx")

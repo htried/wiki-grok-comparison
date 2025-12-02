@@ -246,7 +246,11 @@ PY
     fi
 fi
 
-python3 \$REPO_DIR/scripts/gcp/shard_runner.py --shard_id ${SHARD_ID} --start_idx ${START_IDX} --end_idx ${END_IDX} \$EXTRA_URLS_FLAG 2>&1 | tee /var/log/grokipedia-scraper.log
+# Get scraper version from metadata or use default
+METADATA_SCRAPER_VERSION=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/SCRAPER_VERSION" -H "Metadata-Flavor: Google" 2>/dev/null || echo "${SCRAPER_VERSION}")
+echo "Using scraper version: \${METADATA_SCRAPER_VERSION}"
+
+python3 \$REPO_DIR/scripts/gcp/shard_runner.py --shard_id ${SHARD_ID} --start_idx ${START_IDX} --end_idx ${END_IDX} \$EXTRA_URLS_FLAG --scraper_version \${METADATA_SCRAPER_VERSION} 2>&1 | tee /var/log/grokipedia-scraper.log
 
 # Shutdown instance when done (optional - comment out if you want to keep it running)
 # shutdown -h now
@@ -288,7 +292,7 @@ if [ -f ".env" ]; then
     
     echo "  Metadata keys: $(echo "$METADATA_STRING" | grep -o '[^,=]*=' | tr -d '=' | tr '\n' ' ')"
     
-    # Build complete metadata string including URLs_FILE if provided
+    # Build complete metadata string including URLs_FILE and SCRAPER_VERSION if provided
     FINAL_METADATA_STRING="$METADATA_STRING"
     if [ -n "$URLS_FILE_ARG" ]; then
         if [ -n "$FINAL_METADATA_STRING" ]; then
@@ -297,6 +301,14 @@ if [ -f ".env" ]; then
             FINAL_METADATA_STRING="URLS_FILE=${URLS_FILE_ARG}"
         fi
         echo "  Including URLS_FILE in metadata: ${URLS_FILE_ARG}"
+    fi
+    if [ -n "$SCRAPER_VERSION" ]; then
+        if [ -n "$FINAL_METADATA_STRING" ]; then
+            FINAL_METADATA_STRING="${FINAL_METADATA_STRING},SCRAPER_VERSION=${SCRAPER_VERSION}"
+        else
+            FINAL_METADATA_STRING="SCRAPER_VERSION=${SCRAPER_VERSION}"
+        fi
+        echo "  Including SCRAPER_VERSION in metadata: ${SCRAPER_VERSION}"
     fi
     
     gcloud compute instances create ${INSTANCE_NAME} \
@@ -314,6 +326,14 @@ else
     if [ -n "$URLS_FILE_ARG" ]; then
         METADATA_WITHOUT_ENV="URLS_FILE=${URLS_FILE_ARG}"
         echo "  Including URLS_FILE in metadata: ${URLS_FILE_ARG}"
+    fi
+    if [ -n "$SCRAPER_VERSION" ]; then
+        if [ -n "$METADATA_WITHOUT_ENV" ]; then
+            METADATA_WITHOUT_ENV="${METADATA_WITHOUT_ENV},SCRAPER_VERSION=${SCRAPER_VERSION}"
+        else
+            METADATA_WITHOUT_ENV="SCRAPER_VERSION=${SCRAPER_VERSION}"
+        fi
+        echo "  Including SCRAPER_VERSION in metadata: ${SCRAPER_VERSION}"
     fi
     gcloud compute instances create ${INSTANCE_NAME} \
       --zone=${ZONE} \

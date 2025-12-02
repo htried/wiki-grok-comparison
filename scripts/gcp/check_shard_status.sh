@@ -31,11 +31,11 @@ echo "   gcloud compute instances get-serial-port-output ${INSTANCE_NAME} --zone
 echo ""
 
 echo "2. Checking if scraper log exists:"
-gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE} --command "ls -lh /var/log/fixed-issues-scraper.log 2>/dev/null || echo 'Log file does not exist yet'"
+gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE} --command "ls -lh /var/log/${PREFIX}-scraper.log 2>/dev/null || echo 'Log file does not exist yet'"
 echo ""
 
 echo "3. Checking if Python process is running:"
-gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE} --command "ps aux | grep fixed_issues_runner || echo 'Process not found'"
+gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE} --command "ps aux | grep ${PREFIX}_runner || echo 'Process not found'"
 echo ""
 
 echo "4. Checking if repository exists:"
@@ -47,7 +47,7 @@ gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE} --command "sudo journalctl -u
 echo ""
 
 echo "To view live logs (once they exist):"
-echo "   gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE} --command 'tail -f /var/log/fixed-issues-scraper.log'"
+echo "   gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE} --command 'tail -f /var/log/${PREFIX}-scraper.log'"
 echo ""
 echo "To SSH into the instance:"
 echo "   gcloud compute ssh ${INSTANCE_NAME} --zone=${ZONE}"
