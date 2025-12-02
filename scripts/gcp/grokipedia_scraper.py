@@ -28,6 +28,111 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
+def ensure_spaces_around_links(element):
+    """
+    Ensure that all links in an element have spaces around them.
+    This prevents links from being concatenated with surrounding text.
+    
+    Args:
+        element: BeautifulSoup element to process
+        
+    Returns:
+        BeautifulSoup element with spaces around links
+    """
+    if not element or not hasattr(element, 'find_all'):
+        return element
+    
+    # Find all links in the element (in reverse order to preserve indices)
+    links = list(element.find_all('a'))
+    for link in reversed(links):
+        # Check if we need a space before the link
+        prev = link.previous_sibling
+        needs_space_before = True
+        if prev is not None:
+            if isinstance(prev, str):
+                # Check if the string ends with whitespace
+                if prev.rstrip() != prev:
+                    needs_space_before = False
+            else:
+                # For element siblings, check their text
+                prev_text = prev.get_text() if hasattr(prev, 'get_text') else ''
+                if prev_text and prev_text.rstrip() != prev_text:
+                    needs_space_before = False
+        
+        if needs_space_before:
+            link.insert_before(' ')
+        
+        # Check if we need a space after the link
+        next_sib = link.next_sibling
+        needs_space_after = True
+        if next_sib is not None:
+            if isinstance(next_sib, str):
+                # Check if the string starts with whitespace
+                if next_sib.lstrip() != next_sib:
+                    needs_space_after = False
+            else:
+                # For element siblings, check their text
+                next_text = next_sib.get_text() if hasattr(next_sib, 'get_text') else ''
+                if next_text and next_text.lstrip() != next_text:
+                    needs_space_after = False
+        
+        if needs_space_after:
+            link.insert_after(' ')
+    
+    return element
+
+
+def dedupe_sections(data):
+    """
+    Remove duplicate content from h1 sections that also appears in other sections.
+    
+    For each h1 section, removes content items (identified by (type, text)) that
+    also appear in any non-h1 section. This fixes mis-parsing issues where h1
+    sections accidentally include content from other sections.
+    
+    Args:
+        data: Dictionary with 'sections' key containing list of section dicts
+        
+    Returns:
+        Modified data dictionary with deduplicated sections
+    """
+    sections = data.get('sections') or []
+    if not sections:
+        return data
+    
+    # Precompute content signatures for each section: set of (type, text)
+    # Only include items that have both 'type' and 'text' fields
+    section_signatures = []
+    for s in sections:
+        content = s.get('content') or []
+        sig = set()
+        for item in content:
+            if isinstance(item, dict) and 'type' in item and 'text' in item:
+                sig.add((item.get('type'), item.get('text')))
+        section_signatures.append(sig)
+    
+    # For each h1 section, build the "other sections" signature and dedupe its content
+    for idx, s in enumerate(sections):
+        if s.get('level') != 'h1':
+            continue
+        
+        # Union of all content in other sections (exclude this h1's own section)
+        other_sig = set()
+        for j, sig in enumerate(section_signatures):
+            if j != idx:
+                other_sig |= sig
+        
+        content = s.get('content') or []
+        deduped = [
+            item for item in content
+            if not (isinstance(item, dict) and 'type' in item and 'text' in item and 
+                   (item.get('type'), item.get('text')) in other_sig)
+        ]
+        s['content'] = deduped
+    
+    return data
+
+
 def parse_grokipedia_html(html_content, url, title=None):
     """Parse grokipedia HTML and extract structured data"""
     if title is None:
@@ -89,16 +194,24 @@ def parse_grokipedia_html(html_content, url, title=None):
             
             if hasattr(current, 'name'):
                 if current.name == 'span' and 'mb-4' in (current.get('class') or []):
+                    # Ensure spaces around links before extracting text
+                    ensure_spaces_around_links(current)
                     text = current.get_text(strip=True)
                     if text:
                         # Join sentences with proper spacing
                         section_data['content'].append({'type': 'paragraph', 'text': ' '.join(text.split())})
                 elif current.name == 'ul':
-                    items = [li.get_text(strip=True) for li in current.find_all('li')]
+                    items = []
+                    for li in current.find_all('li'):
+                        ensure_spaces_around_links(li)
+                        items.append(li.get_text(strip=True))
                     if items:
                         section_data['content'].append({'type': 'list', 'items': items})
                 elif current.name == 'ol':
-                    items = [li.get_text(strip=True) for li in current.find_all('li')]
+                    items = []
+                    for li in current.find_all('li'):
+                        ensure_spaces_around_links(li)
+                        items.append(li.get_text(strip=True))
                     if items:
                         section_data['content'].append({'type': 'ordered_list', 'items': items})
             
@@ -108,6 +221,8 @@ def parse_grokipedia_html(html_content, url, title=None):
     
     # Extract paragraphs with proper spacing
     for span in article.find_all('span', class_='mb-4'):
+        # Ensure spaces around links before extracting text
+        ensure_spaces_around_links(span)
         text = span.get_text(strip=True)
         # Normalize whitespace
         text = ' '.join(text.split())
@@ -151,6 +266,9 @@ def parse_grokipedia_html(html_content, url, title=None):
     # Remove references from paragraphs
     data['paragraphs'] = [p for p in data['paragraphs'] 
                           if not any(ref['text'].split()[0:3] == p.split()[0:3] for ref in data['references'])]
+    
+    # Deduplicate h1 section content that appears in other sections
+    data = dedupe_sections(data)
     
     return data
 
