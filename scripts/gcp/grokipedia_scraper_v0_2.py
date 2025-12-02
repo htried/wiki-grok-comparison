@@ -205,14 +205,19 @@ def parse_grokipedia_html(html_content, url, title=None):
     }
     
     # Find article container - try multiple possible containers
-    article = soup.find('div', class_='mx-auto max-w-[850px]')
+    # Try article tag first (most reliable)
+    article = soup.find('article')
     if not article:
-        # Try alternative containers
-        article = soup.find('article')
-        if not article:
-            article = soup.find('main')
-            if not article:
-                article = soup.find('div', class_=re.compile(r'max-w'))
+        # Try the specific content container div
+        # Need to match divs that have BOTH mx-auto AND max-w-[850px] classes
+        # BeautifulSoup's class_ with list requires ALL classes to be present
+        article = soup.find('div', class_=lambda x: x and 'mx-auto' in x and 'max-w-[850px]' in x)
+    if not article:
+        # Try main tag
+        article = soup.find('main')
+    if not article:
+        # Try any div with max-w-[850px] specifically (not max-w-full)
+        article = soup.find('div', class_=lambda x: x and 'max-w-[850px]' in x)
     
     if not article:
         logger.warning(f"No article container found for {url}")
