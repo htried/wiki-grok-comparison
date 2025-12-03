@@ -1070,4 +1070,3 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
         
         logger.info(f"Scraping complete: Successfully scraped {success_count} pages out of {len(urls)} attempted")
         return success_count
-

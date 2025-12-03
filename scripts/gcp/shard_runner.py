@@ -43,7 +43,7 @@ async def main():
     parser.add_argument('--end_idx', type=int, required=True, help='End index (exclusive)')
     parser.add_argument('--shard_id', type=int, default=None, help='Optional shard ID for naming')
     parser.add_argument('--urls_file', type=str, default=None, help='Optional path to a local file with URLs (jsonl/json/txt)')
-    parser.add_argument('--scraper_version', type=str, default='0.1', choices=['0.1', '0.2', 'v0.1', 'v0.2'], help='Scraper version to use (default: 0.1)')
+    parser.add_argument('--scraper_version', type=str, default='0.2', choices=['0.1', '0.2', 'v0.1', 'v0.2'], help='Scraper version to use (default: 0.2)')
     args = parser.parse_args()
     
     # Import the appropriate scraper module

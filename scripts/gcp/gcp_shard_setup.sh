@@ -247,7 +247,7 @@ PY
 fi
 
 # Get scraper version from metadata or use default
-DEFAULT_SCRAPER_VERSION="${SCRAPER_VERSION:-0.1}"
+DEFAULT_SCRAPER_VERSION="${SCRAPER_VERSION:-0.2}"
 METADATA_SCRAPER_VERSION_RAW=\$(curl -s "http://metadata.google.internal/computeMetadata/v1/instance/attributes/SCRAPER_VERSION" -H "Metadata-Flavor: Google" 2>/dev/null || echo "")
 # Check if the response is valid (not HTML error page)
 if [ -z "\$METADATA_SCRAPER_VERSION_RAW" ] || echo "\$METADATA_SCRAPER_VERSION_RAW" | grep -q '<!DOCTYPE\|<html\|Error 404'; then
