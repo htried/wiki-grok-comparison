@@ -187,6 +187,13 @@ def parse_grokipedia_html(html_content, url, title=None):
         except:
             pass
     
+    # Check if HTML is suspiciously short (might be an error page or loading page)
+    if len(html_content) < 1000:
+        logger.warning(f"HTML content suspiciously short ({len(html_content)} bytes) for {url}")
+        # Check if it looks like an error page
+        if 'error' in html_content.lower() or 'not found' in html_content.lower():
+            logger.warning(f"HTML appears to be an error page for {url}")
+    
     soup = BeautifulSoup(html_content, 'html.parser')
     data = {
         'title': title,
@@ -213,15 +220,39 @@ def parse_grokipedia_html(html_content, url, title=None):
         # BeautifulSoup's class_ with list requires ALL classes to be present
         article = soup.find('div', class_=lambda x: x and 'mx-auto' in x and 'max-w-[850px]' in x)
     if not article:
+        # Try with CSS selector (more reliable for complex class names)
+        article = soup.select_one('div.mx-auto.max-w-\\[850px\\]')
+    if not article:
         # Try main tag
         article = soup.find('main')
     if not article:
         # Try any div with max-w-[850px] specifically (not max-w-full)
         article = soup.find('div', class_=lambda x: x and 'max-w-[850px]' in x)
+    if not article:
+        # Try any div with mx-auto (broader search)
+        article = soup.find('div', class_=lambda x: x and 'mx-auto' in x)
+        if article:
+            # Check if it has substantial content
+            article_text = article.get_text(strip=True)
+            if len(article_text) < 100:
+                article = None  # Too small, probably not the main content
     
     if not article:
-        logger.warning(f"No article container found for {url}")
+        logger.warning(f"No article container found for {url} (HTML length: {len(html_content)})")
+        # Try to find any content divs as fallback
+        all_divs = soup.find_all('div')
+        logger.debug(f"Found {len(all_divs)} divs total in HTML")
+        
+        # Save a sample of HTML for debugging if it's suspiciously short
+        if len(html_content) < 5000:
+            logger.warning(f"HTML is short, saving sample for debugging: {url}")
+            # Could save HTML sample here if needed
         return data
+    
+    # Check if article container is suspiciously empty
+    article_text = article.get_text(strip=True)
+    if len(article_text) < 50:
+        logger.warning(f"Article container found but appears empty (text length: {len(article_text)}) for {url}")
     
     # Extract main title (h1)
     h1 = article.find('h1')
@@ -501,6 +532,22 @@ def parse_grokipedia_html(html_content, url, title=None):
             unique_links.append(link)
     data['links'] = unique_links
     
+    # Validate that we actually extracted content
+    total_content_items = (
+        len(data['sections']) +
+        len(data['paragraphs']) +
+        len(data['tables']) +
+        len(data['references'])
+    )
+    
+    if total_content_items == 0 and data['main_title'] is None:
+        logger.warning(
+            f"No content extracted for {url} "
+            f"(HTML length: {len(html_content)}, "
+            f"article found: {article is not None}, "
+            f"article text length: {len(article_text) if article else 0})"
+        )
+    
     return data
 
 
@@ -522,7 +569,58 @@ async def scrape_page(session, limiter, url, config, skip_on_error=True):
             ) as response:
                 if response.status == 200:
                     html = await response.text()
+                    
+                    # Validate HTML before parsing
+                    if len(html) < 100:
+                        logger.warning(f"Received suspiciously short HTML ({len(html)} bytes) for {url}")
+                        return {'success': False, 'error': 'html_too_short', 'title': title, 'url': url}
+                    
                     data = parse_grokipedia_html(html, url, title)
+                    
+                    # Validate that we actually got content
+                    total_content = (
+                        len(data.get('sections', [])) +
+                        len(data.get('paragraphs', [])) +
+                        len(data.get('tables', [])) +
+                        len(data.get('references', []))
+                    )
+                    
+                    # If no content and no main title, this might be a failed parse
+                    if total_content == 0 and not data.get('main_title'):
+                        # Check if HTML looks valid
+                        has_article_tag = '<article' in html or 'article' in html.lower()
+                        has_mx_auto = 'mx-auto' in html
+                        has_max_w = 'max-w-[850px]' in html
+                        
+                        logger.warning(
+                            f"Parsed page but got no content for {url} "
+                            f"(HTML length: {len(html)}, "
+                            f"has_article: {has_article_tag}, "
+                            f"has_mx-auto: {has_mx_auto}, "
+                            f"has_max-w: {has_max_w})"
+                        )
+                        
+                        # Save HTML sample for debugging if enabled
+                        debug_html = config.get('debug_save_empty_html', False)
+                        if debug_html:
+                            from pathlib import Path
+                            debug_dir = Path('debug_empty_html')
+                            debug_dir.mkdir(exist_ok=True)
+                            safe_title = title.replace('/', '_')[:50]
+                            debug_file = debug_dir / f"{safe_title}_{len(html)}.html"
+                            with open(debug_file, 'w', encoding='utf-8') as f:
+                                f.write(html)
+                            logger.info(f"Saved empty HTML sample to {debug_file}")
+                        
+                        # Still return success but mark it for review
+                        data['_parse_warning'] = 'no_content_extracted'
+                        data['_html_checks'] = {
+                            'html_length': len(html),
+                            'has_article_tag': has_article_tag,
+                            'has_mx_auto': has_mx_auto,
+                            'has_max_w': has_max_w
+                        }
+                    
                     return {'success': True, 'data': data}
                 elif response.status == 404:
                     return {'success': False, 'error': 'not_found', 'title': title, 'url': url}
@@ -746,12 +844,37 @@ async def scraping_phase(urls, config, start_index=0, shard_id=None):
                     continue
                 
                 if result['success']:
+                    data = result['data']
+                    
+                    # Check if content was actually extracted
+                    total_content = (
+                        len(data.get('sections', [])) +
+                        len(data.get('paragraphs', [])) +
+                        len(data.get('tables', [])) +
+                        len(data.get('references', []))
+                    )
+                    
+                    # Log warning if no content extracted (but still marked as success)
+                    if total_content == 0 and not data.get('main_title'):
+                        logger.warning(
+                            f"Page marked as success but has no content: {result.get('url', 'unknown')} "
+                            f"(title: {result.get('title', 'unknown')})"
+                        )
+                        if data.get('_html_checks'):
+                            checks = data['_html_checks']
+                            logger.warning(
+                                f"  HTML checks: length={checks.get('html_length')}, "
+                                f"has_article={checks.get('has_article_tag')}, "
+                                f"has_mx_auto={checks.get('has_mx_auto')}, "
+                                f"has_max_w={checks.get('has_max_w')}"
+                            )
+                    
                     success_count += 1
                     items_processed_count += 1
                     scraped_data.append({
-                        'title': result['data']['title'],
-                        'url': result['data']['url'],
-                        'data': result['data'],
+                        'title': data['title'],
+                        'url': data['url'],
+                        'data': data,
                         'scraped_at': datetime.now().isoformat()
                     })
                 else:
