@@ -18,6 +18,10 @@ data/
 scraping_checkpoint.json
 urls.txt
 
+# Large similarity result files (exceed GitHub 100MB limit)
+results/v0.2_scrape/*_top1_final.csv
+results/v0.2_scrape/*_stats_final.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
