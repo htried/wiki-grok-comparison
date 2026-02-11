@@ -340,10 +340,12 @@ async def fetch_edit_requests_phase(slugs, config, start_index=0, shard_id=None)
     gcs_bucket = config.get('gcs_bucket')
     gcs_project = config.get('gcs_project')
     
-    async with aiohttp.ClientSession(
+    session = aiohttp.ClientSession(
         connector=connector,
         timeout=aiohttp.ClientTimeout(total=config.get('api_timeout', 60))
-    ) as session:
+    )
+    
+    try:
         success_count = 0
         fail_count = 0
         results_data = []
@@ -474,4 +476,12 @@ async def fetch_edit_requests_phase(slugs, config, start_index=0, shard_id=None)
         
         logger.info(f"Phase complete: {success_count:,} successful, {fail_count:,} failed")
         return success_count
+    finally:
+        try:
+            await session.close()
+        except AttributeError as e:
+            if '_abort' in str(e):
+                logger.warning("Ignoring known aiohttp SSL/proxy teardown race (harmless)")
+            else:
+                raise
 
