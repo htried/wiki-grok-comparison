@@ -45,7 +45,8 @@ async def main():
             print(f"Loaded {len(all_slugs):,} total slugs from {source_desc}")
         else:
             # Default to the standard location, fallback to HuggingFace
-            default_file = "results/overall/grokipedia_w_license.txt"
+            # default_file = "results/overall/grokipedia_w_license.txt"
+            default_file = "results/v0.2_edits/urls.txt"
             if os.path.exists(default_file):
                 all_slugs = scraper.load_slugs_from_file(default_file)
                 print(f"Loaded {len(all_slugs):,} total slugs from default file: {default_file}")

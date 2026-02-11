@@ -188,25 +188,26 @@ def load_slugs_from_file(file_path: str):
 
 
 async def fetch_edit_requests(session, limiter, slug, config, skip_on_error=True):
-    """Fetch edit requests for a single slug from the Grokipedia API.
+    """Fetch ALL edit requests for a single slug from the Grokipedia API.
     
-    Args:
-        session: aiohttp ClientSession
-        limiter: AsyncLimiter for rate limiting
-        slug: Page slug to fetch
-        config: Configuration dict
-        skip_on_error: If True, return error dict instead of raising
+    Uses the `offset` parameter to follow pages while `hasMore` is true.
     
     Returns:
-        dict with 'success', 'slug', 'editRequests', 'totalCount', etc.
+        dict with 'success', 'slug', 'editRequests' (possibly empty),
+        'totalCount', and 'hasMore' (from the last page).
     """
-    try:
-        # URL encode the slug
-        encoded_slug = quote(slug, safe='')
-        url = f"https://grokipedia.com/api/list-edit-requests-by-slug?slug={encoded_slug}&limit=500"
-        
-        proxy_url = config.get('proxy_url')
-        
+
+    # URL encode the slug
+    encoded_slug = quote(slug, safe='')
+    proxy_url = config.get('proxy_url')
+    limit = 500
+
+    async def fetch_page(offset: int):
+        """Fetch a single page for this slug at the given offset."""
+        url = (
+            f"https://grokipedia.com/api/list-edit-requests-by-slug"
+            f"?slug={encoded_slug}&limit={limit}&offset={offset}"
+        )
         async with limiter:
             async with session.get(
                 url,
@@ -216,80 +217,91 @@ async def fetch_edit_requests(session, limiter, slug, config, skip_on_error=True
             ) as response:
                 if response.status == 200:
                     data = await response.json()
-                    
-                    # Check if we got valid data
                     if not isinstance(data, dict):
                         return {
                             'success': False,
                             'error': 'invalid_response_format',
                             'slug': slug,
-                            'status_code': 200
+                            'status_code': 200,
                         }
-                    
-                    # Extract edit requests
-                    edit_requests = data.get('editRequests', [])
-                    total_count = data.get('totalCount', 0)
-                    has_more = data.get('hasMore', False)
-                    
-                    # Only store what we need - the edit requests array
                     return {
                         'success': True,
-                        'slug': slug,
-                        'editRequests': edit_requests,
-                        'totalCount': total_count,
-                        'hasMore': has_more
+                        'data': data,
                     }
                 elif response.status == 404:
                     return {
                         'success': False,
                         'error': 'page_not_found',
                         'slug': slug,
-                        'status_code': 404
+                        'status_code': 404,
                     }
                 else:
                     return {
                         'success': False,
                         'error': f'http_error_{response.status}',
                         'slug': slug,
-                        'status_code': response.status
+                        'status_code': response.status,
                     }
-    except asyncio.TimeoutError:
-        if skip_on_error:
-            # Retry with exponential backoff
-            for delay in [2, 4, 8]:
-                await asyncio.sleep(delay)
-                try:
-                    async with limiter:
-                        async with session.get(
-                            url,
-                            timeout=config.get('api_timeout', 30),
-                            headers={'Accept': 'application/json'},
-                            proxy=proxy_url,
-                        ) as response:
-                            if response.status == 200:
-                                data = await response.json()
-                                edit_requests = data.get('editRequests', [])
-                                total_count = data.get('totalCount', 0)
-                                has_more = data.get('hasMore', False)
-                                return {
-                                    'success': True,
-                                    'slug': slug,
-                                    'editRequests': edit_requests,
-                                    'totalCount': total_count,
-                                    'hasMore': has_more
-                                }
-                except:
-                    continue
-            return {
-                'success': False,
-                'error': 'timeout_retries_exhausted',
-                'slug': slug
-            }
+
+    try:
+        all_edit_requests = []
+        total_count = 0
+        has_more = False
+        offset = 0
+
+        while True:
+            try:
+                page_result = await fetch_page(offset)
+            except asyncio.TimeoutError:
+                if not skip_on_error:
+                    raise
+                # Simple retry with exponential backoff
+                retry_success = False
+                for delay in [2, 4, 8]:
+                    await asyncio.sleep(delay)
+                    try:
+                        page_result = await fetch_page(offset)
+                        retry_success = True
+                        break
+                    except asyncio.TimeoutError:
+                        continue
+                if not retry_success:
+                    return {
+                        'success': False,
+                        'error': 'timeout_retries_exhausted',
+                        'slug': slug,
+                    }
+
+            if not page_result.get('success'):
+                # Propagate error object (404, http_error_xxx, etc.)
+                return page_result
+
+            data = page_result['data']
+            page_edit_requests = data.get('editRequests', []) or []
+            total_count = data.get('totalCount', total_count)
+            has_more = data.get('hasMore', False)
+
+            all_edit_requests.extend(page_edit_requests)
+
+            if not has_more or not page_edit_requests:
+                break
+
+            # Advance offset. Prefer length of page to be safe with partial pages.
+            offset += len(page_edit_requests)
+
+        return {
+            'success': True,
+            'slug': slug,
+            'editRequests': all_edit_requests,
+            'totalCount': total_count,
+            'hasMore': has_more,
+        }
+
     except Exception as e:
         return {
             'success': False,
             'error': str(e),
-            'slug': slug
+            'slug': slug,
         }
 
 
@@ -374,13 +386,15 @@ async def fetch_edit_requests_phase(slugs, config, start_index=0, shard_id=None)
                 if result['success']:
                     success_count += 1
                     items_processed_count += 1
-                    results_data.append({
-                        'slug': result['slug'],
-                        'editRequests': result['editRequests'],
-                        'totalCount': result['totalCount'],
-                        'hasMore': result.get('hasMore', False),
-                        'fetched_at': datetime.now().isoformat()
-                    })
+                    # Only keep entries that actually have edit requests
+                    if result.get('editRequests'):
+                        results_data.append({
+                            'slug': result['slug'],
+                            'editRequests': result['editRequests'],
+                            'totalCount': result['totalCount'],
+                            'hasMore': result.get('hasMore', False),
+                            'fetched_at': datetime.now().isoformat()
+                        })
                 else:
                     fail_count += 1
                     failed_slugs.append({

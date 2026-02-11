@@ -1,3 +1,7 @@
+*.json
+*.jsonl
+*.pdf
+*.parquet
 discovered_titles/*
 scraped_data/*
 wikipedia_data/*

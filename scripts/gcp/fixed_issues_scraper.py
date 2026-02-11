@@ -10,7 +10,7 @@ import os
 import re
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, unquote
 
 import aiohttp
 from aiolimiter import AsyncLimiter
@@ -84,8 +84,10 @@ def load_slugs_from_file(file_path: str):
     - Local file path
     - GCS path (gs://bucket/path)
     - Text file with one title per line (titles may have spaces)
+    - Text file with Grokipedia URLs (https://grokipedia.com/page/SLUG)
     
-    Titles are automatically converted to slug format (spaces -> underscores).
+    If the file contains URLs, slugs are extracted from the URL path.
+    Otherwise, titles are automatically converted to slug format (spaces -> underscores).
     """
     try:
         # Handle GCS paths
@@ -114,17 +116,28 @@ def load_slugs_from_file(file_path: str):
         if not path.exists():
             raise FileNotFoundError(f"Slugs file not found: {file_path}")
         
-        titles = []
+        slugs = []
+        url_pattern = re.compile(r'https?://grokipedia\.com/page/(.+)')
+        
         with path.open("r", encoding="utf-8") as f:
             for line in f:
-                title = line.strip()
-                if title:
-                    titles.append(title)
+                line = line.strip()
+                if not line:
+                    continue
+                
+                # Check if this is a URL
+                url_match = url_pattern.match(line)
+                if url_match:
+                    # Extract slug from URL and URL decode it
+                    slug_encoded = url_match.group(1)
+                    slug = unquote(slug_encoded)
+                    slugs.append(slug)
+                else:
+                    # Treat as a title and convert to slug
+                    slug = title_to_slug(line)
+                    slugs.append(slug)
         
-        # Convert titles to slugs (spaces -> underscores)
-        slugs = [title_to_slug(title) for title in titles]
-        
-        logger.info(f"Loaded {len(slugs)} titles from file: {file_path}")
+        logger.info(f"Loaded {len(slugs)} slugs from file: {file_path}")
         logger.info(f"Sample slugs: {slugs[:3] if len(slugs) >= 3 else slugs}")
         return slugs
     except Exception as e:

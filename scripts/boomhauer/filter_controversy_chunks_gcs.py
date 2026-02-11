@@ -9,6 +9,7 @@ Reuses functions from compute_similarities_gcs.py to avoid code duplication.
 import argparse
 import json
 import os
+import pickle
 import re
 import sys
 from collections import defaultdict
@@ -46,6 +47,67 @@ def contains_controversy_header(text: str) -> bool:
                 return True
     
     return False
+
+
+def get_header_level(line: str) -> int:
+    """Get the level of a markdown header (number of # characters). Returns 0 if not a header."""
+    line_stripped = line.strip()
+    if not line_stripped.startswith('#'):
+        return 0
+    level = 0
+    for char in line_stripped:
+        if char == '#':
+            level += 1
+        else:
+            break
+    return level
+
+
+def extract_sections_from_chunks(chunks: List[Tuple[int, str]]) -> List[Tuple[int, int, str]]:
+    """
+    Group chunks into sections based on markdown headers.
+    A section starts with a header containing "controvers*" and continues until the next header of equal or higher level.
+    Only extracts sections that contain "controvers*" in the header.
+    
+    Returns: List of (start_chunk_idx, end_chunk_idx, section_header_text) tuples.
+    """
+    sections = []
+    current_section_start = None
+    current_section_header = None
+    current_section_level = None
+    
+    for chunk_idx, (chunk_id, text) in enumerate(chunks):
+        text_str = str(text)
+        lines = text_str.split('\n')
+        
+        # Check for headers in this chunk
+        for line in lines:
+            line_stripped = line.strip()
+            if line_stripped.startswith('#'):
+                header_level = get_header_level(line_stripped)
+                if header_level > 0:
+                    # Check if this is a controversy header
+                    is_controversy = re.search(r'controvers', line_stripped, re.IGNORECASE) is not None
+                    
+                    # If we have a current section and this header is equal or higher level, close current section
+                    if current_section_start is not None and header_level <= current_section_level:
+                        sections.append((current_section_start, chunk_idx, current_section_header))
+                        current_section_start = None
+                        current_section_header = None
+                        current_section_level = None
+                    
+                    # Start new section if this is a controversy header
+                    if is_controversy and current_section_start is None:
+                        current_section_start = chunk_idx
+                        current_section_header = line_stripped
+                        current_section_level = header_level
+                    break
+    
+    # Close the last section
+    if current_section_start is not None:
+        sections.append((current_section_start, len(chunks), current_section_header))
+    
+    return sections
 
 
 def load_controversy_titles(wiki_jsonl_path: str, grok_jsonl_path: str) -> Set[str]:
@@ -148,23 +210,81 @@ def compute_controversy_similarities(
     wiki_parquet_glob: str,
     grok_parquet_glob: str,
     controversy_titles_norm: Set[str],
-    local_temp_dir: str = "/tmp/controversy_chunks"
+    local_temp_dir: str = "/tmp/controversy_chunks",
+    batch_articles: int = 100
 ):
     """
     Find controversy chunks and compute similarities using raw embeddings.
     """
     os.makedirs(local_temp_dir, exist_ok=True)
     
-    # Build indices of controversy chunks
-    print("Building Wikipedia controversy chunk index...")
-    wiki_index, wiki_parquet_to_emb = build_controversy_chunk_index(
-        gcs_bucket, gcs_prefix, wiki_parquet_glob, controversy_titles_norm, 'wiki'
-    )
+    # Cache directory for indices
+    cache_dir = f"{local_temp_dir}/index_cache"
+    os.makedirs(cache_dir, exist_ok=True)
     
-    print("Building Grokipedia controversy chunk index...")
-    grok_index, grok_parquet_to_emb = build_controversy_chunk_index(
-        gcs_bucket, gcs_prefix, grok_parquet_glob, controversy_titles_norm, 'grok'
-    )
+    # Generate cache filenames based on parameters
+    cache_key = f"{gcs_bucket}_{gcs_prefix}_{wiki_parquet_glob}_{grok_parquet_glob}_{len(controversy_titles_norm)}"
+    cache_key = re.sub(r'[^a-zA-Z0-9_]', '_', cache_key)
+    wiki_cache_file = os.path.join(cache_dir, f"wiki_index_{cache_key}.pkl")
+    grok_cache_file = os.path.join(cache_dir, f"grok_index_{cache_key}.pkl")
+    
+    # Try to load cached indices
+    if os.path.exists(wiki_cache_file) and os.path.exists(grok_cache_file):
+        print("Loading cached controversy chunk indices...")
+        try:
+            with open(wiki_cache_file, 'rb') as f:
+                cached_wiki = pickle.load(f)
+                wiki_index = cached_wiki['title_index']
+                wiki_parquet_to_emb = cached_wiki['parquet_to_emb']
+            print(f"  ✓ Loaded Wikipedia index: {len(wiki_index):,} articles, {sum(len(chunks) for chunks in wiki_index.values()):,} chunks")
+            
+            with open(grok_cache_file, 'rb') as f:
+                cached_grok = pickle.load(f)
+                grok_index = cached_grok['title_index']
+                grok_parquet_to_emb = cached_grok['parquet_to_emb']
+            print(f"  ✓ Loaded Grokipedia index: {len(grok_index):,} articles, {sum(len(chunks) for chunks in grok_index.values()):,} chunks")
+        except Exception as e:
+            print(f"Warning: Failed to load cache ({e}), rebuilding...")
+            wiki_index = None
+            grok_index = None
+    else:
+        wiki_index = None
+        grok_index = None
+    
+    # Build indices if not cached
+    if wiki_index is None:
+        print("Building Wikipedia controversy chunk index...")
+        wiki_index, wiki_parquet_to_emb = build_controversy_chunk_index(
+            gcs_bucket, gcs_prefix, wiki_parquet_glob, controversy_titles_norm, 'wiki'
+        )
+        # Save to cache
+        print(f"Saving Wikipedia index to cache...")
+        try:
+            with open(wiki_cache_file, 'wb') as f:
+                pickle.dump({
+                    'title_index': wiki_index,
+                    'parquet_to_emb': wiki_parquet_to_emb
+                }, f)
+            print(f"  ✓ Cached Wikipedia index")
+        except Exception as e:
+            print(f"  Warning: Failed to save cache: {e}")
+    
+    if grok_index is None:
+        print("Building Grokipedia controversy chunk index...")
+        grok_index, grok_parquet_to_emb = build_controversy_chunk_index(
+            gcs_bucket, gcs_prefix, grok_parquet_glob, controversy_titles_norm, 'grok'
+        )
+        # Save to cache
+        print(f"Saving Grokipedia index to cache...")
+        try:
+            with open(grok_cache_file, 'wb') as f:
+                pickle.dump({
+                    'title_index': grok_index,
+                    'parquet_to_emb': grok_parquet_to_emb
+                }, f)
+            print(f"  ✓ Cached Grokipedia index")
+        except Exception as e:
+            print(f"  Warning: Failed to save cache: {e}")
     
     # Find common titles
     wiki_titles = set(wiki_index.keys())
@@ -186,82 +306,161 @@ def compute_controversy_similarities(
     os.makedirs(wiki_emb_dir, exist_ok=True)
     os.makedirs(grok_emb_dir, exist_ok=True)
     
+    # Pre-identify all unique embedding shard files needed
+    print("\nIdentifying required embedding shards...")
+    wiki_emb_files = sorted(set(wiki_parquet_to_emb.values()))
+    grok_emb_files = sorted(set(grok_parquet_to_emb.values()))
+    print(f"Wiki shards: {len(wiki_emb_files)}, Grok shards: {len(grok_emb_files)}")
+    
+    # Pre-load all embedding shards (reuse from compute_similarities_gcs.py approach)
     wiki_emb_cache = ShardedEmbeddingCache(gcs_bucket, gcs_prefix, wiki_emb_dir)
     grok_emb_cache = ShardedEmbeddingCache(gcs_bucket, gcs_prefix, grok_emb_dir)
     
-    # Process article-by-article
+    # Pre-download all embedding shards to avoid repeated GCS downloads
+    print("\nPre-downloading embedding shards (this may take a few minutes)...")
+    def filter_existing_emb_files(emb_files, local_dir):
+        to_download = []
+        for emb_file in emb_files:
+            filename = os.path.basename(emb_file)
+            local_path = os.path.join(local_dir, filename)
+            if not os.path.exists(local_path):
+                to_download.append(emb_file)
+        return to_download
+    
+    wiki_emb_files_to_preload = filter_existing_emb_files(wiki_emb_files, wiki_emb_dir)
+    grok_emb_files_to_preload = filter_existing_emb_files(grok_emb_files, grok_emb_dir)
+    
+    if wiki_emb_files_to_preload:
+        print(f"Pre-loading {len(wiki_emb_files_to_preload)} wiki embedding shards...")
+        for emb_file in tqdm(wiki_emb_files_to_preload, desc="Wiki shards"):
+            wiki_emb_cache.get_embeddings(emb_file)
+    
+    if grok_emb_files_to_preload:
+        print(f"Pre-loading {len(grok_emb_files_to_preload)} grok embedding shards...")
+        for emb_file in tqdm(grok_emb_files_to_preload, desc="Grok shards"):
+            grok_emb_cache.get_embeddings(emb_file)
+    
+    # Process articles in batches
     results = []
     
-    print(f"\nComputing similarities for {len(common_titles):,} articles...")
+    print(f"\nComputing similarities for {len(common_titles):,} articles in batches of {batch_articles}...")
     
-    for title in tqdm(common_titles, desc="Processing articles"):
-        w_chunks = wiki_index[title]  # List of (parquet_file, emb_ix, chunk_id, text)
-        g_chunks = grok_index[title]
+    for i in tqdm(range(0, len(common_titles), batch_articles), desc="Processing batches"):
+        batch_titles = common_titles[i:i+batch_articles]
         
-        if len(w_chunks) == 0 or len(g_chunks) == 0:
-            continue
-        
-        # Group chunks by shard file
-        w_by_shard = defaultdict(list)
-        for parquet_file, emb_ix, chunk_id, text in w_chunks:
-            emb_file = wiki_parquet_to_emb[parquet_file]
-            w_by_shard[emb_file].append((emb_ix, chunk_id, text))
-        
-        g_by_shard = defaultdict(list)
-        for parquet_file, emb_ix, chunk_id, text in g_chunks:
-            emb_file = grok_parquet_to_emb[parquet_file]
-            g_by_shard[emb_file].append((emb_ix, chunk_id, text))
-        
-        # Load embeddings and concatenate
-        w_emb_list = []
-        w_meta_list = []  # (chunk_id, text)
-        for emb_file, chunks in w_by_shard.items():
-            embs = wiki_emb_cache.get_embeddings(emb_file)
-            for emb_ix, chunk_id, text in chunks:
-                w_emb_list.append(embs[emb_ix])
-                w_meta_list.append((chunk_id, text))
-        
-        g_emb_list = []
-        g_meta_list = []  # (chunk_id, text)
-        for emb_file, chunks in g_by_shard.items():
-            embs = grok_emb_cache.get_embeddings(emb_file)
-            for emb_ix, chunk_id, text in chunks:
-                g_emb_list.append(embs[emb_ix])
-                g_meta_list.append((chunk_id, text))
-        
-        # Stack into arrays
-        W = np.vstack(w_emb_list).astype(np.float32)
-        G = np.vstack(g_emb_list).astype(np.float32)
-        
-        # Compute similarity matrix (normalized embeddings -> cosine == dot)
-        if TORCH_AVAILABLE and torch.cuda.is_available():
-            with torch.no_grad():
-                W_gpu = torch.from_numpy(W).cuda()
-                G_gpu = torch.from_numpy(G).cuda()
-                S_gpu = torch.mm(W_gpu, G_gpu.t())
-                S = S_gpu.cpu().numpy()
-                del W_gpu, G_gpu, S_gpu
-                torch.cuda.empty_cache()
-        else:
-            S = W @ G.T  # Shape: (n_wiki_chunks, n_grok_chunks)
-        
-        # Find best matches (top-1 for each wiki chunk)
-        best_ix = S.argmax(axis=1)
-        best_val = S.max(axis=1)
-        
-        # Store results
-        for j, (gi, sv) in enumerate(zip(best_ix, best_val)):
-            wiki_chunk_id, wiki_text = w_meta_list[j]
-            grok_chunk_id, grok_text = g_meta_list[gi]
+        for title in batch_titles:
+            w_chunks = wiki_index[title]  # List of (parquet_file, emb_ix, chunk_id, text)
+            g_chunks = grok_index[title]
             
-            results.append({
-                'title': title,
-                'wiki_chunk_id': int(wiki_chunk_id),
-                'grok_chunk_id': int(grok_chunk_id),
-                'similarity': float(sv),
-                'wiki_text': wiki_text,
-                'grok_text': grok_text,
-            })
+            if len(w_chunks) == 0 or len(g_chunks) == 0:
+                continue
+            
+            # Group chunks by shard file
+            w_by_shard = defaultdict(list)
+            for parquet_file, emb_ix, chunk_id, text in w_chunks:
+                emb_file = wiki_parquet_to_emb[parquet_file]
+                w_by_shard[emb_file].append((emb_ix, chunk_id, text))
+            
+            g_by_shard = defaultdict(list)
+            for parquet_file, emb_ix, chunk_id, text in g_chunks:
+                emb_file = grok_parquet_to_emb[parquet_file]
+                g_by_shard[emb_file].append((emb_ix, chunk_id, text))
+            
+            # Load embeddings and concatenate
+            w_emb_list = []
+            w_meta_list = []  # (chunk_id, text)
+            for emb_file, chunks in w_by_shard.items():
+                embs = wiki_emb_cache.get_embeddings(emb_file)
+                for emb_ix, chunk_id, text in chunks:
+                    w_emb_list.append(embs[emb_ix])
+                    w_meta_list.append((chunk_id, text))
+            
+            g_emb_list = []
+            g_meta_list = []  # (chunk_id, text)
+            for emb_file, chunks in g_by_shard.items():
+                embs = grok_emb_cache.get_embeddings(emb_file)
+                for emb_ix, chunk_id, text in chunks:
+                    g_emb_list.append(embs[emb_ix])
+                    g_meta_list.append((chunk_id, text))
+            
+            # Stack into arrays
+            W = np.vstack(w_emb_list).astype(np.float32)
+            G = np.vstack(g_emb_list).astype(np.float32)
+            
+            # Group chunks into sections
+            wiki_sections = extract_sections_from_chunks(w_meta_list)
+            grok_sections = extract_sections_from_chunks(g_meta_list)
+            
+            if len(wiki_sections) == 0 or len(grok_sections) == 0:
+                continue
+            
+            # Compute similarity matrix (normalized embeddings -> cosine == dot)
+            if TORCH_AVAILABLE and torch.cuda.is_available():
+                with torch.no_grad():
+                    W_gpu = torch.from_numpy(W).cuda()
+                    G_gpu = torch.from_numpy(G).cuda()
+                    S_gpu = torch.mm(W_gpu, G_gpu.t())
+                    S = S_gpu.cpu().numpy()
+                    del W_gpu, G_gpu, S_gpu
+                    torch.cuda.empty_cache()
+            else:
+                S = W @ G.T  # Shape: (n_wiki_chunks, n_grok_chunks)
+            
+            # For each wiki section, compute average similarity to each grok section
+            # Only process sections with "controvers*" in the header
+            for w_start, w_end, w_header in wiki_sections:
+                # Double-check that this is a controversy section
+                if not re.search(r'controvers', w_header, re.IGNORECASE):
+                    continue
+                
+                w_section_chunks = list(range(w_start, w_end))
+                w_section_text = ' '.join([w_meta_list[i][1] for i in w_section_chunks])
+                w_section_chunk_ids = [w_meta_list[i][0] for i in w_section_chunks]
+                
+                best_grok_section_idx = None
+                best_avg_similarity = -1.0
+                
+                for g_idx, (g_start, g_end, g_header) in enumerate(grok_sections):
+                    # Double-check that this is a controversy section
+                    if not re.search(r'controvers', g_header, re.IGNORECASE):
+                        continue
+                    
+                    g_section_chunks = list(range(g_start, g_end))
+                    
+                    # Compute average similarity between this wiki section and this grok section
+                    # S[w_section_chunks, :][:, g_section_chunks] gives the submatrix
+                    section_similarities = S[np.ix_(w_section_chunks, g_section_chunks)]
+                    avg_sim = float(section_similarities.mean())
+                    
+                    if avg_sim > best_avg_similarity:
+                        best_avg_similarity = avg_sim
+                        best_grok_section_idx = g_idx
+                
+                if best_grok_section_idx is not None:
+                    g_start, g_end, g_header = grok_sections[best_grok_section_idx]
+                    g_section_chunks = list(range(g_start, g_end))
+                    g_section_text = ' '.join([g_meta_list[i][1] for i in g_section_chunks])
+                    g_section_chunk_ids = [g_meta_list[i][0] for i in g_section_chunks]
+                    
+                    results.append({
+                        'title': title,
+                        'wiki_section_header': w_header,
+                        'grok_section_header': g_header,
+                        'wiki_chunk_ids': w_section_chunk_ids,
+                        'grok_chunk_ids': g_section_chunk_ids,
+                        'wiki_section_text': w_section_text,
+                        'grok_section_text': g_section_text,
+                        'avg_similarity': best_avg_similarity,
+                        'n_wiki_chunks': len(w_section_chunks),
+                        'n_grok_chunks': len(g_section_chunks),
+                    })
+        
+        # Save incrementally every batch
+        if len(results) > 0 and len(results) % (batch_articles * 10) == 0:
+            print(f"\n  Saving incremental results ({len(results):,} section pairs so far)...")
+            temp_df = pd.DataFrame(results)
+            temp_path = f"{local_temp_dir}/temp_results_{len(results)}.parquet"
+            temp_df.to_parquet(temp_path)
     
     # Cleanup
     wiki_emb_cache.cleanup()
@@ -322,6 +521,12 @@ def main():
         default='/tmp/controversy_chunks',
         help='Local temp directory for processing'
     )
+    parser.add_argument(
+        '--batch-articles',
+        type=int,
+        default=100,
+        help='Number of articles to process before saving (default: 100)'
+    )
     args = parser.parse_args()
     
     # Load controversy titles
@@ -338,7 +543,8 @@ def main():
         args.wiki_parquet_glob,
         args.grok_parquet_glob,
         controversy_titles_norm,
-        args.local_temp_dir
+        args.local_temp_dir,
+        args.batch_articles
     )
     
     print(f"\nComputed similarities for {len(results_df):,} chunk pairs")

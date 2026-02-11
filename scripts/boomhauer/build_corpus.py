@@ -12,7 +12,7 @@ from transformers import AutoTokenizer
 DEFAULT_WIKI_FP = Path('~/data/grokipedia_wikipedia_articles.ndjson').expanduser()
 DEFAULT_GROK_DIR = Path('~/data/scraped_data').expanduser()
 # Default to Qwen3 Embedding model so tokenization matches downstream embeddings
-DEFAULT_MODEL = 'Qwen/Qwen3-Embedding-0.6B'
+DEFAULT_MODEL = 'google/embeddinggemma-300M'
 DEFAULT_WINDOW = 250
 DEFAULT_STRIDE = 150  # => 100 overlap
 tokenizer = None
