@@ -177,8 +177,16 @@ def load_slugs_from_file(file_path: str):
             with open(file_path, 'r', encoding='utf-8') as f:
                 titles = [line.strip() for line in f if line.strip()]
         
-        # Convert titles to slugs
-        slugs = [title_to_slug(title) for title in titles]
+        # Convert titles to slugs. If line looks like a Grokipedia URL, extract slug from path
+        slugs = []
+        for title in titles:
+            if '/page/' in title:
+                from urllib.parse import unquote
+                slug_part = title.split('/page/')[-1]
+                slug = unquote(slug_part)
+            else:
+                slug = title_to_slug(title)
+            slugs.append(slug)
         logger.info(f"Loaded {len(slugs):,} slugs from {file_path}")
         return slugs
     
